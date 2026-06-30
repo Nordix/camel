@@ -62,4 +62,3 @@ jobs:
             regen
             automated pr
           assignees: oscerd
-
