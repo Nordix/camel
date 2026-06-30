@@ -90,7 +90,8 @@ pipeline {
                 always {
                     junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
                     junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
-
+                    junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                    junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
                 }
             }
         }
