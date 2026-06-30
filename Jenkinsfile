@@ -82,7 +82,7 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        stage('Test1') {
             steps {
                 sh "./mvnw $MAVEN_PARAMS -Dmaven.test.failure.ignore=true clean install"
             }
@@ -95,7 +95,6 @@ pipeline {
         }
 
     }
-
     post {
         always {
             emailext(
