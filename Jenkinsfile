@@ -82,7 +82,7 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        stage('Test2') {
             steps {
                 sh "./mvnw $MAVEN_PARAMS -Dmaven.test.failure.ignore=true clean install"
             }
