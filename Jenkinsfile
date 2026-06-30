@@ -82,15 +82,13 @@ pipeline {
             }
         }
 
-        stage('Test6') {
+        stage('Test') {
             steps {
                 sh "./mvnw $MAVEN_PARAMS -Dmaven.test.failure.ignore=true clean install"
             }
             post {
                 always {
                     junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
-                    junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
-                    junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
                     junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
                 }
             }
