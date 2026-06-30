@@ -102,7 +102,8 @@ pipeline {
                 subject: '${DEFAULT_SUBJECT}',
                 body: '${DEFAULT_CONTENT}',
                 recipientProviders: [[$class: 'CulpritsRecipientProvider']]
-            )
+            ),
+            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
         }
     }
 }
