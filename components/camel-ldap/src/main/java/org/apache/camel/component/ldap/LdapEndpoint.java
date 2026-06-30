@@ -141,7 +141,7 @@ public class LdapEndpoint extends DefaultEndpoint {
         } else {
             throw new IllegalArgumentException(
                     "Invalid search scope \"" + scope
-                                               + "\" for LdapEndpoint: " + getEndpointUri());
+                                               + "\" for LdapEndpffffoint: " + getEndpointUri());
         }
     }
 }
