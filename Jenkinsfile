@@ -17,19 +17,17 @@
  * under the License.
  */
 
-def AGENT_LABEL = env.AGENT_LABEL ?: 'ubuntu'
-def JDK_NAME = env.JDK_NAME ?: 'adoptopenjdk_hotspot_8u282'
 
 def MAVEN_PARAMS = "-U -B -e -fae -V -Dnoassembly -Dmaven.compiler.fork=true -Dsurefire.rerunFailingTestsCount=2"
 
 pipeline {
 
     agent {
-        label AGENT_LABEL
+        label "${params.AGENT_LABEL}"
     }
 
     tools {
-        jdk JDK_NAME
+        jdk "${params.JDK_NAME}"
     }
 
     environment {
@@ -58,20 +56,9 @@ pipeline {
            }
         }
 
-        stage('Build & Deploy') {
+        stage('Build') {
             steps {
-                sh "./mvnw $MAVEN_PARAMS -Pdeploy -Dmaven.test.skip.exec=true clean install"
-            }
-        }
-
-        stage('Website update') {
-            when {
-                branch 'main'
-                changeset 'docs/**/*'
-            }
-
-            steps {
-                build job: 'Camel/Camel.website/main', wait: false
+                sh "./mvnw $MAVEN_PARAMS -Dmaven.test.skip.exec=true clean install"
             }
         }
 
@@ -96,14 +83,5 @@ pipeline {
 
     }
 
-    post {
-        always {
-            emailext(
-                subject: '${DEFAULT_SUBJECT}',
-                body: '${DEFAULT_CONTENT}',
-                recipientProviders: [[$class: 'CulpritsRecipientProvider']]
-            )
-        }
-    }
 }
 
