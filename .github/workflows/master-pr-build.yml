@@ -42,5 +42,7 @@ jobs:
         path: ~/.m2
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
         restore-keys: ${{ runner.os }}-m2
+    - name: Build camel
+      run: ./mvnw clean install -DskipTests
     - name: mvn sourcecheck
       run: ./mvnw -V -Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false -Dmaven.wagon.httpconnectionManager.ttlSeconds=120 --no-transfer-progress -Psourcecheck -Dcheckstyle.failOnViolation=true -DskipTests checkstyle:checkstyle verify
