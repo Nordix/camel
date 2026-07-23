@@ -511,7 +511,7 @@
         <spring-ldap-version>2.3.8.RELEASE</spring-ldap-version>
         <spring-version-range>[5,6)</spring-version-range>
         <spring-version>${spring5-version}</spring-version>
-        <spring5-version>5.3.27</spring5-version>
+        <spring5-version>5.3.39-est-1</spring5-version>
         <spring-rabbitmq-version>2.4.2</spring-rabbitmq-version>
         <spring-security-version>5.6.12</spring-security-version>
         <spring-ws-version>3.1.6</spring-ws-version>
@@ -4025,6 +4025,20 @@
 
         </dependencies>
     </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>nordix-allies-mvn</id>
+            <name>Nordix Allies Maven</name>
+            <url>https://artifactory.nordix.org/artifactory/allies-mvn</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <build>
         <defaultGoal>install</defaultGoal>
