@@ -27,14 +27,14 @@ set -euo pipefail
 
 OUTPUT_DIR="vex-output"
 SINCE_REF=""
-RELEASE_TAG=""
+EST_RELEASE_TAG=""
 UPSTREAM_URL=""
 REPO_PATH=""
 PRODUCT_PURL=""
 PER_CVE=false
 
-PUBLISHER_NAME="EST"
-PUBLISHER_NS="https://github.com/Nordix"
+readonly PUBLISHER_NAME="EST"
+readonly PUBLISHER_NS="https://github.com/Nordix"
 
 # ─── Parse arguments ────────────────────────────────────────────────────────
 
@@ -42,7 +42,7 @@ while [[ $# -gt 0 ]]; do
   case "$1" in
     --output-dir)    OUTPUT_DIR="$2"; shift 2 ;;
     --since-ref)     SINCE_REF="$2"; shift 2 ;;
-    --release-tag)   RELEASE_TAG="$2"; shift 2 ;;
+    --release-tag)   EST_RELEASE_TAG="$2"; shift 2 ;;
     --upstream-url)  UPSTREAM_URL="$2"; shift 2 ;;
     --per-cve)       PER_CVE=true; shift ;;
     -*)              echo "Unknown option: $1" >&2; exit 1 ;;
@@ -76,11 +76,11 @@ cd "$REPO_PATH"
 
 # ─── Auto-detect release tag if not provided ────────────────────────────────
 
-if [ -z "$RELEASE_TAG" ] && [ -z "$SINCE_REF" ]; then
+if [ -z "$EST_RELEASE_TAG" ] && [ -z "$SINCE_REF" ]; then
   # Find the latest -est tag in the repo (exclude api/ prefixed Go module tags)
-  RELEASE_TAG=$(git tag --sort=-creatordate | grep -v '^api/' | grep -E -- '-est(-.*)?$' | head -1 || true)
-  if [ -n "$RELEASE_TAG" ]; then
-    echo "Auto-detected release tag: $RELEASE_TAG"
+  EST_RELEASE_TAG=$(git tag --sort=-creatordate | grep -v '^api/' | grep -E -- '-est(-.*)?$' | head -1 || true)
+  if [ -n "$EST_RELEASE_TAG" ]; then
+    echo "Auto-detected release tag: $EST_RELEASE_TAG"
   else
     # Last resort: scan commits by @est.tech authors
     first_est=$(git log --author="@est.tech" --format="%H" --reverse | head -1)
@@ -96,15 +96,15 @@ fi
 
 # ─── Upstream base tag resolution ───────────────────────────────────────────
 
-if [ -n "$RELEASE_TAG" ] && [ -z "$SINCE_REF" ]; then
+if [ -n "$EST_RELEASE_TAG" ] && [ -z "$SINCE_REF" ]; then
   # Strip -est suffix
-  BASE_TAG=$(echo "$RELEASE_TAG" | sed -E 's/-est(-.*)?$//')
-  echo "Release tag: $RELEASE_TAG"
-  echo "Computed base tag: $BASE_TAG"
+  UPSTREAM_BASE_TAG=$(echo "$EST_RELEASE_TAG" | sed -E 's/-est(-.*)?$//')
+  echo "EST release tag: $EST_RELEASE_TAG"
+  echo "Computed upstream base tag: $UPSTREAM_BASE_TAG"
 
   # Fetch from upstream if not available locally
-  if ! git rev-parse "refs/tags/${BASE_TAG}" >/dev/null 2>&1; then
-    echo "Base tag $BASE_TAG not found locally, attempting to fetch from upstream..."
+  if ! git rev-parse "refs/tags/${UPSTREAM_BASE_TAG}" >/dev/null 2>&1; then
+    echo "Base tag $UPSTREAM_BASE_TAG not found locally, attempting to fetch from upstream..."
 
     # Auto-detect upstream URL if not provided
     if [ -z "$UPSTREAM_URL" ]; then
@@ -125,17 +125,17 @@ if [ -n "$RELEASE_TAG" ] && [ -z "$SINCE_REF" ]; then
 
     if [ -n "$UPSTREAM_URL" ]; then
       git remote get-url upstream >/dev/null 2>&1 || git remote add upstream "$UPSTREAM_URL"
-      git fetch upstream "refs/tags/${BASE_TAG}:refs/tags/${BASE_TAG}" 2>/dev/null \
-        && echo "Fetched tag $BASE_TAG from upstream" \
-        || echo "Warning: Could not fetch tag $BASE_TAG from upstream" >&2
+      git fetch upstream "refs/tags/${UPSTREAM_BASE_TAG}:refs/tags/${UPSTREAM_BASE_TAG}" 2>/dev/null \
+        && echo "Fetched tag $UPSTREAM_BASE_TAG from upstream" \
+        || echo "Warning: Could not fetch tag $UPSTREAM_BASE_TAG from upstream" >&2
     fi
   fi
 
-  if git rev-parse "refs/tags/${BASE_TAG}" >/dev/null 2>&1; then
-    SINCE_REF="$BASE_TAG"
+  if git rev-parse "refs/tags/${UPSTREAM_BASE_TAG}" >/dev/null 2>&1; then
+    SINCE_REF="$UPSTREAM_BASE_TAG"
     echo "Using base tag as since-ref: $SINCE_REF"
   else
-    echo "Error: Base tag $BASE_TAG not available locally or from upstream" >&2
+    echo "Error: Upstream base tag $UPSTREAM_BASE_TAG not available locally or from upstream" >&2
     exit 1
   fi
 fi
@@ -143,14 +143,14 @@ fi
 # ─── Auto-detect PRODUCT_PURL ──────────────────────────────────────────────
 
 if [ -z "$PRODUCT_PURL" ]; then
-  REPO_NAME=$(basename "$(git remote get-url origin 2>/dev/null | sed 's|\.git$||')")
-  VERSION="${RELEASE_TAG:-$(git tag --sort=-creatordate | grep -m1 '^v' || echo "unknown")}"
-  PRODUCT_PURL="pkg:generic/${REPO_NAME}@${VERSION}"
+  PRODUCT_NAME=$(basename "$(git remote get-url origin 2>/dev/null | sed 's|\.git$||')")
+  PRODUCT_VERSION="${EST_RELEASE_TAG:-${SINCE_REF}}"
+  PRODUCT_PURL="pkg:generic/${PRODUCT_NAME}@${PRODUCT_VERSION}"
   echo "Auto-detected PRODUCT_PURL: $PRODUCT_PURL"
+else
+  PRODUCT_NAME=$(echo "$PRODUCT_PURL" | sed 's|^pkg:[^/]/||; s|@.||; s|?.||')
+  PRODUCT_VERSION=$(echo "$PRODUCT_PURL" | sed 's|^[^@]@||; s|?.*||')
 fi
-
-PRODUCT_NAME=$(echo "$PRODUCT_PURL" | sed 's|^pkg:[^/]*/||; s|@.*||; s|?.*||')
-PRODUCT_VERSION=$(echo "$PRODUCT_PURL" | sed 's|^[^@]*@||; s|?.*||')
 VENDOR_NAME="$PUBLISHER_NAME"
 
 # ─── Determine commit range and extract CVE-to-commit mapping ─
@@ -165,7 +165,7 @@ declare -A CVE_MAP
 CVE_ENTRIES_FILE=$(mktemp)
 trap 'rm -f "$CVE_ENTRIES_FILE"' EXIT
 
-while IFS= read -r line; do
+while IFS= read -r -d '' line; do
   commit_hash="${line%% *}"
   rest="${line#* }"
   # Extract CVEs from this commit's subject+body
@@ -192,7 +192,7 @@ while IFS= read -r line; do
       echo "   $cve (fixed in $commit_short)"
     fi
   done
-done < <(git log $LOG_RANGE --reverse --format="%H %s %b")
+done < <(git log $LOG_RANGE --reverse --format="%H %s %b%x00")
 
 cve_count="${#CVE_MAP[@]}"
 
