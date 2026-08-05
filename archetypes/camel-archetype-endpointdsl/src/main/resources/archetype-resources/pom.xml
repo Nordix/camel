@@ -82,6 +82,27 @@
         </dependency>
     </dependencies>
 
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nordix-allies-mvn</id>
+            <name>Nordix Allies Maven</name>
+            <url>https://artifactory.nordix.org/artifactory/allies-mvn</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>false</enabled></snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <repositories>
+        <repository>
+            <id>nordix-allies-mvn</id>
+            <name>Nordix Allies Maven</name>
+            <url>https://artifactory.nordix.org/artifactory/allies-mvn</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>false</enabled></snapshots>
+        </repository>
+    </repositories>
+
+
     <build>
         <defaultGoal>install</defaultGoal>
 
