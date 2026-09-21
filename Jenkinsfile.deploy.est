@@ -69,7 +69,7 @@ pipeline {
         //     }
         // }
 
-        stage('Test Deploy') {
+        stage('Test Deploy setup') {
             steps {
                 echo "Testing Deploy stage configuration"
                 sh "echo 'Test artifact' > test-artifact.txt"
@@ -87,39 +87,58 @@ pipeline {
                 }
             }
         }
-
-        stage('Deploy') {
+        stage('Test Deploy') {
             steps {
                 withCredentials([usernamePassword(
                     credentialsId: 'aegis-cicd-arm-credentials',
                     usernameVariable: 'ARM_USERNAME',
                     passwordVariable: 'ARM_USERTOKEN'
                 )]) {
-                    sh """
-                        SETTINGS_FILE=\$(mktemp --suffix=.xml)
-                        trap 'rm -f \${SETTINGS_FILE}' EXIT
-                        cat > \${SETTINGS_FILE} <<EOF
-<settings>
-  <servers>
-    <server>
-      <id>est-allies</id>
-      <username>\${ARM_USERNAME}</username>
-      <password>\${ARM_USERTOKEN}</password>
-    </server>
-  </servers>
-</settings>
-EOF
-                        ./mvnw $MAVEN_PARAMS \\
-                            -Pdeploy \\
-                            -Dmaven.test.skip.exec=true \\
-                            --settings \${SETTINGS_FILE} \\
-                            --global-settings \${SETTINGS_FILE} \\
-                            -DaltDeploymentRepository=est-allies::default::${params.EST_ARTIFACTORY_URL} \\
-                            deploy
-                    """
+                    sh '''
+                        echo "Testing Artifactory credentials..."
+                        echo "Username: ${ARM_USERNAME}"
+                        echo "URL: ${EST_ARTIFACTORY_URL}"
+
+                        # Test connectivity to Artifactory
+                        curl -u ${ARM_USERNAME}:${ARM_USERTOKEN} \
+                        -I ${EST_ARTIFACTORY_URL}/ 2>&1 | head -5
+                    '''
                 }
             }
         }
+
+//         stage('Deploy') {
+//             steps {
+//                 withCredentials([usernamePassword(
+//                     credentialsId: 'aegis-cicd-arm-credentials',
+//                     usernameVariable: 'ARM_USERNAME',
+//                     passwordVariable: 'ARM_USERTOKEN'
+//                 )]) {
+//                     sh """
+//                         SETTINGS_FILE=\$(mktemp --suffix=.xml)
+//                         trap 'rm -f \${SETTINGS_FILE}' EXIT
+//                         cat > \${SETTINGS_FILE} <<EOF
+// <settings>
+//   <servers>
+//     <server>
+//       <id>est-allies</id>
+//       <username>\${ARM_USERNAME}</username>
+//       <password>\${ARM_USERTOKEN}</password>
+//     </server>
+//   </servers>
+// </settings>
+// EOF
+//                         ./mvnw $MAVEN_PARAMS \\
+//                             -Pdeploy \\
+//                             -Dmaven.test.skip.exec=true \\
+//                             --settings \${SETTINGS_FILE} \\
+//                             --global-settings \${SETTINGS_FILE} \\
+//                             -DaltDeploymentRepository=est-allies::default::${params.EST_ARTIFACTORY_URL} \\
+//                             deploy
+//                     """
+//                 }
+//             }
+//         }
 
     }
 
