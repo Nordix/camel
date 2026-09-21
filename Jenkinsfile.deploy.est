@@ -56,16 +56,35 @@ pipeline {
            }
         }
 
-        stage('Build') {
-            steps {
-                sh "./mvnw $MAVEN_PARAMS -Dmaven.test.skip.exec=true clean install"
-            }
-        }
+        // stage('Build') {
+        //     steps {
+        //         sh "./mvnw $MAVEN_PARAMS -Dmaven.test.skip.exec=true clean install"
+        //     }
+        // }
 
-        stage('Checks') {
+        // stage('Checks') {
+        //     steps {
+        //         sh "./mvnw $MAVEN_PARAMS -pl :camel-buildtools install"
+        //         sh "./mvnw $MAVEN_PARAMS -Psourcecheck -Dcheckstyle.failOnViolation=false checkstyle:check"
+        //     }
+        // }
+
+        stage('Test Deploy') {
             steps {
-                sh "./mvnw $MAVEN_PARAMS -pl :camel-buildtools install"
-                sh "./mvnw $MAVEN_PARAMS -Psourcecheck -Dcheckstyle.failOnViolation=false checkstyle:check"
+                echo "Testing Deploy stage configuration"
+                sh "echo 'Test artifact' > test-artifact.txt"
+                withCredentials([usernamePassword(
+                    credentialsId: 'aegis-cicd-arm-credentials',
+                    usernameVariable: 'ARM_USERNAME',
+                    passwordVariable: 'ARM_USERTOKEN'
+                )]) {
+                    sh """
+                        echo "Credentials loaded: ARM_USERNAME=\${ARM_USERNAME}"
+                        echo "EST_ARTIFACTORY_URL=${params.EST_ARTIFACTORY_URL}"
+                        echo "Test artifact content:"
+                        cat test-artifact.txt
+                    """
+                }
             }
         }
 
