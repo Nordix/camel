@@ -42,7 +42,7 @@ pipeline {
 
     parameters {
         booleanParam(name: 'CLEAN', defaultValue: true, description: 'Perform the build in clean workspace')
-        string(name: 'EST_ARTIFACTORY_URL', defaultValue: 'https://artifactory.est.tech/artifactory/allies-mvn', description: 'Target EST Artifactory Maven repository URL')
+        string(name: 'EST_ARTIFACTORY_URL', defaultValue: 'https://origin.artifactory.est.tech/artifactory/allies-mvn', description: 'Target EST Artifactory Maven repository URL')
     }
 
     stages {
@@ -95,13 +95,12 @@ pipeline {
                     passwordVariable: 'ARM_USERTOKEN'
                 )]) {
                     sh '''
-                        echo "Testing Artifactory credentials..."
-                        echo "Username: ${ARM_USERNAME}"
-                        echo "URL: ${EST_ARTIFACTORY_URL}"
-
-                        # Test connectivity to Artifactory
+                        echo "Testing Artifactory upload..."
                         curl -u ${ARM_USERNAME}:${ARM_USERTOKEN} \
-                        -I ${EST_ARTIFACTORY_URL}/ 2>&1 | head -5
+                          -T test-artifact.txt \
+                          "${EST_ARTIFACTORY_URL}/test-artifact.txt"
+                        echo ""
+                        echo "Upload complete. Check Artifactory UI."
                     '''
                 }
             }
