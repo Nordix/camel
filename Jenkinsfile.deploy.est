@@ -56,88 +56,52 @@ pipeline {
            }
         }
 
-        // stage('Build') {
-        //     steps {
-        //         sh "./mvnw $MAVEN_PARAMS -Dmaven.test.skip.exec=true clean install"
-        //     }
-        // }
-
-        // stage('Checks') {
-        //     steps {
-        //         sh "./mvnw $MAVEN_PARAMS -pl :camel-buildtools install"
-        //         sh "./mvnw $MAVEN_PARAMS -Psourcecheck -Dcheckstyle.failOnViolation=false checkstyle:check"
-        //     }
-        // }
-
-        stage('Test Deploy setup') {
+        stage('Build') {
             steps {
-                echo "Testing Deploy stage configuration"
-                sh "echo 'Test artifact' > test-artifact.txt"
+                sh "./mvnw $MAVEN_PARAMS -Dmaven.test.skip.exec=true clean install"
+            }
+        }
+
+        stage('Checks') {
+            steps {
+                sh "./mvnw $MAVEN_PARAMS -pl :camel-buildtools install"
+                sh "./mvnw $MAVEN_PARAMS -Psourcecheck -Dcheckstyle.failOnViolation=false checkstyle:check"
+            }
+        }
+
+
+        stage('Deploy') {
+            steps {
                 withCredentials([usernamePassword(
                     credentialsId: 'aegis-cicd-arm-credentials',
                     usernameVariable: 'ARM_USERNAME',
                     passwordVariable: 'ARM_USERTOKEN'
                 )]) {
                     sh """
-                        echo "Credentials loaded: ARM_USERNAME=\${ARM_USERNAME}"
-                        echo "EST_ARTIFACTORY_URL=${params.EST_ARTIFACTORY_URL}"
-                        echo "Test artifact content:"
-                        cat test-artifact.txt
+                        SETTINGS_FILE=\$(mktemp --suffix=.xml)
+                        trap 'rm -f \${SETTINGS_FILE}' EXIT
+                        cat > \${SETTINGS_FILE} <<EOF
+<settings>
+  <servers>
+    <server>
+      <id>est-allies</id>
+      <username>\${ARM_USERNAME}</username>
+      <password>\${ARM_USERTOKEN}</password>
+    </server>
+  </servers>
+</settings>
+EOF
+                        ./mvnw $MAVEN_PARAMS \\
+                            -Pdeploy \\
+                            -Dmaven.test.skip.exec=true \\
+                            --settings \${SETTINGS_FILE} \\
+                            --global-settings \${SETTINGS_FILE} \\
+                            -DaltDeploymentRepository=est-allies::default::${params.EST_ARTIFACTORY_URL} \\
+                            deploy
                     """
                 }
             }
         }
-        stage('Test Deploy') {
-            steps {
-                withCredentials([usernamePassword(
-                    credentialsId: 'aegis-cicd-arm-credentials',
-                    usernameVariable: 'ARM_USERNAME',
-                    passwordVariable: 'ARM_USERTOKEN'
-                )]) {
-                    sh '''
-                        echo "Testing Artifactory upload..."
-                        curl -u ${ARM_USERNAME}:${ARM_USERTOKEN} \
-                          -T test-artifact.txt \
-                          "${EST_ARTIFACTORY_URL}/test-artifact.txt"
-                        echo ""
-                        echo "Upload complete. Check Artifactory UI."
-                    '''
-                }
-            }
-        }
-
-//         stage('Deploy') {
-//             steps {
-//                 withCredentials([usernamePassword(
-//                     credentialsId: 'aegis-cicd-arm-credentials',
-//                     usernameVariable: 'ARM_USERNAME',
-//                     passwordVariable: 'ARM_USERTOKEN'
-//                 )]) {
-//                     sh """
-//                         SETTINGS_FILE=\$(mktemp --suffix=.xml)
-//                         trap 'rm -f \${SETTINGS_FILE}' EXIT
-//                         cat > \${SETTINGS_FILE} <<EOF
-// <settings>
-//   <servers>
-//     <server>
-//       <id>est-allies</id>
-//       <username>\${ARM_USERNAME}</username>
-//       <password>\${ARM_USERTOKEN}</password>
-//     </server>
-//   </servers>
-// </settings>
-// EOF
-//                         ./mvnw $MAVEN_PARAMS \\
-//                             -Pdeploy \\
-//                             -Dmaven.test.skip.exec=true \\
-//                             --settings \${SETTINGS_FILE} \\
-//                             --global-settings \${SETTINGS_FILE} \\
-//                             -DaltDeploymentRepository=est-allies::default::${params.EST_ARTIFACTORY_URL} \\
-//                             deploy
-//                     """
-//                 }
-//             }
-//         }
 
     }
 
