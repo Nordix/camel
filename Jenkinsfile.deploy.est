@@ -1,0 +1,109 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+def MAVEN_PARAMS = "-U -B -e -fae -V -Dnoassembly -Dmaven.compiler.fork=true -Dsurefire.rerunFailingTestsCount=2"
+
+pipeline {
+
+    agent {
+        label "${params.AGENT_LABEL}"
+    }
+
+    tools {
+        jdk "${params.JDK_NAME}"
+    }
+
+    environment {
+        MAVEN_SKIP_RC = true
+    }
+
+    options {
+        buildDiscarder(
+            logRotator(artifactNumToKeepStr: '5', numToKeepStr: '10')
+        )
+        disableConcurrentBuilds()
+    }
+
+    parameters {
+        booleanParam(name: 'CLEAN', defaultValue: true, description: 'Perform the build in clean workspace')
+        string(name: 'EST_ARTIFACTORY_URL', defaultValue: 'https://origin.artifactory.est.tech/artifactory/allies-mvn', description: 'Target EST Artifactory Maven repository URL')
+    }
+
+    stages {
+
+        stage('Clean workspace') {
+             when {
+                 expression { params.CLEAN }
+             }
+             steps {
+                 sh 'git clean -fdx'
+           }
+        }
+
+        stage('Build') {
+            steps {
+                sh "./mvnw $MAVEN_PARAMS -Dmaven.test.skip.exec=true clean install"
+            }
+        }
+
+        stage('Checks') {
+            steps {
+                sh "./mvnw $MAVEN_PARAMS -pl :camel-buildtools install"
+                sh "./mvnw $MAVEN_PARAMS -Psourcecheck -Dcheckstyle.failOnViolation=false checkstyle:check"
+            }
+        }
+
+
+        stage('Deploy') {
+            steps {
+                withCredentials([usernamePassword(
+                    credentialsId: 'aegis-cicd-arm-credentials',
+                    usernameVariable: 'ARM_USERNAME',
+                    passwordVariable: 'ARM_USERTOKEN'
+                )]) {
+                    sh """
+                        SETTINGS_FILE=\$(mktemp --suffix=.xml)
+                        trap 'rm -f \${SETTINGS_FILE}' EXIT
+                        cat > \${SETTINGS_FILE} <<EOF
+<settings>
+  <servers>
+    <server>
+      <id>est-allies</id>
+      <username>\${ARM_USERNAME}</username>
+      <password>\${ARM_USERTOKEN}</password>
+    </server>
+  </servers>
+</settings>
+EOF
+                        ./mvnw $MAVEN_PARAMS \\
+                            -Pdeploy \\
+                            -Dmaven.test.skip.exec=true \\
+                            --settings \${SETTINGS_FILE} \\
+                            --global-settings \${SETTINGS_FILE} \\
+                            -DaltDeploymentRepository=est-allies::default::${params.EST_ARTIFACTORY_URL} \\
+                            deploy
+                    """
+                }
+            }
+        }
+
+    }
+
+}
+
