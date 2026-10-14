@@ -70,8 +70,8 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                withCredentials([string(credentialsId: 'MAVEN_TOKEN', variable: 'MAVEN_TOKEN')]) {
-                    sh "./mvnw $MAVEN_PARAMS -DskipTests deploy -Dorg.nordix.maven.token=$MAVEN_TOKEN"
+                withCredentials([string(credentialsId: 'infra-nordix-maven-centeral-api-key', variable: 'MAVEN_TOKEN')]) {
+                sh "./mvnw $MAVEN_PARAMS -DskipTests deploy -Dorg.nordix.maven.token=$MAVEN_TOKEN"
                 }
             }
         }
