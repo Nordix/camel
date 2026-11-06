@@ -69,7 +69,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.nordix</groupId>
             <artifactId>spring-test</artifactId>
             <scope>test</scope>
         </dependency>
