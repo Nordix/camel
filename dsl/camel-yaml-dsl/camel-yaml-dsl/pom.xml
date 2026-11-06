@@ -22,7 +22,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-yaml-dsl-parent</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -44,15 +44,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-yaml-dsl-common</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-yaml-dsl-deserializers</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-dsl-support</artifactId>
         </dependency>
 
@@ -84,82 +84,82 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-main</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-direct</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-rest</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-mock</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-core-languages</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-bean</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-timer</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-stub</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-log</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-telegram</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-seda</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-kamelet</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-groovy</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-joor</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-mustache</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-jsonpath</artifactId>
             <scope>test</scope>
         </dependency>
@@ -216,7 +216,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-yaml-dsl-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <executions>
@@ -234,7 +234,7 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-restdsl-openapi-plugin</artifactId>
                 <version>${project.version}</version>
                 <executions>
@@ -269,7 +269,7 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-package-maven-plugin</artifactId>
                 <executions>
                     <execution>

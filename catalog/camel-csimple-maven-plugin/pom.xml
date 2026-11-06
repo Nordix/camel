@@ -22,7 +22,7 @@
 
     <!-- NOTE parent need to point to camel maven plugins -->
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>maven-plugins</artifactId>
         <version>3.14.10-est-2</version>
         <relativePath>../../tooling/maven</relativePath>
@@ -36,7 +36,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>tooling-parent</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -76,19 +76,19 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-core</artifactId>
         </dependency>
 
         <!-- disable all components -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-allcomponents</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
             <exclusions>
                 <exclusion>
-                    <groupId>org.apache.camel</groupId>
+                    <groupId>org.nordix.camel</groupId>
                     <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>
@@ -96,7 +96,7 @@
 
         <!-- camel route parser -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-route-parser</artifactId>
             <version>${project.version}</version>
         </dependency>

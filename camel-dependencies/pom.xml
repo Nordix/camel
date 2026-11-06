@@ -25,7 +25,7 @@
     <artifactId>apache</artifactId>
     <version>23</version>
   </parent>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-dependencies</artifactId>
   <version>3.14.10-est-2</version>
   <packaging>pom</packaging>

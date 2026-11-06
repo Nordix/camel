@@ -21,7 +21,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-test-parent</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -40,106 +40,106 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.camel</groupId>
+			<groupId>org.nordix.camel</groupId>
 			<artifactId>camel-core-engine</artifactId>
 		</dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-core-languages</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-management</artifactId>
             <scope>test</scope>
         </dependency>
 
         <!-- common deps used in tests -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-bean</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-browse</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-controlbus</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-dataformat</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-dataset</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-direct</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-directvm</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-file</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-language</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-log</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-mock</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-ref</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-rest</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-saga</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-scheduler</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-seda</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-stub</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-timer</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-validator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-vm</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-xpath</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-xslt</artifactId>
         </dependency>
 		
@@ -161,7 +161,7 @@
 			<scope>test</scope>
 		</dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-xml-jaxb</artifactId>
             <scope>test</scope>
         </dependency>

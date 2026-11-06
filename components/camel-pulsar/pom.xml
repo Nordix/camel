@@ -23,7 +23,7 @@
 
     <parent>
         <artifactId>components</artifactId>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <version>3.14.10-est-2</version>
     </parent>
 
@@ -35,7 +35,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-support</artifactId>
         </dependency>
 
@@ -50,7 +50,7 @@
 
         <!-- testing -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-junit5</artifactId>
             <scope>test</scope>
         </dependency>
@@ -67,7 +67,7 @@
 
         <!-- test infra -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-infra-common</artifactId>
             <version>${project.version}</version>
             <type>test-jar</type>
@@ -75,7 +75,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-infra-pulsar</artifactId>
             <version>${project.version}</version>
             <type>test-jar</type>

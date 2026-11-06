@@ -23,11 +23,11 @@
 
     <parent>
         <artifactId>components</artifactId>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <version>3.14.10-est-2</version>
     </parent>
 
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-arangodb</artifactId>
     <packaging>jar</packaging>
 
@@ -49,7 +49,7 @@
 
         <!-- camel -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-support</artifactId>
         </dependency>
 
@@ -60,14 +60,14 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-junit5</artifactId>
             <scope>test</scope>
         </dependency>
 
         <!-- test infra -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-infra-common</artifactId>
             <version>${project.version}</version>
             <type>test-jar</type>
@@ -75,7 +75,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-infra-arangodb</artifactId>
             <version>${project.version}</version>
             <type>test-jar</type>

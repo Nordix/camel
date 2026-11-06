@@ -37,7 +37,7 @@
     <dependencies>
       <!-- Camel BOM -->
       <dependency>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-bom</artifactId>
         <version>${camel-version}</version>
         <scope>import</scope>
@@ -50,26 +50,26 @@
 
     <!-- lets use the minimal camel-core -->
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-core-engine</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-main</artifactId>
     </dependency>
 
     <!-- where we need to pick which components we use (also core components) -->
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-bean</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-log</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-timer</artifactId>
     </dependency>
 
@@ -83,7 +83,7 @@
 
     <!-- testing -->
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-test</artifactId>
       <scope>test</scope>
     </dependency>
@@ -133,7 +133,7 @@
 
       <!-- Allows the example to be run via 'mvn camel:run' -->
       <plugin>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-maven-plugin</artifactId>
         <version>${camel-version}</version>
         <configuration>

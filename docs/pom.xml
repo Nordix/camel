@@ -19,7 +19,7 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-parent</artifactId>
         <version>3.14.10-est-2</version>
         <relativePath>../parent</relativePath>
@@ -33,7 +33,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-allcomponents</artifactId>
             <type>pom</type>
             <scope>provided</scope>
@@ -95,7 +95,7 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-package-maven-plugin</artifactId>
                 <executions>
                     <execution>

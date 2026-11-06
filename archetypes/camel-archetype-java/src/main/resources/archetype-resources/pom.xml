@@ -37,7 +37,7 @@
     <dependencies>
       <!-- Camel BOM -->
       <dependency>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-bom</artifactId>
         <version>${camel-version}</version>
         <scope>import</scope>
@@ -49,11 +49,11 @@
   <dependencies>
 
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-main</artifactId>
     </dependency>
 
@@ -67,7 +67,7 @@
 
     <!-- testing -->
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-test</artifactId>
       <scope>test</scope>
     </dependency>
@@ -117,7 +117,7 @@
 
       <!-- Allows the example to be run via 'mvn camel:run' -->
       <plugin>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-maven-plugin</artifactId>
         <version>${camel-version}</version>
         <configuration>

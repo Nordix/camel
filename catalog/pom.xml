@@ -22,7 +22,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-parent</artifactId>
         <version>3.14.10-est-2</version>
         <relativePath>../parent</relativePath>
@@ -48,7 +48,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-allcomponents</artifactId>
             <type>pom</type>
             <scope>provided</scope>
@@ -58,7 +58,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-bundle-plugin</artifactId>
                 <version>${project.version}</version>
                 <configuration>
