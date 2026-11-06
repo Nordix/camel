@@ -58,9 +58,11 @@
                     <dependencies>
                         <includes>
                             <include>org.apache.camel:*</include>
+                            <include>org.nordix.camel:*</include>
                         </includes>
                         <excludes>
                             <exclude>org.apache.camel:camel-allcomponents</exclude>
+                            <exclude>org.nordix.camel:camel-allcomponents</exclude>
                         </excludes>
                     </dependencies>
 
