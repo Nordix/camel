@@ -27,7 +27,7 @@
         <version>3.14.10-est-2</version>
     </parent>
 
-    <groupId>org.apache.camel.archetypes</groupId>
+    <groupId>org.nordix.camel.archetypes</groupId>
     <artifactId>camel-archetype-api-component</artifactId>
     <name>Camel :: Archetypes :: API Component</name>
     <description>Creates a new Camel component that wraps one or more API proxies.</description>

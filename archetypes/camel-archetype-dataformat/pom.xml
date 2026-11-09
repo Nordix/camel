@@ -27,7 +27,7 @@
         <version>3.14.10-est-2</version>
     </parent>
 
-    <groupId>org.apache.camel.archetypes</groupId>
+    <groupId>org.nordix.camel.archetypes</groupId>
     <artifactId>camel-archetype-dataformat</artifactId>
     <name>Camel :: Archetypes :: Data Format</name>
     <description>Creates a new Camel data format.</description>

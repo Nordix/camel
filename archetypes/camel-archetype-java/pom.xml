@@ -27,7 +27,7 @@
         <version>3.14.10-est-2</version>
     </parent>
 
-    <groupId>org.apache.camel.archetypes</groupId>
+    <groupId>org.nordix.camel.archetypes</groupId>
     <artifactId>camel-archetype-java</artifactId>
     <name>Camel :: Archetypes :: Java Router</name>
     <description>Creates a new Camel project using Java DSL.</description>
