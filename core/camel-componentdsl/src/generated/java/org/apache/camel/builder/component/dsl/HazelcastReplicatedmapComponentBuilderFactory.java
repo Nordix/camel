@@ -36,7 +36,7 @@ public interface HazelcastReplicatedmapComponentBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */

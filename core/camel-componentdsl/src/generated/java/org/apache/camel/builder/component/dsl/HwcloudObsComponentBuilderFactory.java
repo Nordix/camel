@@ -38,7 +38,7 @@ public interface HwcloudObsComponentBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-obs
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-obs
      * 
      * @return the dsl builder
      */

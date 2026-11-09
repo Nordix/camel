@@ -36,7 +36,7 @@ public interface GoraComponentBuilderFactory {
      * 
      * Category: database,nosql,bigdata
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-gora
+     * Maven coordinates: org.nordix.camel:camel-gora
      * 
      * @return the dsl builder
      */

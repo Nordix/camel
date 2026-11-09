@@ -602,7 +602,7 @@ public interface ElasticsearchEndpointBuilderFactory {
          * 
          * Category: search,monitoring
          * Since: 2.21
-         * Maven coordinates: org.apache.camel:camel-elasticsearch-rest
+         * Maven coordinates: org.nordix.camel:camel-elasticsearch-rest
          * 
          * Syntax: <code>elasticsearch-rest:clusterName</code>
          * 
@@ -621,7 +621,7 @@ public interface ElasticsearchEndpointBuilderFactory {
          * 
          * Category: search,monitoring
          * Since: 2.21
-         * Maven coordinates: org.apache.camel:camel-elasticsearch-rest
+         * Maven coordinates: org.nordix.camel:camel-elasticsearch-rest
          * 
          * Syntax: <code>elasticsearch-rest:clusterName</code>
          * 

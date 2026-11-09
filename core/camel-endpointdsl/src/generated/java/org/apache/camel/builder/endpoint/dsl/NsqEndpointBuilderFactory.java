@@ -815,7 +815,7 @@ public interface NsqEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-nsq
+         * Maven coordinates: org.nordix.camel:camel-nsq
          * 
          * Syntax: <code>nsq:topic</code>
          * 
@@ -835,7 +835,7 @@ public interface NsqEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-nsq
+         * Maven coordinates: org.nordix.camel:camel-nsq
          * 
          * Syntax: <code>nsq:topic</code>
          * 

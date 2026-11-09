@@ -662,7 +662,7 @@ public interface AtmosEndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-atmos
+         * Maven coordinates: org.nordix.camel:camel-atmos
          * 
          * Syntax: <code>atmos:name/operation</code>
          * 
@@ -687,7 +687,7 @@ public interface AtmosEndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-atmos
+         * Maven coordinates: org.nordix.camel:camel-atmos
          * 
          * Syntax: <code>atmos:name/operation</code>
          * 

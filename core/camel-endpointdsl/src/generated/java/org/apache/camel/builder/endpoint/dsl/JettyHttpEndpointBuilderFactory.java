@@ -1219,7 +1219,7 @@ public interface JettyHttpEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-jetty
+         * Maven coordinates: org.nordix.camel:camel-jetty
          * 
          * Syntax: <code>jetty:httpUri</code>
          * 
@@ -1238,7 +1238,7 @@ public interface JettyHttpEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-jetty
+         * Maven coordinates: org.nordix.camel:camel-jetty
          * 
          * Syntax: <code>jetty:httpUri</code>
          * 

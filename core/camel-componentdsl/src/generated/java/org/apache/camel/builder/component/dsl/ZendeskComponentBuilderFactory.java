@@ -36,7 +36,7 @@ public interface ZendeskComponentBuilderFactory {
      * 
      * Category: cloud,api,support
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-zendesk
+     * Maven coordinates: org.nordix.camel:camel-zendesk
      * 
      * @return the dsl builder
      */

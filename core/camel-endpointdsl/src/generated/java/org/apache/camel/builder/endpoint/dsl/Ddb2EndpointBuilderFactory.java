@@ -594,7 +594,7 @@ public interface Ddb2EndpointBuilderFactory {
          * 
          * Category: cloud,database,nosql
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-ddb
+         * Maven coordinates: org.nordix.camel:camel-aws2-ddb
          * 
          * Syntax: <code>aws2-ddb:tableName</code>
          * 
@@ -614,7 +614,7 @@ public interface Ddb2EndpointBuilderFactory {
          * 
          * Category: cloud,database,nosql
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-ddb
+         * Maven coordinates: org.nordix.camel:camel-aws2-ddb
          * 
          * Syntax: <code>aws2-ddb:tableName</code>
          * 

@@ -2192,7 +2192,7 @@ public interface NatsEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-nats
+         * Maven coordinates: org.nordix.camel:camel-nats
          * 
          * Syntax: <code>nats:topic</code>
          * 
@@ -2211,7 +2211,7 @@ public interface NatsEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-nats
+         * Maven coordinates: org.nordix.camel:camel-nats
          * 
          * Syntax: <code>nats:topic</code>
          * 

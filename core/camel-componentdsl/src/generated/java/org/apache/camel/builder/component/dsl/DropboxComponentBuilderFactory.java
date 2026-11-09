@@ -38,7 +38,7 @@ public interface DropboxComponentBuilderFactory {
      * 
      * Category: cloud,file,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-dropbox
+     * Maven coordinates: org.nordix.camel:camel-dropbox
      * 
      * @return the dsl builder
      */

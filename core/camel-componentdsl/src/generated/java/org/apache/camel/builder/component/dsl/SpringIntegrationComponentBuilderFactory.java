@@ -36,7 +36,7 @@ public interface SpringIntegrationComponentBuilderFactory {
      * 
      * Category: spring,eventbus
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-spring-integration
+     * Maven coordinates: org.nordix.camel:camel-spring-integration
      * 
      * @return the dsl builder
      */

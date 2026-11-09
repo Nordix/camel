@@ -36,7 +36,7 @@ public interface CmSmsComponentBuilderFactory {
      * 
      * Category: mobile
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-cm-sms
+     * Maven coordinates: org.nordix.camel:camel-cm-sms
      * 
      * @return the dsl builder
      */

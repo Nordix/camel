@@ -36,7 +36,7 @@ public interface IgniteMessagingComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * @return the dsl builder
      */

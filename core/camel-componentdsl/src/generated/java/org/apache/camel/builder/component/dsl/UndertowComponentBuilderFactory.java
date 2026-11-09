@@ -38,7 +38,7 @@ public interface UndertowComponentBuilderFactory {
      * 
      * Category: http,websocket
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-undertow
+     * Maven coordinates: org.nordix.camel:camel-undertow
      * 
      * @return the dsl builder
      */

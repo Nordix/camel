@@ -193,7 +193,7 @@ public interface DrillEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-drill
+         * Maven coordinates: org.nordix.camel:camel-drill
          * 
          * Syntax: <code>drill:host</code>
          * 
@@ -212,7 +212,7 @@ public interface DrillEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-drill
+         * Maven coordinates: org.nordix.camel:camel-drill
          * 
          * Syntax: <code>drill:host</code>
          * 

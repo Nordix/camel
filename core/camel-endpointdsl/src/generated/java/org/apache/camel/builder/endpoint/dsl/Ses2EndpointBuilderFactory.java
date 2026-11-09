@@ -429,7 +429,7 @@ public interface Ses2EndpointBuilderFactory {
          * 
          * Category: cloud,mail
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-ses
+         * Maven coordinates: org.nordix.camel:camel-aws2-ses
          * 
          * Syntax: <code>aws2-ses:from</code>
          * 
@@ -448,7 +448,7 @@ public interface Ses2EndpointBuilderFactory {
          * 
          * Category: cloud,mail
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-ses
+         * Maven coordinates: org.nordix.camel:camel-aws2-ses
          * 
          * Syntax: <code>aws2-ses:from</code>
          * 

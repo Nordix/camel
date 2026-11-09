@@ -38,7 +38,7 @@ public interface MybatisBeanComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-mybatis
+     * Maven coordinates: org.nordix.camel:camel-mybatis
      * 
      * @return the dsl builder
      */

@@ -1296,7 +1296,7 @@ public interface GoogleCalendarEndpointBuilderFactory {
          * 
          * Category: api,cloud
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-google-calendar
+         * Maven coordinates: org.nordix.camel:camel-google-calendar
          * 
          * Syntax: <code>google-calendar:apiName/methodName</code>
          * 
@@ -1323,7 +1323,7 @@ public interface GoogleCalendarEndpointBuilderFactory {
          * 
          * Category: api,cloud
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-google-calendar
+         * Maven coordinates: org.nordix.camel:camel-google-calendar
          * 
          * Syntax: <code>google-calendar:apiName/methodName</code>
          * 

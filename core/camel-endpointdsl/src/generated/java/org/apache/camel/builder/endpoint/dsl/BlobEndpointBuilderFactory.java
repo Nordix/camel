@@ -2665,7 +2665,7 @@ public interface BlobEndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 3.3
-         * Maven coordinates: org.apache.camel:camel-azure-storage-blob
+         * Maven coordinates: org.nordix.camel:camel-azure-storage-blob
          * 
          * Syntax: <code>azure-storage-blob:accountName/containerName</code>
          * 
@@ -2689,7 +2689,7 @@ public interface BlobEndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 3.3
-         * Maven coordinates: org.apache.camel:camel-azure-storage-blob
+         * Maven coordinates: org.nordix.camel:camel-azure-storage-blob
          * 
          * Syntax: <code>azure-storage-blob:accountName/containerName</code>
          * 

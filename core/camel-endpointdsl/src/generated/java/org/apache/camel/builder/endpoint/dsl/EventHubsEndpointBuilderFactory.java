@@ -958,7 +958,7 @@ public interface EventHubsEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-azure-eventhubs
+         * Maven coordinates: org.nordix.camel:camel-azure-eventhubs
          * 
          * Syntax: <code>azure-eventhubs:namespace/eventHubName</code>
          * 
@@ -983,7 +983,7 @@ public interface EventHubsEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-azure-eventhubs
+         * Maven coordinates: org.nordix.camel:camel-azure-eventhubs
          * 
          * Syntax: <code>azure-eventhubs:namespace/eventHubName</code>
          * 

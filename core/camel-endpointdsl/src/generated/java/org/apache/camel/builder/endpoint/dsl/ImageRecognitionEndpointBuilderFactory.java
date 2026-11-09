@@ -434,7 +434,7 @@ public interface ImageRecognitionEndpointBuilderFactory {
          * Category: cloud,messaging
          * Since: 3.12
          * Maven coordinates:
-         * org.apache.camel:camel-huaweicloud-imagerecognition
+         * org.nordix.camel:camel-huaweicloud-imagerecognition
          * 
          * Syntax: <code>hwcloud-imagerecognition:operation</code>
          * 
@@ -456,7 +456,7 @@ public interface ImageRecognitionEndpointBuilderFactory {
          * Category: cloud,messaging
          * Since: 3.12
          * Maven coordinates:
-         * org.apache.camel:camel-huaweicloud-imagerecognition
+         * org.nordix.camel:camel-huaweicloud-imagerecognition
          * 
          * Syntax: <code>hwcloud-imagerecognition:operation</code>
          * 

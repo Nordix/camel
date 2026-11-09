@@ -2112,7 +2112,7 @@ public interface CosmosDbEndpointBuilderFactory {
          * 
          * Category: cloud,database
          * Since: 3.10
-         * Maven coordinates: org.apache.camel:camel-azure-cosmosdb
+         * Maven coordinates: org.nordix.camel:camel-azure-cosmosdb
          * 
          * Syntax: <code>azure-cosmosdb:databaseName/containerName</code>
          * 
@@ -2139,7 +2139,7 @@ public interface CosmosDbEndpointBuilderFactory {
          * 
          * Category: cloud,database
          * Since: 3.10
-         * Maven coordinates: org.apache.camel:camel-azure-cosmosdb
+         * Maven coordinates: org.nordix.camel:camel-azure-cosmosdb
          * 
          * Syntax: <code>azure-cosmosdb:databaseName/containerName</code>
          * 

@@ -36,7 +36,7 @@ public interface BeanstalkComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-beanstalk
+     * Maven coordinates: org.nordix.camel:camel-beanstalk
      * 
      * @return the dsl builder
      */

@@ -38,7 +38,7 @@ public interface FileWatchComponentBuilderFactory {
      * 
      * Category: file
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-file-watch
+     * Maven coordinates: org.nordix.camel:camel-file-watch
      * 
      * @return the dsl builder
      */

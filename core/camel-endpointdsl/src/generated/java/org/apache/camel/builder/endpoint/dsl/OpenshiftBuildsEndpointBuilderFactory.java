@@ -433,7 +433,7 @@ public interface OpenshiftBuildsEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>openshift-builds:masterUrl</code>
          * 
@@ -452,7 +452,7 @@ public interface OpenshiftBuildsEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>openshift-builds:masterUrl</code>
          * 

@@ -36,7 +36,7 @@ public interface ExecComponentBuilderFactory {
      * 
      * Category: system
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-exec
+     * Maven coordinates: org.nordix.camel:camel-exec
      * 
      * @return the dsl builder
      */

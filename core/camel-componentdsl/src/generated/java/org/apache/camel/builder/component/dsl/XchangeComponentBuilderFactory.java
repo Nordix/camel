@@ -36,7 +36,7 @@ public interface XchangeComponentBuilderFactory {
      * 
      * Category: bitcoin,blockchain
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-xchange
+     * Maven coordinates: org.nordix.camel:camel-xchange
      * 
      * @return the dsl builder
      */

@@ -321,7 +321,7 @@ public interface JoltEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-jolt
+         * Maven coordinates: org.nordix.camel:camel-jolt
          * 
          * Syntax: <code>jolt:resourceUri</code>
          * 
@@ -345,7 +345,7 @@ public interface JoltEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-jolt
+         * Maven coordinates: org.nordix.camel:camel-jolt
          * 
          * Syntax: <code>jolt:resourceUri</code>
          * 

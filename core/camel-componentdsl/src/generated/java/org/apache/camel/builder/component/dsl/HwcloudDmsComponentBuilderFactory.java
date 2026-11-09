@@ -38,7 +38,7 @@ public interface HwcloudDmsComponentBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-dms
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-dms
      * 
      * @return the dsl builder
      */

@@ -127,7 +127,7 @@ public interface JingEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-jing
+         * Maven coordinates: org.nordix.camel:camel-jing
          * 
          * Syntax: <code>jing:resourceUri</code>
          * 
@@ -149,7 +149,7 @@ public interface JingEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-jing
+         * Maven coordinates: org.nordix.camel:camel-jing
          * 
          * Syntax: <code>jing:resourceUri</code>
          * 

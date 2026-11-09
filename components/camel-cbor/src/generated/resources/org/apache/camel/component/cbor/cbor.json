@@ -9,9 +9,9 @@
     "label": "dataformat,transformation,json",
     "javaType": "org.apache.camel.component.cbor.CBORDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-cbor",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "cbor",
     "modelJavaType": "org.apache.camel.model.dataformat.CBORDataFormat"
   },

@@ -36,7 +36,7 @@ public interface DigitaloceanComponentBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-digitalocean
+     * Maven coordinates: org.nordix.camel:camel-digitalocean
      * 
      * @return the dsl builder
      */

@@ -283,7 +283,7 @@ public interface FreemarkerEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-freemarker
+         * Maven coordinates: org.nordix.camel:camel-freemarker
          * 
          * Syntax: <code>freemarker:resourceUri</code>
          * 
@@ -307,7 +307,7 @@ public interface FreemarkerEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-freemarker
+         * Maven coordinates: org.nordix.camel:camel-freemarker
          * 
          * Syntax: <code>freemarker:resourceUri</code>
          * 

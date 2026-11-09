@@ -36,7 +36,7 @@ public interface SpringLdapComponentBuilderFactory {
      * 
      * Category: spring,ldap
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-spring-ldap
+     * Maven coordinates: org.nordix.camel:camel-spring-ldap
      * 
      * @return the dsl builder
      */

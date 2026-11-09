@@ -38,7 +38,7 @@ public interface PubnubComponentBuilderFactory {
      * 
      * Category: cloud,iot,messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-pubnub
+     * Maven coordinates: org.nordix.camel:camel-pubnub
      * 
      * @return the dsl builder
      */

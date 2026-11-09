@@ -36,7 +36,7 @@ public interface Aws2LambdaComponentBuilderFactory {
      * 
      * Category: cloud,computing,serverless
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-lambda
+     * Maven coordinates: org.nordix.camel:camel-aws2-lambda
      * 
      * @return the dsl builder
      */

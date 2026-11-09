@@ -90,7 +90,7 @@ public interface LdifEndpointBuilderFactory {
          * 
          * Category: ldap
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-ldif
+         * Maven coordinates: org.nordix.camel:camel-ldif
          * 
          * Syntax: <code>ldif:ldapConnectionName</code>
          * 
@@ -111,7 +111,7 @@ public interface LdifEndpointBuilderFactory {
          * 
          * Category: ldap
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-ldif
+         * Maven coordinates: org.nordix.camel:camel-ldif
          * 
          * Syntax: <code>ldif:ldapConnectionName</code>
          * 

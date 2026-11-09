@@ -36,7 +36,7 @@ public interface JmsComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-jms
+     * Maven coordinates: org.nordix.camel:camel-jms
      * 
      * @return the dsl builder
      */

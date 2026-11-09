@@ -1000,7 +1000,7 @@ public interface JcrEndpointBuilderFactory {
          * 
          * Category: database,cms
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-jcr
+         * Maven coordinates: org.nordix.camel:camel-jcr
          * 
          * Syntax: <code>jcr:host/base</code>
          * 
@@ -1023,7 +1023,7 @@ public interface JcrEndpointBuilderFactory {
          * 
          * Category: database,cms
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-jcr
+         * Maven coordinates: org.nordix.camel:camel-jcr
          * 
          * Syntax: <code>jcr:host/base</code>
          * 

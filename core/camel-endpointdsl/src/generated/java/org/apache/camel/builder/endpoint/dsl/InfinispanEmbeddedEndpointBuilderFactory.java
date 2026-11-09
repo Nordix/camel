@@ -1218,7 +1218,7 @@ public interface InfinispanEmbeddedEndpointBuilderFactory {
          * 
          * Category: cache,datagrid,clustering
          * Since: 2.13
-         * Maven coordinates: org.apache.camel:camel-infinispan-embedded
+         * Maven coordinates: org.nordix.camel:camel-infinispan-embedded
          * 
          * Syntax: <code>infinispan-embedded:cacheName</code>
          * 
@@ -1240,7 +1240,7 @@ public interface InfinispanEmbeddedEndpointBuilderFactory {
          * 
          * Category: cache,datagrid,clustering
          * Since: 2.13
-         * Maven coordinates: org.apache.camel:camel-infinispan-embedded
+         * Maven coordinates: org.nordix.camel:camel-infinispan-embedded
          * 
          * Syntax: <code>infinispan-embedded:cacheName</code>
          * 

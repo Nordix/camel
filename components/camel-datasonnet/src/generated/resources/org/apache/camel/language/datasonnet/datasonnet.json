@@ -9,9 +9,9 @@
     "label": "language,transformation",
     "javaType": "org.apache.camel.language.datasonnet.DatasonnetLanguage",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-datasonnet",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "datasonnet",
     "modelJavaType": "org.apache.camel.model.language.DatasonnetExpression"
   },

@@ -38,7 +38,7 @@ public interface RefComponentBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-ref
+     * Maven coordinates: org.nordix.camel:camel-ref
      * 
      * @return the dsl builder
      */

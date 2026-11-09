@@ -1142,7 +1142,7 @@ public interface GoogleSheetsEndpointBuilderFactory {
          * 
          * Category: api,cloud,sheets
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-google-sheets
+         * Maven coordinates: org.nordix.camel:camel-google-sheets
          * 
          * Syntax: <code>google-sheets:apiName/methodName</code>
          * 
@@ -1167,7 +1167,7 @@ public interface GoogleSheetsEndpointBuilderFactory {
          * 
          * Category: api,cloud,sheets
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-google-sheets
+         * Maven coordinates: org.nordix.camel:camel-google-sheets
          * 
          * Syntax: <code>google-sheets:apiName/methodName</code>
          * 

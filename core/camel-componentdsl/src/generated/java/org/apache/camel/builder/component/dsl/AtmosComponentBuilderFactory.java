@@ -36,7 +36,7 @@ public interface AtmosComponentBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-atmos
+     * Maven coordinates: org.nordix.camel:camel-atmos
      * 
      * @return the dsl builder
      */

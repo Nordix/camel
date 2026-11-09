@@ -36,7 +36,7 @@ public interface MongodbComponentBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-mongodb
+     * Maven coordinates: org.nordix.camel:camel-mongodb
      * 
      * @return the dsl builder
      */

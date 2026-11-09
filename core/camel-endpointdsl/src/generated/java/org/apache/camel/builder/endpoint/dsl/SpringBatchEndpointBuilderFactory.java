@@ -187,7 +187,7 @@ public interface SpringBatchEndpointBuilderFactory {
          * 
          * Category: spring,batch,scheduling
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-spring-batch
+         * Maven coordinates: org.nordix.camel:camel-spring-batch
          * 
          * Syntax: <code>spring-batch:jobName</code>
          * 
@@ -206,7 +206,7 @@ public interface SpringBatchEndpointBuilderFactory {
          * 
          * Category: spring,batch,scheduling
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-spring-batch
+         * Maven coordinates: org.nordix.camel:camel-spring-batch
          * 
          * Syntax: <code>spring-batch:jobName</code>
          * 

@@ -8,8 +8,8 @@
     "firstVersion": "2.5.0",
     "label": "security",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-shiro",
-    "version": "3.14.10-SNAPSHOT"
+    "version": "3.14.10-est-2"
   }
 }

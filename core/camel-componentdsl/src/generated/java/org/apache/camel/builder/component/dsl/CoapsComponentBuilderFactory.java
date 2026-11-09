@@ -36,7 +36,7 @@ public interface CoapsComponentBuilderFactory {
      * 
      * Category: iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-coap
+     * Maven coordinates: org.nordix.camel:camel-coap
      * 
      * @return the dsl builder
      */

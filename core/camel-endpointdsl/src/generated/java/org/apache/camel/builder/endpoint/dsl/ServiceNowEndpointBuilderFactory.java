@@ -1214,7 +1214,7 @@ public interface ServiceNowEndpointBuilderFactory {
          * 
          * Category: api,cloud,management
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-servicenow
+         * Maven coordinates: org.nordix.camel:camel-servicenow
          * 
          * Syntax: <code>servicenow:instanceName</code>
          * 
@@ -1233,7 +1233,7 @@ public interface ServiceNowEndpointBuilderFactory {
          * 
          * Category: api,cloud,management
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-servicenow
+         * Maven coordinates: org.nordix.camel:camel-servicenow
          * 
          * Syntax: <code>servicenow:instanceName</code>
          * 

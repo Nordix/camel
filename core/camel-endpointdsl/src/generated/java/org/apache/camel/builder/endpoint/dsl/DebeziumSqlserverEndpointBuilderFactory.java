@@ -1931,7 +1931,7 @@ public interface DebeziumSqlserverEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-debezium-sqlserver
+         * Maven coordinates: org.nordix.camel:camel-debezium-sqlserver
          * 
          * Syntax: <code>debezium-sqlserver:name</code>
          * 
@@ -1951,7 +1951,7 @@ public interface DebeziumSqlserverEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-debezium-sqlserver
+         * Maven coordinates: org.nordix.camel:camel-debezium-sqlserver
          * 
          * Syntax: <code>debezium-sqlserver:name</code>
          * 

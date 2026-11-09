@@ -265,7 +265,7 @@ public interface WekaEndpointBuilderFactory {
          * 
          * Category: datamining
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-weka
+         * Maven coordinates: org.nordix.camel:camel-weka
          * 
          * Syntax: <code>weka:command</code>
          * 
@@ -286,7 +286,7 @@ public interface WekaEndpointBuilderFactory {
          * 
          * Category: datamining
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-weka
+         * Maven coordinates: org.nordix.camel:camel-weka
          * 
          * Syntax: <code>weka:command</code>
          * 

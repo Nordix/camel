@@ -9,9 +9,9 @@
     "label": "dataformat,transformation,csv",
     "javaType": "org.apache.camel.dataformat.flatpack.FlatpackDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-flatpack",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "flatpack",
     "modelJavaType": "org.apache.camel.model.dataformat.FlatpackDataFormat"
   },

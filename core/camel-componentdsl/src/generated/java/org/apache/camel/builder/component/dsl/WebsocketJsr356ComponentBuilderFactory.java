@@ -36,7 +36,7 @@ public interface WebsocketJsr356ComponentBuilderFactory {
      * 
      * Category: http
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-websocket-jsr356
+     * Maven coordinates: org.nordix.camel:camel-websocket-jsr356
      * 
      * @return the dsl builder
      */

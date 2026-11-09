@@ -446,7 +446,7 @@ public interface KubernetesServiceAccountsEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-service-accounts:masterUrl</code>
          * 
@@ -466,7 +466,7 @@ public interface KubernetesServiceAccountsEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-service-accounts:masterUrl</code>
          * 

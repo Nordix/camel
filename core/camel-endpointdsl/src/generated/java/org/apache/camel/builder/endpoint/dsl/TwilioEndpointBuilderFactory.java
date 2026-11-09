@@ -867,7 +867,7 @@ public interface TwilioEndpointBuilderFactory {
          * 
          * Category: api,messaging,cloud
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-twilio
+         * Maven coordinates: org.nordix.camel:camel-twilio
          * 
          * Syntax: <code>twilio:apiName/methodName</code>
          * 
@@ -912,7 +912,7 @@ public interface TwilioEndpointBuilderFactory {
          * 
          * Category: api,messaging,cloud
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-twilio
+         * Maven coordinates: org.nordix.camel:camel-twilio
          * 
          * Syntax: <code>twilio:apiName/methodName</code>
          * 

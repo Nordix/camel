@@ -422,7 +422,7 @@ public interface KameletEndpointBuilderFactory {
          * 
          * Category: core
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-kamelet
+         * Maven coordinates: org.nordix.camel:camel-kamelet
          * 
          * Syntax: <code>kamelet:templateId/routeId</code>
          * 
@@ -445,7 +445,7 @@ public interface KameletEndpointBuilderFactory {
          * 
          * Category: core
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-kamelet
+         * Maven coordinates: org.nordix.camel:camel-kamelet
          * 
          * Syntax: <code>kamelet:templateId/routeId</code>
          * 

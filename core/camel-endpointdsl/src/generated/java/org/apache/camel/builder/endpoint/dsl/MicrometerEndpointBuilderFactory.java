@@ -152,7 +152,7 @@ public interface MicrometerEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.22
-         * Maven coordinates: org.apache.camel:camel-micrometer
+         * Maven coordinates: org.nordix.camel:camel-micrometer
          * 
          * Syntax: <code>micrometer:metricsType:metricsName</code>
          * 
@@ -180,7 +180,7 @@ public interface MicrometerEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.22
-         * Maven coordinates: org.apache.camel:camel-micrometer
+         * Maven coordinates: org.nordix.camel:camel-micrometer
          * 
          * Syntax: <code>micrometer:metricsType:metricsName</code>
          * 

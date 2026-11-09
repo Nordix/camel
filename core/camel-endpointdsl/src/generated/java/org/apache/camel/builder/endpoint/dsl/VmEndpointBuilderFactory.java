@@ -917,7 +917,7 @@ public interface VmEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-vm
+         * Maven coordinates: org.nordix.camel:camel-vm
          * 
          * Syntax: <code>vm:name</code>
          * 
@@ -936,7 +936,7 @@ public interface VmEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-vm
+         * Maven coordinates: org.nordix.camel:camel-vm
          * 
          * Syntax: <code>vm:name</code>
          * 

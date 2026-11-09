@@ -42,7 +42,7 @@ public interface AzureEventhubsComponentBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-azure-eventhubs
+     * Maven coordinates: org.nordix.camel:camel-azure-eventhubs
      * 
      * @return the dsl builder
      */

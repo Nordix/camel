@@ -387,7 +387,7 @@ public interface EtcdWatchEndpointBuilderFactory {
          * 
          * Category: clustering,database
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-etcd
+         * Maven coordinates: org.nordix.camel:camel-etcd
          * 
          * Syntax: <code>etcd-watch:path</code>
          * 
@@ -406,7 +406,7 @@ public interface EtcdWatchEndpointBuilderFactory {
          * 
          * Category: clustering,database
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-etcd
+         * Maven coordinates: org.nordix.camel:camel-etcd
          * 
          * Syntax: <code>etcd-watch:path</code>
          * 

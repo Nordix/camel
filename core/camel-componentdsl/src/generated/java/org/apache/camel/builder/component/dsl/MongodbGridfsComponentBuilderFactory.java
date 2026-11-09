@@ -36,7 +36,7 @@ public interface MongodbGridfsComponentBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-mongodb-gridfs
+     * Maven coordinates: org.nordix.camel:camel-mongodb-gridfs
      * 
      * @return the dsl builder
      */

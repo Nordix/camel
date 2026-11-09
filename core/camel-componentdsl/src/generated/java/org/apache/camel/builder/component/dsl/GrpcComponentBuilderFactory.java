@@ -36,7 +36,7 @@ public interface GrpcComponentBuilderFactory {
      * 
      * Category: rpc
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-grpc
+     * Maven coordinates: org.nordix.camel:camel-grpc
      * 
      * @return the dsl builder
      */

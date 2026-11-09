@@ -92,7 +92,7 @@ public interface GrapeEndpointBuilderFactory {
          * 
          * Category: management,deployment
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-grape
+         * Maven coordinates: org.nordix.camel:camel-grape
          * 
          * Syntax: <code>grape:defaultCoordinates</code>
          * 
@@ -113,7 +113,7 @@ public interface GrapeEndpointBuilderFactory {
          * 
          * Category: management,deployment
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-grape
+         * Maven coordinates: org.nordix.camel:camel-grape
          * 
          * Syntax: <code>grape:defaultCoordinates</code>
          * 

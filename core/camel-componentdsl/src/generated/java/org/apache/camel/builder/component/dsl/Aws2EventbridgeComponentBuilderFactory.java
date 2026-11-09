@@ -36,7 +36,7 @@ public interface Aws2EventbridgeComponentBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.6
-     * Maven coordinates: org.apache.camel:camel-aws2-eventbridge
+     * Maven coordinates: org.nordix.camel:camel-aws2-eventbridge
      * 
      * @return the dsl builder
      */

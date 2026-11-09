@@ -176,7 +176,7 @@ public interface MasterEndpointBuilderFactory {
          * 
          * Category: clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-master
+         * Maven coordinates: org.nordix.camel:camel-master
          * 
          * Syntax: <code>master:namespace:delegateUri</code>
          * 
@@ -199,7 +199,7 @@ public interface MasterEndpointBuilderFactory {
          * 
          * Category: clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-master
+         * Maven coordinates: org.nordix.camel:camel-master
          * 
          * Syntax: <code>master:namespace:delegateUri</code>
          * 

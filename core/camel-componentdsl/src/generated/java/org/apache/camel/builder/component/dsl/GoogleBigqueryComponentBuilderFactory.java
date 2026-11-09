@@ -36,7 +36,7 @@ public interface GoogleBigqueryComponentBuilderFactory {
      * 
      * Category: cloud,bigdata
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-google-bigquery
+     * Maven coordinates: org.nordix.camel:camel-google-bigquery
      * 
      * @return the dsl builder
      */

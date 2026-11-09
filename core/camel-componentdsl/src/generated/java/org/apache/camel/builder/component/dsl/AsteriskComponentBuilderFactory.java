@@ -36,7 +36,7 @@ public interface AsteriskComponentBuilderFactory {
      * 
      * Category: voip
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-asterisk
+     * Maven coordinates: org.nordix.camel:camel-asterisk
      * 
      * @return the dsl builder
      */

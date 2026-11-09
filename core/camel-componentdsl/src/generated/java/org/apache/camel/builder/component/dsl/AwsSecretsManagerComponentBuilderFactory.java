@@ -36,7 +36,7 @@ public interface AwsSecretsManagerComponentBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-aws-secrets-manager
+     * Maven coordinates: org.nordix.camel:camel-aws-secrets-manager
      * 
      * @return the dsl builder
      */

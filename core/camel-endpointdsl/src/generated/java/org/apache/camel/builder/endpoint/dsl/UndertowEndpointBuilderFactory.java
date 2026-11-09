@@ -1673,7 +1673,7 @@ public interface UndertowEndpointBuilderFactory {
          * 
          * Category: http,websocket
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-undertow
+         * Maven coordinates: org.nordix.camel:camel-undertow
          * 
          * Syntax: <code>undertow:httpURI</code>
          * 
@@ -1693,7 +1693,7 @@ public interface UndertowEndpointBuilderFactory {
          * 
          * Category: http,websocket
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-undertow
+         * Maven coordinates: org.nordix.camel:camel-undertow
          * 
          * Syntax: <code>undertow:httpURI</code>
          * 

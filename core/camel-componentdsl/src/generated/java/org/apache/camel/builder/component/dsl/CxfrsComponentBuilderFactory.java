@@ -38,7 +38,7 @@ public interface CxfrsComponentBuilderFactory {
      * 
      * Category: rest
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-cxf
+     * Maven coordinates: org.nordix.camel:camel-cxf
      * 
      * @return the dsl builder
      */

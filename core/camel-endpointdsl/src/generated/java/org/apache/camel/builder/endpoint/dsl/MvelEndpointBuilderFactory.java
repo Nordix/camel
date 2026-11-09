@@ -216,7 +216,7 @@ public interface MvelEndpointBuilderFactory {
          * 
          * Category: transformation,script
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-mvel
+         * Maven coordinates: org.nordix.camel:camel-mvel
          * 
          * Syntax: <code>mvel:resourceUri</code>
          * 
@@ -240,7 +240,7 @@ public interface MvelEndpointBuilderFactory {
          * 
          * Category: transformation,script
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-mvel
+         * Maven coordinates: org.nordix.camel:camel-mvel
          * 
          * Syntax: <code>mvel:resourceUri</code>
          * 

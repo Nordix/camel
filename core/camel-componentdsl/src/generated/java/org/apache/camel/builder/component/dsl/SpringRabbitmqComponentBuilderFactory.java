@@ -36,7 +36,7 @@ public interface SpringRabbitmqComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-spring-rabbitmq
+     * Maven coordinates: org.nordix.camel:camel-spring-rabbitmq
      * 
      * @return the dsl builder
      */

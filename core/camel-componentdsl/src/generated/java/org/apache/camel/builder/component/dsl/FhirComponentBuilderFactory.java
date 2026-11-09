@@ -38,7 +38,7 @@ public interface FhirComponentBuilderFactory {
      * 
      * Category: api
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-fhir
+     * Maven coordinates: org.nordix.camel:camel-fhir
      * 
      * @return the dsl builder
      */

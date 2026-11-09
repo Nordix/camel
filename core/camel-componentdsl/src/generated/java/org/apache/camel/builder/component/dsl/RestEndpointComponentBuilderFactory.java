@@ -36,7 +36,7 @@ public interface RestEndpointComponentBuilderFactory {
      * 
      * Category: core,rest
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-rest
+     * Maven coordinates: org.nordix.camel:camel-rest
      * 
      * @return the dsl builder
      */

@@ -36,7 +36,7 @@ public interface JgroupsRaftComponentBuilderFactory {
      * 
      * Category: clustering,messaging
      * Since: 2.24
-     * Maven coordinates: org.apache.camel:camel-jgroups-raft
+     * Maven coordinates: org.nordix.camel:camel-jgroups-raft
      * 
      * @return the dsl builder
      */

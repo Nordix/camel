@@ -272,7 +272,7 @@ public interface BrowseEndpointBuilderFactory {
          * 
          * Category: core,monitoring
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-browse
+         * Maven coordinates: org.nordix.camel:camel-browse
          * 
          * Syntax: <code>browse:name</code>
          * 
@@ -292,7 +292,7 @@ public interface BrowseEndpointBuilderFactory {
          * 
          * Category: core,monitoring
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-browse
+         * Maven coordinates: org.nordix.camel:camel-browse
          * 
          * Syntax: <code>browse:name</code>
          * 

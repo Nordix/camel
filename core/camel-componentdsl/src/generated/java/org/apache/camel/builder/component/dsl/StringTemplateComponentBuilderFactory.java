@@ -36,7 +36,7 @@ public interface StringTemplateComponentBuilderFactory {
      * 
      * Category: transformation,script
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-stringtemplate
+     * Maven coordinates: org.nordix.camel:camel-stringtemplate
      * 
      * @return the dsl builder
      */

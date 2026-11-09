@@ -142,7 +142,7 @@ public interface GoogleBigQueryEndpointBuilderFactory {
          * 
          * Category: cloud,bigdata
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-google-bigquery
+         * Maven coordinates: org.nordix.camel:camel-google-bigquery
          * 
          * Syntax: <code>google-bigquery:projectId:datasetId:tableId</code>
          * 
@@ -167,7 +167,7 @@ public interface GoogleBigQueryEndpointBuilderFactory {
          * 
          * Category: cloud,bigdata
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-google-bigquery
+         * Maven coordinates: org.nordix.camel:camel-google-bigquery
          * 
          * Syntax: <code>google-bigquery:projectId:datasetId:tableId</code>
          * 

@@ -37,7 +37,7 @@ public interface CordaComponentBuilderFactory {
      * 
      * Category: blockchain,rpc
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-corda
+     * Maven coordinates: org.nordix.camel:camel-corda
      * 
      * @return the dsl builder
      */

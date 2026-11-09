@@ -9,9 +9,9 @@
     "label": "language,json",
     "javaType": "org.apache.camel.jsonpath.JsonPathLanguage",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-jsonpath",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "jsonpath",
     "modelJavaType": "org.apache.camel.model.language.JsonPathExpression"
   },

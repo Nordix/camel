@@ -458,7 +458,7 @@ public interface JcloudsEndpointBuilderFactory {
          * 
          * Category: api,cloud,compute
          * Since: 2.9
-         * Maven coordinates: org.apache.camel:camel-jclouds
+         * Maven coordinates: org.nordix.camel:camel-jclouds
          * 
          * Syntax: <code>jclouds:command:providerId</code>
          * 
@@ -482,7 +482,7 @@ public interface JcloudsEndpointBuilderFactory {
          * 
          * Category: api,cloud,compute
          * Since: 2.9
-         * Maven coordinates: org.apache.camel:camel-jclouds
+         * Maven coordinates: org.nordix.camel:camel-jclouds
          * 
          * Syntax: <code>jclouds:command:providerId</code>
          * 

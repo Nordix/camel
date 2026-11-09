@@ -1058,7 +1058,7 @@ public interface HBaseEndpointBuilderFactory {
          * 
          * Category: bigdata,database,hadoop
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-hbase
+         * Maven coordinates: org.nordix.camel:camel-hbase
          * 
          * Syntax: <code>hbase:tableName</code>
          * 
@@ -1077,7 +1077,7 @@ public interface HBaseEndpointBuilderFactory {
          * 
          * Category: bigdata,database,hadoop
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-hbase
+         * Maven coordinates: org.nordix.camel:camel-hbase
          * 
          * Syntax: <code>hbase:tableName</code>
          * 

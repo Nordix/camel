@@ -201,7 +201,7 @@ public interface SchematronEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-schematron
+         * Maven coordinates: org.nordix.camel:camel-schematron
          * 
          * Syntax: <code>schematron:path</code>
          * 
@@ -221,7 +221,7 @@ public interface SchematronEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-schematron
+         * Maven coordinates: org.nordix.camel:camel-schematron
          * 
          * Syntax: <code>schematron:path</code>
          * 

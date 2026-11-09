@@ -36,7 +36,7 @@ public interface BonitaComponentBuilderFactory {
      * 
      * Category: process
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-bonita
+     * Maven coordinates: org.nordix.camel:camel-bonita
      * 
      * @return the dsl builder
      */

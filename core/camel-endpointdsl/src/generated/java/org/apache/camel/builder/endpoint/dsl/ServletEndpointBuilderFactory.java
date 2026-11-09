@@ -826,7 +826,7 @@ public interface ServletEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 2.0
-         * Maven coordinates: org.apache.camel:camel-servlet
+         * Maven coordinates: org.nordix.camel:camel-servlet
          * 
          * Syntax: <code>servlet:contextPath</code>
          * 
@@ -845,7 +845,7 @@ public interface ServletEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 2.0
-         * Maven coordinates: org.apache.camel:camel-servlet
+         * Maven coordinates: org.nordix.camel:camel-servlet
          * 
          * Syntax: <code>servlet:contextPath</code>
          * 

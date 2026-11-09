@@ -1426,7 +1426,7 @@ public interface KubernetesCustomResourcesEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 3.7
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-custom-resources:masterUrl</code>
          * 
@@ -1447,7 +1447,7 @@ public interface KubernetesCustomResourcesEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 3.7
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-custom-resources:masterUrl</code>
          * 

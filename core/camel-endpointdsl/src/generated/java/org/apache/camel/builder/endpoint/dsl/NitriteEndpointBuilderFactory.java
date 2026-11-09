@@ -554,7 +554,7 @@ public interface NitriteEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-nitrite
+         * Maven coordinates: org.nordix.camel:camel-nitrite
          * 
          * Syntax: <code>nitrite:database</code>
          * 
@@ -573,7 +573,7 @@ public interface NitriteEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-nitrite
+         * Maven coordinates: org.nordix.camel:camel-nitrite
          * 
          * Syntax: <code>nitrite:database</code>
          * 

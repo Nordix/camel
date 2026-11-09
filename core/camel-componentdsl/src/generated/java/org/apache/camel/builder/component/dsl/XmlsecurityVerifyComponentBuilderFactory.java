@@ -36,7 +36,7 @@ public interface XmlsecurityVerifyComponentBuilderFactory {
      * 
      * Category: security,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-xmlsecurity
+     * Maven coordinates: org.nordix.camel:camel-xmlsecurity
      * 
      * @return the dsl builder
      */

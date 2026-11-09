@@ -36,7 +36,7 @@ public interface ValidatorComponentBuilderFactory {
      * 
      * Category: core,validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-validator
+     * Maven coordinates: org.nordix.camel:camel-validator
      * 
      * @return the dsl builder
      */

@@ -7,8 +7,8 @@
     "deprecated": false,
     "firstVersion": "3.7.0",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel.maven",
+    "groupId": "org.nordix.camel.maven",
     "artifactId": "camel-vertx-kafka-maven-plugin",
-    "version": "3.14.10-SNAPSHOT"
+    "version": "3.14.10-est-2"
   }
 }

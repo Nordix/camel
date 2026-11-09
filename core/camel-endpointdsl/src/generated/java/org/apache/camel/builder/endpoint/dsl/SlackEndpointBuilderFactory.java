@@ -1032,7 +1032,7 @@ public interface SlackEndpointBuilderFactory {
          * 
          * Category: social
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-slack
+         * Maven coordinates: org.nordix.camel:camel-slack
          * 
          * Syntax: <code>slack:channel</code>
          * 
@@ -1052,7 +1052,7 @@ public interface SlackEndpointBuilderFactory {
          * 
          * Category: social
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-slack
+         * Maven coordinates: org.nordix.camel:camel-slack
          * 
          * Syntax: <code>slack:channel</code>
          * 

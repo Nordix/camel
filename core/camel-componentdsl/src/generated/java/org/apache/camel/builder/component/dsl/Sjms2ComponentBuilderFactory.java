@@ -38,7 +38,7 @@ public interface Sjms2ComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-sjms2
+     * Maven coordinates: org.nordix.camel:camel-sjms2
      * 
      * @return the dsl builder
      */

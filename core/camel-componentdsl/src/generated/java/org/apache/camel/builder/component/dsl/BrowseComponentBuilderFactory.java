@@ -36,7 +36,7 @@ public interface BrowseComponentBuilderFactory {
      * 
      * Category: core,monitoring
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-browse
+     * Maven coordinates: org.nordix.camel:camel-browse
      * 
      * @return the dsl builder
      */

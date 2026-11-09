@@ -1054,7 +1054,7 @@ public interface GoogleCalendarStreamEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-google-calendar
+         * Maven coordinates: org.nordix.camel:camel-google-calendar
          * 
          * Syntax: <code>google-calendar-stream:index</code>
          * 
@@ -1074,7 +1074,7 @@ public interface GoogleCalendarStreamEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-google-calendar
+         * Maven coordinates: org.nordix.camel:camel-google-calendar
          * 
          * Syntax: <code>google-calendar-stream:index</code>
          * 

@@ -874,7 +874,7 @@ public interface RedisEndpointBuilderFactory {
          * 
          * Category: spring,nosql
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-spring-redis
+         * Maven coordinates: org.nordix.camel:camel-spring-redis
          * 
          * Syntax: <code>spring-redis:host:port</code>
          * 
@@ -896,7 +896,7 @@ public interface RedisEndpointBuilderFactory {
          * 
          * Category: spring,nosql
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-spring-redis
+         * Maven coordinates: org.nordix.camel:camel-spring-redis
          * 
          * Syntax: <code>spring-redis:host:port</code>
          * 

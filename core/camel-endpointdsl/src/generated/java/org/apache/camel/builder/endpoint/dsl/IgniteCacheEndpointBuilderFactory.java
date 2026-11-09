@@ -849,7 +849,7 @@ public interface IgniteCacheEndpointBuilderFactory {
          * 
          * Category: cache,datagrid
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ignite
+         * Maven coordinates: org.nordix.camel:camel-ignite
          * 
          * Syntax: <code>ignite-cache:cacheName</code>
          * 
@@ -869,7 +869,7 @@ public interface IgniteCacheEndpointBuilderFactory {
          * 
          * Category: cache,datagrid
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ignite
+         * Maven coordinates: org.nordix.camel:camel-ignite
          * 
          * Syntax: <code>ignite-cache:cacheName</code>
          * 

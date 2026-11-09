@@ -267,7 +267,7 @@ public interface VelocityEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-velocity
+         * Maven coordinates: org.nordix.camel:camel-velocity
          * 
          * Syntax: <code>velocity:resourceUri</code>
          * 
@@ -291,7 +291,7 @@ public interface VelocityEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-velocity
+         * Maven coordinates: org.nordix.camel:camel-velocity
          * 
          * Syntax: <code>velocity:resourceUri</code>
          * 

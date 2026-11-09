@@ -682,7 +682,7 @@ public interface DisruptorEndpointBuilderFactory {
          * 
          * Category: endpoint
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-disruptor
+         * Maven coordinates: org.nordix.camel:camel-disruptor
          * 
          * Syntax: <code>disruptor:name</code>
          * 
@@ -701,7 +701,7 @@ public interface DisruptorEndpointBuilderFactory {
          * 
          * Category: endpoint
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-disruptor
+         * Maven coordinates: org.nordix.camel:camel-disruptor
          * 
          * Syntax: <code>disruptor:name</code>
          * 

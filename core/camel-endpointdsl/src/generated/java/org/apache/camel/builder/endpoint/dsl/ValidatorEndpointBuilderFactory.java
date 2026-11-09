@@ -377,7 +377,7 @@ public interface ValidatorEndpointBuilderFactory {
          * 
          * Category: core,validation
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-validator
+         * Maven coordinates: org.nordix.camel:camel-validator
          * 
          * Syntax: <code>validator:resourceUri</code>
          * 
@@ -398,7 +398,7 @@ public interface ValidatorEndpointBuilderFactory {
          * 
          * Category: core,validation
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-validator
+         * Maven coordinates: org.nordix.camel:camel-validator
          * 
          * Syntax: <code>validator:resourceUri</code>
          * 

@@ -288,7 +288,7 @@ public interface ArangoDbEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-arangodb
+         * Maven coordinates: org.nordix.camel:camel-arangodb
          * 
          * Syntax: <code>arangodb:database</code>
          * 
@@ -308,7 +308,7 @@ public interface ArangoDbEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-arangodb
+         * Maven coordinates: org.nordix.camel:camel-arangodb
          * 
          * Syntax: <code>arangodb:database</code>
          * 

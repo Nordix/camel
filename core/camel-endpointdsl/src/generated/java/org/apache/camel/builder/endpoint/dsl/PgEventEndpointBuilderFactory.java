@@ -453,7 +453,7 @@ public interface PgEventEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-pgevent
+         * Maven coordinates: org.nordix.camel:camel-pgevent
          * 
          * Syntax: <code>pgevent:host:port/database/channel</code>
          * 
@@ -485,7 +485,7 @@ public interface PgEventEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-pgevent
+         * Maven coordinates: org.nordix.camel:camel-pgevent
          * 
          * Syntax: <code>pgevent:host:port/database/channel</code>
          * 

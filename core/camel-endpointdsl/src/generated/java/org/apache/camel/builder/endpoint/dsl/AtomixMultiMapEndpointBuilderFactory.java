@@ -528,7 +528,7 @@ public interface AtomixMultiMapEndpointBuilderFactory {
          * 
          * Category: clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-atomix
+         * Maven coordinates: org.nordix.camel:camel-atomix
          * 
          * Syntax: <code>atomix-multimap:resourceName</code>
          * 
@@ -547,7 +547,7 @@ public interface AtomixMultiMapEndpointBuilderFactory {
          * 
          * Category: clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-atomix
+         * Maven coordinates: org.nordix.camel:camel-atomix
          * 
          * Syntax: <code>atomix-multimap:resourceName</code>
          * 

@@ -36,7 +36,7 @@ public interface Aws2EcsComponentBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ecs
+     * Maven coordinates: org.nordix.camel:camel-aws2-ecs
      * 
      * @return the dsl builder
      */

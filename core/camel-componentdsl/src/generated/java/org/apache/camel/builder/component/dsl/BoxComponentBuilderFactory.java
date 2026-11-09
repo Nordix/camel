@@ -38,7 +38,7 @@ public interface BoxComponentBuilderFactory {
      * 
      * Category: cloud,file,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-box
+     * Maven coordinates: org.nordix.camel:camel-box
      * 
      * @return the dsl builder
      */

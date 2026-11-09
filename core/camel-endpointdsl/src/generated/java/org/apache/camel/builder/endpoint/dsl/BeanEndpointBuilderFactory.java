@@ -246,7 +246,7 @@ public interface BeanEndpointBuilderFactory {
          * 
          * Category: core,java
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-bean
+         * Maven coordinates: org.nordix.camel:camel-bean
          * 
          * Syntax: <code>bean:beanName</code>
          * 
@@ -265,7 +265,7 @@ public interface BeanEndpointBuilderFactory {
          * 
          * Category: core,java
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-bean
+         * Maven coordinates: org.nordix.camel:camel-bean
          * 
          * Syntax: <code>bean:beanName</code>
          * 

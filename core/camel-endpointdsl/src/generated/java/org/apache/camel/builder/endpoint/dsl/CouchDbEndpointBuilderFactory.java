@@ -601,7 +601,7 @@ public interface CouchDbEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-couchdb
+         * Maven coordinates: org.nordix.camel:camel-couchdb
          * 
          * Syntax: <code>couchdb:protocol:hostname:port/database</code>
          * 
@@ -633,7 +633,7 @@ public interface CouchDbEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-couchdb
+         * Maven coordinates: org.nordix.camel:camel-couchdb
          * 
          * Syntax: <code>couchdb:protocol:hostname:port/database</code>
          * 

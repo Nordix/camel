@@ -3357,7 +3357,7 @@ public interface MailEndpointBuilderFactory {
          * 
          * Category: mail
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-mail
+         * Maven coordinates: org.nordix.camel:camel-mail
          * 
          * Syntax: <code>imap:host:port</code>
          * 
@@ -3379,7 +3379,7 @@ public interface MailEndpointBuilderFactory {
          * 
          * Category: mail
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-mail
+         * Maven coordinates: org.nordix.camel:camel-mail
          * 
          * Syntax: <code>imap:host:port</code>
          * 
@@ -3403,7 +3403,7 @@ public interface MailEndpointBuilderFactory {
          * 
          * Category: mail
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-mail
+         * Maven coordinates: org.nordix.camel:camel-mail
          * 
          * Syntax: <code>imaps:host:port</code>
          * 
@@ -3425,7 +3425,7 @@ public interface MailEndpointBuilderFactory {
          * 
          * Category: mail
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-mail
+         * Maven coordinates: org.nordix.camel:camel-mail
          * 
          * Syntax: <code>pop3:host:port</code>
          * 
@@ -3447,7 +3447,7 @@ public interface MailEndpointBuilderFactory {
          * 
          * Category: mail
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-mail
+         * Maven coordinates: org.nordix.camel:camel-mail
          * 
          * Syntax: <code>pop3s:host:port</code>
          * 
@@ -3469,7 +3469,7 @@ public interface MailEndpointBuilderFactory {
          * 
          * Category: mail
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-mail
+         * Maven coordinates: org.nordix.camel:camel-mail
          * 
          * Syntax: <code>smtp:host:port</code>
          * 
@@ -3491,7 +3491,7 @@ public interface MailEndpointBuilderFactory {
          * 
          * Category: mail
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-mail
+         * Maven coordinates: org.nordix.camel:camel-mail
          * 
          * Syntax: <code>smtps:host:port</code>
          * 

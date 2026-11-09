@@ -36,7 +36,7 @@ public interface GoogleSheetsComponentBuilderFactory {
      * 
      * Category: api,cloud,sheets
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-sheets
+     * Maven coordinates: org.nordix.camel:camel-google-sheets
      * 
      * @return the dsl builder
      */

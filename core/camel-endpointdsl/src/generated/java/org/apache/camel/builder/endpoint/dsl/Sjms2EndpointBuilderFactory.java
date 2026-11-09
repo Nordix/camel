@@ -3152,7 +3152,7 @@ public interface Sjms2EndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-sjms2
+         * Maven coordinates: org.nordix.camel:camel-sjms2
          * 
          * Syntax: <code>sjms2:destinationType:destinationName</code>
          * 
@@ -3178,7 +3178,7 @@ public interface Sjms2EndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-sjms2
+         * Maven coordinates: org.nordix.camel:camel-sjms2
          * 
          * Syntax: <code>sjms2:destinationType:destinationName</code>
          * 

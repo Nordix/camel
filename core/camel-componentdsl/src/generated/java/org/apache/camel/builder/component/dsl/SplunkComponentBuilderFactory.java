@@ -36,7 +36,7 @@ public interface SplunkComponentBuilderFactory {
      * 
      * Category: iot,monitoring
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-splunk
+     * Maven coordinates: org.nordix.camel:camel-splunk
      * 
      * @return the dsl builder
      */

@@ -516,7 +516,7 @@ public interface DirectVmEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-directvm
+         * Maven coordinates: org.nordix.camel:camel-directvm
          * 
          * Syntax: <code>direct-vm:name</code>
          * 
@@ -536,7 +536,7 @@ public interface DirectVmEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-directvm
+         * Maven coordinates: org.nordix.camel:camel-directvm
          * 
          * Syntax: <code>direct-vm:name</code>
          * 

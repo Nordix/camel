@@ -36,7 +36,7 @@ public interface DrillComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-drill
+     * Maven coordinates: org.nordix.camel:camel-drill
      * 
      * @return the dsl builder
      */

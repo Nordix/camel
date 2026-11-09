@@ -844,7 +844,7 @@ public interface WordpressEndpointBuilderFactory {
          * 
          * Category: cloud,api,cms
          * Since: 2.21
-         * Maven coordinates: org.apache.camel:camel-wordpress
+         * Maven coordinates: org.nordix.camel:camel-wordpress
          * 
          * Syntax: <code>wordpress:operation</code>
          * 
@@ -869,7 +869,7 @@ public interface WordpressEndpointBuilderFactory {
          * 
          * Category: cloud,api,cms
          * Since: 2.21
-         * Maven coordinates: org.apache.camel:camel-wordpress
+         * Maven coordinates: org.nordix.camel:camel-wordpress
          * 
          * Syntax: <code>wordpress:operation</code>
          * 

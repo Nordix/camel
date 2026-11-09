@@ -36,7 +36,7 @@ public interface SagaComponentBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-saga
+     * Maven coordinates: org.nordix.camel:camel-saga
      * 
      * @return the dsl builder
      */

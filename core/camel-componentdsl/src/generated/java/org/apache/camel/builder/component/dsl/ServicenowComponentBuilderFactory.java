@@ -36,7 +36,7 @@ public interface ServicenowComponentBuilderFactory {
      * 
      * Category: api,cloud,management
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-servicenow
+     * Maven coordinates: org.nordix.camel:camel-servicenow
      * 
      * @return the dsl builder
      */

@@ -36,7 +36,7 @@ public interface AzureStorageDatalakeComponentBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-azure-storage-datalake
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-datalake
      * 
      * @return the dsl builder
      */
