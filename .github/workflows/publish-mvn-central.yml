@@ -86,7 +86,7 @@ jobs:
       # distribution out of the Central bundle.
       - name: Build and stage to local repository
         run: |
-          ./mvnw -B -V -e -fae -DskipTests -Dnoassembly \
+          ./mvnw -B -V -e -fae -DskipTests -Dnoassembly -Pdeploy \
             -Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false \
             -Dmaven.wagon.httpconnectionManager.ttlSeconds=120 \
             --no-transfer-progress \
