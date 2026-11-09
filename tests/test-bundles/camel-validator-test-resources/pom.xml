@@ -21,12 +21,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel.tests.bundles</groupId>
+        <groupId>org.nordix.camel.tests.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
 
-    <groupId>org.apache.camel.tests</groupId>
+    <groupId>org.nordix.camel.tests</groupId>
     <artifactId>camel-validator-test-resources</artifactId>
     <packaging>jar</packaging>
     <name>Camel :: Integration Tests :: Camel Validator Test Resources</name>

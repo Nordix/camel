@@ -346,7 +346,7 @@
 
         <!-- for validator tests, the artifact itself is included inside the project repository 'camel-validator-test-repo' above -->
         <dependency>
-            <groupId>org.apache.camel.tests</groupId>
+            <groupId>org.nordix.camel.tests</groupId>
             <artifactId>camel-validator-test-resources</artifactId>
             <version>${project.version}</version>
         </dependency>
