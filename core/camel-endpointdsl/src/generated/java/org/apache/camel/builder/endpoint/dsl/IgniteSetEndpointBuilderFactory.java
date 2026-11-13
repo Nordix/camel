@@ -248,7 +248,7 @@ public interface IgniteSetEndpointBuilderFactory {
          * 
          * Category: cache,compute
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ignite
+         * Maven coordinates: org.nordix.camel:camel-ignite
          * 
          * Syntax: <code>ignite-set:name</code>
          * 
@@ -267,7 +267,7 @@ public interface IgniteSetEndpointBuilderFactory {
          * 
          * Category: cache,compute
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ignite
+         * Maven coordinates: org.nordix.camel:camel-ignite
          * 
          * Syntax: <code>ignite-set:name</code>
          * 

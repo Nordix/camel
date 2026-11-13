@@ -271,7 +271,7 @@ public interface MiloServerEndpointBuilderFactory {
          * 
          * Category: iot
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-milo
+         * Maven coordinates: org.nordix.camel:camel-milo
          * 
          * Syntax: <code>milo-server:itemId</code>
          * 
@@ -290,7 +290,7 @@ public interface MiloServerEndpointBuilderFactory {
          * 
          * Category: iot
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-milo
+         * Maven coordinates: org.nordix.camel:camel-milo
          * 
          * Syntax: <code>milo-server:itemId</code>
          * 

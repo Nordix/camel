@@ -186,7 +186,7 @@ public interface RestOpenApiEndpointBuilderFactory {
          * 
          * Category: openapi,rest,api
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-rest-openapi
+         * Maven coordinates: org.nordix.camel:camel-rest-openapi
          * 
          * Syntax: <code>rest-openapi:specificationUri#operationId</code>
          * 
@@ -224,7 +224,7 @@ public interface RestOpenApiEndpointBuilderFactory {
          * 
          * Category: openapi,rest,api
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-rest-openapi
+         * Maven coordinates: org.nordix.camel:camel-rest-openapi
          * 
          * Syntax: <code>rest-openapi:specificationUri#operationId</code>
          * 

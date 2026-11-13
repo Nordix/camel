@@ -669,7 +669,7 @@ public interface XJEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-xj
+         * Maven coordinates: org.nordix.camel:camel-xj
          * 
          * Syntax: <code>xj:resourceUri</code>
          * 
@@ -694,7 +694,7 @@ public interface XJEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-xj
+         * Maven coordinates: org.nordix.camel:camel-xj
          * 
          * Syntax: <code>xj:resourceUri</code>
          * 

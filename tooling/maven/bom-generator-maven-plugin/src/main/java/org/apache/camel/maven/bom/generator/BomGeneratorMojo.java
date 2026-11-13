@@ -154,7 +154,8 @@ public class BomGeneratorMojo extends AbstractMojo {
     private List<Dependency> enhance(List<Dependency> dependencyList) {
 
         for (Dependency dep : dependencyList) {
-            if (dep.getGroupId().startsWith("org.apache.camel") && project.getVersion().equals(dep.getVersion())) {
+            if ((dep.getGroupId().startsWith("org.apache.camel") || dep.getGroupId().startsWith("org.nordix.camel"))
+                                && project.getVersion().equals(dep.getVersion())) {
                 dep.setVersion("${project.version}");
             }
         }
@@ -176,8 +177,8 @@ public class BomGeneratorMojo extends AbstractMojo {
                 outDependencies.add(dep);
             } else {
                 // lets log a WARN if some Camel JARs was excluded
-                if (dep.getGroupId().startsWith("org.apache.camel")) {
-                    getLog().warn(dep + " excluded from BOM");
+                if (dep.getGroupId().startsWith("org.apache.camel") || dep.getGroupId().startsWith("org.nordix.camel")) {
+                                    getLog().warn(dep + " excluded from BOM");
                 }
             }
         }

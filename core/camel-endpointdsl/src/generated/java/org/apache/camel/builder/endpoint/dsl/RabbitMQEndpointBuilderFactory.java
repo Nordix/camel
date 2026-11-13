@@ -4381,7 +4381,7 @@ public interface RabbitMQEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-rabbitmq
+         * Maven coordinates: org.nordix.camel:camel-rabbitmq
          * 
          * Syntax: <code>rabbitmq:exchangeName</code>
          * 
@@ -4402,7 +4402,7 @@ public interface RabbitMQEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-rabbitmq
+         * Maven coordinates: org.nordix.camel:camel-rabbitmq
          * 
          * Syntax: <code>rabbitmq:exchangeName</code>
          * 

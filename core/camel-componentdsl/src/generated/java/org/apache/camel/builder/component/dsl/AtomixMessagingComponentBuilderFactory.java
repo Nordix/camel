@@ -36,7 +36,7 @@ public interface AtomixMessagingComponentBuilderFactory {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * @return the dsl builder
      */

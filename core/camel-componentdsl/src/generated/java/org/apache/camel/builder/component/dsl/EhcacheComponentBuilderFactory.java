@@ -36,7 +36,7 @@ public interface EhcacheComponentBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-ehcache
+     * Maven coordinates: org.nordix.camel:camel-ehcache
      * 
      * @return the dsl builder
      */

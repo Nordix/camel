@@ -36,7 +36,7 @@ public interface FileComponentBuilderFactory {
      * 
      * Category: file,core
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-file
+     * Maven coordinates: org.nordix.camel:camel-file
      * 
      * @return the dsl builder
      */

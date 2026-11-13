@@ -38,7 +38,7 @@ public interface VertxKafkaComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-vertx-kafka
+     * Maven coordinates: org.nordix.camel:camel-vertx-kafka
      * 
      * @return the dsl builder
      */

@@ -36,7 +36,7 @@ public interface WorkdayComponentBuilderFactory {
      * 
      * Category: cloud,api,hcm
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-workday
+     * Maven coordinates: org.nordix.camel:camel-workday
      * 
      * @return the dsl builder
      */

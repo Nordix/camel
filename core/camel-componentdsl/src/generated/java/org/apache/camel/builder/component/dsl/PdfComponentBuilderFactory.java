@@ -36,7 +36,7 @@ public interface PdfComponentBuilderFactory {
      * 
      * Category: document,transformation,printing
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-pdf
+     * Maven coordinates: org.nordix.camel:camel-pdf
      * 
      * @return the dsl builder
      */

@@ -173,7 +173,7 @@ public interface LdapEndpointBuilderFactory {
          * 
          * Category: search,ldap
          * Since: 1.5
-         * Maven coordinates: org.apache.camel:camel-ldap
+         * Maven coordinates: org.nordix.camel:camel-ldap
          * 
          * Syntax: <code>ldap:dirContextName</code>
          * 
@@ -200,7 +200,7 @@ public interface LdapEndpointBuilderFactory {
          * 
          * Category: search,ldap
          * Since: 1.5
-         * Maven coordinates: org.apache.camel:camel-ldap
+         * Maven coordinates: org.nordix.camel:camel-ldap
          * 
          * Syntax: <code>ldap:dirContextName</code>
          * 

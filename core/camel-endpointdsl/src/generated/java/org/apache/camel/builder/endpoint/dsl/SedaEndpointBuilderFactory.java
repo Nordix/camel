@@ -920,7 +920,7 @@ public interface SedaEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-seda
+         * Maven coordinates: org.nordix.camel:camel-seda
          * 
          * Syntax: <code>seda:name</code>
          * 
@@ -940,7 +940,7 @@ public interface SedaEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-seda
+         * Maven coordinates: org.nordix.camel:camel-seda
          * 
          * Syntax: <code>seda:name</code>
          * 

@@ -308,7 +308,7 @@ public interface SplunkHECEndpointBuilderFactory {
          * 
          * Category: log,monitoring
          * Since: 3.3
-         * Maven coordinates: org.apache.camel:camel-splunk-hec
+         * Maven coordinates: org.nordix.camel:camel-splunk-hec
          * 
          * Syntax: <code>splunk-hec:splunkURL/token</code>
          * 
@@ -331,7 +331,7 @@ public interface SplunkHECEndpointBuilderFactory {
          * 
          * Category: log,monitoring
          * Since: 3.3
-         * Maven coordinates: org.apache.camel:camel-splunk-hec
+         * Maven coordinates: org.nordix.camel:camel-splunk-hec
          * 
          * Syntax: <code>splunk-hec:splunkURL/token</code>
          * 

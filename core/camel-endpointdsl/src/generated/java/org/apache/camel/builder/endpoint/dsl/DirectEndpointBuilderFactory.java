@@ -498,7 +498,7 @@ public interface DirectEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-direct
+         * Maven coordinates: org.nordix.camel:camel-direct
          * 
          * Syntax: <code>direct:name</code>
          * 
@@ -517,7 +517,7 @@ public interface DirectEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-direct
+         * Maven coordinates: org.nordix.camel:camel-direct
          * 
          * Syntax: <code>direct:name</code>
          * 

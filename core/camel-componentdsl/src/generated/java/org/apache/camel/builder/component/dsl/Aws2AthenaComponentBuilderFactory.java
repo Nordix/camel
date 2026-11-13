@@ -36,7 +36,7 @@ public interface Aws2AthenaComponentBuilderFactory {
      * 
      * Category: cloud,database
      * Since: 3.4
-     * Maven coordinates: org.apache.camel:camel-aws2-athena
+     * Maven coordinates: org.nordix.camel:camel-aws2-athena
      * 
      * @return the dsl builder
      */

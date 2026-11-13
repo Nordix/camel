@@ -1504,7 +1504,7 @@ public interface AtomixMessagingEndpointBuilderFactory {
          * 
          * Category: clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-atomix
+         * Maven coordinates: org.nordix.camel:camel-atomix
          * 
          * Syntax: <code>atomix-messaging:resourceName</code>
          * 
@@ -1523,7 +1523,7 @@ public interface AtomixMessagingEndpointBuilderFactory {
          * 
          * Category: clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-atomix
+         * Maven coordinates: org.nordix.camel:camel-atomix
          * 
          * Syntax: <code>atomix-messaging:resourceName</code>
          * 

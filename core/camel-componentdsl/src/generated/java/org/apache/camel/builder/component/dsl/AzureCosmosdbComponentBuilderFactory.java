@@ -37,7 +37,7 @@ public interface AzureCosmosdbComponentBuilderFactory {
      * 
      * Category: cloud,database
      * Since: 3.10
-     * Maven coordinates: org.apache.camel:camel-azure-cosmosdb
+     * Maven coordinates: org.nordix.camel:camel-azure-cosmosdb
      * 
      * @return the dsl builder
      */

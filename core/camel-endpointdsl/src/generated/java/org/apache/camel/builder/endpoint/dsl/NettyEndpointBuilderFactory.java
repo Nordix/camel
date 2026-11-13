@@ -4905,7 +4905,7 @@ public interface NettyEndpointBuilderFactory {
          * 
          * Category: networking,tcp,udp
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-netty
+         * Maven coordinates: org.nordix.camel:camel-netty
          * 
          * Syntax: <code>netty:protocol://host:port</code>
          * 
@@ -4932,7 +4932,7 @@ public interface NettyEndpointBuilderFactory {
          * 
          * Category: networking,tcp,udp
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-netty
+         * Maven coordinates: org.nordix.camel:camel-netty
          * 
          * Syntax: <code>netty:protocol://host:port</code>
          * 

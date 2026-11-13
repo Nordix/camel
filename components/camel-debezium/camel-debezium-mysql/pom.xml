@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-debezium-parent</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -34,7 +34,7 @@
     <dependencies>
         <!-- camel -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-debezium-common</artifactId>
         </dependency>
 
@@ -60,7 +60,7 @@
 
         <!-- test -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-junit5</artifactId>
             <scope>test</scope>
         </dependency>
@@ -79,7 +79,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.camel.maven</groupId>
+                <groupId>org.nordix.camel.maven</groupId>
                 <artifactId>camel-debezium-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <executions>

@@ -36,7 +36,7 @@ public interface DebeziumSqlserverComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-sqlserver
+     * Maven coordinates: org.nordix.camel:camel-debezium-sqlserver
      * 
      * @return the dsl builder
      */

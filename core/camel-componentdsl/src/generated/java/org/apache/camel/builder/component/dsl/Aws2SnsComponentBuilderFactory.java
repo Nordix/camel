@@ -37,7 +37,7 @@ public interface Aws2SnsComponentBuilderFactory {
      * 
      * Category: cloud,messaging,mobile
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-sns
+     * Maven coordinates: org.nordix.camel:camel-aws2-sns
      * 
      * @return the dsl builder
      */

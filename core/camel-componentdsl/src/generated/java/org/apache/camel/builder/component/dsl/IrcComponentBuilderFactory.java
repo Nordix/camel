@@ -36,7 +36,7 @@ public interface IrcComponentBuilderFactory {
      * 
      * Category: chat
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-irc
+     * Maven coordinates: org.nordix.camel:camel-irc
      * 
      * @return the dsl builder
      */

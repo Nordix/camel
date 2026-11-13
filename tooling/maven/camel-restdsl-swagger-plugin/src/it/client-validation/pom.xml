@@ -65,17 +65,17 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-swagger-rest-dsl-generator</artifactId>
       <version>@project.version@</version>
     </dependency>
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-core</artifactId>
       <version>@project.version@</version>
     </dependency>
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-swagger-java</artifactId>
       <version>@project.version@</version>
     </dependency>

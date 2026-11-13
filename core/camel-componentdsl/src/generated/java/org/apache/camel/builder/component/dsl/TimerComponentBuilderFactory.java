@@ -36,7 +36,7 @@ public interface TimerComponentBuilderFactory {
      * 
      * Category: core,scheduling
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-timer
+     * Maven coordinates: org.nordix.camel:camel-timer
      * 
      * @return the dsl builder
      */

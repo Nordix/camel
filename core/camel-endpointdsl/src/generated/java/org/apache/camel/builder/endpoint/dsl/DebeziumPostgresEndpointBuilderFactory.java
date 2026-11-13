@@ -2241,7 +2241,7 @@ public interface DebeziumPostgresEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-debezium-postgres
+         * Maven coordinates: org.nordix.camel:camel-debezium-postgres
          * 
          * Syntax: <code>debezium-postgres:name</code>
          * 
@@ -2261,7 +2261,7 @@ public interface DebeziumPostgresEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-debezium-postgres
+         * Maven coordinates: org.nordix.camel:camel-debezium-postgres
          * 
          * Syntax: <code>debezium-postgres:name</code>
          * 

@@ -243,7 +243,7 @@ public interface SparkEndpointBuilderFactory {
          * 
          * Category: bigdata,iot
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-spark
+         * Maven coordinates: org.nordix.camel:camel-spark
          * 
          * Syntax: <code>spark:endpointType</code>
          * 
@@ -263,7 +263,7 @@ public interface SparkEndpointBuilderFactory {
          * 
          * Category: bigdata,iot
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-spark
+         * Maven coordinates: org.nordix.camel:camel-spark
          * 
          * Syntax: <code>spark:endpointType</code>
          * 

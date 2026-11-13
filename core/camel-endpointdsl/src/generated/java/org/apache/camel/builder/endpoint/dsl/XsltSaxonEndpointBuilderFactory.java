@@ -636,7 +636,7 @@ public interface XsltSaxonEndpointBuilderFactory {
          * 
          * Category: core,transformation
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-xslt-saxon
+         * Maven coordinates: org.nordix.camel:camel-xslt-saxon
          * 
          * Syntax: <code>xslt-saxon:resourceUri</code>
          * 
@@ -661,7 +661,7 @@ public interface XsltSaxonEndpointBuilderFactory {
          * 
          * Category: core,transformation
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-xslt-saxon
+         * Maven coordinates: org.nordix.camel:camel-xslt-saxon
          * 
          * Syntax: <code>xslt-saxon:resourceUri</code>
          * 

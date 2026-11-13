@@ -478,7 +478,7 @@ public interface Lambda2EndpointBuilderFactory {
          * 
          * Category: cloud,computing,serverless
          * Since: 3.2
-         * Maven coordinates: org.apache.camel:camel-aws2-lambda
+         * Maven coordinates: org.nordix.camel:camel-aws2-lambda
          * 
          * Syntax: <code>aws2-lambda:function</code>
          * 
@@ -497,7 +497,7 @@ public interface Lambda2EndpointBuilderFactory {
          * 
          * Category: cloud,computing,serverless
          * Since: 3.2
-         * Maven coordinates: org.apache.camel:camel-aws2-lambda
+         * Maven coordinates: org.nordix.camel:camel-aws2-lambda
          * 
          * Syntax: <code>aws2-lambda:function</code>
          * 

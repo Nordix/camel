@@ -712,7 +712,7 @@ public interface ScpEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-jsch
+         * Maven coordinates: org.nordix.camel:camel-jsch
          * 
          * Syntax: <code>scp:host:port/directoryName</code>
          * 
@@ -737,7 +737,7 @@ public interface ScpEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-jsch
+         * Maven coordinates: org.nordix.camel:camel-jsch
          * 
          * Syntax: <code>scp:host:port/directoryName</code>
          * 

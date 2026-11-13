@@ -36,7 +36,7 @@ public interface GuavaEventbusComponentBuilderFactory {
      * 
      * Category: eventbus
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-guava-eventbus
+     * Maven coordinates: org.nordix.camel:camel-guava-eventbus
      * 
      * @return the dsl builder
      */

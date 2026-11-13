@@ -2687,7 +2687,7 @@ public interface FhirEndpointBuilderFactory {
          * 
          * Category: api
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-fhir
+         * Maven coordinates: org.nordix.camel:camel-fhir
          * 
          * Syntax: <code>fhir:apiName/methodName</code>
          * 
@@ -2713,7 +2713,7 @@ public interface FhirEndpointBuilderFactory {
          * 
          * Category: api
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-fhir
+         * Maven coordinates: org.nordix.camel:camel-fhir
          * 
          * Syntax: <code>fhir:apiName/methodName</code>
          * 

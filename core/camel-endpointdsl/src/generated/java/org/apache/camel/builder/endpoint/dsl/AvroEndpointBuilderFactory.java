@@ -704,7 +704,7 @@ public interface AvroEndpointBuilderFactory {
          * 
          * Category: rpc
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-avro-rpc
+         * Maven coordinates: org.nordix.camel:camel-avro-rpc
          * 
          * Syntax: <code>avro:transport:host:port/messageName</code>
          * 
@@ -733,7 +733,7 @@ public interface AvroEndpointBuilderFactory {
          * 
          * Category: rpc
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-avro-rpc
+         * Maven coordinates: org.nordix.camel:camel-avro-rpc
          * 
          * Syntax: <code>avro:transport:host:port/messageName</code>
          * 

@@ -492,7 +492,7 @@ public interface SecretsManagerEndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.9
-         * Maven coordinates: org.apache.camel:camel-aws-secrets-manager
+         * Maven coordinates: org.nordix.camel:camel-aws-secrets-manager
          * 
          * Syntax: <code>aws-secrets-manager:label</code>
          * 
@@ -511,7 +511,7 @@ public interface SecretsManagerEndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.9
-         * Maven coordinates: org.apache.camel:camel-aws-secrets-manager
+         * Maven coordinates: org.nordix.camel:camel-aws-secrets-manager
          * 
          * Syntax: <code>aws-secrets-manager:label</code>
          * 

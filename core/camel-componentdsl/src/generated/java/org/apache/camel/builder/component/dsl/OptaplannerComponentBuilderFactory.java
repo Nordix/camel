@@ -36,7 +36,7 @@ public interface OptaplannerComponentBuilderFactory {
      * 
      * Category: engine,planning
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-optaplanner
+     * Maven coordinates: org.nordix.camel:camel-optaplanner
      * 
      * @return the dsl builder
      */

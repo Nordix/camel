@@ -38,7 +38,7 @@ public interface StitchComponentBuilderFactory {
      * 
      * Category: cloud,api,compute,bigdata
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-stitch
+     * Maven coordinates: org.nordix.camel:camel-stitch
      * 
      * @return the dsl builder
      */

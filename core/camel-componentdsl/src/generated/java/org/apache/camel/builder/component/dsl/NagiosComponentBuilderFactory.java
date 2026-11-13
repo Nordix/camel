@@ -36,7 +36,7 @@ public interface NagiosComponentBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-nagios
+     * Maven coordinates: org.nordix.camel:camel-nagios
      * 
      * @return the dsl builder
      */

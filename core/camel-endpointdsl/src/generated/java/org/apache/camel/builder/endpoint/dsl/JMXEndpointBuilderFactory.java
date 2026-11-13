@@ -901,7 +901,7 @@ public interface JMXEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.6
-         * Maven coordinates: org.apache.camel:camel-jmx
+         * Maven coordinates: org.nordix.camel:camel-jmx
          * 
          * Syntax: <code>jmx:serverURL</code>
          * 
@@ -921,7 +921,7 @@ public interface JMXEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.6
-         * Maven coordinates: org.apache.camel:camel-jmx
+         * Maven coordinates: org.nordix.camel:camel-jmx
          * 
          * Syntax: <code>jmx:serverURL</code>
          * 

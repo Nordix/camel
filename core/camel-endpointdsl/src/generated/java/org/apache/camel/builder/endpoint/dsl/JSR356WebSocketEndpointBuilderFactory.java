@@ -373,7 +373,7 @@ public interface JSR356WebSocketEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-websocket-jsr356
+         * Maven coordinates: org.nordix.camel:camel-websocket-jsr356
          * 
          * Syntax: <code>websocket-jsr356:uri</code>
          * 
@@ -394,7 +394,7 @@ public interface JSR356WebSocketEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-websocket-jsr356
+         * Maven coordinates: org.nordix.camel:camel-websocket-jsr356
          * 
          * Syntax: <code>websocket-jsr356:uri</code>
          * 

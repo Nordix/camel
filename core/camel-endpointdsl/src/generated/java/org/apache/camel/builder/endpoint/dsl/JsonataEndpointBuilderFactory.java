@@ -240,7 +240,7 @@ public interface JsonataEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-jsonata
+         * Maven coordinates: org.nordix.camel:camel-jsonata
          * 
          * Syntax: <code>jsonata:resourceUri</code>
          * 
@@ -264,7 +264,7 @@ public interface JsonataEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-jsonata
+         * Maven coordinates: org.nordix.camel:camel-jsonata
          * 
          * Syntax: <code>jsonata:resourceUri</code>
          * 

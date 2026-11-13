@@ -825,7 +825,7 @@ public interface Athena2EndpointBuilderFactory {
          * 
          * Category: cloud,database
          * Since: 3.4
-         * Maven coordinates: org.apache.camel:camel-aws2-athena
+         * Maven coordinates: org.nordix.camel:camel-aws2-athena
          * 
          * Syntax: <code>aws2-athena:label</code>
          * 
@@ -844,7 +844,7 @@ public interface Athena2EndpointBuilderFactory {
          * 
          * Category: cloud,database
          * Since: 3.4
-         * Maven coordinates: org.apache.camel:camel-aws2-athena
+         * Maven coordinates: org.nordix.camel:camel-aws2-athena
          * 
          * Syntax: <code>aws2-athena:label</code>
          * 

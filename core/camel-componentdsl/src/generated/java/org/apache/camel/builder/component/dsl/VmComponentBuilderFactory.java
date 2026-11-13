@@ -36,7 +36,7 @@ public interface VmComponentBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-vm
+     * Maven coordinates: org.nordix.camel:camel-vm
      * 
      * @return the dsl builder
      */

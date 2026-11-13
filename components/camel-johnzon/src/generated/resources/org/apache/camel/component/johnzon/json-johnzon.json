@@ -9,9 +9,9 @@
     "label": "dataformat,transformation,json",
     "javaType": "org.apache.camel.component.johnzon.JohnzonDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-johnzon",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "json",
     "modelJavaType": "org.apache.camel.model.dataformat.JsonDataFormat"
   },

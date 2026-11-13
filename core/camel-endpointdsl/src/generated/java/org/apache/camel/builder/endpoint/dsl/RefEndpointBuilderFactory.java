@@ -273,7 +273,7 @@ public interface RefEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-ref
+         * Maven coordinates: org.nordix.camel:camel-ref
          * 
          * Syntax: <code>ref:name</code>
          * 
@@ -293,7 +293,7 @@ public interface RefEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-ref
+         * Maven coordinates: org.nordix.camel:camel-ref
          * 
          * Syntax: <code>ref:name</code>
          * 

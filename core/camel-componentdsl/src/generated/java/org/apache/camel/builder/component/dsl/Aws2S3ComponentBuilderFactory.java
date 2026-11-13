@@ -38,7 +38,7 @@ public interface Aws2S3ComponentBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-s3
+     * Maven coordinates: org.nordix.camel:camel-aws2-s3
      * 
      * @return the dsl builder
      */

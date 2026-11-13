@@ -296,7 +296,7 @@ public interface IgniteEventsEndpointBuilderFactory {
          * 
          * Category: messaging,eventbus
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ignite
+         * Maven coordinates: org.nordix.camel:camel-ignite
          * 
          * Syntax: <code>ignite-events:endpointId</code>
          * 
@@ -316,7 +316,7 @@ public interface IgniteEventsEndpointBuilderFactory {
          * 
          * Category: messaging,eventbus
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ignite
+         * Maven coordinates: org.nordix.camel:camel-ignite
          * 
          * Syntax: <code>ignite-events:endpointId</code>
          * 

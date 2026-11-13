@@ -57,9 +57,10 @@ public class PackageLegalMojo extends AbstractGeneratorMojo {
 
     public void processLegal(Path legalOutDir) throws MojoExecutionException {
         // Only take care about camel legal stuff
-        if (!"org.apache.camel".equals(project.getGroupId())) {
-            return;
-        }
+        if (!"org.apache.camel".equals(project.getGroupId())
+                        && !"org.nordix.camel".equals(project.getGroupId())) {
+                    return;
+                }
 
         boolean exists = new File("src/main/resources/META-INF/LICENSE.txt").exists();
         if (!exists) {

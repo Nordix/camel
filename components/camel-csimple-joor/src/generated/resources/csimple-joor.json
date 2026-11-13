@@ -8,8 +8,8 @@
     "firstVersion": "3.7.0",
     "label": "dlanguage,java",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-csimple-joor",
-    "version": "3.14.10-SNAPSHOT"
+    "version": "3.14.10-est-2"
   }
 }

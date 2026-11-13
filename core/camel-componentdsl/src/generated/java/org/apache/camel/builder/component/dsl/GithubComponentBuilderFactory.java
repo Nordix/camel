@@ -36,7 +36,7 @@ public interface GithubComponentBuilderFactory {
      * 
      * Category: file,cloud,api
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-github
+     * Maven coordinates: org.nordix.camel:camel-github
      * 
      * @return the dsl builder
      */

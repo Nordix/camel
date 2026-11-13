@@ -38,7 +38,7 @@ public interface KuduComponentBuilderFactory {
      * 
      * Category: database,iot,cloud
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-kudu
+     * Maven coordinates: org.nordix.camel:camel-kudu
      * 
      * @return the dsl builder
      */

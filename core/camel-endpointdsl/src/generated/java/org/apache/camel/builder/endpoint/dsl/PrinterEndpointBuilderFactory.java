@@ -291,7 +291,7 @@ public interface PrinterEndpointBuilderFactory {
          * 
          * Category: printing
          * Since: 2.1
-         * Maven coordinates: org.apache.camel:camel-printer
+         * Maven coordinates: org.nordix.camel:camel-printer
          * 
          * Syntax: <code>lpr:hostname:port/printername</code>
          * 
@@ -316,7 +316,7 @@ public interface PrinterEndpointBuilderFactory {
          * 
          * Category: printing
          * Since: 2.1
-         * Maven coordinates: org.apache.camel:camel-printer
+         * Maven coordinates: org.nordix.camel:camel-printer
          * 
          * Syntax: <code>lpr:hostname:port/printername</code>
          * 

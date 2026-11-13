@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-as2-parent</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -43,24 +43,24 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-support</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-as2-api</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <!-- testing -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-junit5</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-jetty</artifactId>
             <scope>test</scope>
         </dependency>
@@ -72,7 +72,7 @@
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <groupId>org.apache.camel</groupId>
+                    <groupId>org.nordix.camel</groupId>
                     <artifactId>camel-api-component-maven-plugin</artifactId>
                     <version>${project.version}</version>
                     <configuration>
@@ -88,7 +88,7 @@
         <plugins>
             <!-- generate Component source and test source -->
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-api-component-maven-plugin</artifactId>
                 <executions>
                     <execution>
@@ -149,7 +149,7 @@
                 <dependencies>
                     <!-- Component API to read API signatures -->
                     <dependency>
-                        <groupId>org.apache.camel</groupId>
+                        <groupId>org.nordix.camel</groupId>
                         <artifactId>camel-as2-api</artifactId>
                         <version>${project.version}</version>
                         <classifier>sources</classifier>

@@ -863,7 +863,7 @@ public interface XmlSignerEndpointBuilderFactory {
          * 
          * Category: security,transformation
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-xmlsecurity
+         * Maven coordinates: org.nordix.camel:camel-xmlsecurity
          * 
          * Syntax: <code>xmlsecurity-sign:name</code>
          * 
@@ -883,7 +883,7 @@ public interface XmlSignerEndpointBuilderFactory {
          * 
          * Category: security,transformation
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-xmlsecurity
+         * Maven coordinates: org.nordix.camel:camel-xmlsecurity
          * 
          * Syntax: <code>xmlsecurity-sign:name</code>
          * 

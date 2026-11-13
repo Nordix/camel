@@ -40,7 +40,7 @@
     <dependencies>
       <!-- Camel BOM -->
       <dependency>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-bom</artifactId>
         <version>${camel-version}</version>
         <scope>import</scope>

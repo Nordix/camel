@@ -208,7 +208,7 @@ public interface LumberjackEndpointBuilderFactory {
          * 
          * Category: log
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-lumberjack
+         * Maven coordinates: org.nordix.camel:camel-lumberjack
          * 
          * Syntax: <code>lumberjack:host:port</code>
          * 
@@ -231,7 +231,7 @@ public interface LumberjackEndpointBuilderFactory {
          * 
          * Category: log
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-lumberjack
+         * Maven coordinates: org.nordix.camel:camel-lumberjack
          * 
          * Syntax: <code>lumberjack:host:port</code>
          * 

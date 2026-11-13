@@ -1054,7 +1054,7 @@ public interface GitHubEndpointBuilderFactory {
          * 
          * Category: file,cloud,api
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-github
+         * Maven coordinates: org.nordix.camel:camel-github
          * 
          * Syntax: <code>github:type/branchName</code>
          * 
@@ -1079,7 +1079,7 @@ public interface GitHubEndpointBuilderFactory {
          * 
          * Category: file,cloud,api
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-github
+         * Maven coordinates: org.nordix.camel:camel-github
          * 
          * Syntax: <code>github:type/branchName</code>
          * 

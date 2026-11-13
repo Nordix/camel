@@ -38,7 +38,7 @@ public interface ServiceComponentBuilderFactory {
      * 
      * Category: cloud
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-service
+     * Maven coordinates: org.nordix.camel:camel-service
      * 
      * @return the dsl builder
      */

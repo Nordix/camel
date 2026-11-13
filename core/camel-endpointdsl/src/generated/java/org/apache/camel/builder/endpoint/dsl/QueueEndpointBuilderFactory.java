@@ -1733,7 +1733,7 @@ public interface QueueEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.3
-         * Maven coordinates: org.apache.camel:camel-azure-storage-queue
+         * Maven coordinates: org.nordix.camel:camel-azure-storage-queue
          * 
          * Syntax: <code>azure-storage-queue:accountName/queueName</code>
          * 
@@ -1757,7 +1757,7 @@ public interface QueueEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.3
-         * Maven coordinates: org.apache.camel:camel-azure-storage-queue
+         * Maven coordinates: org.nordix.camel:camel-azure-storage-queue
          * 
          * Syntax: <code>azure-storage-queue:accountName/queueName</code>
          * 

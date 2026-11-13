@@ -36,7 +36,7 @@ public interface NatsComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-nats
+     * Maven coordinates: org.nordix.camel:camel-nats
      * 
      * @return the dsl builder
      */

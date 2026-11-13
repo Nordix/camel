@@ -36,7 +36,7 @@ public interface WordpressComponentBuilderFactory {
      * 
      * Category: cloud,api,cms
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-wordpress
+     * Maven coordinates: org.nordix.camel:camel-wordpress
      * 
      * @return the dsl builder
      */

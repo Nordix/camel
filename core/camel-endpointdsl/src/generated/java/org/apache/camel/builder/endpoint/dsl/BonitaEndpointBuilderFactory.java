@@ -163,7 +163,7 @@ public interface BonitaEndpointBuilderFactory {
          * 
          * Category: process
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-bonita
+         * Maven coordinates: org.nordix.camel:camel-bonita
          * 
          * Syntax: <code>bonita:operation</code>
          * 
@@ -183,7 +183,7 @@ public interface BonitaEndpointBuilderFactory {
          * 
          * Category: process
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-bonita
+         * Maven coordinates: org.nordix.camel:camel-bonita
          * 
          * Syntax: <code>bonita:operation</code>
          * 

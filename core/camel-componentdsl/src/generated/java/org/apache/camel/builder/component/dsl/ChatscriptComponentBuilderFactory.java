@@ -36,7 +36,7 @@ public interface ChatscriptComponentBuilderFactory {
      * 
      * Category: ai,chat
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-chatscript
+     * Maven coordinates: org.nordix.camel:camel-chatscript
      * 
      * @return the dsl builder
      */

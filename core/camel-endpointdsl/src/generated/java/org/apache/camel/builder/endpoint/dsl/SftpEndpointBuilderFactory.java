@@ -6698,7 +6698,7 @@ public interface SftpEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-ftp
+         * Maven coordinates: org.nordix.camel:camel-ftp
          * 
          * Syntax: <code>sftp:host:port/directoryName</code>
          * 
@@ -6723,7 +6723,7 @@ public interface SftpEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-ftp
+         * Maven coordinates: org.nordix.camel:camel-ftp
          * 
          * Syntax: <code>sftp:host:port/directoryName</code>
          * 

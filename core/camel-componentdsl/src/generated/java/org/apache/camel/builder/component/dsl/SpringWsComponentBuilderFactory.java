@@ -36,7 +36,7 @@ public interface SpringWsComponentBuilderFactory {
      * 
      * Category: spring,soap,webservice
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-spring-ws
+     * Maven coordinates: org.nordix.camel:camel-spring-ws
      * 
      * @return the dsl builder
      */

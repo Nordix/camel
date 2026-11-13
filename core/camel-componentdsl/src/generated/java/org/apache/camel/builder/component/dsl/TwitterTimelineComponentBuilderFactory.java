@@ -36,7 +36,7 @@ public interface TwitterTimelineComponentBuilderFactory {
      * 
      * Category: api,cloud,social
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * @return the dsl builder
      */

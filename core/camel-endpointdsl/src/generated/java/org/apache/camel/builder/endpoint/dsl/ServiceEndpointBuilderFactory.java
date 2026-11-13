@@ -176,7 +176,7 @@ public interface ServiceEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 2.22
-         * Maven coordinates: org.apache.camel:camel-service
+         * Maven coordinates: org.nordix.camel:camel-service
          * 
          * Syntax: <code>service:delegateUri</code>
          * 
@@ -196,7 +196,7 @@ public interface ServiceEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 2.22
-         * Maven coordinates: org.apache.camel:camel-service
+         * Maven coordinates: org.nordix.camel:camel-service
          * 
          * Syntax: <code>service:delegateUri</code>
          * 

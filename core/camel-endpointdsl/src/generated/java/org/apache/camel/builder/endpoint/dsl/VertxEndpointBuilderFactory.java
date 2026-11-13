@@ -364,7 +364,7 @@ public interface VertxEndpointBuilderFactory {
          * 
          * Category: eventbus,reactive
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-vertx
+         * Maven coordinates: org.nordix.camel:camel-vertx
          * 
          * Syntax: <code>vertx:address</code>
          * 
@@ -383,7 +383,7 @@ public interface VertxEndpointBuilderFactory {
          * 
          * Category: eventbus,reactive
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-vertx
+         * Maven coordinates: org.nordix.camel:camel-vertx
          * 
          * Syntax: <code>vertx:address</code>
          * 

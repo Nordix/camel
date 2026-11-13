@@ -6655,7 +6655,7 @@ public interface FtpsEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.2
-         * Maven coordinates: org.apache.camel:camel-ftp
+         * Maven coordinates: org.nordix.camel:camel-ftp
          * 
          * Syntax: <code>ftps:host:port/directoryName</code>
          * 
@@ -6681,7 +6681,7 @@ public interface FtpsEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.2
-         * Maven coordinates: org.apache.camel:camel-ftp
+         * Maven coordinates: org.nordix.camel:camel-ftp
          * 
          * Syntax: <code>ftps:host:port/directoryName</code>
          * 

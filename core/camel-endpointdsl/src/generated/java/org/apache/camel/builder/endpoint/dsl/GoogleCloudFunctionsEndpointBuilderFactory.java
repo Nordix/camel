@@ -261,7 +261,7 @@ public interface GoogleCloudFunctionsEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 3.9
-         * Maven coordinates: org.apache.camel:camel-google-functions
+         * Maven coordinates: org.nordix.camel:camel-google-functions
          * 
          * Syntax: <code>google-functions:functionName</code>
          * 
@@ -280,7 +280,7 @@ public interface GoogleCloudFunctionsEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 3.9
-         * Maven coordinates: org.apache.camel:camel-google-functions
+         * Maven coordinates: org.nordix.camel:camel-google-functions
          * 
          * Syntax: <code>google-functions:functionName</code>
          * 

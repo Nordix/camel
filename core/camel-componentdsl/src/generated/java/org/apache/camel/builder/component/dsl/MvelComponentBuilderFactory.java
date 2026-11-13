@@ -36,7 +36,7 @@ public interface MvelComponentBuilderFactory {
      * 
      * Category: transformation,script
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-mvel
+     * Maven coordinates: org.nordix.camel:camel-mvel
      * 
      * @return the dsl builder
      */

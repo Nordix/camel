@@ -1787,7 +1787,7 @@ public interface SpringRabbitMQEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-spring-rabbitmq
+         * Maven coordinates: org.nordix.camel:camel-spring-rabbitmq
          * 
          * Syntax: <code>spring-rabbitmq:exchangeName</code>
          * 
@@ -1809,7 +1809,7 @@ public interface SpringRabbitMQEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-spring-rabbitmq
+         * Maven coordinates: org.nordix.camel:camel-spring-rabbitmq
          * 
          * Syntax: <code>spring-rabbitmq:exchangeName</code>
          * 

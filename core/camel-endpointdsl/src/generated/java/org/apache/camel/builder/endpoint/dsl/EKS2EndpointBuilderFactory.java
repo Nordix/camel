@@ -444,7 +444,7 @@ public interface EKS2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-eks
+         * Maven coordinates: org.nordix.camel:camel-aws2-eks
          * 
          * Syntax: <code>aws2-eks:label</code>
          * 
@@ -463,7 +463,7 @@ public interface EKS2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-eks
+         * Maven coordinates: org.nordix.camel:camel-aws2-eks
          * 
          * Syntax: <code>aws2-eks:label</code>
          * 

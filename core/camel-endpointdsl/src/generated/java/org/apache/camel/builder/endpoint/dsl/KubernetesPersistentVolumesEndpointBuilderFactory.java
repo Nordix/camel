@@ -448,7 +448,7 @@ public interface KubernetesPersistentVolumesEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-persistent-volumes:masterUrl</code>
          * 
@@ -469,7 +469,7 @@ public interface KubernetesPersistentVolumesEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-persistent-volumes:masterUrl</code>
          * 

@@ -1618,7 +1618,7 @@ public interface SshEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-ssh
+         * Maven coordinates: org.nordix.camel:camel-ssh
          * 
          * Syntax: <code>ssh:host:port</code>
          * 
@@ -1641,7 +1641,7 @@ public interface SshEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-ssh
+         * Maven coordinates: org.nordix.camel:camel-ssh
          * 
          * Syntax: <code>ssh:host:port</code>
          * 

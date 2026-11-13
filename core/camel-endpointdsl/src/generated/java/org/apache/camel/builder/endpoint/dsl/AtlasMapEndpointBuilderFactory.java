@@ -291,7 +291,7 @@ public interface AtlasMapEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.7
-         * Maven coordinates: org.apache.camel:camel-atlasmap
+         * Maven coordinates: org.nordix.camel:camel-atlasmap
          * 
          * Syntax: <code>atlasmap:resourceUri</code>
          * 
@@ -315,7 +315,7 @@ public interface AtlasMapEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.7
-         * Maven coordinates: org.apache.camel:camel-atlasmap
+         * Maven coordinates: org.nordix.camel:camel-atlasmap
          * 
          * Syntax: <code>atlasmap:resourceUri</code>
          * 

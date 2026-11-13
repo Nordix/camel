@@ -36,7 +36,7 @@ public interface IpfsComponentBuilderFactory {
      * 
      * Category: file,ipfs
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-ipfs
+     * Maven coordinates: org.nordix.camel:camel-ipfs
      * 
      * @return the dsl builder
      */

@@ -104,7 +104,7 @@ public interface IPFSEndpointBuilderFactory {
          * 
          * Category: file,ipfs
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-ipfs
+         * Maven coordinates: org.nordix.camel:camel-ipfs
          * 
          * Syntax: <code>ipfs:ipfsCmd</code>
          * 
@@ -124,7 +124,7 @@ public interface IPFSEndpointBuilderFactory {
          * 
          * Category: file,ipfs
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-ipfs
+         * Maven coordinates: org.nordix.camel:camel-ipfs
          * 
          * Syntax: <code>ipfs:ipfsCmd</code>
          * 

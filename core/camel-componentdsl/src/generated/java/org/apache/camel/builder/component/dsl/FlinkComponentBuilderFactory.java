@@ -36,7 +36,7 @@ public interface FlinkComponentBuilderFactory {
      * 
      * Category: transformation,bigdata,streams
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-flink
+     * Maven coordinates: org.nordix.camel:camel-flink
      * 
      * @return the dsl builder
      */

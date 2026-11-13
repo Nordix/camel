@@ -72,7 +72,7 @@ public class PrepareParentPomMojo extends AbstractMojo {
      */
     @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
-        updateParentPom("org.apache.camel", componentsDir, "camel components");
+        updateParentPom(project.getGroupId(), componentsDir, "camel components");
     }
 
     protected void updateParentPom(String groupId, File dir, String token) throws MojoExecutionException, MojoFailureException {

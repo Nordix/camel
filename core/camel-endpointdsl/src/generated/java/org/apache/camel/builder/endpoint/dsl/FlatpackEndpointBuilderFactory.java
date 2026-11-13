@@ -1414,7 +1414,7 @@ public interface FlatpackEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 1.4
-         * Maven coordinates: org.apache.camel:camel-flatpack
+         * Maven coordinates: org.nordix.camel:camel-flatpack
          * 
          * Syntax: <code>flatpack:type:resourceUri</code>
          * 
@@ -1439,7 +1439,7 @@ public interface FlatpackEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 1.4
-         * Maven coordinates: org.apache.camel:camel-flatpack
+         * Maven coordinates: org.nordix.camel:camel-flatpack
          * 
          * Syntax: <code>flatpack:type:resourceUri</code>
          * 

@@ -919,7 +919,7 @@ public interface StubEndpointBuilderFactory {
          * 
          * Category: core,testing
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-stub
+         * Maven coordinates: org.nordix.camel:camel-stub
          * 
          * Syntax: <code>stub:name</code>
          * 
@@ -938,7 +938,7 @@ public interface StubEndpointBuilderFactory {
          * 
          * Category: core,testing
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-stub
+         * Maven coordinates: org.nordix.camel:camel-stub
          * 
          * Syntax: <code>stub:name</code>
          * 

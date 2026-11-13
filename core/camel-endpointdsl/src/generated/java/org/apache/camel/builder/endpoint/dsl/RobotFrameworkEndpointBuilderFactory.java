@@ -3958,7 +3958,7 @@ public interface RobotFrameworkEndpointBuilderFactory {
          * 
          * Category: testing
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-robotframework
+         * Maven coordinates: org.nordix.camel:camel-robotframework
          * 
          * Syntax: <code>robotframework:resourceUri</code>
          * 
@@ -3982,7 +3982,7 @@ public interface RobotFrameworkEndpointBuilderFactory {
          * 
          * Category: testing
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-robotframework
+         * Maven coordinates: org.nordix.camel:camel-robotframework
          * 
          * Syntax: <code>robotframework:resourceUri</code>
          * 

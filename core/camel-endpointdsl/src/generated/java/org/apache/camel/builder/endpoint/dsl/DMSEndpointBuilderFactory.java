@@ -602,7 +602,7 @@ public interface DMSEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 3.12
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-dms
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-dms
          * 
          * Syntax: <code>hwcloud-dms:operation</code>
          * 
@@ -622,7 +622,7 @@ public interface DMSEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 3.12
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-dms
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-dms
          * 
          * Syntax: <code>hwcloud-dms:operation</code>
          * 

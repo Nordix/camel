@@ -36,7 +36,7 @@ public interface SpringJdbcComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 3.10
-     * Maven coordinates: org.apache.camel:camel-spring-jdbc
+     * Maven coordinates: org.nordix.camel:camel-spring-jdbc
      * 
      * @return the dsl builder
      */

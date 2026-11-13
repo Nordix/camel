@@ -22,12 +22,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>archetypes</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
 
-    <groupId>org.apache.camel.archetypes</groupId>
+    <groupId>org.nordix.camel.archetypes</groupId>
     <artifactId>camel-archetype-main</artifactId>
     <name>Camel :: Archetypes :: Main</name>
     <description>Creates a new Camel project using standalone Camel Main.</description>

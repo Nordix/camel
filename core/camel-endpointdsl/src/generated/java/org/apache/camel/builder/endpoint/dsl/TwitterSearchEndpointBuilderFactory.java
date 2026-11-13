@@ -1666,7 +1666,7 @@ public interface TwitterSearchEndpointBuilderFactory {
          * 
          * Category: cloud,api,search,social
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-twitter
+         * Maven coordinates: org.nordix.camel:camel-twitter
          * 
          * Syntax: <code>twitter-search:keywords</code>
          * 
@@ -1686,7 +1686,7 @@ public interface TwitterSearchEndpointBuilderFactory {
          * 
          * Category: cloud,api,search,social
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-twitter
+         * Maven coordinates: org.nordix.camel:camel-twitter
          * 
          * Syntax: <code>twitter-search:keywords</code>
          * 

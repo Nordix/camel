@@ -456,7 +456,7 @@ public interface IAM2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-iam
+         * Maven coordinates: org.nordix.camel:camel-aws2-iam
          * 
          * Syntax: <code>aws2-iam:label</code>
          * 
@@ -475,7 +475,7 @@ public interface IAM2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-iam
+         * Maven coordinates: org.nordix.camel:camel-aws2-iam
          * 
          * Syntax: <code>aws2-iam:label</code>
          * 

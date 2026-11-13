@@ -37,7 +37,7 @@ public interface SedaComponentBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-seda
+     * Maven coordinates: org.nordix.camel:camel-seda
      * 
      * @return the dsl builder
      */

@@ -368,7 +368,7 @@ public interface MsvEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-msv
+         * Maven coordinates: org.nordix.camel:camel-msv
          * 
          * Syntax: <code>msv:resourceUri</code>
          * 
@@ -389,7 +389,7 @@ public interface MsvEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-msv
+         * Maven coordinates: org.nordix.camel:camel-msv
          * 
          * Syntax: <code>msv:resourceUri</code>
          * 

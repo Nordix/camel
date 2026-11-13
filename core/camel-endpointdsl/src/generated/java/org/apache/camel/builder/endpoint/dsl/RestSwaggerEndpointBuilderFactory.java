@@ -218,7 +218,7 @@ public interface RestSwaggerEndpointBuilderFactory {
          * 
          * Category: rest,swagger,http
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-rest-swagger
+         * Maven coordinates: org.nordix.camel:camel-rest-swagger
          * 
          * Syntax: <code>rest-swagger:specificationUri#operationId</code>
          * 
@@ -256,7 +256,7 @@ public interface RestSwaggerEndpointBuilderFactory {
          * 
          * Category: rest,swagger,http
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-rest-swagger
+         * Maven coordinates: org.nordix.camel:camel-rest-swagger
          * 
          * Syntax: <code>rest-swagger:specificationUri#operationId</code>
          * 

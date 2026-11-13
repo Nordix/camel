@@ -2274,7 +2274,7 @@ public interface WeatherEndpointBuilderFactory {
          * 
          * Category: api
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-weather
+         * Maven coordinates: org.nordix.camel:camel-weather
          * 
          * Syntax: <code>weather:name</code>
          * 
@@ -2293,7 +2293,7 @@ public interface WeatherEndpointBuilderFactory {
          * 
          * Category: api
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-weather
+         * Maven coordinates: org.nordix.camel:camel-weather
          * 
          * Syntax: <code>weather:name</code>
          * 

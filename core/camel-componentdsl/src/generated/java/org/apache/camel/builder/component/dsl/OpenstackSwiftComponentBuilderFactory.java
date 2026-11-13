@@ -36,7 +36,7 @@ public interface OpenstackSwiftComponentBuilderFactory {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * @return the dsl builder
      */

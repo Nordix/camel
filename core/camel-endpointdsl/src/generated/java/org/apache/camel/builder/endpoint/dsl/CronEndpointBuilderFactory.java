@@ -190,7 +190,7 @@ public interface CronEndpointBuilderFactory {
          * 
          * Category: scheduling
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-cron
+         * Maven coordinates: org.nordix.camel:camel-cron
          * 
          * Syntax: <code>cron:name</code>
          * 
@@ -210,7 +210,7 @@ public interface CronEndpointBuilderFactory {
          * 
          * Category: scheduling
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-cron
+         * Maven coordinates: org.nordix.camel:camel-cron
          * 
          * Syntax: <code>cron:name</code>
          * 

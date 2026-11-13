@@ -36,7 +36,7 @@ public interface Aws2TranslateComponentBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-translate
+     * Maven coordinates: org.nordix.camel:camel-aws2-translate
      * 
      * @return the dsl builder
      */

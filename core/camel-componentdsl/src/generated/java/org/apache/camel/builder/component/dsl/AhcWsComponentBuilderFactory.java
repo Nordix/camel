@@ -36,7 +36,7 @@ public interface AhcWsComponentBuilderFactory {
      * 
      * Category: websocket
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-ahc-ws
+     * Maven coordinates: org.nordix.camel:camel-ahc-ws
      * 
      * @return the dsl builder
      */

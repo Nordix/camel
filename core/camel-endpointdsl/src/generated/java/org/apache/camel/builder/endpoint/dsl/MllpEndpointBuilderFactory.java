@@ -1775,7 +1775,7 @@ public interface MllpEndpointBuilderFactory {
          * 
          * Category: networking,rpc,mllp
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-mllp
+         * Maven coordinates: org.nordix.camel:camel-mllp
          * 
          * Syntax: <code>mllp:hostname:port</code>
          * 
@@ -1798,7 +1798,7 @@ public interface MllpEndpointBuilderFactory {
          * 
          * Category: networking,rpc,mllp
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-mllp
+         * Maven coordinates: org.nordix.camel:camel-mllp
          * 
          * Syntax: <code>mllp:hostname:port</code>
          * 

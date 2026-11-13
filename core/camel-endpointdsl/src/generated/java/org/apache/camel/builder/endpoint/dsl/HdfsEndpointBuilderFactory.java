@@ -2672,7 +2672,7 @@ public interface HdfsEndpointBuilderFactory {
          * 
          * Category: bigdata,hadoop,file
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-hdfs
+         * Maven coordinates: org.nordix.camel:camel-hdfs
          * 
          * Syntax: <code>hdfs:hostName:port/path</code>
          * 
@@ -2698,7 +2698,7 @@ public interface HdfsEndpointBuilderFactory {
          * 
          * Category: bigdata,hadoop,file
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-hdfs
+         * Maven coordinates: org.nordix.camel:camel-hdfs
          * 
          * Syntax: <code>hdfs:hostName:port/path</code>
          * 

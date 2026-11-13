@@ -36,7 +36,7 @@ public interface LanguageComponentBuilderFactory {
      * 
      * Category: core,script
      * Since: 2.5
-     * Maven coordinates: org.apache.camel:camel-language
+     * Maven coordinates: org.nordix.camel:camel-language
      * 
      * @return the dsl builder
      */

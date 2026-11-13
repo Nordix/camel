@@ -300,7 +300,7 @@ public interface JsltEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-jslt
+         * Maven coordinates: org.nordix.camel:camel-jslt
          * 
          * Syntax: <code>jslt:resourceUri</code>
          * 
@@ -324,7 +324,7 @@ public interface JsltEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-jslt
+         * Maven coordinates: org.nordix.camel:camel-jslt
          * 
          * Syntax: <code>jslt:resourceUri</code>
          * 

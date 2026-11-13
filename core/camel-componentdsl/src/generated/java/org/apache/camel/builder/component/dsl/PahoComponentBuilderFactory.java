@@ -36,7 +36,7 @@ public interface PahoComponentBuilderFactory {
      * 
      * Category: messaging,iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-paho
+     * Maven coordinates: org.nordix.camel:camel-paho
      * 
      * @return the dsl builder
      */

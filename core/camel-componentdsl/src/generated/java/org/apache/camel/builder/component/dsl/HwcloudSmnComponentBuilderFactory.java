@@ -38,7 +38,7 @@ public interface HwcloudSmnComponentBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-smn
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-smn
      * 
      * @return the dsl builder
      */

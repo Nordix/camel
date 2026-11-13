@@ -341,7 +341,7 @@ public interface DigitalOceanEndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-digitalocean
+         * Maven coordinates: org.nordix.camel:camel-digitalocean
          * 
          * Syntax: <code>digitalocean:operation</code>
          * 
@@ -367,7 +367,7 @@ public interface DigitalOceanEndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-digitalocean
+         * Maven coordinates: org.nordix.camel:camel-digitalocean
          * 
          * Syntax: <code>digitalocean:operation</code>
          * 

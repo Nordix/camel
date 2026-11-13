@@ -36,7 +36,7 @@ public interface DozerComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-dozer
+     * Maven coordinates: org.nordix.camel:camel-dozer
      * 
      * @return the dsl builder
      */

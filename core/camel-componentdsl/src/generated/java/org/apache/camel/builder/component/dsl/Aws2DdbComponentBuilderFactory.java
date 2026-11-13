@@ -37,7 +37,7 @@ public interface Aws2DdbComponentBuilderFactory {
      * 
      * Category: cloud,database,nosql
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ddb
+     * Maven coordinates: org.nordix.camel:camel-aws2-ddb
      * 
      * @return the dsl builder
      */

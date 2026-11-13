@@ -38,7 +38,7 @@ public interface RestApiComponentBuilderFactory {
      * 
      * Category: core,rest
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-rest
+     * Maven coordinates: org.nordix.camel:camel-rest
      * 
      * @return the dsl builder
      */

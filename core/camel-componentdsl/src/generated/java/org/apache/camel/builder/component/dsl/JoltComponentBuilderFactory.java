@@ -36,7 +36,7 @@ public interface JoltComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-jolt
+     * Maven coordinates: org.nordix.camel:camel-jolt
      * 
      * @return the dsl builder
      */

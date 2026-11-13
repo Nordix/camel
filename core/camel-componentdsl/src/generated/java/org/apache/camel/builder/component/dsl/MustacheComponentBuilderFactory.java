@@ -36,7 +36,7 @@ public interface MustacheComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-mustache
+     * Maven coordinates: org.nordix.camel:camel-mustache
      * 
      * @return the dsl builder
      */

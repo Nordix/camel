@@ -38,7 +38,7 @@ public interface QuickfixComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-quickfix
+     * Maven coordinates: org.nordix.camel:camel-quickfix
      * 
      * @return the dsl builder
      */

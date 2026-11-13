@@ -1862,7 +1862,7 @@ public interface ServerEndpointBuilderFactory {
          * 
          * Category: iot
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-iec60870
+         * Maven coordinates: org.nordix.camel:camel-iec60870
          * 
          * Syntax: <code>iec60870-server:uriPath</code>
          * 
@@ -1882,7 +1882,7 @@ public interface ServerEndpointBuilderFactory {
          * 
          * Category: iot
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-iec60870
+         * Maven coordinates: org.nordix.camel:camel-iec60870
          * 
          * Syntax: <code>iec60870-server:uriPath</code>
          * 

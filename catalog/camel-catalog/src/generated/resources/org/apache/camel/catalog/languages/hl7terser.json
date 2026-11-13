@@ -9,9 +9,9 @@
     "label": "language,hl7",
     "javaType": "org.apache.camel.component.hl7.Hl7TerserLanguage",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-hl7",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "hl7terser",
     "modelJavaType": "org.apache.camel.model.language.Hl7TerserExpression"
   },

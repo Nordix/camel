@@ -352,7 +352,7 @@ public interface SimpleNotificationEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-smn
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-smn
          * 
          * Syntax: <code>hwcloud-smn:smnService</code>
          * 
@@ -372,7 +372,7 @@ public interface SimpleNotificationEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-smn
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-smn
          * 
          * Syntax: <code>hwcloud-smn:smnService</code>
          * 

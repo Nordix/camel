@@ -36,7 +36,7 @@ public interface ServletComponentBuilderFactory {
      * 
      * Category: http
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-servlet
+     * Maven coordinates: org.nordix.camel:camel-servlet
      * 
      * @return the dsl builder
      */

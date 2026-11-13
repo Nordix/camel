@@ -155,7 +155,7 @@ public interface SpringLdapEndpointBuilderFactory {
          * 
          * Category: spring,ldap
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-spring-ldap
+         * Maven coordinates: org.nordix.camel:camel-spring-ldap
          * 
          * Syntax: <code>spring-ldap:templateName</code>
          * 
@@ -175,7 +175,7 @@ public interface SpringLdapEndpointBuilderFactory {
          * 
          * Category: spring,ldap
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-spring-ldap
+         * Maven coordinates: org.nordix.camel:camel-spring-ldap
          * 
          * Syntax: <code>spring-ldap:templateName</code>
          * 

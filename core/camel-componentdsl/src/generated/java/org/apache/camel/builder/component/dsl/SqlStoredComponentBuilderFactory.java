@@ -36,7 +36,7 @@ public interface SqlStoredComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-sql
+     * Maven coordinates: org.nordix.camel:camel-sql
      * 
      * @return the dsl builder
      */

@@ -80,7 +80,7 @@ public class PrepareAssemblyMojo extends AbstractMojo {
      */
     @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
-        updatePomAndCommonBin(allComponentsPomFile, "org.apache.camel", "camel components");
+        updatePomAndCommonBin(allComponentsPomFile, project.getGroupId(), "camel components");
     }
 
     protected void updatePomAndCommonBin(File allComponentsPom, String groupId, String token)

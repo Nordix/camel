@@ -36,7 +36,7 @@ public interface HttpComponentBuilderFactory {
      * 
      * Category: http
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-http
+     * Maven coordinates: org.nordix.camel:camel-http
      * 
      * @return the dsl builder
      */

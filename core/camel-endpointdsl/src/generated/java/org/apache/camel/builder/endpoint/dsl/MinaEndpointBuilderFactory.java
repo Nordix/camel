@@ -2307,7 +2307,7 @@ public interface MinaEndpointBuilderFactory {
          * 
          * Category: networking,tcp,udp
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-mina
+         * Maven coordinates: org.nordix.camel:camel-mina
          * 
          * Syntax: <code>mina:protocol:host:port</code>
          * 
@@ -2334,7 +2334,7 @@ public interface MinaEndpointBuilderFactory {
          * 
          * Category: networking,tcp,udp
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-mina
+         * Maven coordinates: org.nordix.camel:camel-mina
          * 
          * Syntax: <code>mina:protocol:host:port</code>
          * 

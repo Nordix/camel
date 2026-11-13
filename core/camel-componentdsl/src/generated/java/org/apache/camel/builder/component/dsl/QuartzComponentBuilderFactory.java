@@ -36,7 +36,7 @@ public interface QuartzComponentBuilderFactory {
      * 
      * Category: scheduling
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-quartz
+     * Maven coordinates: org.nordix.camel:camel-quartz
      * 
      * @return the dsl builder
      */

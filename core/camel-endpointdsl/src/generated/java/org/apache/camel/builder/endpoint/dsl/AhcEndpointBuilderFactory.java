@@ -550,7 +550,7 @@ public interface AhcEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 2.8
-         * Maven coordinates: org.apache.camel:camel-ahc
+         * Maven coordinates: org.nordix.camel:camel-ahc
          * 
          * Syntax: <code>ahc:httpUri</code>
          * 
@@ -569,7 +569,7 @@ public interface AhcEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 2.8
-         * Maven coordinates: org.apache.camel:camel-ahc
+         * Maven coordinates: org.nordix.camel:camel-ahc
          * 
          * Syntax: <code>ahc:httpUri</code>
          * 

@@ -36,7 +36,7 @@ public interface GangliaComponentBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-ganglia
+     * Maven coordinates: org.nordix.camel:camel-ganglia
      * 
      * @return the dsl builder
      */

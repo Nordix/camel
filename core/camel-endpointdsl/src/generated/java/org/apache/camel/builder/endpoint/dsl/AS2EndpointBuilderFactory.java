@@ -2214,7 +2214,7 @@ public interface AS2EndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.22
-         * Maven coordinates: org.apache.camel:camel-as2
+         * Maven coordinates: org.nordix.camel:camel-as2
          * 
          * Syntax: <code>as2:apiName/methodName</code>
          * 
@@ -2237,7 +2237,7 @@ public interface AS2EndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.22
-         * Maven coordinates: org.apache.camel:camel-as2
+         * Maven coordinates: org.nordix.camel:camel-as2
          * 
          * Syntax: <code>as2:apiName/methodName</code>
          * 

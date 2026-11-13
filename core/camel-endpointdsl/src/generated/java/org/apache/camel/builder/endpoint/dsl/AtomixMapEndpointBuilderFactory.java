@@ -1486,7 +1486,7 @@ public interface AtomixMapEndpointBuilderFactory {
          * 
          * Category: clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-atomix
+         * Maven coordinates: org.nordix.camel:camel-atomix
          * 
          * Syntax: <code>atomix-map:resourceName</code>
          * 
@@ -1505,7 +1505,7 @@ public interface AtomixMapEndpointBuilderFactory {
          * 
          * Category: clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-atomix
+         * Maven coordinates: org.nordix.camel:camel-atomix
          * 
          * Syntax: <code>atomix-map:resourceName</code>
          * 

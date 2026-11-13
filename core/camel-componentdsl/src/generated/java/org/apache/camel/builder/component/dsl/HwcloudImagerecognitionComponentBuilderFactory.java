@@ -36,7 +36,7 @@ public interface HwcloudImagerecognitionComponentBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-imagerecognition
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-imagerecognition
      * 
      * @return the dsl builder
      */

@@ -699,7 +699,7 @@ public interface GooglePubsubEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-google-pubsub
+         * Maven coordinates: org.nordix.camel:camel-google-pubsub
          * 
          * Syntax: <code>google-pubsub:projectId:destinationName</code>
          * 
@@ -723,7 +723,7 @@ public interface GooglePubsubEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-google-pubsub
+         * Maven coordinates: org.nordix.camel:camel-google-pubsub
          * 
          * Syntax: <code>google-pubsub:projectId:destinationName</code>
          * 

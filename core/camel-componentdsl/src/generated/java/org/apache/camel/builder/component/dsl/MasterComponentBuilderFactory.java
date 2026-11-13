@@ -38,7 +38,7 @@ public interface MasterComponentBuilderFactory {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-master
+     * Maven coordinates: org.nordix.camel:camel-master
      * 
      * @return the dsl builder
      */

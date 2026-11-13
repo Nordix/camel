@@ -36,7 +36,7 @@ public interface HwcloudFunctiongraphComponentBuilderFactory {
      * 
      * Category: cloud,serverless
      * Since: 3.11
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-functiongraph
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-functiongraph
      * 
      * @return the dsl builder
      */

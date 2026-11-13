@@ -519,7 +519,7 @@ public interface CaffeineLoadCacheEndpointBuilderFactory {
          * 
          * Category: cache,datagrid,clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-caffeine
+         * Maven coordinates: org.nordix.camel:camel-caffeine
          * 
          * Syntax: <code>caffeine-loadcache:cacheName</code>
          * 
@@ -539,7 +539,7 @@ public interface CaffeineLoadCacheEndpointBuilderFactory {
          * 
          * Category: cache,datagrid,clustering
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-caffeine
+         * Maven coordinates: org.nordix.camel:camel-caffeine
          * 
          * Syntax: <code>caffeine-loadcache:cacheName</code>
          * 

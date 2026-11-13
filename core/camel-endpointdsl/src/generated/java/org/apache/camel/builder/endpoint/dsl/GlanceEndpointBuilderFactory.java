@@ -210,7 +210,7 @@ public interface GlanceEndpointBuilderFactory {
          * 
          * Category: cloud,paas
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-openstack
+         * Maven coordinates: org.nordix.camel:camel-openstack
          * 
          * Syntax: <code>openstack-glance:host</code>
          * 
@@ -229,7 +229,7 @@ public interface GlanceEndpointBuilderFactory {
          * 
          * Category: cloud,paas
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-openstack
+         * Maven coordinates: org.nordix.camel:camel-openstack
          * 
          * Syntax: <code>openstack-glance:host</code>
          * 

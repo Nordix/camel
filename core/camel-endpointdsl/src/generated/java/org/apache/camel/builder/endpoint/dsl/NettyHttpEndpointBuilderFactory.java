@@ -5375,7 +5375,7 @@ public interface NettyHttpEndpointBuilderFactory {
          * 
          * Category: networking,http
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-netty-http
+         * Maven coordinates: org.nordix.camel:camel-netty-http
          * 
          * Syntax: <code>netty-http:protocol://host:port/path</code>
          * 
@@ -5406,7 +5406,7 @@ public interface NettyHttpEndpointBuilderFactory {
          * 
          * Category: networking,http
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-netty-http
+         * Maven coordinates: org.nordix.camel:camel-netty-http
          * 
          * Syntax: <code>netty-http:protocol://host:port/path</code>
          * 

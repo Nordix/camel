@@ -36,7 +36,7 @@ public interface DnsComponentBuilderFactory {
      * 
      * Category: networking
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-dns
+     * Maven coordinates: org.nordix.camel:camel-dns
      * 
      * @return the dsl builder
      */

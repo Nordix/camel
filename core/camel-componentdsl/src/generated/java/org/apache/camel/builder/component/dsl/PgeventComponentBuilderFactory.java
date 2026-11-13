@@ -36,7 +36,7 @@ public interface PgeventComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-pgevent
+     * Maven coordinates: org.nordix.camel:camel-pgevent
      * 
      * @return the dsl builder
      */

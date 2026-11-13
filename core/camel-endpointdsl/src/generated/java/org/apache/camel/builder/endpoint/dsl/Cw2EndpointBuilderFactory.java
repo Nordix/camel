@@ -456,7 +456,7 @@ public interface Cw2EndpointBuilderFactory {
          * 
          * Category: cloud,monitoring
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-cw
+         * Maven coordinates: org.nordix.camel:camel-aws2-cw
          * 
          * Syntax: <code>aws2-cw:namespace</code>
          * 
@@ -475,7 +475,7 @@ public interface Cw2EndpointBuilderFactory {
          * 
          * Category: cloud,monitoring
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-cw
+         * Maven coordinates: org.nordix.camel:camel-aws2-cw
          * 
          * Syntax: <code>aws2-cw:namespace</code>
          * 

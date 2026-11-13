@@ -1771,7 +1771,7 @@ public interface SplunkEndpointBuilderFactory {
          * 
          * Category: iot,monitoring
          * Since: 2.13
-         * Maven coordinates: org.apache.camel:camel-splunk
+         * Maven coordinates: org.nordix.camel:camel-splunk
          * 
          * Syntax: <code>splunk:name</code>
          * 
@@ -1790,7 +1790,7 @@ public interface SplunkEndpointBuilderFactory {
          * 
          * Category: iot,monitoring
          * Since: 2.13
-         * Maven coordinates: org.apache.camel:camel-splunk
+         * Maven coordinates: org.nordix.camel:camel-splunk
          * 
          * Syntax: <code>splunk:name</code>
          * 

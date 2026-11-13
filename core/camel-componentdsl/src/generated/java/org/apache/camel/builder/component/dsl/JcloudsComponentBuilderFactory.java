@@ -36,7 +36,7 @@ public interface JcloudsComponentBuilderFactory {
      * 
      * Category: api,cloud,compute
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-jclouds
+     * Maven coordinates: org.nordix.camel:camel-jclouds
      * 
      * @return the dsl builder
      */

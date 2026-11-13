@@ -781,7 +781,7 @@ public interface JiraEndpointBuilderFactory {
          * 
          * Category: api,reporting
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-jira
+         * Maven coordinates: org.nordix.camel:camel-jira
          * 
          * Syntax: <code>jira:type</code>
          * 
@@ -806,7 +806,7 @@ public interface JiraEndpointBuilderFactory {
          * 
          * Category: api,reporting
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-jira
+         * Maven coordinates: org.nordix.camel:camel-jira
          * 
          * Syntax: <code>jira:type</code>
          * 

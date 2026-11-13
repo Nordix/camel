@@ -50,7 +50,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-activemq
+     * Maven coordinates: org.nordix.camel:camel-activemq
      * 
      * @return the dsl builder
      */
@@ -63,7 +63,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: http
      * Since: 2.8
-     * Maven coordinates: org.apache.camel:camel-ahc
+     * Maven coordinates: org.nordix.camel:camel-ahc
      * 
      * @return the dsl builder
      */
@@ -76,7 +76,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: websocket
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-ahc-ws
+     * Maven coordinates: org.nordix.camel:camel-ahc-ws
      * 
      * @return the dsl builder
      */
@@ -89,7 +89,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: websocket
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-ahc-ws
+     * Maven coordinates: org.nordix.camel:camel-ahc-ws
      * 
      * @return the dsl builder
      */
@@ -102,7 +102,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-amqp
+     * Maven coordinates: org.nordix.camel:camel-amqp
      * 
      * @return the dsl builder
      */
@@ -116,7 +116,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-arangodb
+     * Maven coordinates: org.nordix.camel:camel-arangodb
      * 
      * @return the dsl builder
      */
@@ -129,7 +129,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-as2
+     * Maven coordinates: org.nordix.camel:camel-as2
      * 
      * @return the dsl builder
      */
@@ -142,7 +142,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: voip
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-asterisk
+     * Maven coordinates: org.nordix.camel:camel-asterisk
      * 
      * @return the dsl builder
      */
@@ -155,7 +155,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-atlasmap
+     * Maven coordinates: org.nordix.camel:camel-atlasmap
      * 
      * @return the dsl builder
      */
@@ -168,7 +168,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-atmos
+     * Maven coordinates: org.nordix.camel:camel-atmos
      * 
      * @return the dsl builder
      */
@@ -181,7 +181,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: websocket
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-atmosphere-websocket
+     * Maven coordinates: org.nordix.camel:camel-atmosphere-websocket
      * 
      * @return the dsl builder
      */
@@ -194,7 +194,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: rss
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-atom
+     * Maven coordinates: org.nordix.camel:camel-atom
      * 
      * @return the dsl builder
      */
@@ -207,7 +207,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * @return the dsl builder
      */
@@ -220,7 +220,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * @return the dsl builder
      */
@@ -233,7 +233,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * @return the dsl builder
      */
@@ -246,7 +246,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * @return the dsl builder
      */
@@ -259,7 +259,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * @return the dsl builder
      */
@@ -272,7 +272,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * @return the dsl builder
      */
@@ -285,7 +285,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: rpc
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-avro-rpc
+     * Maven coordinates: org.nordix.camel:camel-avro-rpc
      * 
      * @return the dsl builder
      */
@@ -298,7 +298,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-aws-secrets-manager
+     * Maven coordinates: org.nordix.camel:camel-aws-secrets-manager
      * 
      * @return the dsl builder
      */
@@ -311,7 +311,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,database
      * Since: 3.4
-     * Maven coordinates: org.apache.camel:camel-aws2-athena
+     * Maven coordinates: org.nordix.camel:camel-aws2-athena
      * 
      * @return the dsl builder
      */
@@ -324,7 +324,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,monitoring
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-cw
+     * Maven coordinates: org.nordix.camel:camel-aws2-cw
      * 
      * @return the dsl builder
      */
@@ -338,7 +338,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,database,nosql
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ddb
+     * Maven coordinates: org.nordix.camel:camel-aws2-ddb
      * 
      * @return the dsl builder
      */
@@ -352,7 +352,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging,streams
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ddb
+     * Maven coordinates: org.nordix.camel:camel-aws2-ddb
      * 
      * @return the dsl builder
      */
@@ -365,7 +365,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ec2
+     * Maven coordinates: org.nordix.camel:camel-aws2-ec2
      * 
      * @return the dsl builder
      */
@@ -378,7 +378,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ecs
+     * Maven coordinates: org.nordix.camel:camel-aws2-ecs
      * 
      * @return the dsl builder
      */
@@ -391,7 +391,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-eks
+     * Maven coordinates: org.nordix.camel:camel-aws2-eks
      * 
      * @return the dsl builder
      */
@@ -404,7 +404,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.6
-     * Maven coordinates: org.apache.camel:camel-aws2-eventbridge
+     * Maven coordinates: org.nordix.camel:camel-aws2-eventbridge
      * 
      * @return the dsl builder
      */
@@ -417,7 +417,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-iam
+     * Maven coordinates: org.nordix.camel:camel-aws2-iam
      * 
      * @return the dsl builder
      */
@@ -431,7 +431,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-kinesis
+     * Maven coordinates: org.nordix.camel:camel-aws2-kinesis
      * 
      * @return the dsl builder
      */
@@ -444,7 +444,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-kinesis
+     * Maven coordinates: org.nordix.camel:camel-aws2-kinesis
      * 
      * @return the dsl builder
      */
@@ -457,7 +457,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-kms
+     * Maven coordinates: org.nordix.camel:camel-aws2-kms
      * 
      * @return the dsl builder
      */
@@ -470,7 +470,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,computing,serverless
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-lambda
+     * Maven coordinates: org.nordix.camel:camel-aws2-lambda
      * 
      * @return the dsl builder
      */
@@ -483,7 +483,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-mq
+     * Maven coordinates: org.nordix.camel:camel-aws2-mq
      * 
      * @return the dsl builder
      */
@@ -496,7 +496,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-msk
+     * Maven coordinates: org.nordix.camel:camel-aws2-msk
      * 
      * @return the dsl builder
      */
@@ -510,7 +510,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-s3
+     * Maven coordinates: org.nordix.camel:camel-aws2-s3
      * 
      * @return the dsl builder
      */
@@ -523,7 +523,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,mail
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ses
+     * Maven coordinates: org.nordix.camel:camel-aws2-ses
      * 
      * @return the dsl builder
      */
@@ -537,7 +537,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging,mobile
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-sns
+     * Maven coordinates: org.nordix.camel:camel-aws2-sns
      * 
      * @return the dsl builder
      */
@@ -551,7 +551,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-sqs
+     * Maven coordinates: org.nordix.camel:camel-aws2-sqs
      * 
      * @return the dsl builder
      */
@@ -564,7 +564,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-aws2-sts
+     * Maven coordinates: org.nordix.camel:camel-aws2-sts
      * 
      * @return the dsl builder
      */
@@ -577,7 +577,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-translate
+     * Maven coordinates: org.nordix.camel:camel-aws2-translate
      * 
      * @return the dsl builder
      */
@@ -591,7 +591,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,database
      * Since: 3.10
-     * Maven coordinates: org.apache.camel:camel-azure-cosmosdb
+     * Maven coordinates: org.nordix.camel:camel-azure-cosmosdb
      * 
      * @return the dsl builder
      */
@@ -607,7 +607,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-azure-eventhubs
+     * Maven coordinates: org.nordix.camel:camel-azure-eventhubs
      * 
      * @return the dsl builder
      */
@@ -625,7 +625,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-azure-servicebus
+     * Maven coordinates: org.nordix.camel:camel-azure-servicebus
      * 
      * @return the dsl builder
      */
@@ -638,7 +638,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-azure-storage-blob
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-blob
      * 
      * @return the dsl builder
      */
@@ -651,7 +651,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-azure-storage-datalake
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-datalake
      * 
      * @return the dsl builder
      */
@@ -665,7 +665,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-azure-storage-queue
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-queue
      * 
      * @return the dsl builder
      */
@@ -678,7 +678,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,java
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-bean
+     * Maven coordinates: org.nordix.camel:camel-bean
      * 
      * @return the dsl builder
      */
@@ -691,7 +691,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: validation
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-bean-validator
+     * Maven coordinates: org.nordix.camel:camel-bean-validator
      * 
      * @return the dsl builder
      */
@@ -704,7 +704,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-beanstalk
+     * Maven coordinates: org.nordix.camel:camel-beanstalk
      * 
      * @return the dsl builder
      */
@@ -717,7 +717,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: process
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-bonita
+     * Maven coordinates: org.nordix.camel:camel-bonita
      * 
      * @return the dsl builder
      */
@@ -731,7 +731,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,file,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-box
+     * Maven coordinates: org.nordix.camel:camel-box
      * 
      * @return the dsl builder
      */
@@ -744,7 +744,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,payment
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-braintree
+     * Maven coordinates: org.nordix.camel:camel-braintree
      * 
      * @return the dsl builder
      */
@@ -757,7 +757,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,monitoring
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-browse
+     * Maven coordinates: org.nordix.camel:camel-browse
      * 
      * @return the dsl builder
      */
@@ -770,7 +770,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-caffeine
+     * Maven coordinates: org.nordix.camel:camel-caffeine
      * 
      * @return the dsl builder
      */
@@ -784,7 +784,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-caffeine
+     * Maven coordinates: org.nordix.camel:camel-caffeine
      * 
      * @return the dsl builder
      */
@@ -797,7 +797,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: ai,chat
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-chatscript
+     * Maven coordinates: org.nordix.camel:camel-chatscript
      * 
      * @return the dsl builder
      */
@@ -810,7 +810,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-chunk
+     * Maven coordinates: org.nordix.camel:camel-chunk
      * 
      * @return the dsl builder
      */
@@ -823,7 +823,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,java
      * Since: 2.4
-     * Maven coordinates: org.apache.camel:camel-bean
+     * Maven coordinates: org.nordix.camel:camel-bean
      * 
      * @return the dsl builder
      */
@@ -836,7 +836,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mobile
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-cm-sms
+     * Maven coordinates: org.nordix.camel:camel-cm-sms
      * 
      * @return the dsl builder
      */
@@ -849,7 +849,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cms,database
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-cmis
+     * Maven coordinates: org.nordix.camel:camel-cmis
      * 
      * @return the dsl builder
      */
@@ -862,7 +862,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-coap
+     * Maven coordinates: org.nordix.camel:camel-coap
      * 
      * @return the dsl builder
      */
@@ -875,7 +875,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-coap
+     * Maven coordinates: org.nordix.camel:camel-coap
      * 
      * @return the dsl builder
      */
@@ -888,7 +888,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-coap
+     * Maven coordinates: org.nordix.camel:camel-coap
      * 
      * @return the dsl builder
      */
@@ -901,7 +901,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-coap
+     * Maven coordinates: org.nordix.camel:camel-coap
      * 
      * @return the dsl builder
      */
@@ -915,7 +915,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: websocket
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-cometd
+     * Maven coordinates: org.nordix.camel:camel-cometd
      * 
      * @return the dsl builder
      */
@@ -929,7 +929,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: websocket
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-cometd
+     * Maven coordinates: org.nordix.camel:camel-cometd
      * 
      * @return the dsl builder
      */
@@ -942,7 +942,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-consul
+     * Maven coordinates: org.nordix.camel:camel-consul
      * 
      * @return the dsl builder
      */
@@ -955,7 +955,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,monitoring
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-controlbus
+     * Maven coordinates: org.nordix.camel:camel-controlbus
      * 
      * @return the dsl builder
      */
@@ -969,7 +969,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: blockchain,rpc
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-corda
+     * Maven coordinates: org.nordix.camel:camel-corda
      * 
      * @return the dsl builder
      */
@@ -983,7 +983,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-couchbase
+     * Maven coordinates: org.nordix.camel:camel-couchbase
      * 
      * @return the dsl builder
      */
@@ -998,7 +998,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-couchdb
+     * Maven coordinates: org.nordix.camel:camel-couchdb
      * 
      * @return the dsl builder
      */
@@ -1012,7 +1012,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-cassandraql
+     * Maven coordinates: org.nordix.camel:camel-cassandraql
      * 
      * @return the dsl builder
      */
@@ -1026,7 +1026,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: scheduling
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-cron
+     * Maven coordinates: org.nordix.camel:camel-cron
      * 
      * @return the dsl builder
      */
@@ -1040,7 +1040,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: security,transformation
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-crypto
+     * Maven coordinates: org.nordix.camel:camel-crypto
      * 
      * @return the dsl builder
      */
@@ -1054,7 +1054,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: soap,webservice
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-cxf
+     * Maven coordinates: org.nordix.camel:camel-cxf
      * 
      * @return the dsl builder
      */
@@ -1068,7 +1068,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: rest
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-cxf
+     * Maven coordinates: org.nordix.camel:camel-cxf
      * 
      * @return the dsl builder
      */
@@ -1081,7 +1081,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-dataformat
+     * Maven coordinates: org.nordix.camel:camel-dataformat
      * 
      * @return the dsl builder
      */
@@ -1094,7 +1094,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,testing
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-dataset
+     * Maven coordinates: org.nordix.camel:camel-dataset
      * 
      * @return the dsl builder
      */
@@ -1108,7 +1108,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,testing
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-dataset
+     * Maven coordinates: org.nordix.camel:camel-dataset
      * 
      * @return the dsl builder
      */
@@ -1121,7 +1121,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-mongodb
+     * Maven coordinates: org.nordix.camel:camel-debezium-mongodb
      * 
      * @return the dsl builder
      */
@@ -1134,7 +1134,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-mysql
+     * Maven coordinates: org.nordix.camel:camel-debezium-mysql
      * 
      * @return the dsl builder
      */
@@ -1147,7 +1147,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-postgres
+     * Maven coordinates: org.nordix.camel:camel-debezium-postgres
      * 
      * @return the dsl builder
      */
@@ -1160,7 +1160,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-sqlserver
+     * Maven coordinates: org.nordix.camel:camel-debezium-sqlserver
      * 
      * @return the dsl builder
      */
@@ -1173,7 +1173,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-digitalocean
+     * Maven coordinates: org.nordix.camel:camel-digitalocean
      * 
      * @return the dsl builder
      */
@@ -1186,7 +1186,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-direct
+     * Maven coordinates: org.nordix.camel:camel-direct
      * 
      * @return the dsl builder
      */
@@ -1200,7 +1200,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-directvm
+     * Maven coordinates: org.nordix.camel:camel-directvm
      * 
      * @return the dsl builder
      */
@@ -1213,7 +1213,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: endpoint
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-disruptor
+     * Maven coordinates: org.nordix.camel:camel-disruptor
      * 
      * @return the dsl builder
      */
@@ -1226,7 +1226,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: endpoint
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-disruptor
+     * Maven coordinates: org.nordix.camel:camel-disruptor
      * 
      * @return the dsl builder
      */
@@ -1240,7 +1240,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: ai,deeplearning
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-djl
+     * Maven coordinates: org.nordix.camel:camel-djl
      * 
      * @return the dsl builder
      */
@@ -1253,7 +1253,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: networking
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-dns
+     * Maven coordinates: org.nordix.camel:camel-dns
      * 
      * @return the dsl builder
      */
@@ -1266,7 +1266,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,container,paas
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-docker
+     * Maven coordinates: org.nordix.camel:camel-docker
      * 
      * @return the dsl builder
      */
@@ -1279,7 +1279,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-dozer
+     * Maven coordinates: org.nordix.camel:camel-dozer
      * 
      * @return the dsl builder
      */
@@ -1292,7 +1292,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-drill
+     * Maven coordinates: org.nordix.camel:camel-drill
      * 
      * @return the dsl builder
      */
@@ -1306,7 +1306,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,file,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-dropbox
+     * Maven coordinates: org.nordix.camel:camel-dropbox
      * 
      * @return the dsl builder
      */
@@ -1319,7 +1319,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-ehcache
+     * Maven coordinates: org.nordix.camel:camel-ehcache
      * 
      * @return the dsl builder
      */
@@ -1332,7 +1332,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: search,monitoring
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-elasticsearch-rest
+     * Maven coordinates: org.nordix.camel:camel-elasticsearch-rest
      * 
      * @return the dsl builder
      */
@@ -1345,7 +1345,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-elsql
+     * Maven coordinates: org.nordix.camel:camel-elsql
      * 
      * @return the dsl builder
      */
@@ -1358,7 +1358,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering,database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-etcd
+     * Maven coordinates: org.nordix.camel:camel-etcd
      * 
      * @return the dsl builder
      */
@@ -1371,7 +1371,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering,database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-etcd
+     * Maven coordinates: org.nordix.camel:camel-etcd
      * 
      * @return the dsl builder
      */
@@ -1384,7 +1384,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering,database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-etcd
+     * Maven coordinates: org.nordix.camel:camel-etcd
      * 
      * @return the dsl builder
      */
@@ -1397,7 +1397,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: system
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-exec
+     * Maven coordinates: org.nordix.camel:camel-exec
      * 
      * @return the dsl builder
      */
@@ -1410,7 +1410,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: social
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-facebook
+     * Maven coordinates: org.nordix.camel:camel-facebook
      * 
      * @return the dsl builder
      */
@@ -1424,7 +1424,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-fhir
+     * Maven coordinates: org.nordix.camel:camel-fhir
      * 
      * @return the dsl builder
      */
@@ -1437,7 +1437,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file,core
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-file
+     * Maven coordinates: org.nordix.camel:camel-file
      * 
      * @return the dsl builder
      */
@@ -1451,7 +1451,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-file-watch
+     * Maven coordinates: org.nordix.camel:camel-file-watch
      * 
      * @return the dsl builder
      */
@@ -1464,7 +1464,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-flatpack
+     * Maven coordinates: org.nordix.camel:camel-flatpack
      * 
      * @return the dsl builder
      */
@@ -1477,7 +1477,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation,bigdata,streams
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-flink
+     * Maven coordinates: org.nordix.camel:camel-flink
      * 
      * @return the dsl builder
      */
@@ -1491,7 +1491,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file,transformation
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-fop
+     * Maven coordinates: org.nordix.camel:camel-fop
      * 
      * @return the dsl builder
      */
@@ -1504,7 +1504,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-freemarker
+     * Maven coordinates: org.nordix.camel:camel-freemarker
      * 
      * @return the dsl builder
      */
@@ -1517,7 +1517,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * @return the dsl builder
      */
@@ -1531,7 +1531,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * @return the dsl builder
      */
@@ -1544,7 +1544,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-ganglia
+     * Maven coordinates: org.nordix.camel:camel-ganglia
      * 
      * @return the dsl builder
      */
@@ -1558,7 +1558,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api,location
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-geocoder
+     * Maven coordinates: org.nordix.camel:camel-geocoder
      * 
      * @return the dsl builder
      */
@@ -1571,7 +1571,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-git
+     * Maven coordinates: org.nordix.camel:camel-git
      * 
      * @return the dsl builder
      */
@@ -1584,7 +1584,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file,cloud,api
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-github
+     * Maven coordinates: org.nordix.camel:camel-github
      * 
      * @return the dsl builder
      */
@@ -1597,7 +1597,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,bigdata
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-google-bigquery
+     * Maven coordinates: org.nordix.camel:camel-google-bigquery
      * 
      * @return the dsl builder
      */
@@ -1610,7 +1610,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-bigquery
+     * Maven coordinates: org.nordix.camel:camel-google-bigquery
      * 
      * @return the dsl builder
      */
@@ -1623,7 +1623,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api,cloud
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-google-calendar
+     * Maven coordinates: org.nordix.camel:camel-google-calendar
      * 
      * @return the dsl builder
      */
@@ -1636,7 +1636,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-calendar
+     * Maven coordinates: org.nordix.camel:camel-google-calendar
      * 
      * @return the dsl builder
      */
@@ -1649,7 +1649,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file,cloud,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-google-drive
+     * Maven coordinates: org.nordix.camel:camel-google-drive
      * 
      * @return the dsl builder
      */
@@ -1662,7 +1662,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-google-functions
+     * Maven coordinates: org.nordix.camel:camel-google-functions
      * 
      * @return the dsl builder
      */
@@ -1675,7 +1675,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api,mail
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-google-mail
+     * Maven coordinates: org.nordix.camel:camel-google-mail
      * 
      * @return the dsl builder
      */
@@ -1688,7 +1688,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,mail
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-google-mail
+     * Maven coordinates: org.nordix.camel:camel-google-mail
      * 
      * @return the dsl builder
      */
@@ -1701,7 +1701,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-google-pubsub
+     * Maven coordinates: org.nordix.camel:camel-google-pubsub
      * 
      * @return the dsl builder
      */
@@ -1714,7 +1714,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api,cloud,sheets
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-sheets
+     * Maven coordinates: org.nordix.camel:camel-google-sheets
      * 
      * @return the dsl builder
      */
@@ -1727,7 +1727,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,sheets
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-sheets
+     * Maven coordinates: org.nordix.camel:camel-google-sheets
      * 
      * @return the dsl builder
      */
@@ -1741,7 +1741,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-google-storage
+     * Maven coordinates: org.nordix.camel:camel-google-storage
      * 
      * @return the dsl builder
      */
@@ -1754,7 +1754,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,nosql,bigdata
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-gora
+     * Maven coordinates: org.nordix.camel:camel-gora
      * 
      * @return the dsl builder
      */
@@ -1768,7 +1768,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: management,deployment
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-grape
+     * Maven coordinates: org.nordix.camel:camel-grape
      * 
      * @return the dsl builder
      */
@@ -1781,7 +1781,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-graphql
+     * Maven coordinates: org.nordix.camel:camel-graphql
      * 
      * @return the dsl builder
      */
@@ -1794,7 +1794,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: rpc
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-grpc
+     * Maven coordinates: org.nordix.camel:camel-grpc
      * 
      * @return the dsl builder
      */
@@ -1807,7 +1807,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: eventbus
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-guava-eventbus
+     * Maven coordinates: org.nordix.camel:camel-guava-eventbus
      * 
      * @return the dsl builder
      */
@@ -1821,7 +1821,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1834,7 +1834,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1847,7 +1847,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1860,7 +1860,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1873,7 +1873,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1886,7 +1886,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid,messaging
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1899,7 +1899,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1912,7 +1912,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1926,7 +1926,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1939,7 +1939,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1952,7 +1952,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * @return the dsl builder
      */
@@ -1965,7 +1965,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: bigdata,database,hadoop
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-hbase
+     * Maven coordinates: org.nordix.camel:camel-hbase
      * 
      * @return the dsl builder
      */
@@ -1978,7 +1978,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: bigdata,hadoop,file
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-hdfs
+     * Maven coordinates: org.nordix.camel:camel-hdfs
      * 
      * @return the dsl builder
      */
@@ -1991,7 +1991,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: http
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-http
+     * Maven coordinates: org.nordix.camel:camel-http
      * 
      * @return the dsl builder
      */
@@ -2004,7 +2004,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: http
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-http
+     * Maven coordinates: org.nordix.camel:camel-http
      * 
      * @return the dsl builder
      */
@@ -2018,7 +2018,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-dms
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-dms
      * 
      * @return the dsl builder
      */
@@ -2031,7 +2031,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,serverless
      * Since: 3.11
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-functiongraph
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-functiongraph
      * 
      * @return the dsl builder
      */
@@ -2044,7 +2044,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.11
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-iam
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-iam
      * 
      * @return the dsl builder
      */
@@ -2057,7 +2057,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-imagerecognition
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-imagerecognition
      * 
      * @return the dsl builder
      */
@@ -2071,7 +2071,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-obs
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-obs
      * 
      * @return the dsl builder
      */
@@ -2085,7 +2085,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-smn
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-smn
      * 
      * @return the dsl builder
      */
@@ -2099,7 +2099,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: iot
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-iec60870
+     * Maven coordinates: org.nordix.camel:camel-iec60870
      * 
      * @return the dsl builder
      */
@@ -2113,7 +2113,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: iot
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-iec60870
+     * Maven coordinates: org.nordix.camel:camel-iec60870
      * 
      * @return the dsl builder
      */
@@ -2127,7 +2127,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * @return the dsl builder
      */
@@ -2140,7 +2140,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: compute
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * @return the dsl builder
      */
@@ -2153,7 +2153,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging,eventbus
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * @return the dsl builder
      */
@@ -2166,7 +2166,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: compute
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * @return the dsl builder
      */
@@ -2179,7 +2179,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * @return the dsl builder
      */
@@ -2192,7 +2192,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging,queue
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * @return the dsl builder
      */
@@ -2205,7 +2205,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,compute
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * @return the dsl builder
      */
@@ -2218,7 +2218,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mail
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mail
+     * Maven coordinates: org.nordix.camel:camel-mail
      * 
      * @return the dsl builder
      */
@@ -2231,7 +2231,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mail
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mail
+     * Maven coordinates: org.nordix.camel:camel-mail
      * 
      * @return the dsl builder
      */
@@ -2245,7 +2245,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-infinispan
+     * Maven coordinates: org.nordix.camel:camel-infinispan
      * 
      * @return the dsl builder
      */
@@ -2259,7 +2259,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-infinispan-embedded
+     * Maven coordinates: org.nordix.camel:camel-infinispan-embedded
      * 
      * @return the dsl builder
      */
@@ -2272,7 +2272,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-influxdb
+     * Maven coordinates: org.nordix.camel:camel-influxdb
      * 
      * @return the dsl builder
      */
@@ -2285,7 +2285,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: ledger,api
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-iota
+     * Maven coordinates: org.nordix.camel:camel-iota
      * 
      * @return the dsl builder
      */
@@ -2298,7 +2298,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file,ipfs
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-ipfs
+     * Maven coordinates: org.nordix.camel:camel-ipfs
      * 
      * @return the dsl builder
      */
@@ -2311,7 +2311,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: chat
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-irc
+     * Maven coordinates: org.nordix.camel:camel-irc
      * 
      * @return the dsl builder
      */
@@ -2325,7 +2325,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ironmq
+     * Maven coordinates: org.nordix.camel:camel-ironmq
      * 
      * @return the dsl builder
      */
@@ -2338,7 +2338,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api,workflow
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-jbpm
+     * Maven coordinates: org.nordix.camel:camel-jbpm
      * 
      * @return the dsl builder
      */
@@ -2351,7 +2351,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-jcache
+     * Maven coordinates: org.nordix.camel:camel-jcache
      * 
      * @return the dsl builder
      */
@@ -2364,7 +2364,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api,cloud,compute
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-jclouds
+     * Maven coordinates: org.nordix.camel:camel-jclouds
      * 
      * @return the dsl builder
      */
@@ -2377,7 +2377,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,cms
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-jcr
+     * Maven coordinates: org.nordix.camel:camel-jcr
      * 
      * @return the dsl builder
      */
@@ -2390,7 +2390,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-jdbc
+     * Maven coordinates: org.nordix.camel:camel-jdbc
      * 
      * @return the dsl builder
      */
@@ -2403,7 +2403,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: http
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-jetty
+     * Maven coordinates: org.nordix.camel:camel-jetty
      * 
      * @return the dsl builder
      */
@@ -2416,7 +2416,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering,messaging
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-jgroups
+     * Maven coordinates: org.nordix.camel:camel-jgroups
      * 
      * @return the dsl builder
      */
@@ -2429,7 +2429,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering,messaging
      * Since: 2.24
-     * Maven coordinates: org.apache.camel:camel-jgroups-raft
+     * Maven coordinates: org.nordix.camel:camel-jgroups-raft
      * 
      * @return the dsl builder
      */
@@ -2443,7 +2443,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-jing
+     * Maven coordinates: org.nordix.camel:camel-jing
      * 
      * @return the dsl builder
      */
@@ -2456,7 +2456,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api,reporting
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-jira
+     * Maven coordinates: org.nordix.camel:camel-jira
      * 
      * @return the dsl builder
      */
@@ -2469,7 +2469,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-jms
+     * Maven coordinates: org.nordix.camel:camel-jms
      * 
      * @return the dsl builder
      */
@@ -2482,7 +2482,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-jmx
+     * Maven coordinates: org.nordix.camel:camel-jmx
      * 
      * @return the dsl builder
      */
@@ -2495,7 +2495,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-jolt
+     * Maven coordinates: org.nordix.camel:camel-jolt
      * 
      * @return the dsl builder
      */
@@ -2508,7 +2508,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-jooq
+     * Maven coordinates: org.nordix.camel:camel-jooq
      * 
      * @return the dsl builder
      */
@@ -2522,7 +2522,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-jpa
+     * Maven coordinates: org.nordix.camel:camel-jpa
      * 
      * @return the dsl builder
      */
@@ -2535,7 +2535,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-jslt
+     * Maven coordinates: org.nordix.camel:camel-jslt
      * 
      * @return the dsl builder
      */
@@ -2548,7 +2548,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-json-patch
+     * Maven coordinates: org.nordix.camel:camel-json-patch
      * 
      * @return the dsl builder
      */
@@ -2561,7 +2561,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: validation
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-json-validator
+     * Maven coordinates: org.nordix.camel:camel-json-validator
      * 
      * @return the dsl builder
      */
@@ -2574,7 +2574,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-jsonata
+     * Maven coordinates: org.nordix.camel:camel-jsonata
      * 
      * @return the dsl builder
      */
@@ -2589,7 +2589,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 1.5
-     * Maven coordinates: org.apache.camel:camel-jt400
+     * Maven coordinates: org.nordix.camel:camel-jt400
      * 
      * @return the dsl builder
      */
@@ -2602,7 +2602,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-kafka
+     * Maven coordinates: org.nordix.camel:camel-kafka
      * 
      * @return the dsl builder
      */
@@ -2615,7 +2615,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-kamelet
+     * Maven coordinates: org.nordix.camel:camel-kamelet
      * 
      * @return the dsl builder
      */
@@ -2628,7 +2628,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core
      * Since: 3.6
-     * Maven coordinates: org.apache.camel:camel-kamelet-reify
+     * Maven coordinates: org.nordix.camel:camel-kamelet-reify
      * 
      * @return the dsl builder
      */
@@ -2643,7 +2643,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2657,7 +2657,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2671,7 +2671,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2685,7 +2685,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2698,7 +2698,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2712,7 +2712,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2725,7 +2725,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2739,7 +2739,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2753,7 +2753,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2766,7 +2766,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2780,7 +2780,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2793,7 +2793,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2806,7 +2806,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2819,7 +2819,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2833,7 +2833,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -2847,7 +2847,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,iot,cloud
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-kudu
+     * Maven coordinates: org.nordix.camel:camel-kudu
      * 
      * @return the dsl builder
      */
@@ -2860,7 +2860,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,script
      * Since: 2.5
-     * Maven coordinates: org.apache.camel:camel-language
+     * Maven coordinates: org.nordix.camel:camel-language
      * 
      * @return the dsl builder
      */
@@ -2873,7 +2873,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: search,ldap
      * Since: 1.5
-     * Maven coordinates: org.apache.camel:camel-ldap
+     * Maven coordinates: org.nordix.camel:camel-ldap
      * 
      * @return the dsl builder
      */
@@ -2886,7 +2886,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: ldap
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-ldif
+     * Maven coordinates: org.nordix.camel:camel-ldif
      * 
      * @return the dsl builder
      */
@@ -2899,7 +2899,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,monitoring
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-log
+     * Maven coordinates: org.nordix.camel:camel-log
      * 
      * @return the dsl builder
      */
@@ -2912,7 +2912,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: printing
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-printer
+     * Maven coordinates: org.nordix.camel:camel-printer
      * 
      * @return the dsl builder
      */
@@ -2925,7 +2925,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,search
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-lucene
+     * Maven coordinates: org.nordix.camel:camel-lucene
      * 
      * @return the dsl builder
      */
@@ -2938,7 +2938,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: log
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-lumberjack
+     * Maven coordinates: org.nordix.camel:camel-lumberjack
      * 
      * @return the dsl builder
      */
@@ -2952,7 +2952,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-master
+     * Maven coordinates: org.nordix.camel:camel-master
      * 
      * @return the dsl builder
      */
@@ -2966,7 +2966,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-metrics
+     * Maven coordinates: org.nordix.camel:camel-metrics
      * 
      * @return the dsl builder
      */
@@ -2980,7 +2980,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-micrometer
+     * Maven coordinates: org.nordix.camel:camel-micrometer
      * 
      * @return the dsl builder
      */
@@ -2993,7 +2993,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-microprofile-metrics
+     * Maven coordinates: org.nordix.camel:camel-microprofile-metrics
      * 
      * @return the dsl builder
      */
@@ -3007,7 +3007,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: iot
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-milo
+     * Maven coordinates: org.nordix.camel:camel-milo
      * 
      * @return the dsl builder
      */
@@ -3020,7 +3020,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: iot
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-milo
+     * Maven coordinates: org.nordix.camel:camel-milo
      * 
      * @return the dsl builder
      */
@@ -3033,7 +3033,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: networking,tcp,udp
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-mina
+     * Maven coordinates: org.nordix.camel:camel-mina
      * 
      * @return the dsl builder
      */
@@ -3046,7 +3046,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-minio
+     * Maven coordinates: org.nordix.camel:camel-minio
      * 
      * @return the dsl builder
      */
@@ -3059,7 +3059,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: networking,rpc,mllp
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-mllp
+     * Maven coordinates: org.nordix.camel:camel-mllp
      * 
      * @return the dsl builder
      */
@@ -3072,7 +3072,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,testing
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mock
+     * Maven coordinates: org.nordix.camel:camel-mock
      * 
      * @return the dsl builder
      */
@@ -3085,7 +3085,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-mongodb
+     * Maven coordinates: org.nordix.camel:camel-mongodb
      * 
      * @return the dsl builder
      */
@@ -3098,7 +3098,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-mongodb-gridfs
+     * Maven coordinates: org.nordix.camel:camel-mongodb-gridfs
      * 
      * @return the dsl builder
      */
@@ -3111,7 +3111,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-msv
+     * Maven coordinates: org.nordix.camel:camel-msv
      * 
      * @return the dsl builder
      */
@@ -3124,7 +3124,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-mustache
+     * Maven coordinates: org.nordix.camel:camel-mustache
      * 
      * @return the dsl builder
      */
@@ -3137,7 +3137,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation,script
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-mvel
+     * Maven coordinates: org.nordix.camel:camel-mvel
      * 
      * @return the dsl builder
      */
@@ -3151,7 +3151,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-mybatis
+     * Maven coordinates: org.nordix.camel:camel-mybatis
      * 
      * @return the dsl builder
      */
@@ -3165,7 +3165,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-mybatis
+     * Maven coordinates: org.nordix.camel:camel-mybatis
      * 
      * @return the dsl builder
      */
@@ -3178,7 +3178,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-nagios
+     * Maven coordinates: org.nordix.camel:camel-nagios
      * 
      * @return the dsl builder
      */
@@ -3191,7 +3191,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-nats
+     * Maven coordinates: org.nordix.camel:camel-nats
      * 
      * @return the dsl builder
      */
@@ -3204,7 +3204,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: networking,tcp,udp
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-netty
+     * Maven coordinates: org.nordix.camel:camel-netty
      * 
      * @return the dsl builder
      */
@@ -3217,7 +3217,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: networking,http
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-netty-http
+     * Maven coordinates: org.nordix.camel:camel-netty-http
      * 
      * @return the dsl builder
      */
@@ -3230,7 +3230,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-nitrite
+     * Maven coordinates: org.nordix.camel:camel-nitrite
      * 
      * @return the dsl builder
      */
@@ -3244,7 +3244,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-nsq
+     * Maven coordinates: org.nordix.camel:camel-nsq
      * 
      * @return the dsl builder
      */
@@ -3257,7 +3257,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: endpoint,webservice,batch
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-oaipmh
+     * Maven coordinates: org.nordix.camel:camel-oaipmh
      * 
      * @return the dsl builder
      */
@@ -3270,7 +3270,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-olingo2
+     * Maven coordinates: org.nordix.camel:camel-olingo2
      * 
      * @return the dsl builder
      */
@@ -3283,7 +3283,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-olingo4
+     * Maven coordinates: org.nordix.camel:camel-olingo4
      * 
      * @return the dsl builder
      */
@@ -3296,7 +3296,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -3309,7 +3309,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * @return the dsl builder
      */
@@ -3322,7 +3322,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * @return the dsl builder
      */
@@ -3335,7 +3335,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * @return the dsl builder
      */
@@ -3349,7 +3349,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * @return the dsl builder
      */
@@ -3362,7 +3362,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * @return the dsl builder
      */
@@ -3375,7 +3375,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * @return the dsl builder
      */
@@ -3388,7 +3388,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * @return the dsl builder
      */
@@ -3401,7 +3401,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: engine,planning
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-optaplanner
+     * Maven coordinates: org.nordix.camel:camel-optaplanner
      * 
      * @return the dsl builder
      */
@@ -3414,7 +3414,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging,iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-paho
+     * Maven coordinates: org.nordix.camel:camel-paho
      * 
      * @return the dsl builder
      */
@@ -3427,7 +3427,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging,iot
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-paho-mqtt5
+     * Maven coordinates: org.nordix.camel:camel-paho-mqtt5
      * 
      * @return the dsl builder
      */
@@ -3440,7 +3440,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: document,transformation,printing
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-pdf
+     * Maven coordinates: org.nordix.camel:camel-pdf
      * 
      * @return the dsl builder
      */
@@ -3454,7 +3454,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-pg-replication-slot
+     * Maven coordinates: org.nordix.camel:camel-pg-replication-slot
      * 
      * @return the dsl builder
      */
@@ -3467,7 +3467,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-pgevent
+     * Maven coordinates: org.nordix.camel:camel-pgevent
      * 
      * @return the dsl builder
      */
@@ -3481,7 +3481,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: http
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-platform-http
+     * Maven coordinates: org.nordix.camel:camel-platform-http
      * 
      * @return the dsl builder
      */
@@ -3494,7 +3494,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mail
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mail
+     * Maven coordinates: org.nordix.camel:camel-mail
      * 
      * @return the dsl builder
      */
@@ -3507,7 +3507,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mail
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mail
+     * Maven coordinates: org.nordix.camel:camel-mail
      * 
      * @return the dsl builder
      */
@@ -3521,7 +3521,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,iot,messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-pubnub
+     * Maven coordinates: org.nordix.camel:camel-pubnub
      * 
      * @return the dsl builder
      */
@@ -3534,7 +3534,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.24
-     * Maven coordinates: org.apache.camel:camel-pulsar
+     * Maven coordinates: org.nordix.camel:camel-pulsar
      * 
      * @return the dsl builder
      */
@@ -3547,7 +3547,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: scheduling
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-quartz
+     * Maven coordinates: org.nordix.camel:camel-quartz
      * 
      * @return the dsl builder
      */
@@ -3561,7 +3561,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-quickfix
+     * Maven coordinates: org.nordix.camel:camel-quickfix
      * 
      * @return the dsl builder
      */
@@ -3574,7 +3574,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-rabbitmq
+     * Maven coordinates: org.nordix.camel:camel-rabbitmq
      * 
      * @return the dsl builder
      */
@@ -3588,7 +3588,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: reactive,streams
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-reactive-streams
+     * Maven coordinates: org.nordix.camel:camel-reactive-streams
      * 
      * @return the dsl builder
      */
@@ -3602,7 +3602,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-ref
+     * Maven coordinates: org.nordix.camel:camel-ref
      * 
      * @return the dsl builder
      */
@@ -3615,7 +3615,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,rest
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-rest
+     * Maven coordinates: org.nordix.camel:camel-rest
      * 
      * @return the dsl builder
      */
@@ -3629,7 +3629,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,rest
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-rest
+     * Maven coordinates: org.nordix.camel:camel-rest
      * 
      * @return the dsl builder
      */
@@ -3643,7 +3643,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: openapi,rest,api
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-rest-openapi
+     * Maven coordinates: org.nordix.camel:camel-rest-openapi
      * 
      * @return the dsl builder
      */
@@ -3658,7 +3658,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: rest,swagger,http
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-rest-swagger
+     * Maven coordinates: org.nordix.camel:camel-rest-swagger
      * 
      * @return the dsl builder
      */
@@ -3671,7 +3671,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: rest
      * Since: 3.4
-     * Maven coordinates: org.apache.camel:camel-resteasy
+     * Maven coordinates: org.nordix.camel:camel-resteasy
      * 
      * @return the dsl builder
      */
@@ -3684,7 +3684,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: testing
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-robotframework
+     * Maven coordinates: org.nordix.camel:camel-robotframework
      * 
      * @return the dsl builder
      */
@@ -3697,7 +3697,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: rss
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-rss
+     * Maven coordinates: org.nordix.camel:camel-rss
      * 
      * @return the dsl builder
      */
@@ -3710,7 +3710,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-saga
+     * Maven coordinates: org.nordix.camel:camel-saga
      * 
      * @return the dsl builder
      */
@@ -3723,7 +3723,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api,crm
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-salesforce
+     * Maven coordinates: org.nordix.camel:camel-salesforce
      * 
      * @return the dsl builder
      */
@@ -3736,7 +3736,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: sap,cloud,api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-sap-netweaver
+     * Maven coordinates: org.nordix.camel:camel-sap-netweaver
      * 
      * @return the dsl builder
      */
@@ -3750,7 +3750,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,scheduling
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-scheduler
+     * Maven coordinates: org.nordix.camel:camel-scheduler
      * 
      * @return the dsl builder
      */
@@ -3763,7 +3763,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: validation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-schematron
+     * Maven coordinates: org.nordix.camel:camel-schematron
      * 
      * @return the dsl builder
      */
@@ -3776,7 +3776,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-jsch
+     * Maven coordinates: org.nordix.camel:camel-jsch
      * 
      * @return the dsl builder
      */
@@ -3790,7 +3790,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-seda
+     * Maven coordinates: org.nordix.camel:camel-seda
      * 
      * @return the dsl builder
      */
@@ -3804,7 +3804,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-service
+     * Maven coordinates: org.nordix.camel:camel-service
      * 
      * @return the dsl builder
      */
@@ -3817,7 +3817,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api,cloud,management
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-servicenow
+     * Maven coordinates: org.nordix.camel:camel-servicenow
      * 
      * @return the dsl builder
      */
@@ -3830,7 +3830,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: http
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-servlet
+     * Maven coordinates: org.nordix.camel:camel-servlet
      * 
      * @return the dsl builder
      */
@@ -3843,7 +3843,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * @return the dsl builder
      */
@@ -3857,7 +3857,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mobile
      * Since: 2.5
-     * Maven coordinates: org.apache.camel:camel-sip
+     * Maven coordinates: org.nordix.camel:camel-sip
      * 
      * @return the dsl builder
      */
@@ -3871,7 +3871,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mobile
      * Since: 2.5
-     * Maven coordinates: org.apache.camel:camel-sip
+     * Maven coordinates: org.nordix.camel:camel-sip
      * 
      * @return the dsl builder
      */
@@ -3885,7 +3885,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-sjms
+     * Maven coordinates: org.nordix.camel:camel-sjms
      * 
      * @return the dsl builder
      */
@@ -3899,7 +3899,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-sjms2
+     * Maven coordinates: org.nordix.camel:camel-sjms2
      * 
      * @return the dsl builder
      */
@@ -3912,7 +3912,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: social
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-slack
+     * Maven coordinates: org.nordix.camel:camel-slack
      * 
      * @return the dsl builder
      */
@@ -3926,7 +3926,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mobile
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-smpp
+     * Maven coordinates: org.nordix.camel:camel-smpp
      * 
      * @return the dsl builder
      */
@@ -3940,7 +3940,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mobile
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-smpp
+     * Maven coordinates: org.nordix.camel:camel-smpp
      * 
      * @return the dsl builder
      */
@@ -3953,7 +3953,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mail
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mail
+     * Maven coordinates: org.nordix.camel:camel-mail
      * 
      * @return the dsl builder
      */
@@ -3966,7 +3966,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: mail
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mail
+     * Maven coordinates: org.nordix.camel:camel-mail
      * 
      * @return the dsl builder
      */
@@ -3980,7 +3980,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-snmp
+     * Maven coordinates: org.nordix.camel:camel-snmp
      * 
      * @return the dsl builder
      */
@@ -3993,7 +3993,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring,search
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-solr
+     * Maven coordinates: org.nordix.camel:camel-solr
      * 
      * @return the dsl builder
      */
@@ -4006,7 +4006,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring,search
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-solr
+     * Maven coordinates: org.nordix.camel:camel-solr
      * 
      * @return the dsl builder
      */
@@ -4019,7 +4019,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: monitoring,search
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-solr
+     * Maven coordinates: org.nordix.camel:camel-solr
      * 
      * @return the dsl builder
      */
@@ -4032,7 +4032,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: chat
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-soroush
+     * Maven coordinates: org.nordix.camel:camel-soroush
      * 
      * @return the dsl builder
      */
@@ -4045,7 +4045,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: bigdata,iot
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-spark
+     * Maven coordinates: org.nordix.camel:camel-spark
      * 
      * @return the dsl builder
      */
@@ -4058,7 +4058,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: iot,monitoring
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-splunk
+     * Maven coordinates: org.nordix.camel:camel-splunk
      * 
      * @return the dsl builder
      */
@@ -4072,7 +4072,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: log,monitoring
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-splunk-hec
+     * Maven coordinates: org.nordix.camel:camel-splunk-hec
      * 
      * @return the dsl builder
      */
@@ -4085,7 +4085,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: spring,batch,scheduling
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-spring-batch
+     * Maven coordinates: org.nordix.camel:camel-spring-batch
      * 
      * @return the dsl builder
      */
@@ -4098,7 +4098,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: spring,eventbus
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-spring
+     * Maven coordinates: org.nordix.camel:camel-spring
      * 
      * @return the dsl builder
      */
@@ -4111,7 +4111,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: spring,eventbus
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-spring-integration
+     * Maven coordinates: org.nordix.camel:camel-spring-integration
      * 
      * @return the dsl builder
      */
@@ -4124,7 +4124,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 3.10
-     * Maven coordinates: org.apache.camel:camel-spring-jdbc
+     * Maven coordinates: org.nordix.camel:camel-spring-jdbc
      * 
      * @return the dsl builder
      */
@@ -4137,7 +4137,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: spring,ldap
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-spring-ldap
+     * Maven coordinates: org.nordix.camel:camel-spring-ldap
      * 
      * @return the dsl builder
      */
@@ -4150,7 +4150,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-spring-rabbitmq
+     * Maven coordinates: org.nordix.camel:camel-spring-rabbitmq
      * 
      * @return the dsl builder
      */
@@ -4163,7 +4163,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: spring,nosql
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-spring-redis
+     * Maven coordinates: org.nordix.camel:camel-spring-redis
      * 
      * @return the dsl builder
      */
@@ -4176,7 +4176,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: spring,soap,webservice
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-spring-ws
+     * Maven coordinates: org.nordix.camel:camel-spring-ws
      * 
      * @return the dsl builder
      */
@@ -4189,7 +4189,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-sql
+     * Maven coordinates: org.nordix.camel:camel-sql
      * 
      * @return the dsl builder
      */
@@ -4202,7 +4202,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-sql
+     * Maven coordinates: org.nordix.camel:camel-sql
      * 
      * @return the dsl builder
      */
@@ -4215,7 +4215,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-ssh
+     * Maven coordinates: org.nordix.camel:camel-ssh
      * 
      * @return the dsl builder
      */
@@ -4228,7 +4228,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-stax
+     * Maven coordinates: org.nordix.camel:camel-stax
      * 
      * @return the dsl builder
      */
@@ -4242,7 +4242,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api,compute,bigdata
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-stitch
+     * Maven coordinates: org.nordix.camel:camel-stitch
      * 
      * @return the dsl builder
      */
@@ -4256,7 +4256,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-stomp
+     * Maven coordinates: org.nordix.camel:camel-stomp
      * 
      * @return the dsl builder
      */
@@ -4269,7 +4269,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: file,system
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-stream
+     * Maven coordinates: org.nordix.camel:camel-stream
      * 
      * @return the dsl builder
      */
@@ -4282,7 +4282,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation,script
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-stringtemplate
+     * Maven coordinates: org.nordix.camel:camel-stringtemplate
      * 
      * @return the dsl builder
      */
@@ -4295,7 +4295,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,testing
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-stub
+     * Maven coordinates: org.nordix.camel:camel-stub
      * 
      * @return the dsl builder
      */
@@ -4308,7 +4308,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api,chat
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-telegram
+     * Maven coordinates: org.nordix.camel:camel-telegram
      * 
      * @return the dsl builder
      */
@@ -4322,7 +4322,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: rpc,transformation
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-thrift
+     * Maven coordinates: org.nordix.camel:camel-thrift
      * 
      * @return the dsl builder
      */
@@ -4335,7 +4335,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: document,transformation
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-tika
+     * Maven coordinates: org.nordix.camel:camel-tika
      * 
      * @return the dsl builder
      */
@@ -4348,7 +4348,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,scheduling
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-timer
+     * Maven coordinates: org.nordix.camel:camel-timer
      * 
      * @return the dsl builder
      */
@@ -4361,7 +4361,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api,messaging,cloud
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-twilio
+     * Maven coordinates: org.nordix.camel:camel-twilio
      * 
      * @return the dsl builder
      */
@@ -4374,7 +4374,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api,social,chat
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * @return the dsl builder
      */
@@ -4387,7 +4387,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api,search,social
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * @return the dsl builder
      */
@@ -4400,7 +4400,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api,cloud,social
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * @return the dsl builder
      */
@@ -4414,7 +4414,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: http,websocket
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-undertow
+     * Maven coordinates: org.nordix.camel:camel-undertow
      * 
      * @return the dsl builder
      */
@@ -4427,7 +4427,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-validator
+     * Maven coordinates: org.nordix.camel:camel-validator
      * 
      * @return the dsl builder
      */
@@ -4440,7 +4440,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-velocity
+     * Maven coordinates: org.nordix.camel:camel-velocity
      * 
      * @return the dsl builder
      */
@@ -4453,7 +4453,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: eventbus,reactive
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-vertx
+     * Maven coordinates: org.nordix.camel:camel-vertx
      * 
      * @return the dsl builder
      */
@@ -4466,7 +4466,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: http
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-vertx-http
+     * Maven coordinates: org.nordix.camel:camel-vertx-http
      * 
      * @return the dsl builder
      */
@@ -4480,7 +4480,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: messaging
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-vertx-kafka
+     * Maven coordinates: org.nordix.camel:camel-vertx-kafka
      * 
      * @return the dsl builder
      */
@@ -4495,7 +4495,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: websocket
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-vertx-websocket
+     * Maven coordinates: org.nordix.camel:camel-vertx-websocket
      * 
      * @return the dsl builder
      */
@@ -4508,7 +4508,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-vm
+     * Maven coordinates: org.nordix.camel:camel-vm
      * 
      * @return the dsl builder
      */
@@ -4521,7 +4521,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-weather
+     * Maven coordinates: org.nordix.camel:camel-weather
      * 
      * @return the dsl builder
      */
@@ -4534,7 +4534,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: bitcoin,blockchain,api
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-web3j
+     * Maven coordinates: org.nordix.camel:camel-web3j
      * 
      * @return the dsl builder
      */
@@ -4548,7 +4548,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-webhook
+     * Maven coordinates: org.nordix.camel:camel-webhook
      * 
      * @return the dsl builder
      */
@@ -4561,7 +4561,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: websocket
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-websocket
+     * Maven coordinates: org.nordix.camel:camel-websocket
      * 
      * @return the dsl builder
      */
@@ -4574,7 +4574,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: http
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-websocket-jsr356
+     * Maven coordinates: org.nordix.camel:camel-websocket-jsr356
      * 
      * @return the dsl builder
      */
@@ -4587,7 +4587,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: datamining
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-weka
+     * Maven coordinates: org.nordix.camel:camel-weka
      * 
      * @return the dsl builder
      */
@@ -4600,7 +4600,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api,cms
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-wordpress
+     * Maven coordinates: org.nordix.camel:camel-wordpress
      * 
      * @return the dsl builder
      */
@@ -4613,7 +4613,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api,hcm
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-workday
+     * Maven coordinates: org.nordix.camel:camel-workday
      * 
      * @return the dsl builder
      */
@@ -4626,7 +4626,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: bitcoin,blockchain
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-xchange
+     * Maven coordinates: org.nordix.camel:camel-xchange
      * 
      * @return the dsl builder
      */
@@ -4639,7 +4639,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-xj
+     * Maven coordinates: org.nordix.camel:camel-xj
      * 
      * @return the dsl builder
      */
@@ -4652,7 +4652,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: security,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-xmlsecurity
+     * Maven coordinates: org.nordix.camel:camel-xmlsecurity
      * 
      * @return the dsl builder
      */
@@ -4665,7 +4665,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: security,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-xmlsecurity
+     * Maven coordinates: org.nordix.camel:camel-xmlsecurity
      * 
      * @return the dsl builder
      */
@@ -4678,7 +4678,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: chat,messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-xmpp
+     * Maven coordinates: org.nordix.camel:camel-xmpp
      * 
      * @return the dsl builder
      */
@@ -4691,7 +4691,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: transformation
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-saxon
+     * Maven coordinates: org.nordix.camel:camel-saxon
      * 
      * @return the dsl builder
      */
@@ -4704,7 +4704,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,transformation
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-xslt
+     * Maven coordinates: org.nordix.camel:camel-xslt
      * 
      * @return the dsl builder
      */
@@ -4717,7 +4717,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: core,transformation
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-xslt-saxon
+     * Maven coordinates: org.nordix.camel:camel-xslt-saxon
      * 
      * @return the dsl builder
      */
@@ -4730,7 +4730,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: social,cloud,api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-yammer
+     * Maven coordinates: org.nordix.camel:camel-yammer
      * 
      * @return the dsl builder
      */
@@ -4743,7 +4743,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: cloud,api,support
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-zendesk
+     * Maven coordinates: org.nordix.camel:camel-zendesk
      * 
      * @return the dsl builder
      */
@@ -4756,7 +4756,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering,management,bigdata
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-zookeeper
+     * Maven coordinates: org.nordix.camel:camel-zookeeper
      * 
      * @return the dsl builder
      */
@@ -4770,7 +4770,7 @@ public interface ComponentsBuilderFactory {
      * 
      * Category: clustering,management,bigdata
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-zookeeper-master
+     * Maven coordinates: org.nordix.camel:camel-zookeeper-master
      * 
      * @return the dsl builder
      */

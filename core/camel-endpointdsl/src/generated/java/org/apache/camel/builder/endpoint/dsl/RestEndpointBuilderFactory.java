@@ -637,7 +637,7 @@ public interface RestEndpointBuilderFactory {
          * 
          * Category: core,rest
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-rest
+         * Maven coordinates: org.nordix.camel:camel-rest
          * 
          * Syntax: <code>rest:method:path:uriTemplate</code>
          * 
@@ -664,7 +664,7 @@ public interface RestEndpointBuilderFactory {
          * 
          * Category: core,rest
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-rest
+         * Maven coordinates: org.nordix.camel:camel-rest
          * 
          * Syntax: <code>rest:method:path:uriTemplate</code>
          * 
