@@ -29,9 +29,8 @@
 #   GPG_PRIVATE_KEY  - ASCII-armored GPG private key
 #   GPG_PASSPHRASE   - passphrase for the GPG private key
 #
-# NOTE: USER_MANAGED is the default so the deployment is staged in the
-# Portal for review; you then Publish (or Drop) it manually. Use AUTOMATIC
-# only when you intend an immediate, irreversible release.
+# NOTE: USER_MANAGED is used to ensure deployment is staged in the
+# Portal for review; you then Publish (or Drop) it manually.
 
 name: Publish to Maven Central
 
@@ -45,7 +44,6 @@ on:
         default: 'USER_MANAGED'
         options:
           - USER_MANAGED   # staged in the Portal UI for manual review/release (safe default)
-          - AUTOMATIC      # validated and released automatically (irreversible)
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
