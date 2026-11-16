@@ -112,7 +112,7 @@ jobs:
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.MAVEN_PASSWORD }}
         run: |
-          ./mvnw -B -V -e -fae -DskipTests -Dnoassembly -Pdeploy \
+          ./mvnw -B -V -e -DskipTests -Dnoassembly -Pdeploy \
             -s ~/.m2/settings-snapshot.xml \
             -Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false \
             -Dmaven.wagon.httpconnectionManager.ttlSeconds=120 \
