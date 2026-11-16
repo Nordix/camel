@@ -223,7 +223,7 @@ following dependency to your pom.
 [source,xml]
 -------------------------------------
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-soap</artifactId>
   <version>x.y.z</version>
 </dependency>

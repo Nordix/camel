@@ -39,7 +39,7 @@ for example in a Spring Boot application:
     </plugin>
 
     <plugin>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-restdsl-openapi-plugin</artifactId>
       <version>3.9.0</version> <!-- use the Camel version you are using -->
     </plugin>

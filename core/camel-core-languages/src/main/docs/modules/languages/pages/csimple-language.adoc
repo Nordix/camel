@@ -105,7 +105,7 @@ To use `camel-csimple-maven-plugin` you need to add it to your `pom.xml` file as
 <plugins>
     <!-- generate source code for csimple languages -->
     <plugin>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-csimple-maven-plugin</artifactId>
         <version>${camel.version}</version>
         <executions>
@@ -165,7 +165,7 @@ To use `camel-simple-joor` you simply just add it as dependency to the classpath
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-csimple-joor</artifactId>
   <version>x.x.x</version>
 </dependency>

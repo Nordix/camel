@@ -17,7 +17,7 @@ You should
 [source,xml]
 ----
 <plugin>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-csimple-maven-plugin</artifactId>
   <executions>
     <execution>

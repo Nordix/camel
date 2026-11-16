@@ -60,7 +60,7 @@ And then you can refer to this id in the route:
 [source,java]
 -------------------------------------
 <dependency>
-   <groupId>org.apache.camel</groupId>
+   <groupId>org.nordix.camel</groupId>
    <artifactId>camel-cbor</artifactId>
    <version>x.x.x</version>
 </dependency>

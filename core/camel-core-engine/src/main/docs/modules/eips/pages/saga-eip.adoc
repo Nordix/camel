@@ -81,7 +81,7 @@ In order to use the LRA Saga service, maven users will need to add the following
 [source,xml]
 ----
 <dependency>
- <groupId>org.apache.camel</groupId>
+ <groupId>org.nordix.camel</groupId>
  <artifactId>camel-lra</artifactId>
  <!-- use the same version as your Camel core version -->
  <version>x.y.z</version>
@@ -93,7 +93,7 @@ A Camel REST context is also required to be present for the LRA implementation t
 [source,xml]
 ----
 <dependency>
- <groupId>org.apache.camel</groupId>
+ <groupId>org.nordix.camel</groupId>
  <artifactId>camel-undertow</artifactId>
  <!-- use the same version as your Camel core version -->
  <version>x.y.z</version>

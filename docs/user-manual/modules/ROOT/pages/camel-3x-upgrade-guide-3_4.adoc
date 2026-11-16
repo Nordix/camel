@@ -16,7 +16,7 @@ For example to use JMX during testing you the following dependency as test scope
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-management</artifactId>
     <scope>test</scope>
 </dependency>

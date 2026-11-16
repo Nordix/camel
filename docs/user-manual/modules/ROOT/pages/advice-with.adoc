@@ -146,7 +146,7 @@ However this requires to have `camel-xml-jaxb` as dependency, which you can add 
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-xml-jaxb</artifactId>
     <version>x.x.x</version>
     <!-- use the same version as your Camel core version -->

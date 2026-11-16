@@ -15,7 +15,7 @@ If you use maven2 then here you go:
 [source,java]
 ----
        <dependency>
-           <groupId>org.apache.camel</groupId>
+           <groupId>org.nordix.camel</groupId>
            <artifactId>camel-core</artifactId>
            <version>${camel-version}</version>
            <type>test-jar</type>
@@ -28,7 +28,7 @@ If you use maven2 then here you go:
 [source,java]
 ----
        <dependency>
-           <groupId>org.apache.camel</groupId>
+           <groupId>org.nordix.camel</groupId>
            <artifactId>camel-test-spring</artifactId>
            <version>${camel-version}</version>
            <type>test-jar</type>

@@ -29,7 +29,7 @@ data into the test cases implemented.
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-robotframework</artifactId>
     <version>x.x.x</version> <!-- use the same version as your Camel core version -->
 </dependency>

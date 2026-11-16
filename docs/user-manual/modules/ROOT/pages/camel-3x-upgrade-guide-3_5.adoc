@@ -87,7 +87,7 @@ The following set of dependencies can be used:
     <scope>test</scope>
 </dependency>
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-test-spring-junit5</artifactId>
     <scope>test</scope>
 </dependency>

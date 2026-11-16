@@ -41,7 +41,7 @@ the download page for the latest versions).
 [source,xml]
 ----------------------------------------------------------
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-johnzon</artifactId>
   <version>x.x.x</version>
   <!-- use the same version as your Camel core version -->

@@ -21,7 +21,7 @@ their `pom.xml` for this component.
 [source,xml]
 ------------------------------------------------------------
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-nats</artifactId>
     <!-- use the same version as your Camel core version -->
     <version>x.y.z</version>

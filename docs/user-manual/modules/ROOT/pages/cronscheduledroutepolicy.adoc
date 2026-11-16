@@ -110,7 +110,7 @@ Maven users will need to add a camel-quartz dependency to their
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-quartz</artifactId>
     <version>x.x.x</version>
     <!-- use the same version as your Camel core version -->

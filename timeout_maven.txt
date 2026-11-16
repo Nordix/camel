@@ -1,0 +1,583 @@
+INFO] --------------------< org.apache.camel:camel-any23 >--------------------
+[INFO] Building Camel :: Any23 3.14.10-est-3-SNAPSHOT                 [107/557]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from nordix-allies-mvn: https://artifactory.nordix.org/artifactory/allies-mvn/com/google/code/findbugs/jsr305/maven-metadata.xml
+Downloading from bintray-allenai-maven: https://allenai.bintray.com/maven/com/google/code/findbugs/jsr305/maven-metadata.xml
+[WARNING] Could not transfer metadata com.google.code.findbugs:jsr305/maven-metadata.xml from/to nordix-allies-mvn (https://artifactory.nordix.org/artifactory/allies-mvn): authentication failed for https://artifactory.nordix.org/artifactory/allies-mvn/com/google/code/findbugs/jsr305/maven-metadata.xml, status: 401 Unauthorized
+[WARNING] Could not transfer metadata com.google.code.findbugs:jsr305/maven-metadata.xml from/to bintray-allenai-maven (https://allenai.bintray.com/maven): transfer failed for https://allenai.bintray.com/maven/com/google/code/findbugs/jsr305/maven-metadata.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Camel 3.14.10-est-3-SNAPSHOT:
+[INFO] 
+[INFO] Camel .............................................. SUCCESS [  0.555 s]
+[INFO] Camel :: Buildtools ................................ SUCCESS [  1.213 s]
+[INFO] Camel :: Parent .................................... SUCCESS [  0.438 s]
+[INFO] Camel :: Init ...................................... SUCCESS [  0.010 s]
+[INFO] Camel :: Maven Plugins :: Enhanced Bundle Plugin ... SUCCESS [  1.192 s]
+[INFO] Camel :: Etc ....................................... SUCCESS [  0.075 s]
+[INFO] Camel :: Tooling ................................... SUCCESS [  0.084 s]
+[INFO] Camel :: Tooling :: Util ........................... SUCCESS [  1.610 s]
+[INFO] Camel :: Tooling Parent ............................ SUCCESS [  0.059 s]
+[INFO] Camel :: Maven Plugins ............................. SUCCESS [  0.035 s]
+[INFO] Camel :: Maven Plugins :: BOM Generator ............ SUCCESS [  0.606 s]
+[INFO] Camel :: BOM :: Generator .......................... SUCCESS [  0.132 s]
+[INFO] Camel :: BOM ....................................... SUCCESS [  0.013 s]
+[INFO] Camel :: SPI Annotations ........................... SUCCESS [  0.698 s]
+[INFO] Camel :: Util :: JSon .............................. SUCCESS [  1.007 s]
+[INFO] Camel :: Tooling :: Model .......................... SUCCESS [  1.254 s]
+[INFO] Camel :: Maven Plugins :: Camel Maven Package ...... SUCCESS [  2.865 s]
+[INFO] Camel :: Core Modules .............................. SUCCESS [  0.182 s]
+[INFO] Camel :: Util ...................................... SUCCESS [  3.321 s]
+[INFO] Camel :: API ....................................... SUCCESS [  2.856 s]
+[INFO] Camel :: Management API ............................ SUCCESS [  1.112 s]
+[INFO] Camel :: Support ................................... SUCCESS [  4.970 s]
+[INFO] Camel :: Base ...................................... SUCCESS [  2.023 s]
+[INFO] Camel :: Base Engine ............................... SUCCESS [  3.324 s]
+[INFO] Camel :: Core Processor ............................ SUCCESS [  3.338 s]
+[INFO] Camel :: Core Model ................................ SUCCESS [  5.539 s]
+[INFO] Camel :: Core Reifier .............................. SUCCESS [  2.417 s]
+[INFO] Camel :: Core Engine ............................... SUCCESS [  1.979 s]
+[INFO] Camel :: Core Languages ............................ SUCCESS [  1.844 s]
+[INFO] Camel :: Components ................................ SUCCESS [  0.156 s]
+[INFO] Camel :: Bean ...................................... SUCCESS [  2.679 s]
+[INFO] Camel :: Browse .................................... SUCCESS [  0.932 s]
+[INFO] Camel :: Cluster ................................... SUCCESS [  0.872 s]
+[INFO] Camel :: Controlbus ................................ SUCCESS [  0.982 s]
+[INFO] Camel :: Dataformat ................................ SUCCESS [  0.875 s]
+[INFO] Camel :: Mock ...................................... SUCCESS [  1.475 s]
+[INFO] Camel :: DataSet ................................... SUCCESS [  1.315 s]
+[INFO] Camel :: Direct .................................... SUCCESS [  1.003 s]
+[INFO] Camel :: Direct VM ................................. SUCCESS [  1.067 s]
+[INFO] Camel :: File ...................................... SUCCESS [  2.105 s]
+[INFO] Camel :: Health .................................... SUCCESS [  0.998 s]
+[INFO] Camel :: Language .................................. SUCCESS [  0.868 s]
+[INFO] Camel :: Log ....................................... SUCCESS [  1.072 s]
+[INFO] Camel :: Ref ....................................... SUCCESS [  0.839 s]
+[INFO] Camel :: REST ...................................... SUCCESS [  1.499 s]
+[INFO] Camel :: Saga ...................................... SUCCESS [  0.838 s]
+[INFO] Camel :: Scheduler ................................. SUCCESS [  0.931 s]
+[INFO] Camel :: Seda ...................................... SUCCESS [  1.214 s]
+[INFO] Camel :: VM ........................................ SUCCESS [  0.863 s]
+[INFO] Camel :: Stub ...................................... SUCCESS [  0.859 s]
+[INFO] Camel :: Timer ..................................... SUCCESS [  0.992 s]
+[INFO] Camel :: XML IO Util ............................... SUCCESS [  0.777 s]
+[INFO] Camel :: XML JAXP .................................. SUCCESS [  1.884 s]
+[INFO] Camel :: Validator ................................. SUCCESS [  1.035 s]
+[INFO] Camel :: XPath ..................................... SUCCESS [  1.013 s]
+[INFO] Camel :: XSLT ...................................... SUCCESS [  1.130 s]
+[INFO] Camel :: XML JAXB .................................. SUCCESS [  0.888 s]
+[INFO] Camel :: Core Catalog .............................. SUCCESS [  1.244 s]
+[INFO] Camel :: Core ...................................... SUCCESS [ 12.038 s]
+[INFO] Camel :: Tooling :: Swagger REST DSL Generator ..... SUCCESS [  1.251 s]
+[INFO] Camel :: Tooling :: OpenApi REST DSL Generator ..... SUCCESS [  1.494 s]
+[INFO] Camel :: Management ................................ SUCCESS [  4.448 s]
+[INFO] Camel :: Test :: Parent ............................ SUCCESS [  0.031 s]
+[INFO] Camel :: Test :: JUnit5 ............................ SUCCESS [  6.211 s]
+[INFO] Camel :: Cron ...................................... SUCCESS [  6.334 s]
+[INFO] Camel :: Spring .................................... SUCCESS [  4.976 s]
+[INFO] Camel :: Main ...................................... SUCCESS [ 12.018 s]
+[INFO] Camel :: Core XML .................................. SUCCESS [  4.496 s]
+[INFO] Camel :: Cloud ..................................... SUCCESS [  2.494 s]
+[INFO] Camel :: Maven Plugins :: Camel EIP Documentation Enricher Plugin SUCCESS [  1.218 s]
+[INFO] Camel :: Spring XML ................................ SUCCESS [  9.933 s]
+[INFO] Camel :: Test :: Spring:: JUnit5 ................... SUCCESS [  2.132 s]
+[INFO] Camel :: Spring Main ............................... SUCCESS [  1.504 s]
+[INFO] Camel :: Spring JavaConfig (deprecated) ............ SUCCESS [  1.424 s]
+[INFO] Camel :: JTA ....................................... SUCCESS [  0.911 s]
+[INFO] Camel :: CDI ....................................... SUCCESS [  3.994 s]
+[INFO] Camel :: Maven Plugins :: Camel Maven Plugin ....... SUCCESS [  0.840 s]
+[INFO] Camel :: Maven Plugins :: Camel API Component Plugin SUCCESS [  1.698 s]
+[INFO] Camel :: HTTP :: Base .............................. SUCCESS [  0.766 s]
+[INFO] Camel :: Attachments ............................... SUCCESS [  1.373 s]
+[INFO] Camel :: HTTP :: Common ............................ SUCCESS [  1.664 s]
+[INFO] Camel :: Jackson ................................... SUCCESS [  1.745 s]
+[INFO] Camel :: JAXB ...................................... SUCCESS [  2.101 s]
+[INFO] Camel :: Swagger Java .............................. SUCCESS [  1.977 s]
+[INFO] Camel :: Gson ...................................... SUCCESS [  1.579 s]
+[INFO] Camel :: Servlet ................................... SUCCESS [  2.090 s]
+[INFO] Camel :: Jetty :: Common ........................... SUCCESS [  1.259 s]
+[INFO] Camel :: HTTP ...................................... SUCCESS [  3.154 s]
+[INFO] Camel :: Jetty ..................................... SUCCESS [  3.246 s]
+[INFO] Camel :: Maven Plugins :: Swagger REST DSL Generator Maven plugin SUCCESS [  0.960 s]
+[INFO] Camel :: Maven Plugins :: OpenApi REST DSL Generator Maven plugin SUCCESS [  0.882 s]
+[INFO] Camel :: Maven Plugins :: Enhanced javadoc plugin .. SUCCESS [  1.477 s]
+[INFO] Camel :: Maven Plugins :: Enhanced Resources Plugin  SUCCESS [  0.631 s]
+[INFO] Camel :: Maven Plugins :: Sync Properties .......... SUCCESS [  0.428 s]
+[INFO] Camel :: Maven Plugins :: Camel Maven Component .... SUCCESS [  0.831 s]
+[INFO] Camel :: XML IO .................................... SUCCESS [  3.247 s]
+[INFO] Camel :: Test Infra ................................ SUCCESS [  0.028 s]
+[INFO] Camel :: Test Infra :: Parent ...................... SUCCESS [  0.037 s]
+[INFO] Camel :: Test Infra :: Common ...................... SUCCESS [  0.403 s]
+[INFO] Camel :: Test Infra :: ActiveMQ .................... SUCCESS [  0.494 s]
+[INFO] Camel :: JMS ....................................... SUCCESS [  4.964 s]
+[INFO] Camel :: JDBC ...................................... SUCCESS [  1.862 s]
+[INFO] Camel :: ActiveMQ .................................. SUCCESS [  2.407 s]
+[INFO] Camel :: AHC ....................................... SUCCESS [  2.081 s]
+[INFO] Camel :: AHC-WS .................................... SUCCESS [  1.639 s]
+[INFO] Camel :: AMQP ...................................... SUCCESS [  2.017 s]
+[INFO] Camel :: Any23 ..................................... FAILURE [  0.697 s]
+[INFO] Camel :: Test Infra :: ArangoDB .................... SKIPPED
+[INFO] Camel :: ArangoDB .................................. SKIPPED
+[INFO] Camel :: AS2 :: Parent ............................. SKIPPED
+[INFO] Camel :: AS2 :: API ................................ SKIPPED
+[INFO] Camel :: AS2 :: Component .......................... SKIPPED
+[INFO] Camel :: ASN.1 ..................................... SKIPPED
+[INFO] Camel :: Asterisk .................................. SKIPPED
+[INFO] Camel :: AtlasMap .................................. SKIPPED
+[INFO] Camel :: Atmos ..................................... SKIPPED
+[INFO] Camel :: Atmosphere WebSocket Servlet .............. SKIPPED
+[INFO] Camel :: Atom ...................................... SKIPPED
+[INFO] Camel :: Atomix .................................... SKIPPED
+[INFO] Camel :: Avro RPC :: Parent ........................ SKIPPED
+[INFO] Camel :: Avro RPC :: Spi ........................... SKIPPED
+[INFO] Camel :: Avro RPC :: Jetty ......................... SKIPPED
+[INFO] Camel :: Avro RPC .................................. SKIPPED
+[INFO] Camel :: Avro ...................................... SKIPPED
+[INFO] Camel :: Test Infra :: AWS Common .................. SKIPPED
+[INFO] Camel :: Test Infra :: AWS SDK v2 .................. SKIPPED
+[INFO] Camel :: AWS :: Parent ............................. SKIPPED
+[INFO] Camel :: AWS2 Secrets Manager ...................... SKIPPED
+[INFO] Camel :: AWS :: XRay ............................... SKIPPED
+[INFO] Camel :: AWS2 Athena ............................... SKIPPED
+[INFO] Camel :: AWS2 CW ................................... SKIPPED
+[INFO] Camel :: AWS2 DDB .................................. SKIPPED
+[INFO] Camel :: AWS2 EC2 .................................. SKIPPED
+[INFO] Camel :: AWS2 ECS .................................. SKIPPED
+[INFO] Camel :: AWS2 EKS .................................. SKIPPED
+[INFO] Camel :: Zip Deflater .............................. SKIPPED
+[INFO] Camel :: AWS2 S3 ................................... SKIPPED
+[INFO] Camel :: AWS2 SQS .................................. SKIPPED
+[INFO] Camel :: AWS2 Eventbridge .......................... SKIPPED
+[INFO] Camel :: AWS2 IAM .................................. SKIPPED
+[INFO] Camel :: AWS2 Kinesis .............................. SKIPPED
+[INFO] Camel :: AWS2 KMS .................................. SKIPPED
+[INFO] Camel :: AWS2 Lambda ............................... SKIPPED
+[INFO] Camel :: AWS2 MQ ................................... SKIPPED
+[INFO] Camel :: AWS2 MSK .................................. SKIPPED
+[INFO] Camel :: AWS2 SES .................................. SKIPPED
+[INFO] Camel :: AWS2 SNS .................................. SKIPPED
+[INFO] Camel :: AWS2 STS .................................. SKIPPED
+[INFO] Camel :: AWS2 Translate ............................ SKIPPED
+[INFO] Camel :: Azure :: Parent ........................... SKIPPED
+[INFO] Camel :: Azure :: CosmosDB ......................... SKIPPED
+[INFO] Camel :: Azure :: Event Hubs ....................... SKIPPED
+[INFO] Camel :: Azure :: ServiceBus ....................... SKIPPED
+[INFO] Camel :: Test Infra :: Azure Common ................ SKIPPED
+[INFO] Camel :: Test Infra :: Azure Storage Blob .......... SKIPPED
+[INFO] Camel :: Azure :: Storage Blob ..................... SKIPPED
+[INFO] Camel :: Test Infra :: Azure Storage Datalake ...... SKIPPED
+[INFO] Camel :: Azure :: Datalake Gen2 .................... SKIPPED
+[INFO] Camel :: Test Infra :: Azure Storage Queue ......... SKIPPED
+[INFO] Camel :: Azure :: Storage Queue .................... SKIPPED
+[INFO] Camel :: Barcode ................................... SKIPPED
+[INFO] Camel :: Base64 .................................... SKIPPED
+[INFO] Camel :: Bean validator ............................ SKIPPED
+[INFO] Camel :: BeanIO .................................... SKIPPED
+[INFO] Camel :: Beanstalk ................................. SKIPPED
+[INFO] Camel :: Bindy ..................................... SKIPPED
+[INFO] Camel :: Bonita .................................... SKIPPED
+[INFO] Camel :: Box :: Parent ............................. SKIPPED
+[INFO] Camel :: Box :: API ................................ SKIPPED
+[INFO] Camel :: Box :: Component .......................... SKIPPED
+[INFO] Camel :: Braintree ................................. SKIPPED
+[INFO] Camel :: Caffeine LRUCache (deprecated) ............ SKIPPED
+[INFO] Camel :: Caffeine .................................. SKIPPED
+[INFO] Camel :: Test Infra :: Cassandra ................... SKIPPED
+[INFO] Camel :: Cassandra CQL ............................. SKIPPED
+[INFO] Camel :: CBOR ...................................... SKIPPED
+[INFO] Camel :: Test Infra :: ChatScript .................. SKIPPED
+[INFO] Camel :: ChatScript ................................ SKIPPED
+[INFO] Camel :: Chunk ..................................... SKIPPED
+[INFO] Camel :: CM SMS .................................... SKIPPED
+[INFO] Camel :: CMIS ...................................... SKIPPED
+[INFO] Camel :: CoAP ...................................... SKIPPED
+[INFO] Camel :: Cometd .................................... SKIPPED
+[INFO] Camel :: Undertow .................................. SKIPPED
+[INFO] Camel :: Master .................................... SKIPPED
+[INFO] Camel :: Service ................................... SKIPPED
+[INFO] Camel :: Ribbon (deprecated) ....................... SKIPPED
+[INFO] Camel :: Test Infra :: Consul ...................... SKIPPED
+[INFO] Camel :: Consul .................................... SKIPPED
+[INFO] Camel :: Corda ..................................... SKIPPED
+[INFO] Camel :: Test Infra :: Couchbase ................... SKIPPED
+[INFO] Camel :: Couchbase ................................. SKIPPED
+[INFO] Camel :: Test Infra :: CouchDb ..................... SKIPPED
+[INFO] Camel :: CouchDB ................................... SKIPPED
+[INFO] Camel :: Crypto .................................... SKIPPED
+[INFO] Camel :: csimple jOOR .............................. SKIPPED
+[INFO] Camel :: CSV ....................................... SKIPPED
+[INFO] Camel :: CXF :: Transport .......................... SKIPPED
+[INFO] Camel :: CXF ....................................... SKIPPED
+[INFO] Camel :: DataSonnet ................................ SKIPPED
+[INFO] Camel :: Debezium :: Parent ........................ SKIPPED
+[INFO] Camel :: Debezium :: Common :: Parent .............. SKIPPED
+[INFO] Camel :: Debezium :: Common ........................ SKIPPED
+[INFO] Camel :: Debezium :: Maven plugin .................. SKIPPED
+[INFO] Camel :: Debezium :: MongoDB ....................... SKIPPED
+[INFO] Camel :: Debezium :: MySQL ......................... SKIPPED
+[INFO] Camel :: Debezium :: PostgreSQL .................... SKIPPED
+[INFO] Camel :: Debezium :: SQL Server .................... SKIPPED
+[INFO] Camel :: DigitalOcean .............................. SKIPPED
+[INFO] Camel :: Disruptor ................................. SKIPPED
+[INFO] Camel :: Deep Java Library ......................... SKIPPED
+[INFO] Camel :: DNS ....................................... SKIPPED
+[INFO] Camel :: Docker .................................... SKIPPED
+[INFO] Camel :: Dozer ..................................... SKIPPED
+[INFO] Camel :: Drill ..................................... SKIPPED
+[INFO] Camel :: Dropbox ................................... SKIPPED
+[INFO] Camel :: Ehcache ................................... SKIPPED
+[INFO] Camel :: Test Infra :: Elasticsearch ............... SKIPPED
+[INFO] Camel :: ElasticSearch REST ........................ SKIPPED
+[INFO] Camel :: SQL ....................................... SKIPPED
+[INFO] Camel :: ElSql ..................................... SKIPPED
+[INFO] Camel :: Elytron ................................... SKIPPED
+[INFO] Camel :: Etcd3 ..................................... SKIPPED
+[INFO] Camel :: Test Infra :: EtcD ........................ SKIPPED
+[INFO] Camel :: Etcd ...................................... SKIPPED
+[INFO] Camel :: Exec ...................................... SKIPPED
+[INFO] Camel :: Facebook .................................. SKIPPED
+[INFO] Camel :: Fastjson .................................. SKIPPED
+[INFO] Camel :: FHIR :: Parent ............................ SKIPPED
+[INFO] Camel :: FHIR :: API ............................... SKIPPED
+[INFO] Camel :: Netty ..................................... SKIPPED
+[INFO] Camel :: MINA ...................................... SKIPPED
+[INFO] Camel :: HL7 ....................................... SKIPPED
+[INFO] Camel :: Test Infra :: FHIR ........................ SKIPPED
+[INFO] Camel :: FHIR ...................................... SKIPPED
+[INFO] Camel :: File Watch ................................ SKIPPED
+[INFO] Camel :: FlatPack .................................. SKIPPED
+[INFO] Camel :: Flink ..................................... SKIPPED
+[INFO] Camel :: FOP ....................................... SKIPPED
+[INFO] Camel :: Freemarker ................................ SKIPPED
+[INFO] Camel :: SSH ....................................... SKIPPED
+[INFO] Camel :: Test Infra :: Ftp ......................... SKIPPED
+[INFO] Camel :: FTP ....................................... SKIPPED
+[INFO] Camel :: Ganglia ................................... SKIPPED
+[INFO] Camel :: Geocoder .................................. SKIPPED
+[INFO] Camel :: Git ....................................... SKIPPED
+[INFO] Camel :: GitHub .................................... SKIPPED
+[INFO] Camel :: Google :: Parent .......................... SKIPPED
+[INFO] Camel :: Google :: BigQuery ........................ SKIPPED
+[INFO] Camel :: Google :: Calendar ........................ SKIPPED
+[INFO] Camel :: Google :: Drive ........................... SKIPPED
+[INFO] Camel :: Google :: Functions ....................... SKIPPED
+[INFO] Camel :: Google :: Mail ............................ SKIPPED
+[INFO] Camel :: Test Infra :: Google Pub/Sub .............. SKIPPED
+[INFO] Camel :: Google :: PubSub .......................... SKIPPED
+[INFO] Camel :: Google :: Sheets .......................... SKIPPED
+[INFO] Camel :: Google :: Storage ......................... SKIPPED
+[INFO] Camel :: Gora ...................................... SKIPPED
+[INFO] Camel :: Stream .................................... SKIPPED
+[INFO] Camel :: Grape ..................................... SKIPPED
+[INFO] Camel :: GraphQL ................................... SKIPPED
+[INFO] Camel :: Grok ...................................... SKIPPED
+[INFO] Camel :: Groovy .................................... SKIPPED
+[INFO] Camel :: gRPC ...................................... SKIPPED
+[INFO] Camel :: Guava-EventBus ............................ SKIPPED
+[INFO] Camel :: HazelCast ................................. SKIPPED
+[INFO] Camel :: Test Infra :: HBase ....................... SKIPPED
+[INFO] Camel :: Hbase ..................................... SKIPPED
+[INFO] Camel :: Test Infra :: HDFS ........................ SKIPPED
+[INFO] Camel :: HDFS ...................................... SKIPPED
+[INFO] Camel :: Headers Map ............................... SKIPPED
+[INFO] Camel :: Huawei Cloud :: Parent .................... SKIPPED
+[INFO] Camel :: Huawei Cloud :: Common .................... SKIPPED
+[INFO] Camel :: Huawei Cloud :: DMS ....................... SKIPPED
+[INFO] Camel :: Huawei Cloud :: FunctionGraph ............. SKIPPED
+[INFO] Camel :: Huawei Cloud :: IAM ....................... SKIPPED
+[INFO] Camel :: Huawei Cloud :: ImageRecognition .......... SKIPPED
+[INFO] Camel :: Huawei Cloud :: OBS ....................... SKIPPED
+[INFO] Camel :: Huawei Cloud :: SimpleNotification ........ SKIPPED
+[INFO] Camel :: Hystrix (deprecated) ...................... SKIPPED
+[INFO] Camel :: iCal ...................................... SKIPPED
+[INFO] Camel :: IEC 60870 ................................. SKIPPED
+[INFO] Camel :: Test Infra :: Ignite ...................... SKIPPED
+[INFO] Camel :: Ignite .................................... SKIPPED
+[INFO] Camel :: Infinispan :: Parent ...................... SKIPPED
+[INFO] Camel :: Infinispan :: Common ...................... SKIPPED
+[INFO] Camel :: Infinispan :: Embedded .................... SKIPPED
+[INFO] Camel :: Test Infra :: Infinispan .................. SKIPPED
+[INFO] Camel :: Infinispan :: Remote ...................... SKIPPED
+[INFO] Camel :: InfluxDB .................................. SKIPPED
+[INFO] Camel :: IOTA ...................................... SKIPPED
+[INFO] Camel :: IPFS ...................................... SKIPPED
+[INFO] Camel :: IRC ....................................... SKIPPED
+[INFO] Camel :: IronMQ .................................... SKIPPED
+[INFO] Camel :: Jackson Avro .............................. SKIPPED
+[INFO] Camel :: Jackson Protobuf .......................... SKIPPED
+[INFO] Camel :: Jackson XML ............................... SKIPPED
+[INFO] Camel :: Jasypt .................................... SKIPPED
+[INFO] Camel :: JBPM ...................................... SKIPPED
+[INFO] Camel :: JCache .................................... SKIPPED
+[INFO] Camel :: JClouds ................................... SKIPPED
+[INFO] Camel :: JCR ....................................... SKIPPED
+[INFO] Camel :: Java Flight Recorder ...................... SKIPPED
+[INFO] Camel :: JGroups Raft .............................. SKIPPED
+[INFO] Camel :: JGroups ................................... SKIPPED
+[INFO] Camel :: Jing ...................................... SKIPPED
+[INFO] Camel :: JIRA ...................................... SKIPPED
+[INFO] Camel :: JMX ....................................... SKIPPED
+[INFO] Camel :: Johnzon ................................... SKIPPED
+[INFO] Camel :: Jolt ...................................... SKIPPED
+[INFO] Camel :: JOOQ ...................................... SKIPPED
+[INFO] Camel :: jOOR ...................................... SKIPPED
+[INFO] Camel :: JPA ....................................... SKIPPED
+[INFO] Camel :: Jsch ...................................... SKIPPED
+[INFO] Camel :: Jslt ...................................... SKIPPED
+[INFO] Camel :: JsonPatch ................................. SKIPPED
+[INFO] Camel :: JSON validator ............................ SKIPPED
+[INFO] Camel :: JSonApi ................................... SKIPPED
+[INFO] Camel :: JSONATA ................................... SKIPPED
+[INFO] Camel :: JSON-B .................................... SKIPPED
+[INFO] Camel :: Platform HTTP ............................. SKIPPED
+[INFO] Camel :: Vert.x :: Parent .......................... SKIPPED
+[INFO] Camel :: Vert.x :: Common .......................... SKIPPED
+[INFO] Camel :: Platform HTTP :: Vert.x ................... SKIPPED
+[INFO] Camel :: JSon Path ................................. SKIPPED
+[INFO] Camel :: Java Toolbox for IBM i .................... SKIPPED
+[INFO] Camel :: Test Infra :: Kafka ....................... SKIPPED
+[INFO] Camel :: Kafka ..................................... SKIPPED
+[INFO] Camel :: Kamelet Reifiy (deprecated) ............... SKIPPED
+[INFO] Camel :: Kamelet ................................... SKIPPED
+[INFO] Camel :: Kubernetes ................................ SKIPPED
+[INFO] Camel :: Kudu ...................................... SKIPPED
+[INFO] Camel :: LDAP ...................................... SKIPPED
+[INFO] Camel :: Test Infra :: Openladp .................... SKIPPED
+[INFO] Camel :: LDIF ...................................... SKIPPED
+[INFO] Camel :: LevelDB Legacy ............................ SKIPPED
+[INFO] Camel :: LevelDB ................................... SKIPPED
+[INFO] Camel :: Long-Running-Action ....................... SKIPPED
+[INFO] Camel :: Lucene .................................... SKIPPED
+[INFO] Camel :: Lumberjack ................................ SKIPPED
+[INFO] Camel :: LZF ....................................... SKIPPED
+[INFO] Camel :: Quartz .................................... SKIPPED
+[INFO] Camel :: Mail ...................................... SKIPPED
+[INFO] Camel :: Metrics ................................... SKIPPED
+[INFO] Camel :: Micrometer ................................ SKIPPED
+[INFO] Camel :: MicroProfile :: Parent .................... SKIPPED
+[INFO] Camel :: MicroProfile :: Config .................... SKIPPED
+[INFO] Camel :: MicroProfile :: Fault Tolerance ........... SKIPPED
+[INFO] Camel :: MicroProfile :: Health .................... SKIPPED
+[INFO] Camel :: MicroProfile :: Metrics ................... SKIPPED
+[INFO] Camel :: Milo ...................................... SKIPPED
+[INFO] Camel :: Test Infra :: Minio ....................... SKIPPED
+[INFO] Camel :: MinIO ..................................... SKIPPED
+[INFO] Camel :: Simple JMS ................................ SKIPPED
+[INFO] Camel :: MLLP ...................................... SKIPPED
+[INFO] Camel :: Test Infra :: MongoDB ..................... SKIPPED
+[INFO] Camel :: MongoDB GridFS ............................ SKIPPED
+[INFO] Camel :: MongoDB ................................... SKIPPED
+[INFO] Camel :: MSV ....................................... SKIPPED
+[INFO] Camel :: Mustache .................................. SKIPPED
+[INFO] Camel :: MVEL ...................................... SKIPPED
+[INFO] Camel :: MyBatis ................................... SKIPPED
+[INFO] Camel :: Nagios .................................... SKIPPED
+[INFO] Camel :: Test Infra :: Nats ........................ SKIPPED
+[INFO] Camel :: Nats ...................................... SKIPPED
+[INFO] Camel :: Resilience4j .............................. SKIPPED
+[INFO] Camel :: Netty HTTP ................................ SKIPPED
+[INFO] Camel :: Nitrite ................................... SKIPPED
+[INFO] Camel :: Test Infra :: Nsq ......................... SKIPPED
+[INFO] Camel :: NSQ ....................................... SKIPPED
+[INFO] Camel :: OAIPMH .................................... SKIPPED
+[INFO] Camel :: OGNL ...................................... SKIPPED
+[INFO] Camel :: Olingo2 :: Parent ......................... SKIPPED
+[INFO] Camel :: Olingo2 :: API ............................ SKIPPED
+[INFO] Camel :: Olingo2 :: Component ...................... SKIPPED
+[INFO] Camel :: Olingo4 :: Parent ......................... SKIPPED
+[INFO] Camel :: Olingo4 :: API ............................ SKIPPED
+[INFO] Camel :: Olingo4 :: Component ...................... SKIPPED
+[INFO] Camel :: OpenApi Java .............................. SKIPPED
+[INFO] Camel :: OpenStack ................................. SKIPPED
+[INFO] Camel :: Common Tracing ............................ SKIPPED
+[INFO] Camel :: OpenTelemetry ............................. SKIPPED
+[INFO] Camel :: OpenTracing ............................... SKIPPED
+[INFO] Camel :: OptaPlanner ............................... SKIPPED
+[INFO] Camel :: Test Infra :: Mosquitto ................... SKIPPED
+[INFO] Camel :: Paho MQTT 5 ............................... SKIPPED
+[INFO] Camel :: Paho ...................................... SKIPPED
+[INFO] Camel :: PDF ....................................... SKIPPED
+[INFO] Camel :: Test Infra :: Postgres .................... SKIPPED
+[INFO] Camel :: PgReplicationSlot ......................... SKIPPED
+[INFO] Camel :: Test Infra :: JDBC ........................ SKIPPED
+[INFO] Camel :: PgEvent ................................... SKIPPED
+[INFO] Camel :: Printer ................................... SKIPPED
+[INFO] Camel :: Protobuf .................................. SKIPPED
+[INFO] Camel :: PubNub .................................... SKIPPED
+[INFO] Camel :: Test Infra :: Pulsar ...................... SKIPPED
+[INFO] Camel :: Pulsar .................................... SKIPPED
+[INFO] Camel :: QuickFIX/J ................................ SKIPPED
+[INFO] Camel :: Test Infra :: RabbitMQ .................... SKIPPED
+[INFO] Camel :: RabbitMQ .................................. SKIPPED
+[INFO] Camel :: Reactive Executor :: Vert.x ............... SKIPPED
+[INFO] Camel :: Reactive Streams .......................... SKIPPED
+[INFO] Camel :: Reactor ................................... SKIPPED
+[INFO] Camel :: Test Infra :: Redis ....................... SKIPPED
+[INFO] Camel :: Redis ..................................... SKIPPED
+[INFO] Camel :: ResourceResolver GitHub ................... SKIPPED
+[INFO] Camel :: REST OpenApi .............................. SKIPPED
+[INFO] Camel :: REST Swagger .............................. SKIPPED
+[INFO] Camel :: Resteasy .................................. SKIPPED
+[INFO] Camel :: RobotFramework ............................ SKIPPED
+[INFO] Camel :: RSS ....................................... SKIPPED
+[INFO] Camel :: RxJava .................................... SKIPPED
+[INFO] Camel :: Salesforce :: Parent ...................... SKIPPED
+[INFO] Camel :: Salesforce ................................ SKIPPED
+[INFO] Camel :: Velocity .................................. SKIPPED
+[INFO] Camel :: SAP NetWeaver ............................. SKIPPED
+[INFO] Camel :: Saxon ..................................... SKIPPED
+[INFO] Camel :: Schematron ................................ SKIPPED
+[INFO] Camel :: ServiceNow :: Parent ...................... SKIPPED
+[INFO] Camel :: ServiceNow :: Component ................... SKIPPED
+[INFO] Camel :: Shiro ..................................... SKIPPED
+[INFO] Camel :: SIP ....................................... SKIPPED
+[INFO] Camel :: Simple JMS2 ............................... SKIPPED
+[INFO] Camel :: Slack ..................................... SKIPPED
+[INFO] Camel :: SMPP ...................................... SKIPPED
+[INFO] Camel :: SnakeYAML ................................. SKIPPED
+[INFO] Camel :: SNMP ...................................... SKIPPED
+[INFO] Camel :: SOAP ...................................... SKIPPED
+[INFO] Camel :: Test Infra :: Solr ........................ SKIPPED
+[INFO] Camel :: Solr ...................................... SKIPPED
+[INFO] Camel :: Soroush ................................... SKIPPED
+[INFO] Camel :: Apache Spark .............................. SKIPPED
+[INFO] Camel :: Splunk HEC ................................ SKIPPED
+[INFO] Camel :: Splunk .................................... SKIPPED
+[INFO] Camel :: Spring Batch .............................. SKIPPED
+[INFO] Camel :: Spring Integration ........................ SKIPPED
+[INFO] Camel :: Spring :: JDBC ............................ SKIPPED
+[INFO] Camel :: Spring LDAP ............................... SKIPPED
+[INFO] Camel :: Spring RabbitMQ ........................... SKIPPED
+[INFO] Camel :: Redis ..................................... SKIPPED
+[INFO] Camel :: Spring Security ........................... SKIPPED
+[INFO] Camel :: XSLT Saxon ................................ SKIPPED
+[INFO] Camel :: Spring Web Services ....................... SKIPPED
+[INFO] Camel :: StAX ...................................... SKIPPED
+[INFO] Camel :: Stitch .................................... SKIPPED
+[INFO] Camel :: Stomp ..................................... SKIPPED
+[INFO] Camel :: StringTemplate ............................ SKIPPED
+[INFO] Camel :: Syslog .................................... SKIPPED
+[INFO] Camel :: TagSoup ................................... SKIPPED
+[INFO] Camel :: Tar File .................................. SKIPPED
+[INFO] Camel :: Webhook ................................... SKIPPED
+[INFO] Camel :: Telegram .................................. SKIPPED
+[INFO] Camel :: Test (deprecated) ......................... SKIPPED
+[INFO] Camel :: Test :: CDI ............................... SKIPPED
+[INFO] Camel :: Test :: Spring (deprecated) ............... SKIPPED
+[INFO] Camel :: Testcontainers :: JUnit 5 ................. SKIPPED
+[INFO] Camel :: Testcontainers :: Spring :: JUnit5 ........ SKIPPED
+[INFO] Camel :: Testcontainers (deprecated) ............... SKIPPED
+[INFO] Camel :: Testcontainers :: Spring (deprecated) ..... SKIPPED
+[INFO] Camel :: Thread Pool Factory :: Vert.x ............. SKIPPED
+[INFO] Camel :: Thrift .................................... SKIPPED
+[INFO] Camel :: Tika ...................................... SKIPPED
+[INFO] Camel :: Twilio .................................... SKIPPED
+[INFO] Camel :: Twitter ................................... SKIPPED
+[INFO] Camel :: Undertow Spring Security .................. SKIPPED
+[INFO] Camel :: UniVocity Parsers ......................... SKIPPED
+[INFO] Camel :: Vert.x :: HTTP ............................ SKIPPED
+[INFO] Camel :: Vert.x :: Kafka :: Parent ................. SKIPPED
+[INFO] Camel :: Vert.x :: Kafka :: Maven plugin ........... SKIPPED
+[INFO] Camel :: Vert.x :: Kafka (deprecated) .............. SKIPPED
+[INFO] Camel :: Vert.x :: WebSocket ....................... SKIPPED
+[INFO] Camel :: Vertx ..................................... SKIPPED
+[INFO] Camel :: Weather ................................... SKIPPED
+[INFO] Camel :: Web3j ..................................... SKIPPED
+[INFO] Camel :: WebSocket JSR356 .......................... SKIPPED
+[INFO] Camel :: WebSocket ................................. SKIPPED
+[INFO] Camel :: Weka ...................................... SKIPPED
+[INFO] Camel :: Wordpress ................................. SKIPPED
+[INFO] Camel :: Workday ................................... SKIPPED
+[INFO] Camel :: XChange ................................... SKIPPED
+[INFO] Camel :: XJ ........................................ SKIPPED
+[INFO] Camel :: XML Security .............................. SKIPPED
+[INFO] Camel :: Test Infra :: Xmpp ........................ SKIPPED
+[INFO] Camel :: XMPP ...................................... SKIPPED
+[INFO] Camel :: XStream ................................... SKIPPED
+[INFO] Camel :: Yammer .................................... SKIPPED
+[INFO] Camel :: Zendesk ................................... SKIPPED
+[INFO] Camel :: Zip File .................................. SKIPPED
+[INFO] Camel :: Zipkin .................................... SKIPPED
+[INFO] Camel :: Test Infra :: ZooKeeper ................... SKIPPED
+[INFO] Camel :: Zookeeper Master .......................... SKIPPED
+[INFO] Camel :: Zookeeper ................................. SKIPPED
+[INFO] Camel :: All Components Sync point ................. SKIPPED
+[INFO] Camel :: Endpoint DSL .............................. SKIPPED
+[INFO] Camel :: Component DSL ............................. SKIPPED
+[INFO] Camel :: Test Infra :: Messaging Common ............ SKIPPED
+[INFO] Camel :: Test Infra :: Artemis ..................... SKIPPED
+[INFO] Camel :: Test Infra :: Dispatch Router ............. SKIPPED
+[INFO] Camel :: Salesforce :: Maven plugin ................ SKIPPED
+[INFO] Camel :: ServiceNow :: Maven plugin ................ SKIPPED
+[INFO] Camel :: Archetypes ................................ SKIPPED
+[INFO] Camel :: Archetypes :: API Component ............... SKIPPED
+[INFO] Camel :: Archetypes :: CDI Based Router ............ SKIPPED
+[INFO] Camel :: Archetypes :: Component ................... SKIPPED
+[INFO] Camel :: Archetypes :: Data Format ................. SKIPPED
+[INFO] Camel :: Archetypes :: Java Router ................. SKIPPED
+[INFO] Camel :: Archetypes :: Main ........................ SKIPPED
+[INFO] Camel :: Archetypes :: Spring XML Based Router ..... SKIPPED
+[INFO] Camel :: Archetypes :: Endpoint DSL Router ......... SKIPPED
+[INFO] Camel :: Catalog ................................... SKIPPED
+[INFO] Camel :: Catalog :: Dummy Component ................ SKIPPED
+[INFO] Camel :: Catalog :: Camel Catalog .................. SKIPPED
+[INFO] Camel :: Catalog :: Lucene ......................... SKIPPED
+[INFO] Camel :: Catalog :: Maven .......................... SKIPPED
+[INFO] Camel :: Catalog :: Camel Route Parser ............. SKIPPED
+[INFO] Camel :: Catalog :: Camel Compiled Simple Maven Plugin SKIPPED
+[INFO] Camel :: Catalog :: Camel Report Maven Plugin ...... SKIPPED
+[INFO] Camel :: Dependencies .............................. SKIPPED
+[INFO] Camel :: DSL :: Parent ............................. SKIPPED
+[INFO] Camel :: DSL :: Support ............................ SKIPPED
+[INFO] Camel :: Groovy DSL :: Parent ...................... SKIPPED
+[INFO] Camel :: Groovy DSL :: Common ...................... SKIPPED
+[INFO] Camel :: Groovy DSL ................................ SKIPPED
+[INFO] Camel :: Groovy DSL :: Test ........................ SKIPPED
+[INFO] Camel :: Java DSL with jOOR ........................ SKIPPED
+[INFO] Camel :: XML DSL with camel-xml-io ................. SKIPPED
+[INFO] Camel :: XML DSL with camel-xml-jaxb ............... SKIPPED
+[INFO] Camel :: XML DSL Jaxb :: Tests ..................... SKIPPED
+[INFO] Camel :: XML DSL Jaxb :: Test :: Definition ........ SKIPPED
+[INFO] Camel :: XML DSL Jaxb :: Test :: Management ........ SKIPPED
+[INFO] Camel :: XML DSL Jaxb :: Test :: CDI ............... SKIPPED
+[INFO] Camel :: XML DSL Jaxb :: Test :: JBPM .............. SKIPPED
+[INFO] Camel :: XML DSL Jaxb :: Test :: Spring ............ SKIPPED
+[INFO] Camel :: XML DSL Jaxb :: Test :: Swagger ........... SKIPPED
+[INFO] Camel :: YAML DSL :: Parent ........................ SKIPPED
+[INFO] Camel :: YAML DSL :: Maven Plugins ................. SKIPPED
+[INFO] Camel :: YAML DSL :: Common ........................ SKIPPED
+[INFO] Camel :: YAML DSL :: Deserializers ................. SKIPPED
+[INFO] Camel :: YAML DSL .................................. SKIPPED
+[INFO] Camel :: JavaScript DSL ............................ SKIPPED
+[INFO] Camel :: Kotlin DSL ................................ SKIPPED
+[INFO] Camel :: Kamelet Main .............................. SKIPPED
+[INFO] Camel :: JBang :: Parent ........................... SKIPPED
+[INFO] Camel :: JBang :: Core ............................. SKIPPED
+[INFO] Camel :: JBang :: Main ............................. SKIPPED
+[INFO] Camel :: Integration Tests :: Test Bundles ......... SKIPPED
+[INFO] Camel :: Integration Tests :: Test Bundles: mock-javamail-1.7 SKIPPED
+[INFO] Camel :: Integration Tests :: Camel Validator Test Resources SKIPPED
+[INFO] Camel :: Integration Tests ......................... SKIPPED
+[INFO] Camel :: Integration Tests :: Standalone ........... SKIPPED
+[INFO] Camel :: Integration Tests ......................... SKIPPED
+[INFO] Camel :: Integration Tests :: CDI .................. SKIPPED
+[INFO] Camel :: Integration Tests :: JMS 2.0 API .......... SKIPPED
+[INFO] Camel :: Integration Tests :: Partial Classpath .... SKIPPED
+[INFO] Camel :: Integration Tests :: TypeConverter Scan ... SKIPPED
+[INFO] Camel :: Docs ...................................... SKIPPED
+[INFO] Camel :: Assembly .................................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:24 min
+[INFO] Finished at: 2026-11-13T16:50:22Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project camel-any23: Could not resolve dependencies for project org.apache.camel:camel-any23:jar:3.14.10-est-3-SNAPSHOT: Failed to collect dependencies at org.apache.any23:apache-any23-core:jar:2.4 -> net.sourceforge.owlapi:owlapi-rio:jar:5.1.13 -> net.sourceforge.owlapi:owlapi-parsers:jar:5.1.13 -> net.sourceforge.owlapi:owlapi-api:jar:5.1.13 -> com.google.code.findbugs:jsr305:jar:[2.0.0,4): No versions available for com.google.code.findbugs:jsr305:jar:[2.0.0,4) within specified range -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :camel-any23
