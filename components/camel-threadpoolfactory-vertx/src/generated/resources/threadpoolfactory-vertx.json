@@ -10,6 +10,6 @@
     "supportLevel": "Preview",
     "groupId": "org.nordix.camel",
     "artifactId": "camel-threadpoolfactory-vertx",
-    "version": "3.14.10-est-2"
+    "version": "3.14.10-est-2-SNAPSHOT"
   }
 }

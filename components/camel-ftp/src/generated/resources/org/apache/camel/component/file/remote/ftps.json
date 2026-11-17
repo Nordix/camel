@@ -12,7 +12,7 @@
     "supportLevel": "Stable",
     "groupId": "org.nordix.camel",
     "artifactId": "camel-ftp",
-    "version": "3.14.10-est-2",
+    "version": "3.14.10-est-2-SNAPSHOT",
     "scheme": "ftps",
     "extendsScheme": "file",
     "syntax": "ftps:host:port\/directoryName",

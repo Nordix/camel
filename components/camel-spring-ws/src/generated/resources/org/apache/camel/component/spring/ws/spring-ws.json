@@ -11,7 +11,7 @@
     "supportLevel": "Stable",
     "groupId": "org.nordix.camel",
     "artifactId": "camel-spring-ws",
-    "version": "3.14.10-est-2",
+    "version": "3.14.10-est-2-SNAPSHOT",
     "scheme": "spring-ws",
     "extendsScheme": "",
     "syntax": "spring-ws:type:lookupKey:webServiceEndpointUri",

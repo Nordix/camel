@@ -11,7 +11,7 @@
     "supportLevel": "Stable",
     "groupId": "org.nordix.camel",
     "artifactId": "camel-yammer",
-    "version": "3.14.10-est-2",
+    "version": "3.14.10-est-2-SNAPSHOT",
     "scheme": "yammer",
     "extendsScheme": "",
     "syntax": "yammer:function",

@@ -11,7 +11,7 @@
     "supportLevel": "Stable",
     "groupId": "org.nordix.camel",
     "artifactId": "camel-mail",
-    "version": "3.14.10-est-2",
+    "version": "3.14.10-est-2-SNAPSHOT",
     "scheme": "smtps",
     "extendsScheme": "",
     "alternativeSchemes": "imap,imaps,pop3,pop3s,smtp,smtps",

@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.nordix.camel</groupId>
         <artifactId>components</artifactId>
-        <version>3.14.10-est-2</version>
+        <version>3.14.10-est-2-SNAPSHOT</version>
     </parent>
 
     <artifactId>camel-as2-parent</artifactId>
