@@ -60,7 +60,7 @@ jobs:
   publish-to-central:
     name: Build, Stage and Publish to Central
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
     steps:
       - name: Check Out Code
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
