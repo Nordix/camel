@@ -1,0 +1,55 @@
+name: build-test.yml
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 3.14.10-workflows
+  pull_request:
+    branches:
+      - 3.14.10-workflows
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    defaults:
+      run:
+        shell: bash
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java: [ '8', '11', '17' ]
+        architecture: [ 'x64' ]
+        distribution: [ 'corretto' ]
+    steps:
+      # Clone camel
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #7.0.1
+        with:
+          path: camel
+
+      # SET UP JDK
+      - name: Setup JDK
+        uses: actions/setup-java@77dd5b2ce225ea11469928ac317850245a74ae78 #6.2.0
+        with:
+          java-version: ${{ matrix.java }}
+          architecture: ${{ matrix.architecture }}
+          distribution: ${{ matrix.distribution }}
+          cache: maven
+
+      - run: java -version
+
+      - name: Build camel jar
+        run: |
+          cd camel
+          mvn clean install -Dfastinstall
+          find camel/target -maxdepth 1 -name 'camel-*.jar'
+
+      - name: Upload camel jar
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 #7.0.2
+        with:
+          name: jdk${{ matrix.java }}-camel-jar
+          path: camel/camel/target/camel-*.jar
+          if-no-files-found: error
+          retention-days: 7
