@@ -45,12 +45,15 @@ jobs:
         run: |
           cd camel
           mvn clean install -Dfastinstall
-          find camel/target -maxdepth 1 -name 'camel-*.jar'
+          find core/camel-core/target -maxdepth 1 -name 'camel-core-*.jar'
 
       - name: Upload camel jar
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 #7.0.2
         with:
-          name: jdk${{ matrix.java }}-camel-jar
-          path: camel/camel/target/camel-*.jar
+          name: jdk${{ matrix.java }}-camel-core-jar
+          path: |
+            camel/core/camel-core/target/camel-core-*.jar
+            !camel/core/camel-core/target/camel-core-*-tests.jar
+            !camel/core/camel-core/target/camel-core-*-sources.jar
           if-no-files-found: error
           retention-days: 7
