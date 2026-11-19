@@ -29,9 +29,8 @@
 #   GPG_PRIVATE_KEY  - ASCII-armored GPG private key
 #   GPG_PASSPHRASE   - passphrase for the GPG private key
 #
-# NOTE: USER_MANAGED is the default so the deployment is staged in the
-# Portal for review; you then Publish (or Drop) it manually. Use AUTOMATIC
-# only when you intend an immediate, irreversible release.
+# NOTE: USER_MANAGED is used to ensure deployment is staged in the
+# Portal for review; you then Publish (or Drop) it manually.
 
 name: Publish to Maven Central
 
@@ -45,7 +44,6 @@ on:
         default: 'USER_MANAGED'
         options:
           - USER_MANAGED   # staged in the Portal UI for manual review/release (safe default)
-          - AUTOMATIC      # validated and released automatically (irreversible)
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -60,7 +58,7 @@ jobs:
   publish-to-central:
     name: Build, Stage and Publish to Central
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
     steps:
       - name: Check Out Code
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
