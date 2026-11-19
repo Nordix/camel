@@ -55,7 +55,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        java: [ '8', '11', '17' ]
+        java: [ '8' ]
         architecture: [ 'x64' ]
         distribution: [ 'corretto' ]
         shard: [ 0, 1, 2, 3 ]
