@@ -46,19 +46,31 @@ jobs:
           cd camel
           mvn clean install -Dfastinstall
 
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #7.0.1
+        with:
+          path: camel
+
+      - name: Split modules into shards
+        id: plan
+        run: |
+          cd camel
+          echo "matrix=$(python3 .github/scripts/plan-test-shards.py 10)" >> "$GITHUB_OUTPUT"
+
   test:
+    needs: [ build, plan ]
     defaults:
       run:
         shell: bash
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     strategy:
       fail-fast: false
-      matrix:
-        java: [ '8' ]
-        architecture: [ 'x64' ]
-        distribution: [ 'corretto' ]
-        shard: [ 0, 1, 2, 3 ]
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #7.0.1
         with:
@@ -67,46 +79,39 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@77dd5b2ce225ea11469928ac317850245a74ae78 #6.2.0
         with:
-          java-version: ${{ matrix.java }}
-          architecture: ${{ matrix.architecture }}
-          distribution: ${{ matrix.distribution }}
+          java-version: '8'
+          architecture: x64
+          distribution: corretto
           cache: maven
 
-      # Install camel-core's upstream modules without running their tests,
-      # so each shard only runs its own camel-core classes.
-      - name: Install dependencies (no tests)
+      - name: Download local Maven repository
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c #8.0.1
+        with:
+          name: camel-m2-repository
+          path: ${{ runner.temp }}
+
+      - name: Restore local Maven repository
+        run: |
+          mkdir -p ~/.m2/repository
+          tar -C ~/.m2/repository -xzf "$RUNNER_TEMP/camel-m2.tgz"
+
+      # Test tests only the modules in this shard, resolving the other Camel
+      # modules from the restored local repository. -fae so one module's
+      # failure does not hide the others. Surefire's
+      # rerunFailingTestsCount=2 from parent/pom.xml covers flaky tests.
+      # The excludes file lists tests that fail on every runner JDK
+      # (see .github/test-excludes.txt).
+      - name: Test shard ${{ matrix.shard }}
         run: |
           cd camel
-          mvn -B install -pl core/camel-core -am -Dfastinstall
-
-      # -Dtest overrides the excludes in core/camel-core/pom.xml, so the
-      # stress/Distributed* tests are filtered out here. The remaining names
-      # fail deterministically on the runner JDKs (XPath operator limit,
-      # clone() lookup, parallel aggregation timeout, JVM cipher suite
-      # defaults). Classes are dealt out round-robin by name.
-      - name: Select this shard's test classes
-        run: |
-          cd camel/core/camel-core
-          SHARDS=4
-          SKIP='XPathRouteConcurrentBigTest|InvokeCloneTest|SplitterParallelWithAggregationStrategyThrowingExceptionTest|SSLContextParametersTest|DistributedCompletionIntervalTest|DistributedConcurrentPerCorrelationKeyTest'
-          CLASSES=$(find src/test -name '*Test.java' -not -path '*/file/stress/*' \
-            | xargs -n1 basename | sed 's/\.java$//' | sort -u \
-            | grep -vE "^($SKIP)$" \
-            | awk -v s=${{ matrix.shard }} -v n=$SHARDS 'NR % n == s' | paste -sd, -)
-          echo "TEST_CLASSES=$CLASSES" >> "$GITHUB_ENV"
-          echo "Shard ${{ matrix.shard }}: $(echo "$CLASSES" | tr ',' '\n' | grep -c .) classes"
-
-      - name: Test camel-core
-        run: |
-          cd camel
-          mvn -B verify -pl core/camel-core \
-            -Dtest="$TEST_CLASSES" -Dsurefire.failIfNoSpecifiedTests=false
+          mvn -B verify -fae -pl "${{ matrix.modules }}" \
+            -Dsurefire.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt"
 
       - name: Upload surefire reports
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 #7.0.2
         if: always()
         with:
-          name: surefire-reports-jdk${{ matrix.java }}-shard${{ matrix.shard }}
-          path: camel/core/camel-core/target/surefire-reports/
+          name: surefire-reports-shard${{ matrix.shard }}
+          path: camel/**/target/surefire-reports/
           if-no-files-found: ignore
           retention-days: 7
