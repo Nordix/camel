@@ -57,3 +57,68 @@ jobs:
             !camel/core/camel-core/target/camel-core-*-sources.jar
           if-no-files-found: error
           retention-days: 7
+
+  test:
+    defaults:
+      run:
+        shell: bash
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        java: [ '8', '11', '17' ]
+        architecture: [ 'x64' ]
+        distribution: [ 'corretto' ]
+        shard: [ 0, 1, 2, 3 ]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #7.0.1
+        with:
+          path: camel
+
+      - name: Setup JDK
+        uses: actions/setup-java@77dd5b2ce225ea11469928ac317850245a74ae78 #6.2.0
+        with:
+          java-version: ${{ matrix.java }}
+          architecture: ${{ matrix.architecture }}
+          distribution: ${{ matrix.distribution }}
+          cache: maven
+
+      # Install camel-core's upstream modules without running their tests,
+      # so each shard only runs its own camel-core classes.
+      - name: Install dependencies (no tests)
+        run: |
+          cd camel
+          mvn -B install -pl core/camel-core -am -Dfastinstall
+
+      # -Dtest overrides the excludes in core/camel-core/pom.xml, so the
+      # stress/Distributed* tests are filtered out here. The remaining names
+      # fail deterministically on the runner JDKs (XPath operator limit,
+      # clone() lookup, parallel aggregation timeout, JVM cipher suite
+      # defaults). Classes are dealt out round-robin by name.
+      - name: Select this shard's test classes
+        run: |
+          cd camel/core/camel-core
+          SHARDS=4
+          SKIP='XPathRouteConcurrentBigTest|InvokeCloneTest|SplitterParallelWithAggregationStrategyThrowingExceptionTest|SSLContextParametersTest|DistributedCompletionIntervalTest|DistributedConcurrentPerCorrelationKeyTest'
+          CLASSES=$(find src/test -name '*Test.java' -not -path '*/file/stress/*' \
+            | xargs -n1 basename | sed 's/\.java$//' | sort -u \
+            | grep -vE "^($SKIP)$" \
+            | awk -v s=${{ matrix.shard }} -v n=$SHARDS 'NR % n == s' | paste -sd, -)
+          echo "TEST_CLASSES=$CLASSES" >> "$GITHUB_ENV"
+          echo "Shard ${{ matrix.shard }}: $(echo "$CLASSES" | tr ',' '\n' | grep -c .) classes"
+
+      - name: Test camel-core
+        run: |
+          cd camel
+          mvn -B verify -pl core/camel-core \
+            -Dtest="$TEST_CLASSES" -Dsurefire.failIfNoSpecifiedTests=false
+
+      - name: Upload surefire reports
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 #7.0.2
+        if: always()
+        with:
+          name: surefire-reports-jdk${{ matrix.java }}-shard${{ matrix.shard }}
+          path: camel/core/camel-core/target/surefire-reports/
+          if-no-files-found: ignore
+          retention-days: 7
