@@ -46,6 +46,22 @@ jobs:
           cd camel
           mvn clean install -Dfastinstall
 
+      # The test shards resolve all Camel modules from this local repository
+      # instead of rebuilding them.
+      - name: Package local Maven repository
+        if: matrix.java == '8'
+        run: tar -C ~/.m2/repository -czf "$RUNNER_TEMP/camel-m2.tgz" org/nordix
+
+      - name: Upload local Maven repository
+        if: matrix.java == '8'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 #7.0.2
+        with:
+          name: camel-m2-repository
+          path: ${{ runner.temp }}/camel-m2.tgz
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
   plan:
     runs-on: ubuntu-latest
     outputs:
