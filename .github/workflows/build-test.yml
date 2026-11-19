@@ -47,17 +47,23 @@ jobs:
           mvn clean install -Dfastinstall
 
       # The test shards resolve all Camel modules from this local repository
-      # instead of rebuilding them.
+      # instead of rebuilding them. camel-package-maven-plugin's generate goal
+      # also reads the model json files from core/camel-core-model/target/classes
+      # in the source tree, so ship that directory too.
       - name: Package local Maven repository
         if: matrix.java == '8'
-        run: tar -C ~/.m2/repository -czf "$RUNNER_TEMP/camel-m2.tgz" org/nordix
+        run: |
+          tar -C ~/.m2/repository -czf "$RUNNER_TEMP/camel-m2.tgz" org/nordix
+          tar -C camel -czf "$RUNNER_TEMP/camel-core-model.tgz" core/camel-core-model/target/classes
 
       - name: Upload local Maven repository
         if: matrix.java == '8'
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 #7.0.2
         with:
           name: camel-m2-repository
-          path: ${{ runner.temp }}/camel-m2.tgz
+          path: |
+            ${{ runner.temp }}/camel-m2.tgz
+            ${{ runner.temp }}/camel-core-model.tgz
           if-no-files-found: error
           retention-days: 1
           compression-level: 0
@@ -110,6 +116,7 @@ jobs:
         run: |
           mkdir -p ~/.m2/repository
           tar -C ~/.m2/repository -xzf "$RUNNER_TEMP/camel-m2.tgz"
+          tar -C camel -xzf "$RUNNER_TEMP/camel-core-model.tgz"
 
       # Test tests only the modules in this shard, resolving the other Camel
       # modules from the restored local repository. -fae so one module's
