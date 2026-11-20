@@ -140,7 +140,8 @@ jobs:
           echo "api.version=1.40" > ~/.docker-java.properties
           cd camel
           mvn -B verify -fae -pl "${{ matrix.modules }}" \
-            -Dsurefire.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt"
+            -Dsurefire.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
+            -Dcamel.failsafe.forkTimeout=1800
 
       - name: Upload surefire reports
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 #7.0.2
