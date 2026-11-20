@@ -1,0 +1,5 @@
+# Tests that fail deterministically on the CI runners (Corretto 8).
+**/XPathRouteConcurrentBigTest.java
+**/InvokeCloneTest.java
+**/SplitterParallelWithAggregationStrategyThrowingExceptionTest.java
+**/SSLContextParametersTest.java

@@ -4636,6 +4636,24 @@
                         <id>enforce-maven-version</id>
                         <phase />
                     </execution>
+                    <execution>
+                        <id>ban-unpatched-spring-framework</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <bannedDependencies>
+                                    <excludes>
+                                        <exclude>org.springframework:spring-*</exclude>
+                                    </excludes>
+                                    <searchTransitive>true</searchTransitive>
+                                    <message>Spring Framework is repackaged here as org.nordix:spring-*, but keeps the org.springframework Java package names. An org.springframework:spring-* jar on the same classpath duplicates those classes, and the two versions then fail each other with NoSuchMethodError. Exclude the transitive org.springframework dependency instead.</message>
+                                </bannedDependencies>
+                            </rules>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
             <plugin>

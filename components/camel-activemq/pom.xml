@@ -89,6 +89,13 @@
                     <groupId>log4j</groupId>
                     <artifactId>log4j</artifactId>
                 </exclusion>
+                <!-- Spring is repackaged as org.nordix, which keeps the org.springframework
+                     package names. Old org.springframework jars here shadow those classes
+                     and break spring-test with NoSuchMethodError. -->
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -154,6 +161,13 @@
             <version>2.2</version>
             <scope>test</scope>
             <optional>true</optional>
+            <exclusions>
+                <!-- Same reason as activemq-unit-tests: Spring is repackaged as org.nordix. -->
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.nordix.camel</groupId>

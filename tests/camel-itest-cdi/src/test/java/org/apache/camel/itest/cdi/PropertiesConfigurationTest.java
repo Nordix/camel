@@ -61,7 +61,7 @@ public class PropertiesConfigurationTest {
     public static JavaArchive createDeployment() {
         return Maven.configureResolver().workOffline()
                 .loadPomFromFile("pom.xml")
-                .resolve("org.apache.camel:camel-cdi")
+                .resolve("org.nordix.camel:camel-cdi")
                 .withoutTransitivity()
                 .asSingle(JavaArchive.class);
     }

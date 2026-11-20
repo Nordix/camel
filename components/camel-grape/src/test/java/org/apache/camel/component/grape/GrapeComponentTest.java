@@ -47,13 +47,13 @@ public class GrapeComponentTest {
     @Test
     public void shouldLoadStreamComponent() {
         assertDoesNotThrow(
-                () -> runShouldLoadStreamTest("grape:org.apache.camel/camel-stream/" + camelContext.getVersion(), "msg"));
+                () -> runShouldLoadStreamTest("grape:org.nordix.camel/camel-stream/" + camelContext.getVersion(), "msg"));
     }
 
     @Test
     public void shouldLoadStreamComponentViaBodyRequest() {
         assertDoesNotThrow(
-                () -> runShouldLoadStreamTest("grape:grape", "org.apache.camel/camel-stream/" + camelContext.getVersion()));
+                () -> runShouldLoadStreamTest("grape:grape", "org.nordix.camel/camel-stream/" + camelContext.getVersion()));
     }
 
     private void runShouldLoadStreamTest(String s, String s2) {
@@ -69,7 +69,7 @@ public class GrapeComponentTest {
         pathesRepository.clear();
         camelContext.start();
         camelContext.createProducerTemplate().sendBody("grape:grape",
-                "org.apache.camel/camel-stream/" + camelContext.getVersion());
+                "org.nordix.camel/camel-stream/" + camelContext.getVersion());
         ServiceStatus status = camelContext.createProducerTemplate().requestBody(
                 "bean:org.apache.camel.component.stream.StreamComponent?method=getStatus", null, ServiceStatus.class);
         assertEquals(Started, status);
@@ -81,7 +81,7 @@ public class GrapeComponentTest {
         pathesRepository.clear();
         camelContext.start();
         camelContext.createProducerTemplate().sendBody("grape:grape",
-                "org.apache.camel/camel-stream/" + camelContext.getVersion());
+                "org.nordix.camel/camel-stream/" + camelContext.getVersion());
         camelContext.stop();
 
         camelContext = new DefaultCamelContext();
@@ -107,9 +107,9 @@ public class GrapeComponentTest {
         pathesRepository.clear();
         camelContext.start();
         camelContext.createProducerTemplate().sendBody("grape:grape",
-                "org.apache.camel/camel-stream/" + camelContext.getVersion());
+                "org.nordix.camel/camel-stream/" + camelContext.getVersion());
         List<String> patches = pathesRepository.listPatches();
-        assertEquals(Arrays.asList("org.apache.camel/camel-stream/" + camelContext.getVersion()), patches);
+        assertEquals(Arrays.asList("org.nordix.camel/camel-stream/" + camelContext.getVersion()), patches);
     }
 
 }
