@@ -1419,7 +1419,7 @@ public interface KubernetesDeploymentsEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-deployments:masterUrl</code>
          * 
@@ -1440,7 +1440,7 @@ public interface KubernetesDeploymentsEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-deployments:masterUrl</code>
          * 

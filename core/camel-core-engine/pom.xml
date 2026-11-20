@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>core</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -62,27 +62,27 @@
 
         <!-- required dependencies by camel-core -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-base-engine</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-core-reifier</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-management-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-support</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-util</artifactId>
         </dependency>
 
@@ -102,7 +102,7 @@
                             <pluginExecutions>
                                 <pluginExecution>
                                     <pluginExecutionFilter>
-                                        <groupId>org.apache.camel</groupId>
+                                        <groupId>org.nordix.camel</groupId>
                                         <artifactId>camel-package-maven-plugin</artifactId>
                                         <versionRange>${project.version}</versionRange>
                                         <goals>
@@ -122,7 +122,7 @@
 
         <plugins>
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-package-maven-plugin</artifactId>
                 <executions>
                     <execution>
@@ -144,7 +144,7 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-bundle-plugin</artifactId>
                 <configuration>
                     <instructions>

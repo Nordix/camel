@@ -9,9 +9,9 @@
     "label": "dataformat,transformation",
     "javaType": "org.apache.camel.dataformat.tagsoup.TidyMarkupDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-tagsoup",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "tidyMarkup",
     "modelJavaType": "org.apache.camel.model.dataformat.TidyMarkupDataFormat"
   },

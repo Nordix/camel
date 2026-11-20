@@ -38,7 +38,7 @@ public interface CqlComponentBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-cassandraql
+     * Maven coordinates: org.nordix.camel:camel-cassandraql
      * 
      * @return the dsl builder
      */

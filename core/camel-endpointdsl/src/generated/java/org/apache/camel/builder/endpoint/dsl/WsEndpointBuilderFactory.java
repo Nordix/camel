@@ -1562,7 +1562,7 @@ public interface WsEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-ahc-ws
+         * Maven coordinates: org.nordix.camel:camel-ahc-ws
          * 
          * Syntax: <code>ahc-ws:httpUri</code>
          * 
@@ -1582,7 +1582,7 @@ public interface WsEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-ahc-ws
+         * Maven coordinates: org.nordix.camel:camel-ahc-ws
          * 
          * Syntax: <code>ahc-ws:httpUri</code>
          * 
@@ -1604,7 +1604,7 @@ public interface WsEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-ahc-ws
+         * Maven coordinates: org.nordix.camel:camel-ahc-ws
          * 
          * Syntax: <code>ahc-wss:httpUri</code>
          * 

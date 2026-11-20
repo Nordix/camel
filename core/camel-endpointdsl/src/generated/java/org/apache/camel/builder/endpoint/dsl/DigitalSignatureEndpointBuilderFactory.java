@@ -559,7 +559,7 @@ public interface DigitalSignatureEndpointBuilderFactory {
          * 
          * Category: security,transformation
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-crypto
+         * Maven coordinates: org.nordix.camel:camel-crypto
          * 
          * Syntax: <code>crypto:cryptoOperation:name</code>
          * 
@@ -584,7 +584,7 @@ public interface DigitalSignatureEndpointBuilderFactory {
          * 
          * Category: security,transformation
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-crypto
+         * Maven coordinates: org.nordix.camel:camel-crypto
          * 
          * Syntax: <code>crypto:cryptoOperation:name</code>
          * 

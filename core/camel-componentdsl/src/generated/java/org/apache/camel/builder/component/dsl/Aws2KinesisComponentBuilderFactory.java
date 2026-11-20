@@ -38,7 +38,7 @@ public interface Aws2KinesisComponentBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-kinesis
+     * Maven coordinates: org.nordix.camel:camel-aws2-kinesis
      * 
      * @return the dsl builder
      */

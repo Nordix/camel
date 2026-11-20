@@ -570,7 +570,7 @@ public interface HazelcastListEndpointBuilderFactory {
          * 
          * Category: cache,datagrid
          * Since: 2.7
-         * Maven coordinates: org.apache.camel:camel-hazelcast
+         * Maven coordinates: org.nordix.camel:camel-hazelcast
          * 
          * Syntax: <code>hazelcast-list:cacheName</code>
          * 
@@ -589,7 +589,7 @@ public interface HazelcastListEndpointBuilderFactory {
          * 
          * Category: cache,datagrid
          * Since: 2.7
-         * Maven coordinates: org.apache.camel:camel-hazelcast
+         * Maven coordinates: org.nordix.camel:camel-hazelcast
          * 
          * Syntax: <code>hazelcast-list:cacheName</code>
          * 

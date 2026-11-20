@@ -9,9 +9,9 @@
     "label": "language,core,xml",
     "javaType": "org.apache.camel.language.xtokenizer.XMLTokenizeLanguage",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-xml-jaxp",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "xtokenize",
     "modelJavaType": "org.apache.camel.model.language.XMLTokenizerExpression"
   },

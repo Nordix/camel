@@ -36,7 +36,7 @@ public interface As2ComponentBuilderFactory {
      * 
      * Category: file
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-as2
+     * Maven coordinates: org.nordix.camel:camel-as2
      * 
      * @return the dsl builder
      */

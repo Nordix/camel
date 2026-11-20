@@ -36,7 +36,7 @@ public interface GooglePubsubComponentBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-google-pubsub
+     * Maven coordinates: org.nordix.camel:camel-google-pubsub
      * 
      * @return the dsl builder
      */

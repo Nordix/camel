@@ -36,7 +36,7 @@ public interface LumberjackComponentBuilderFactory {
      * 
      * Category: log
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-lumberjack
+     * Maven coordinates: org.nordix.camel:camel-lumberjack
      * 
      * @return the dsl builder
      */

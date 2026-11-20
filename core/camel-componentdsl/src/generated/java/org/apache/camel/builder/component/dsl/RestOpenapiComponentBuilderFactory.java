@@ -38,7 +38,7 @@ public interface RestOpenapiComponentBuilderFactory {
      * 
      * Category: openapi,rest,api
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-rest-openapi
+     * Maven coordinates: org.nordix.camel:camel-rest-openapi
      * 
      * @return the dsl builder
      */

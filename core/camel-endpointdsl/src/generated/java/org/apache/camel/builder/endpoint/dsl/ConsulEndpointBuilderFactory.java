@@ -1876,7 +1876,7 @@ public interface ConsulEndpointBuilderFactory {
          * 
          * Category: cloud,api
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-consul
+         * Maven coordinates: org.nordix.camel:camel-consul
          * 
          * Syntax: <code>consul:apiEndpoint</code>
          * 
@@ -1895,7 +1895,7 @@ public interface ConsulEndpointBuilderFactory {
          * 
          * Category: cloud,api
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-consul
+         * Maven coordinates: org.nordix.camel:camel-consul
          * 
          * Syntax: <code>consul:apiEndpoint</code>
          * 

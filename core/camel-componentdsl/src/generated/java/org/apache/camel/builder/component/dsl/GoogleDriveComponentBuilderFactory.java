@@ -36,7 +36,7 @@ public interface GoogleDriveComponentBuilderFactory {
      * 
      * Category: file,cloud,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-google-drive
+     * Maven coordinates: org.nordix.camel:camel-google-drive
      * 
      * @return the dsl builder
      */

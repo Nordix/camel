@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>components</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -43,27 +43,27 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-support</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-spring</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.nordix</groupId>
             <artifactId>spring-jms</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.nordix</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.nordix</groupId>
             <artifactId>spring-tx</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.nordix</groupId>
             <artifactId>spring-beans</artifactId>
         </dependency>
         <!-- either use JMS 1.1 or 2.0 provided by JMS client -->
@@ -81,17 +81,17 @@
 
         <!-- testing -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-spring-junit5</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-spring-xml</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-management</artifactId>
             <scope>test</scope>
         </dependency>
@@ -108,7 +108,7 @@
 
         <!-- test infra -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-infra-common</artifactId>
             <version>${project.version}</version>
             <type>test-jar</type>
@@ -116,7 +116,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-infra-activemq</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>

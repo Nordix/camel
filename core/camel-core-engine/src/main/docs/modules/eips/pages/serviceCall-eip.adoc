@@ -192,7 +192,7 @@ To leverage Consul for Service Discovery, maven users will need to add the follo
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-consul</artifactId>
     <!-- use the same version as your Camel core version -->
     <version>x.y.z</version>
@@ -234,7 +234,7 @@ To leverage DNS for Service Discovery, maven users will need to add the followin
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-dns</artifactId>
     <!-- use the same version as your Camel core version -->
     <version>x.y.z</version>
@@ -282,7 +282,7 @@ To leverage Etcd for Service Discovery, maven users will need to add the followi
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-etcd</artifactId>
     <!-- use the same version as your Camel core version -->
     <version>x.y.z</version>
@@ -337,7 +337,7 @@ To leverage Kubernetes for Service Discovery, maven users will need to add the f
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-kubernetes</artifactId>
     <!-- use the same version as your Camel core version -->
     <version>x.y.z</version>
@@ -514,7 +514,7 @@ Service filters therefore receive a dummy exchange when used with Ribbon.
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-ribbon</artifactId>
     <!-- use the same version as your Camel core version -->
     <version>x.y.z</version>

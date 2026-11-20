@@ -333,7 +333,7 @@ public interface FunctionGraphEndpointBuilderFactory {
          * 
          * Category: cloud,serverless
          * Since: 3.11
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-functiongraph
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-functiongraph
          * 
          * Syntax: <code>hwcloud-functiongraph:operation</code>
          * 
@@ -352,7 +352,7 @@ public interface FunctionGraphEndpointBuilderFactory {
          * 
          * Category: cloud,serverless
          * Since: 3.11
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-functiongraph
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-functiongraph
          * 
          * Syntax: <code>hwcloud-functiongraph:operation</code>
          * 

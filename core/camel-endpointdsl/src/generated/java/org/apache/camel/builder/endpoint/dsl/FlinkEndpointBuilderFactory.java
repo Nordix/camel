@@ -243,7 +243,7 @@ public interface FlinkEndpointBuilderFactory {
          * 
          * Category: transformation,bigdata,streams
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-flink
+         * Maven coordinates: org.nordix.camel:camel-flink
          * 
          * Syntax: <code>flink:endpointType</code>
          * 
@@ -263,7 +263,7 @@ public interface FlinkEndpointBuilderFactory {
          * 
          * Category: transformation,bigdata,streams
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-flink
+         * Maven coordinates: org.nordix.camel:camel-flink
          * 
          * Syntax: <code>flink:endpointType</code>
          * 

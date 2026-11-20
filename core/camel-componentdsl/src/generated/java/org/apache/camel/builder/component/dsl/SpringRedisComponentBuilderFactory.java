@@ -36,7 +36,7 @@ public interface SpringRedisComponentBuilderFactory {
      * 
      * Category: spring,nosql
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-spring-redis
+     * Maven coordinates: org.nordix.camel:camel-spring-redis
      * 
      * @return the dsl builder
      */

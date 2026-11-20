@@ -36,7 +36,7 @@ public interface Aws2IamComponentBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-iam
+     * Maven coordinates: org.nordix.camel:camel-aws2-iam
      * 
      * @return the dsl builder
      */

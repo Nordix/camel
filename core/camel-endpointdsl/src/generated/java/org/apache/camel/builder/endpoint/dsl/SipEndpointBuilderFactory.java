@@ -3370,7 +3370,7 @@ public interface SipEndpointBuilderFactory {
          * 
          * Category: mobile
          * Since: 2.5
-         * Maven coordinates: org.apache.camel:camel-sip
+         * Maven coordinates: org.nordix.camel:camel-sip
          * 
          * Syntax: <code>sip:uri</code>
          * 
@@ -3391,7 +3391,7 @@ public interface SipEndpointBuilderFactory {
          * 
          * Category: mobile
          * Since: 2.5
-         * Maven coordinates: org.apache.camel:camel-sip
+         * Maven coordinates: org.nordix.camel:camel-sip
          * 
          * Syntax: <code>sip:uri</code>
          * 
@@ -3414,7 +3414,7 @@ public interface SipEndpointBuilderFactory {
          * 
          * Category: mobile
          * Since: 2.5
-         * Maven coordinates: org.apache.camel:camel-sip
+         * Maven coordinates: org.nordix.camel:camel-sip
          * 
          * Syntax: <code>sips:uri</code>
          * 

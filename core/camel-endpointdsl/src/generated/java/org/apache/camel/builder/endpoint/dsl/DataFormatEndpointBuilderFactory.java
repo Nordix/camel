@@ -94,7 +94,7 @@ public interface DataFormatEndpointBuilderFactory {
          * 
          * Category: core,transformation
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-dataformat
+         * Maven coordinates: org.nordix.camel:camel-dataformat
          * 
          * Syntax: <code>dataformat:name:operation</code>
          * 
@@ -117,7 +117,7 @@ public interface DataFormatEndpointBuilderFactory {
          * 
          * Category: core,transformation
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-dataformat
+         * Maven coordinates: org.nordix.camel:camel-dataformat
          * 
          * Syntax: <code>dataformat:name:operation</code>
          * 

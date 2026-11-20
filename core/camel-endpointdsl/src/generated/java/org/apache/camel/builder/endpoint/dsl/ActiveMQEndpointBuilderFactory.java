@@ -6806,7 +6806,7 @@ public interface ActiveMQEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-activemq
+         * Maven coordinates: org.nordix.camel:camel-activemq
          * 
          * Syntax: <code>activemq:destinationType:destinationName</code>
          * 
@@ -6832,7 +6832,7 @@ public interface ActiveMQEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-activemq
+         * Maven coordinates: org.nordix.camel:camel-activemq
          * 
          * Syntax: <code>activemq:destinationType:destinationName</code>
          * 

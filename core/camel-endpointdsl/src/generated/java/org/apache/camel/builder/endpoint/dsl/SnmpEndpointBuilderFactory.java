@@ -1930,7 +1930,7 @@ public interface SnmpEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.1
-         * Maven coordinates: org.apache.camel:camel-snmp
+         * Maven coordinates: org.nordix.camel:camel-snmp
          * 
          * Syntax: <code>snmp:host:port</code>
          * 
@@ -1953,7 +1953,7 @@ public interface SnmpEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.1
-         * Maven coordinates: org.apache.camel:camel-snmp
+         * Maven coordinates: org.nordix.camel:camel-snmp
          * 
          * Syntax: <code>snmp:host:port</code>
          * 

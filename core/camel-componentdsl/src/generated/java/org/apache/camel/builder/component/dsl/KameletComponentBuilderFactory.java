@@ -36,7 +36,7 @@ public interface KameletComponentBuilderFactory {
      * 
      * Category: core
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-kamelet
+     * Maven coordinates: org.nordix.camel:camel-kamelet
      * 
      * @return the dsl builder
      */

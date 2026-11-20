@@ -38,7 +38,7 @@ public interface AzureStorageQueueComponentBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-azure-storage-queue
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-queue
      * 
      * @return the dsl builder
      */

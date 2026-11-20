@@ -231,7 +231,7 @@ public interface ControlBusEndpointBuilderFactory {
          * 
          * Category: core,monitoring
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-controlbus
+         * Maven coordinates: org.nordix.camel:camel-controlbus
          * 
          * Syntax: <code>controlbus:command:language</code>
          * 
@@ -259,7 +259,7 @@ public interface ControlBusEndpointBuilderFactory {
          * 
          * Category: core,monitoring
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-controlbus
+         * Maven coordinates: org.nordix.camel:camel-controlbus
          * 
          * Syntax: <code>controlbus:command:language</code>
          * 

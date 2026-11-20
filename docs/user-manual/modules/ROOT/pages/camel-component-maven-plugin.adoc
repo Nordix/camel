@@ -32,7 +32,7 @@ In case you *did not* use the Camel Maven Archetypes to bootstrap the initial co
 [source,xml]
 ----
 <plugin>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-component-maven-plugin</artifactId>
   <version>${camel-version}</version>
   <executions>
@@ -94,7 +94,7 @@ to `src/main` as shown (then you do not need to use the `build-helper-maven-plug
 [source,xml]
 ----
 <plugin>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-component-maven-plugin</artifactId>
   <version>${camel-version}</version>
   <configuration>

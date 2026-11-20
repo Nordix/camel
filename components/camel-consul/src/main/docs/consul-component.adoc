@@ -21,7 +21,7 @@ for this component:
 [source,java]
 -------------------------------------------------
     <dependency>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-consul</artifactId>
         <version>${camel-version}</version>
     </dependency>

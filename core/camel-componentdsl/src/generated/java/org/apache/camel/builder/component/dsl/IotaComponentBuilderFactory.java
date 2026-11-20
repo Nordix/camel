@@ -36,7 +36,7 @@ public interface IotaComponentBuilderFactory {
      * 
      * Category: ledger,api
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-iota
+     * Maven coordinates: org.nordix.camel:camel-iota
      * 
      * @return the dsl builder
      */

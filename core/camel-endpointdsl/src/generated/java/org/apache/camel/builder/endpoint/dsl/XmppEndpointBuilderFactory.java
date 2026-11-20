@@ -1312,7 +1312,7 @@ public interface XmppEndpointBuilderFactory {
          * 
          * Category: chat,messaging
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-xmpp
+         * Maven coordinates: org.nordix.camel:camel-xmpp
          * 
          * Syntax: <code>xmpp:host:port/participant</code>
          * 
@@ -1338,7 +1338,7 @@ public interface XmppEndpointBuilderFactory {
          * 
          * Category: chat,messaging
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-xmpp
+         * Maven coordinates: org.nordix.camel:camel-xmpp
          * 
          * Syntax: <code>xmpp:host:port/participant</code>
          * 

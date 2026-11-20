@@ -164,7 +164,7 @@ public interface JsonPatchEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.12
-         * Maven coordinates: org.apache.camel:camel-json-patch
+         * Maven coordinates: org.nordix.camel:camel-json-patch
          * 
          * Syntax: <code>json-patch:resourceUri</code>
          * 
@@ -188,7 +188,7 @@ public interface JsonPatchEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 3.12
-         * Maven coordinates: org.apache.camel:camel-json-patch
+         * Maven coordinates: org.nordix.camel:camel-json-patch
          * 
          * Syntax: <code>json-patch:resourceUri</code>
          * 

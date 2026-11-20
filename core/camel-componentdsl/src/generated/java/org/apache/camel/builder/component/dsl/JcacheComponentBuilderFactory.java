@@ -36,7 +36,7 @@ public interface JcacheComponentBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-jcache
+     * Maven coordinates: org.nordix.camel:camel-jcache
      * 
      * @return the dsl builder
      */

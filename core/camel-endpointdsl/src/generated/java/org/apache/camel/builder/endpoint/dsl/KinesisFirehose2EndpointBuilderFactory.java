@@ -463,7 +463,7 @@ public interface KinesisFirehose2EndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.2
-         * Maven coordinates: org.apache.camel:camel-aws2-kinesis
+         * Maven coordinates: org.nordix.camel:camel-aws2-kinesis
          * 
          * Syntax: <code>aws2-kinesis-firehose:streamName</code>
          * 
@@ -483,7 +483,7 @@ public interface KinesisFirehose2EndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.2
-         * Maven coordinates: org.apache.camel:camel-aws2-kinesis
+         * Maven coordinates: org.nordix.camel:camel-aws2-kinesis
          * 
          * Syntax: <code>aws2-kinesis-firehose:streamName</code>
          * 

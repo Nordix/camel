@@ -36,7 +36,7 @@ public interface KameletReifyComponentBuilderFactory {
      * 
      * Category: core
      * Since: 3.6
-     * Maven coordinates: org.apache.camel:camel-kamelet-reify
+     * Maven coordinates: org.nordix.camel:camel-kamelet-reify
      * 
      * @return the dsl builder
      */

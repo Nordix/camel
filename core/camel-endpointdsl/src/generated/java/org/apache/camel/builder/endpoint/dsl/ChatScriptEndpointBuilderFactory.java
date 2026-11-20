@@ -140,7 +140,7 @@ public interface ChatScriptEndpointBuilderFactory {
          * 
          * Category: ai,chat
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-chatscript
+         * Maven coordinates: org.nordix.camel:camel-chatscript
          * 
          * Syntax: <code>chatscript:host:port/botName</code>
          * 
@@ -166,7 +166,7 @@ public interface ChatScriptEndpointBuilderFactory {
          * 
          * Category: ai,chat
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-chatscript
+         * Maven coordinates: org.nordix.camel:camel-chatscript
          * 
          * Syntax: <code>chatscript:host:port/botName</code>
          * 

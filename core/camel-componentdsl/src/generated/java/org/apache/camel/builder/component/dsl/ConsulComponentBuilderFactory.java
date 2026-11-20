@@ -36,7 +36,7 @@ public interface ConsulComponentBuilderFactory {
      * 
      * Category: cloud,api
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-consul
+     * Maven coordinates: org.nordix.camel:camel-consul
      * 
      * @return the dsl builder
      */

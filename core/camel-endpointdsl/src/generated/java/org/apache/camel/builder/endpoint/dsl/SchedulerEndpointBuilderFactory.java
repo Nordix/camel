@@ -788,7 +788,7 @@ public interface SchedulerEndpointBuilderFactory {
          * 
          * Category: core,scheduling
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-scheduler
+         * Maven coordinates: org.nordix.camel:camel-scheduler
          * 
          * Syntax: <code>scheduler:name</code>
          * 
@@ -808,7 +808,7 @@ public interface SchedulerEndpointBuilderFactory {
          * 
          * Category: core,scheduling
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-scheduler
+         * Maven coordinates: org.nordix.camel:camel-scheduler
          * 
          * Syntax: <code>scheduler:name</code>
          * 

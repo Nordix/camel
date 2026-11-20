@@ -36,7 +36,7 @@ public interface WeatherComponentBuilderFactory {
      * 
      * Category: api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-weather
+     * Maven coordinates: org.nordix.camel:camel-weather
      * 
      * @return the dsl builder
      */

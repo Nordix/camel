@@ -9,9 +9,9 @@
     "label": "dataformat,transformation,file",
     "javaType": "org.apache.camel.dataformat.asn1.ASN1DataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-asn1",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "asn1",
     "modelJavaType": "org.apache.camel.model.dataformat.ASN1DataFormat"
   },

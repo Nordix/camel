@@ -38,7 +38,7 @@ public interface JingComponentBuilderFactory {
      * 
      * Category: validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-jing
+     * Maven coordinates: org.nordix.camel:camel-jing
      * 
      * @return the dsl builder
      */

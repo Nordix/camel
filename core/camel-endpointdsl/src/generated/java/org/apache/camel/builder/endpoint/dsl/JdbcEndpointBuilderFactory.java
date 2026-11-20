@@ -568,7 +568,7 @@ public interface JdbcEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-jdbc
+         * Maven coordinates: org.nordix.camel:camel-jdbc
          * 
          * Syntax: <code>jdbc:dataSourceName</code>
          * 
@@ -590,7 +590,7 @@ public interface JdbcEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-jdbc
+         * Maven coordinates: org.nordix.camel:camel-jdbc
          * 
          * Syntax: <code>jdbc:dataSourceName</code>
          * 

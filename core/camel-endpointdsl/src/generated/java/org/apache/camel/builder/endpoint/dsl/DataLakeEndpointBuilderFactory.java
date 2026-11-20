@@ -2962,7 +2962,7 @@ public interface DataLakeEndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-azure-storage-datalake
+         * Maven coordinates: org.nordix.camel:camel-azure-storage-datalake
          * 
          * Syntax:
          * <code>azure-storage-datalake:accountName/fileSystemName</code>
@@ -2985,7 +2985,7 @@ public interface DataLakeEndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-azure-storage-datalake
+         * Maven coordinates: org.nordix.camel:camel-azure-storage-datalake
          * 
          * Syntax:
          * <code>azure-storage-datalake:accountName/fileSystemName</code>

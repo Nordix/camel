@@ -776,7 +776,7 @@ public interface PubNubEndpointBuilderFactory {
          * 
          * Category: cloud,iot,messaging
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-pubnub
+         * Maven coordinates: org.nordix.camel:camel-pubnub
          * 
          * Syntax: <code>pubnub:channel</code>
          * 
@@ -796,7 +796,7 @@ public interface PubNubEndpointBuilderFactory {
          * 
          * Category: cloud,iot,messaging
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-pubnub
+         * Maven coordinates: org.nordix.camel:camel-pubnub
          * 
          * Syntax: <code>pubnub:channel</code>
          * 

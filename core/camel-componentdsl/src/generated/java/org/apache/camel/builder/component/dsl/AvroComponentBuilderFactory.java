@@ -36,7 +36,7 @@ public interface AvroComponentBuilderFactory {
      * 
      * Category: rpc
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-avro-rpc
+     * Maven coordinates: org.nordix.camel:camel-avro-rpc
      * 
      * @return the dsl builder
      */

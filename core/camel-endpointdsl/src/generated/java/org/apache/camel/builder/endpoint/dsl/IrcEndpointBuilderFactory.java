@@ -2110,7 +2110,7 @@ public interface IrcEndpointBuilderFactory {
          * 
          * Category: chat
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-irc
+         * Maven coordinates: org.nordix.camel:camel-irc
          * 
          * Syntax: <code>irc:hostname:port</code>
          * 
@@ -2133,7 +2133,7 @@ public interface IrcEndpointBuilderFactory {
          * 
          * Category: chat
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-irc
+         * Maven coordinates: org.nordix.camel:camel-irc
          * 
          * Syntax: <code>irc:hostname:port</code>
          * 

@@ -1502,7 +1502,7 @@ public interface CassandraEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-cassandraql
+         * Maven coordinates: org.nordix.camel:camel-cassandraql
          * 
          * Syntax: <code>cql:beanRef:hosts:port/keyspace</code>
          * 
@@ -1532,7 +1532,7 @@ public interface CassandraEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-cassandraql
+         * Maven coordinates: org.nordix.camel:camel-cassandraql
          * 
          * Syntax: <code>cql:beanRef:hosts:port/keyspace</code>
          * 

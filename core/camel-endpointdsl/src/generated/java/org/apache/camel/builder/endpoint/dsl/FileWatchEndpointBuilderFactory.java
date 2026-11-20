@@ -475,7 +475,7 @@ public interface FileWatchEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-file-watch
+         * Maven coordinates: org.nordix.camel:camel-file-watch
          * 
          * Syntax: <code>file-watch:path</code>
          * 
@@ -495,7 +495,7 @@ public interface FileWatchEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-file-watch
+         * Maven coordinates: org.nordix.camel:camel-file-watch
          * 
          * Syntax: <code>file-watch:path</code>
          * 

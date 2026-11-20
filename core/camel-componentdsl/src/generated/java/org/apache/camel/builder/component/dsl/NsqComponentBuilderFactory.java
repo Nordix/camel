@@ -37,7 +37,7 @@ public interface NsqComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-nsq
+     * Maven coordinates: org.nordix.camel:camel-nsq
      * 
      * @return the dsl builder
      */

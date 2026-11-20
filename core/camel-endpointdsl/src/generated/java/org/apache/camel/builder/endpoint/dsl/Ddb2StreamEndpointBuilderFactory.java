@@ -1084,7 +1084,7 @@ public interface Ddb2StreamEndpointBuilderFactory {
          * 
          * Category: cloud,messaging,streams
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-ddb
+         * Maven coordinates: org.nordix.camel:camel-aws2-ddb
          * 
          * Syntax: <code>aws2-ddbstream:tableName</code>
          * 
@@ -1104,7 +1104,7 @@ public interface Ddb2StreamEndpointBuilderFactory {
          * 
          * Category: cloud,messaging,streams
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-ddb
+         * Maven coordinates: org.nordix.camel:camel-aws2-ddb
          * 
          * Syntax: <code>aws2-ddbstream:tableName</code>
          * 

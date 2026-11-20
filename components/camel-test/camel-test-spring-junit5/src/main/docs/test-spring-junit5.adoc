@@ -223,7 +223,7 @@ Projects using `camel-test-spring` would need to use `camel-test-spring-junit5`.
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-test-spring-junit5</artifactId>
   <scope>test</scope>
 </dependency>

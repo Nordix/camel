@@ -320,7 +320,7 @@ public interface BeanValidatorEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-bean-validator
+         * Maven coordinates: org.nordix.camel:camel-bean-validator
          * 
          * Syntax: <code>bean-validator:label</code>
          * 
@@ -339,7 +339,7 @@ public interface BeanValidatorEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-bean-validator
+         * Maven coordinates: org.nordix.camel:camel-bean-validator
          * 
          * Syntax: <code>bean-validator:label</code>
          * 

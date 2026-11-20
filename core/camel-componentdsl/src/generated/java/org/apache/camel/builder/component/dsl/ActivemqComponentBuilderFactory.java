@@ -38,7 +38,7 @@ public interface ActivemqComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-activemq
+     * Maven coordinates: org.nordix.camel:camel-activemq
      * 
      * @return the dsl builder
      */

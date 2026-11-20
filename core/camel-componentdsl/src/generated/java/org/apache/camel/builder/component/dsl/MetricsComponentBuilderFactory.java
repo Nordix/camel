@@ -38,7 +38,7 @@ public interface MetricsComponentBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-metrics
+     * Maven coordinates: org.nordix.camel:camel-metrics
      * 
      * @return the dsl builder
      */

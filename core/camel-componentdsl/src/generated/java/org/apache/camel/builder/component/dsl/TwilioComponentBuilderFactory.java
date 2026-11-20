@@ -36,7 +36,7 @@ public interface TwilioComponentBuilderFactory {
      * 
      * Category: api,messaging,cloud
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-twilio
+     * Maven coordinates: org.nordix.camel:camel-twilio
      * 
      * @return the dsl builder
      */

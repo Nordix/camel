@@ -36,7 +36,7 @@ public interface RssComponentBuilderFactory {
      * 
      * Category: rss
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-rss
+     * Maven coordinates: org.nordix.camel:camel-rss
      * 
      * @return the dsl builder
      */

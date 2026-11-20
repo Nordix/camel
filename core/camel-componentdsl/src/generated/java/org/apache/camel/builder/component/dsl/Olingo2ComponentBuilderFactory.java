@@ -36,7 +36,7 @@ public interface Olingo2ComponentBuilderFactory {
      * 
      * Category: cloud
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-olingo2
+     * Maven coordinates: org.nordix.camel:camel-olingo2
      * 
      * @return the dsl builder
      */

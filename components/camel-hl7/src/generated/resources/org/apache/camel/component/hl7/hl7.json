@@ -9,9 +9,9 @@
     "label": "dataformat,transformation,hl7",
     "javaType": "org.apache.camel.component.hl7.HL7DataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-hl7",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "hl7",
     "modelJavaType": "org.apache.camel.model.dataformat.HL7DataFormat"
   },

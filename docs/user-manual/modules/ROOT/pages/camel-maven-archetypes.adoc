@@ -51,7 +51,7 @@ The maven coordinates for these archetypes is the following:
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel.archetypes</groupId>
+  <groupId>org.nordix.camel.archetypes</groupId>
   <artifactId>${archetype-name}</artifactId>
   <version>${camel-version}</version>
 </dependency>
@@ -67,7 +67,7 @@ project based on Camel 3.14.0-SNAPSHOT. He'd need to use the following command
 [source,bash]
 ----
 mvn archetype:generate \
-  -DarchetypeGroupId=org.apache.camel.archetypes \
+  -DarchetypeGroupId=org.nordix.camel.archetypes \
   -DarchetypeArtifactId=camel-archetype-java \
   -DarchetypeVersion=3.14.0-SNAPSHOT
 ----

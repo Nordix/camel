@@ -985,7 +985,7 @@ public interface DropboxEndpointBuilderFactory {
          * 
          * Category: cloud,file,api
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-dropbox
+         * Maven coordinates: org.nordix.camel:camel-dropbox
          * 
          * Syntax: <code>dropbox:operation</code>
          * 
@@ -1008,7 +1008,7 @@ public interface DropboxEndpointBuilderFactory {
          * 
          * Category: cloud,file,api
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-dropbox
+         * Maven coordinates: org.nordix.camel:camel-dropbox
          * 
          * Syntax: <code>dropbox:operation</code>
          * 

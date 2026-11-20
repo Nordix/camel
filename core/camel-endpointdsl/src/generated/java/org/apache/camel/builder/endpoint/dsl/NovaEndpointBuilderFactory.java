@@ -224,7 +224,7 @@ public interface NovaEndpointBuilderFactory {
          * 
          * Category: cloud,paas
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-openstack
+         * Maven coordinates: org.nordix.camel:camel-openstack
          * 
          * Syntax: <code>openstack-nova:host</code>
          * 
@@ -243,7 +243,7 @@ public interface NovaEndpointBuilderFactory {
          * 
          * Category: cloud,paas
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-openstack
+         * Maven coordinates: org.nordix.camel:camel-openstack
          * 
          * Syntax: <code>openstack-nova:host</code>
          * 

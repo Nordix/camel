@@ -38,7 +38,7 @@ public interface GeocoderComponentBuilderFactory {
      * 
      * Category: api,location
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-geocoder
+     * Maven coordinates: org.nordix.camel:camel-geocoder
      * 
      * @return the dsl builder
      */

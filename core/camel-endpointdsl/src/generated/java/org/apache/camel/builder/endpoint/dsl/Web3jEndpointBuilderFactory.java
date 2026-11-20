@@ -1547,7 +1547,7 @@ public interface Web3jEndpointBuilderFactory {
          * 
          * Category: bitcoin,blockchain,api
          * Since: 2.22
-         * Maven coordinates: org.apache.camel:camel-web3j
+         * Maven coordinates: org.nordix.camel:camel-web3j
          * 
          * Syntax: <code>web3j:nodeAddress</code>
          * 
@@ -1566,7 +1566,7 @@ public interface Web3jEndpointBuilderFactory {
          * 
          * Category: bitcoin,blockchain,api
          * Since: 2.22
-         * Maven coordinates: org.apache.camel:camel-web3j
+         * Maven coordinates: org.nordix.camel:camel-web3j
          * 
          * Syntax: <code>web3j:nodeAddress</code>
          * 

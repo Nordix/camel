@@ -6732,7 +6732,7 @@ public interface JmsEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-jms
+         * Maven coordinates: org.nordix.camel:camel-jms
          * 
          * Syntax: <code>jms:destinationType:destinationName</code>
          * 
@@ -6757,7 +6757,7 @@ public interface JmsEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-jms
+         * Maven coordinates: org.nordix.camel:camel-jms
          * 
          * Syntax: <code>jms:destinationType:destinationName</code>
          * 

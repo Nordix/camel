@@ -450,7 +450,7 @@ public interface QuickfixjEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.1
-         * Maven coordinates: org.apache.camel:camel-quickfix
+         * Maven coordinates: org.nordix.camel:camel-quickfix
          * 
          * Syntax: <code>quickfix:configurationName</code>
          * 
@@ -475,7 +475,7 @@ public interface QuickfixjEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.1
-         * Maven coordinates: org.apache.camel:camel-quickfix
+         * Maven coordinates: org.nordix.camel:camel-quickfix
          * 
          * Syntax: <code>quickfix:configurationName</code>
          * 

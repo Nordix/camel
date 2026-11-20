@@ -35,7 +35,7 @@ Almost all the Kafka configuration for the component are *auto generated* from K
 [source,xml]
 ------------------------------------------------------------
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-vertx-kafka</artifactId>
     <version>x.x.x</version>
     <!-- use the same version as your Camel core version -->

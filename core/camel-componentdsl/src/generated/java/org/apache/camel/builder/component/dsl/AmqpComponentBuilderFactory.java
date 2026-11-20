@@ -36,7 +36,7 @@ public interface AmqpComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-amqp
+     * Maven coordinates: org.nordix.camel:camel-amqp
      * 
      * @return the dsl builder
      */

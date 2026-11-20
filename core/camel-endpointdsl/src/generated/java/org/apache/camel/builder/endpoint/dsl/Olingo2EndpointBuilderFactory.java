@@ -2047,7 +2047,7 @@ public interface Olingo2EndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-olingo2
+         * Maven coordinates: org.nordix.camel:camel-olingo2
          * 
          * Syntax: <code>olingo2:apiName/methodName</code>
          * 
@@ -2070,7 +2070,7 @@ public interface Olingo2EndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-olingo2
+         * Maven coordinates: org.nordix.camel:camel-olingo2
          * 
          * Syntax: <code>olingo2:apiName/methodName</code>
          * 

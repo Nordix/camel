@@ -132,7 +132,7 @@ public interface KuduEndpointBuilderFactory {
          * 
          * Category: database,iot,cloud
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-kudu
+         * Maven coordinates: org.nordix.camel:camel-kudu
          * 
          * Syntax: <code>kudu:host:port/tableName</code>
          * 
@@ -158,7 +158,7 @@ public interface KuduEndpointBuilderFactory {
          * 
          * Category: database,iot,cloud
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-kudu
+         * Maven coordinates: org.nordix.camel:camel-kudu
          * 
          * Syntax: <code>kudu:host:port/tableName</code>
          * 

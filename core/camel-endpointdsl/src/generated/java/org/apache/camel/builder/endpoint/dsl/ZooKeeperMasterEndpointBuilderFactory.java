@@ -178,7 +178,7 @@ public interface ZooKeeperMasterEndpointBuilderFactory {
          * 
          * Category: clustering,management,bigdata
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-zookeeper-master
+         * Maven coordinates: org.nordix.camel:camel-zookeeper-master
          * 
          * Syntax: <code>zookeeper-master:groupName:consumerEndpointUri</code>
          * 
@@ -201,7 +201,7 @@ public interface ZooKeeperMasterEndpointBuilderFactory {
          * 
          * Category: clustering,management,bigdata
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-zookeeper-master
+         * Maven coordinates: org.nordix.camel:camel-zookeeper-master
          * 
          * Syntax: <code>zookeeper-master:groupName:consumerEndpointUri</code>
          * 

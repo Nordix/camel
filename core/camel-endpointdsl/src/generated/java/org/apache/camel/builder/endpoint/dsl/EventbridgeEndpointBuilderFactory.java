@@ -475,7 +475,7 @@ public interface EventbridgeEndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.6
-         * Maven coordinates: org.apache.camel:camel-aws2-eventbridge
+         * Maven coordinates: org.nordix.camel:camel-aws2-eventbridge
          * 
          * Syntax: <code>aws2-eventbridge://eventbusNameOrArn</code>
          * 
@@ -494,7 +494,7 @@ public interface EventbridgeEndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.6
-         * Maven coordinates: org.apache.camel:camel-aws2-eventbridge
+         * Maven coordinates: org.nordix.camel:camel-aws2-eventbridge
          * 
          * Syntax: <code>aws2-eventbridge://eventbusNameOrArn</code>
          * 

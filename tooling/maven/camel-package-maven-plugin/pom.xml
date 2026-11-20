@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>maven-plugins</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -35,7 +35,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>tooling-parent</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -46,15 +46,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-util-json</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-tooling-util</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-tooling-model</artifactId>
         </dependency>
 
@@ -139,7 +139,7 @@
 
         <!-- camel -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>spi-annotations</artifactId>
         </dependency>
 

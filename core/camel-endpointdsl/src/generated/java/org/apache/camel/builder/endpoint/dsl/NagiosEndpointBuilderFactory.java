@@ -244,7 +244,7 @@ public interface NagiosEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-nagios
+         * Maven coordinates: org.nordix.camel:camel-nagios
          * 
          * Syntax: <code>nagios:host:port</code>
          * 
@@ -266,7 +266,7 @@ public interface NagiosEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-nagios
+         * Maven coordinates: org.nordix.camel:camel-nagios
          * 
          * Syntax: <code>nagios:host:port</code>
          * 

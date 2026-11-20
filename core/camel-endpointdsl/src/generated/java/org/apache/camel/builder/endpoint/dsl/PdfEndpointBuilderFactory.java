@@ -326,7 +326,7 @@ public interface PdfEndpointBuilderFactory {
          * 
          * Category: document,transformation,printing
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-pdf
+         * Maven coordinates: org.nordix.camel:camel-pdf
          * 
          * Syntax: <code>pdf:operation</code>
          * 
@@ -347,7 +347,7 @@ public interface PdfEndpointBuilderFactory {
          * 
          * Category: document,transformation,printing
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-pdf
+         * Maven coordinates: org.nordix.camel:camel-pdf
          * 
          * Syntax: <code>pdf:operation</code>
          * 

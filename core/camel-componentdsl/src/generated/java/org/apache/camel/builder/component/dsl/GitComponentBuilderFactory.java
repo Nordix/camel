@@ -36,7 +36,7 @@ public interface GitComponentBuilderFactory {
      * 
      * Category: file
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-git
+     * Maven coordinates: org.nordix.camel:camel-git
      * 
      * @return the dsl builder
      */

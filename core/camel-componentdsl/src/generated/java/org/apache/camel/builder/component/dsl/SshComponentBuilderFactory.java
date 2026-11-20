@@ -36,7 +36,7 @@ public interface SshComponentBuilderFactory {
      * 
      * Category: file
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-ssh
+     * Maven coordinates: org.nordix.camel:camel-ssh
      * 
      * @return the dsl builder
      */

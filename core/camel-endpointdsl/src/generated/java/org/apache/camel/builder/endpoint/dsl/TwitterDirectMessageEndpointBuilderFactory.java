@@ -1686,7 +1686,7 @@ public interface TwitterDirectMessageEndpointBuilderFactory {
          * 
          * Category: cloud,api,social,chat
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-twitter
+         * Maven coordinates: org.nordix.camel:camel-twitter
          * 
          * Syntax: <code>twitter-directmessage:user</code>
          * 
@@ -1707,7 +1707,7 @@ public interface TwitterDirectMessageEndpointBuilderFactory {
          * 
          * Category: cloud,api,social,chat
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-twitter
+         * Maven coordinates: org.nordix.camel:camel-twitter
          * 
          * Syntax: <code>twitter-directmessage:user</code>
          * 

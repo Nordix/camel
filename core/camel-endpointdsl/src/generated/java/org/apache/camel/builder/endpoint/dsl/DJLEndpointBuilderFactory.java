@@ -134,7 +134,7 @@ public interface DJLEndpointBuilderFactory {
          * 
          * Category: ai,deeplearning
          * Since: 3.3
-         * Maven coordinates: org.apache.camel:camel-djl
+         * Maven coordinates: org.nordix.camel:camel-djl
          * 
          * Syntax: <code>djl:application</code>
          * 
@@ -154,7 +154,7 @@ public interface DJLEndpointBuilderFactory {
          * 
          * Category: ai,deeplearning
          * Since: 3.3
-         * Maven coordinates: org.apache.camel:camel-djl
+         * Maven coordinates: org.nordix.camel:camel-djl
          * 
          * Syntax: <code>djl:application</code>
          * 

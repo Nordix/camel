@@ -1149,7 +1149,7 @@ public interface MyBatisEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.7
-         * Maven coordinates: org.apache.camel:camel-mybatis
+         * Maven coordinates: org.nordix.camel:camel-mybatis
          * 
          * Syntax: <code>mybatis:statement</code>
          * 
@@ -1170,7 +1170,7 @@ public interface MyBatisEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.7
-         * Maven coordinates: org.apache.camel:camel-mybatis
+         * Maven coordinates: org.nordix.camel:camel-mybatis
          * 
          * Syntax: <code>mybatis:statement</code>
          * 

@@ -310,7 +310,7 @@ public interface IgniteComputeEndpointBuilderFactory {
          * 
          * Category: compute
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ignite
+         * Maven coordinates: org.nordix.camel:camel-ignite
          * 
          * Syntax: <code>ignite-compute:endpointId</code>
          * 
@@ -329,7 +329,7 @@ public interface IgniteComputeEndpointBuilderFactory {
          * 
          * Category: compute
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ignite
+         * Maven coordinates: org.nordix.camel:camel-ignite
          * 
          * Syntax: <code>ignite-compute:endpointId</code>
          * 

@@ -36,7 +36,7 @@ public interface RabbitmqComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-rabbitmq
+     * Maven coordinates: org.nordix.camel:camel-rabbitmq
      * 
      * @return the dsl builder
      */

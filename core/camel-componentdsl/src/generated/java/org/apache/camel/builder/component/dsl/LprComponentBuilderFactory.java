@@ -36,7 +36,7 @@ public interface LprComponentBuilderFactory {
      * 
      * Category: printing
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-printer
+     * Maven coordinates: org.nordix.camel:camel-printer
      * 
      * @return the dsl builder
      */

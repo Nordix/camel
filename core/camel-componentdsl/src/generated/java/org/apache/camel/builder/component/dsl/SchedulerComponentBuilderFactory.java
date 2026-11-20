@@ -38,7 +38,7 @@ public interface SchedulerComponentBuilderFactory {
      * 
      * Category: core,scheduling
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-scheduler
+     * Maven coordinates: org.nordix.camel:camel-scheduler
      * 
      * @return the dsl builder
      */

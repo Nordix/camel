@@ -36,7 +36,7 @@ public interface VertxComponentBuilderFactory {
      * 
      * Category: eventbus,reactive
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-vertx
+     * Maven coordinates: org.nordix.camel:camel-vertx
      * 
      * @return the dsl builder
      */

@@ -26,7 +26,7 @@
         <version>24</version>
     </parent>
 
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel</artifactId>
     <version>3.14.10-est-2</version>
     <packaging>pom</packaging>
@@ -183,17 +183,6 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
-        <repository>
-            <id>nordix-allies-mvn</id>
-            <name>Nordix Allies Maven</name>
-            <url>https://artifactory.nordix.org/artifactory/allies-mvn</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -254,7 +243,7 @@
                     <version>2.10</version>
                     <dependencies>
                         <dependency>
-                            <groupId>org.apache.camel</groupId>
+                            <groupId>org.nordix.camel</groupId>
                             <artifactId>camel-buildtools</artifactId>
                             <version>${project.version}</version>
                         </dependency>
@@ -866,7 +855,7 @@
                         </configuration>
                         <dependencies>
                             <dependency>
-                                <groupId>org.apache.camel</groupId>
+                                <groupId>org.nordix.camel</groupId>
                                 <artifactId>camel-buildtools</artifactId>
                                 <version>${project.version}</version>
                             </dependency>

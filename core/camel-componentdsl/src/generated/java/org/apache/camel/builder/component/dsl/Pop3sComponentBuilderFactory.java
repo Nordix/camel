@@ -36,7 +36,7 @@ public interface Pop3sComponentBuilderFactory {
      * 
      * Category: mail
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mail
+     * Maven coordinates: org.nordix.camel:camel-mail
      * 
      * @return the dsl builder
      */

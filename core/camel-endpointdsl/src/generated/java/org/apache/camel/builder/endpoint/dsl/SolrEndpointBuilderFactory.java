@@ -577,7 +577,7 @@ public interface SolrEndpointBuilderFactory {
          * 
          * Category: monitoring,search
          * Since: 2.9
-         * Maven coordinates: org.apache.camel:camel-solr
+         * Maven coordinates: org.nordix.camel:camel-solr
          * 
          * Syntax: <code>solr:url</code>
          * 
@@ -598,7 +598,7 @@ public interface SolrEndpointBuilderFactory {
          * 
          * Category: monitoring,search
          * Since: 2.9
-         * Maven coordinates: org.apache.camel:camel-solr
+         * Maven coordinates: org.nordix.camel:camel-solr
          * 
          * Syntax: <code>solr:url</code>
          * 
@@ -621,7 +621,7 @@ public interface SolrEndpointBuilderFactory {
          * 
          * Category: monitoring,search
          * Since: 2.9
-         * Maven coordinates: org.apache.camel:camel-solr
+         * Maven coordinates: org.nordix.camel:camel-solr
          * 
          * Syntax: <code>solrCloud:url</code>
          * 
@@ -642,7 +642,7 @@ public interface SolrEndpointBuilderFactory {
          * 
          * Category: monitoring,search
          * Since: 2.9
-         * Maven coordinates: org.apache.camel:camel-solr
+         * Maven coordinates: org.nordix.camel:camel-solr
          * 
          * Syntax: <code>solrs:url</code>
          * 

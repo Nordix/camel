@@ -39,7 +39,7 @@ public interface Jt400ComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 1.5
-     * Maven coordinates: org.apache.camel:camel-jt400
+     * Maven coordinates: org.nordix.camel:camel-jt400
      * 
      * @return the dsl builder
      */

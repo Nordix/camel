@@ -356,7 +356,7 @@ public interface JGroupsEndpointBuilderFactory {
          * 
          * Category: clustering,messaging
          * Since: 2.13
-         * Maven coordinates: org.apache.camel:camel-jgroups
+         * Maven coordinates: org.nordix.camel:camel-jgroups
          * 
          * Syntax: <code>jgroups:clusterName</code>
          * 
@@ -375,7 +375,7 @@ public interface JGroupsEndpointBuilderFactory {
          * 
          * Category: clustering,messaging
          * Since: 2.13
-         * Maven coordinates: org.apache.camel:camel-jgroups
+         * Maven coordinates: org.nordix.camel:camel-jgroups
          * 
          * Syntax: <code>jgroups:clusterName</code>
          * 

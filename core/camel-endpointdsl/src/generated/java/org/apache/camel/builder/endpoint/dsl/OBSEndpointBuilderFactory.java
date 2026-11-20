@@ -1701,7 +1701,7 @@ public interface OBSEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 3.12
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-obs
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-obs
          * 
          * Syntax: <code>hwcloud-obs:operation</code>
          * 
@@ -1721,7 +1721,7 @@ public interface OBSEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 3.12
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-obs
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-obs
          * 
          * Syntax: <code>hwcloud-obs:operation</code>
          * 

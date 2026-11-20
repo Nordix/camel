@@ -347,7 +347,7 @@ public interface MicroProfileMetricsEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-microprofile-metrics
+         * Maven coordinates: org.nordix.camel:camel-microprofile-metrics
          * 
          * Syntax: <code>microprofile-metrics:metricType:metricName</code>
          * 
@@ -372,7 +372,7 @@ public interface MicroProfileMetricsEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-microprofile-metrics
+         * Maven coordinates: org.nordix.camel:camel-microprofile-metrics
          * 
          * Syntax: <code>microprofile-metrics:metricType:metricName</code>
          * 

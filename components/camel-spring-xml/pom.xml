@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>components</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -48,19 +48,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-spring</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-xml-jaxb</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-xml-jaxp</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-core-xml</artifactId>
         </dependency>
 
@@ -81,54 +81,54 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.nordix</groupId>
             <artifactId>spring-context-support</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.nordix</groupId>
             <artifactId>spring-test</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-cloud</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-junit5</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-management</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-core</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-management</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-bean</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-cron</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.nordix</groupId>
             <artifactId>spring-jdbc</artifactId>
             <scope>test</scope>
         </dependency>
@@ -186,7 +186,7 @@
                     <configuration>
                         <artifactItems>
                             <artifactItem>
-                                <groupId>org.apache.camel</groupId>
+                                <groupId>org.nordix.camel</groupId>
                                 <artifactId>camel-spring-xml</artifactId>
                                 <version>${project.version}</version>
                                 <type>jar</type>
@@ -288,7 +288,7 @@
 
             <!-- Push the execution order of the maven-bundle-plugin further to the end. That's why we add it here again. -->
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-bundle-plugin</artifactId>
                 <executions>
                     <execution>
@@ -346,7 +346,7 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>org.apache.camel</groupId>
+                                    <groupId>org.nordix.camel</groupId>
                                     <artifactId>camel-api</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
@@ -356,7 +356,7 @@
                                     <outputDirectory>target/sources/camel-api</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>org.apache.camel</groupId>
+                                    <groupId>org.nordix.camel</groupId>
                                     <artifactId>camel-core-model</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
@@ -367,7 +367,7 @@
                                     <outputDirectory>target/sources/camel-core-model</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>org.apache.camel</groupId>
+                                    <groupId>org.nordix.camel</groupId>
                                     <artifactId>camel-core-xml</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
@@ -377,7 +377,7 @@
                                     <outputDirectory>target/sources/camel-core-xml</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>org.apache.camel</groupId>
+                                    <groupId>org.nordix.camel</groupId>
                                     <artifactId>camel-util</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
@@ -580,7 +580,7 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-eip-documentation-enricher-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <executions>

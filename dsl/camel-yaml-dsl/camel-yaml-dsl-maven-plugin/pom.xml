@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-yaml-dsl-parent</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -35,7 +35,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>tooling-parent</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -94,21 +94,21 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-catalog</artifactId>
             <exclusions>
                 <exclusion>
-                    <groupId>org.apache.camel</groupId>
+                    <groupId>org.nordix.camel</groupId>
                     <artifactId>camel-allcomponents</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-support</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-tooling-util</artifactId>
         </dependency>
 

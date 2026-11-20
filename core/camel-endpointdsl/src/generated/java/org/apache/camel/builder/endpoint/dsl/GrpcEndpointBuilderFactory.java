@@ -1647,7 +1647,7 @@ public interface GrpcEndpointBuilderFactory {
          * 
          * Category: rpc
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-grpc
+         * Maven coordinates: org.nordix.camel:camel-grpc
          * 
          * Syntax: <code>grpc:host:port/service</code>
          * 
@@ -1674,7 +1674,7 @@ public interface GrpcEndpointBuilderFactory {
          * 
          * Category: rpc
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-grpc
+         * Maven coordinates: org.nordix.camel:camel-grpc
          * 
          * Syntax: <code>grpc:host:port/service</code>
          * 

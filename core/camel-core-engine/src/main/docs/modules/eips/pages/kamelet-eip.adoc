@@ -48,7 +48,7 @@ The implementation of the Kamelet EIP is located in the `camel-kamelet` JAR, so 
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-kamelet</artifactId>
     <!-- use the same version as your Camel core version -->
     <version>x.y.z</version>

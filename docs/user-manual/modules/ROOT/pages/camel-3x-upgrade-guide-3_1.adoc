@@ -255,7 +255,7 @@ To continue using JMX with Camel Spring Boot add the following dependency:
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-management</artifactId>
 </dependency>
 ----
@@ -280,7 +280,7 @@ To the following:
 [source,xml]
 ----
       <plugin>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-package-maven-plugin</artifactId>
         <version>${camel-version}</version>
         <executions>

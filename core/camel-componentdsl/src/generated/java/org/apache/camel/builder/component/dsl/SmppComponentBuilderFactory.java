@@ -37,7 +37,7 @@ public interface SmppComponentBuilderFactory {
      * 
      * Category: mobile
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-smpp
+     * Maven coordinates: org.nordix.camel:camel-smpp
      * 
      * @return the dsl builder
      */

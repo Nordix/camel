@@ -36,7 +36,7 @@ public interface HwcloudIamComponentBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.11
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-iam
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-iam
      * 
      * @return the dsl builder
      */

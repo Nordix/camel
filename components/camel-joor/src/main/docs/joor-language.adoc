@@ -344,7 +344,7 @@ If you use Maven you could just add the following to your `pom.xml`, substitutin
 [source,xml]
 ---------------------------------------
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-joor</artifactId>
   <version>x.x.x</version>
 </dependency>

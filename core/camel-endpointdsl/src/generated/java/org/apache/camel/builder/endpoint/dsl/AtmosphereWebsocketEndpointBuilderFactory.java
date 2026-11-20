@@ -1607,7 +1607,7 @@ public interface AtmosphereWebsocketEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-atmosphere-websocket
+         * Maven coordinates: org.nordix.camel:camel-atmosphere-websocket
          * 
          * Syntax: <code>atmosphere-websocket:servicePath</code>
          * 
@@ -1627,7 +1627,7 @@ public interface AtmosphereWebsocketEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-atmosphere-websocket
+         * Maven coordinates: org.nordix.camel:camel-atmosphere-websocket
          * 
          * Syntax: <code>atmosphere-websocket:servicePath</code>
          * 

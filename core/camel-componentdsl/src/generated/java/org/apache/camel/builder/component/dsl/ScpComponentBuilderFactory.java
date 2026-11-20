@@ -36,7 +36,7 @@ public interface ScpComponentBuilderFactory {
      * 
      * Category: file
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-jsch
+     * Maven coordinates: org.nordix.camel:camel-jsch
      * 
      * @return the dsl builder
      */

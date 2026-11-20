@@ -38,7 +38,7 @@ public interface CometdComponentBuilderFactory {
      * 
      * Category: websocket
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-cometd
+     * Maven coordinates: org.nordix.camel:camel-cometd
      * 
      * @return the dsl builder
      */

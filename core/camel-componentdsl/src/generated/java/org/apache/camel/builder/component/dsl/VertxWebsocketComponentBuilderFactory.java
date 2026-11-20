@@ -38,7 +38,7 @@ public interface VertxWebsocketComponentBuilderFactory {
      * 
      * Category: websocket
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-vertx-websocket
+     * Maven coordinates: org.nordix.camel:camel-vertx-websocket
      * 
      * @return the dsl builder
      */

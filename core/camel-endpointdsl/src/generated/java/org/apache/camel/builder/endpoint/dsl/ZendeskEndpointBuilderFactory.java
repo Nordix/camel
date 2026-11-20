@@ -1078,7 +1078,7 @@ public interface ZendeskEndpointBuilderFactory {
          * 
          * Category: cloud,api,support
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-zendesk
+         * Maven coordinates: org.nordix.camel:camel-zendesk
          * 
          * Syntax: <code>zendesk:methodName</code>
          * 
@@ -1228,7 +1228,7 @@ public interface ZendeskEndpointBuilderFactory {
          * 
          * Category: cloud,api,support
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-zendesk
+         * Maven coordinates: org.nordix.camel:camel-zendesk
          * 
          * Syntax: <code>zendesk:methodName</code>
          * 

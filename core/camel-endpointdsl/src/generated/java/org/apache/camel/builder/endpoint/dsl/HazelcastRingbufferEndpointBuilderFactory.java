@@ -223,7 +223,7 @@ public interface HazelcastRingbufferEndpointBuilderFactory {
          * 
          * Category: cache,datagrid
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-hazelcast
+         * Maven coordinates: org.nordix.camel:camel-hazelcast
          * 
          * Syntax: <code>hazelcast-ringbuffer:cacheName</code>
          * 
@@ -243,7 +243,7 @@ public interface HazelcastRingbufferEndpointBuilderFactory {
          * 
          * Category: cache,datagrid
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-hazelcast
+         * Maven coordinates: org.nordix.camel:camel-hazelcast
          * 
          * Syntax: <code>hazelcast-ringbuffer:cacheName</code>
          * 

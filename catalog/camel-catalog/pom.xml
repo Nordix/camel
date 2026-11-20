@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>catalog</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -41,31 +41,31 @@
 
         <!-- required dependencies by camel-catalog -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-core-catalog</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-util-json</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-tooling-model</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <!-- disable all components -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-allcomponents</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
-                    <groupId>org.apache.camel</groupId>
+                    <groupId>org.nordix.camel</groupId>
                     <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>
@@ -80,21 +80,21 @@
 
         <!-- for testing simple language parser -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-core</artifactId>
             <scope>test</scope>
         </dependency>
 
         <!-- for testing jsonpath language -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-jsonpath</artifactId>
             <scope>test</scope>
         </dependency>
 
         <!-- for testing activemq component -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-activemq</artifactId>
             <scope>test</scope>
         </dependency>
@@ -118,7 +118,7 @@
         <plugins>
             <!-- generate and include all components in the catalog -->
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-package-maven-plugin</artifactId>
                 <executions>
                     <execution>
@@ -162,7 +162,7 @@
 
             <!-- sync properties to camel-dependencies -->
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>sync-properties-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <executions>

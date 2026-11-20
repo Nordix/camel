@@ -38,7 +38,7 @@ public interface ThriftComponentBuilderFactory {
      * 
      * Category: rpc,transformation
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-thrift
+     * Maven coordinates: org.nordix.camel:camel-thrift
      * 
      * @return the dsl builder
      */

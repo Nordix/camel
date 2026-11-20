@@ -2108,7 +2108,7 @@ public interface JpaEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-jpa
+         * Maven coordinates: org.nordix.camel:camel-jpa
          * 
          * Syntax: <code>jpa:entityType</code>
          * 
@@ -2128,7 +2128,7 @@ public interface JpaEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-jpa
+         * Maven coordinates: org.nordix.camel:camel-jpa
          * 
          * Syntax: <code>jpa:entityType</code>
          * 

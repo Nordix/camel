@@ -138,7 +138,7 @@ public interface FopEndpointBuilderFactory {
          * 
          * Category: file,transformation
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-fop
+         * Maven coordinates: org.nordix.camel:camel-fop
          * 
          * Syntax: <code>fop:outputType</code>
          * 
@@ -161,7 +161,7 @@ public interface FopEndpointBuilderFactory {
          * 
          * Category: file,transformation
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-fop
+         * Maven coordinates: org.nordix.camel:camel-fop
          * 
          * Syntax: <code>fop:outputType</code>
          * 

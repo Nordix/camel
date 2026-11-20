@@ -1,0 +1,254 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+/*
+ * Publishes the Camel artifacts (org.nordix.camel) to Maven Central through the
+ * Sonatype Central Portal. Jenkins equivalent of
+ *   .github/workflows/publish-mvn-central.yml
+ *   .github/actions/sync-to-maven-central-portal/action.yml
+ *
+ * Flow:
+ *   1. Preflight: refuse to run unless the project is org.nordix.camel and a release
+ *      (non -SNAPSHOT) version.
+ *   2. Build the whole reactor and `mvn deploy` it into a LOCAL staging directory.
+ *      Nothing leaves the agent in this step.
+ *   3. GPG-sign every artifact, generate checksums and zip the staging directory.
+ *   4. Upload the bundle to the Portal as USER_MANAGED. The deployment is only staged;
+ *      it is released when you click Publish in the Portal UI (or discarded with Drop).
+ *      The upload only happens when UPLOAD_TO_CENTRAL is ticked.
+ *
+ * Required Jenkins credentials (IDs are set below):
+ *   central-gpg-key         Secret file  - ASCII-armored GPG private key
+ *   central-gpg-passphrase  Secret text  - passphrase of that key
+ *   central-token           Secret text  - base64("username:password") Central Portal token
+ *
+ * Required on the agent: the JDK tool below (JDK 8), git, gpg, zip and curl, plus outbound
+ * HTTPS to repo1.maven.org and central.sonatype.com. The public half of the GPG key must be
+ * published on a public keyserver, otherwise the Portal rejects the signatures.
+ *
+ * Run it from the camel-3.14.10-est-2-maven-central branch (or another branch that holds the
+ * org.nordix.camel re-group). Do not publish the same version from GitHub and Jenkins.
+ */
+
+def AGENT_LABEL = env.AGENT_LABEL ?: 'ubuntu'
+def JDK_NAME = env.JDK_NAME ?: 'adoptopenjdk_hotspot_8u282'
+
+def EXPECTED_GROUP_ID = 'org.nordix.camel'
+
+def GPG_KEY_CREDENTIAL = 'central-gpg-key'
+def GPG_PASSPHRASE_CREDENTIAL = 'central-gpg-passphrase'
+def CENTRAL_TOKEN_CREDENTIAL = 'central-token'
+
+def MAVEN_PARAMS = "-B -V -e -fae -DskipTests -Dnoassembly " +
+    "-Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false " +
+    "-Dmaven.wagon.httpconnectionManager.ttlSeconds=120 --no-transfer-progress"
+
+pipeline {
+
+    agent {
+        label AGENT_LABEL
+    }
+
+    tools {
+        jdk JDK_NAME
+    }
+
+    environment {
+        MAVEN_SKIP_RC = true
+        STAGING_DIR = "${WORKSPACE}/target/central-staging"
+        BUNDLE = "${WORKSPACE}/target/central-bundle.zip"
+        DEPLOYMENT_ID_FILE = "${WORKSPACE}/target/central-deployment-id.txt"
+        CENTRAL_UPLOAD_URL = 'https://central.sonatype.com/api/v1/publisher/upload'
+    }
+
+    options {
+        buildDiscarder(
+            logRotator(artifactNumToKeepStr: '5', numToKeepStr: '10')
+        )
+        disableConcurrentBuilds()
+        timeout(time: 4, unit: 'HOURS')
+    }
+
+    parameters {
+        booleanParam(name: 'CLEAN', defaultValue: true, description: 'Perform the build in clean workspace')
+        booleanParam(name: 'UPLOAD_TO_CENTRAL', defaultValue: false, description: 'Upload the signed bundle to the Central Portal. Leave unticked for a dry run (build, stage, sign and bundle only).')
+        choice(name: 'PUBLISHING_TYPE', choices: ['USER_MANAGED'], description: 'USER_MANAGED stages the deployment in the Portal for manual review; you then Publish or Drop it there.')
+    }
+
+    stages {
+
+        stage('Clean workspace') {
+            when {
+                expression { params.CLEAN }
+            }
+            steps {
+                sh 'git clean -fdx'
+            }
+        }
+
+        stage('Preflight') {
+            steps {
+                sh '''
+                    for tool in git gpg zip curl; do
+                        command -v "$tool" >/dev/null || { echo "Missing required tool on the agent: $tool" >&2; exit 1; }
+                    done
+                    git log -1 --format='Building commit %H %s'
+                '''
+                script {
+                    def version = sh(returnStdout: true,
+                        script: './mvnw -q -N help:evaluate -Dexpression=project.version -DforceStdout 2>/dev/null | tail -1').trim()
+                    def groupId = sh(returnStdout: true,
+                        script: './mvnw -q -N help:evaluate -Dexpression=project.groupId -DforceStdout 2>/dev/null | tail -1').trim()
+                    echo "Project: ${groupId}:${version}"
+                    if (!version || !groupId) {
+                        error("Could not read project.version / project.groupId from the root POM")
+                    }
+                    if (groupId != EXPECTED_GROUP_ID) {
+                        error("Refusing to publish: groupId is '${groupId}', expected '${EXPECTED_GROUP_ID}'. " +
+                              "Run this job on the branch that holds the org.nordix.camel re-group.")
+                    }
+                    if (version.endsWith('-SNAPSHOT')) {
+                        error("Refusing to publish: '${version}' is a SNAPSHOT. This pipeline publishes releases only.")
+                    }
+                    currentBuild.description = "${groupId} ${version}"
+                }
+            }
+        }
+
+        stage('Build and stage') {
+            steps {
+                sh 'rm -rf "$STAGING_DIR" "$BUNDLE" "$DEPLOYMENT_ID_FILE"'
+                sh "./mvnw ${MAVEN_PARAMS} -Pdeploy clean deploy -DaltDeploymentRepository=local::default::file://${env.STAGING_DIR}"
+            }
+        }
+
+        stage('Sign and bundle') {
+            steps {
+                withCredentials([
+                    file(credentialsId: GPG_KEY_CREDENTIAL, variable: 'GPG_KEY_FILE'),
+                    string(credentialsId: GPG_PASSPHRASE_CREDENTIAL, variable: 'GPG_PASSPHRASE')
+                ]) {
+                    sh '''#!/bin/bash
+set +x
+set -euo pipefail
+
+# Isolated, throw-away keyring: the agent's own GPG keys are never touched.
+umask 077
+export GNUPGHOME="$(mktemp -d)"
+trap 'gpgconf --kill gpg-agent >/dev/null 2>&1 || true; rm -rf "$GNUPGHOME"' EXIT
+printf '%s' "$GPG_PASSPHRASE" > "$GNUPGHOME/passphrase"
+gpg --batch --quiet --import "$GPG_KEY_FILE"
+echo "Imported signing key: $(gpg --list-secret-keys --with-colons | awk -F: '/^fpr:/ {print $10; exit}')"
+
+# Sign every primary artifact (Central requires a detached .asc for each).
+to_sign=$(find "$STAGING_DIR" -type f \\( -name '*.jar' -o -name '*.pom' -o -name '*.zip' -o -name '*.xml' \\) ! -name 'maven-metadata*.xml' | wc -l)
+if [ "$to_sign" -eq 0 ]; then
+    echo "Nothing to sign under $STAGING_DIR" >&2
+    exit 1
+fi
+echo "Signing $to_sign files"
+find "$STAGING_DIR" -type f \\( -name '*.jar' -o -name '*.pom' -o -name '*.zip' -o -name '*.xml' \\) ! -name 'maven-metadata*.xml' -print0 |
+    while IFS= read -r -d '' file; do
+        gpg --batch --yes --quiet --pinentry-mode loopback --passphrase-file "$GNUPGHOME/passphrase" --detach-sign --armor "$file"
+    done
+signed=$(find "$STAGING_DIR" -type f -name '*.asc' | wc -l)
+if [ "$signed" -ne "$to_sign" ]; then
+    echo "Expected $to_sign signatures but found $signed" >&2
+    exit 1
+fi
+
+# Checksums for every file except the checksum files themselves.
+find "$STAGING_DIR" -type f ! -name '*.md5' ! -name '*.sha1' ! -name '*.sha256' ! -name '*.sha512' -print0 |
+    while IFS= read -r -d '' file; do
+        md5sum "$file" | awk '{print $1}' > "$file.md5"
+        sha1sum "$file" | awk '{print $1}' > "$file.sha1"
+    done
+
+# Upload bundle: the staged repository layout, zipped from its root.
+rm -f "$BUNDLE"
+( cd "$STAGING_DIR" && zip -qr "$BUNDLE" . )
+listing="$(zip -sf "$BUNDLE")"
+if ! grep -q 'org/nordix/camel/' <<<"$listing"; then
+    echo "Bundle has no org/nordix/camel entries" >&2
+    exit 1
+fi
+if grep -qE '^ +org/apache/' <<<"$listing"; then
+    echo "Bundle contains org/apache entries, which Central would reject" >&2
+    exit 1
+fi
+echo "Bundle: $(du -h "$BUNDLE" | cut -f1), $(grep -c '\\.jar$' <<<"$listing") jars"
+'''
+                }
+            }
+        }
+
+        stage('Upload to Central Portal') {
+            when {
+                expression { params.UPLOAD_TO_CENTRAL == true }
+            }
+            steps {
+                withCredentials([
+                    string(credentialsId: CENTRAL_TOKEN_CREDENTIAL, variable: 'CENTRAL_TOKEN')
+                ]) {
+                    sh '''#!/bin/bash
+set +x
+set -euo pipefail
+
+PUBLISHING_TYPE="${PUBLISHING_TYPE:-USER_MANAGED}"
+if [ "$PUBLISHING_TYPE" != "USER_MANAGED" ]; then
+    echo "Unsupported PUBLISHING_TYPE '$PUBLISHING_TYPE' (only USER_MANAGED)" >&2
+    exit 1
+fi
+
+umask 077
+work="$(mktemp -d)"
+trap 'rm -rf "$work"' EXIT
+
+# The token goes in a header file so it never appears on the command line (ps).
+# CENTRAL_TOKEN is base64("username:password"), used directly as the bearer value.
+printf 'Authorization: Bearer %s\\n' "$CENTRAL_TOKEN" > "$work/header"
+
+code="$(curl -sS -o "$work/response" -w '%{http_code}' --request POST \\
+    --header "@$work/header" \\
+    --form "bundle=@${BUNDLE}" \\
+    "${CENTRAL_UPLOAD_URL}?publishingType=${PUBLISHING_TYPE}")"
+
+case "$code" in
+    2??) ;;
+    *)
+        echo "Upload failed: HTTP $code" >&2
+        cat "$work/response" >&2
+        exit 1
+        ;;
+esac
+cp "$work/response" "$DEPLOYMENT_ID_FILE"
+echo "Deployment ID: $(cat "$work/response")"
+'''
+                }
+                script {
+                    def deploymentId = readFile(env.DEPLOYMENT_ID_FILE).trim()
+                    currentBuild.description = "${currentBuild.description ?: ''} deployment ${deploymentId}".trim()
+                    echo "Staged in the Portal as ${deploymentId}. Review it, then Publish or Drop it at https://central.sonatype.com/publishing/deployments"
+                }
+            }
+        }
+
+    }
+
+}

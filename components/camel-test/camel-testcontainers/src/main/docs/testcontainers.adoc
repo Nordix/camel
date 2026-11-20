@@ -16,7 +16,7 @@ In order to define leverage testcontainers, add the following dependency to your
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-testcontainers</artifactId>
     <version>x.x.x</version>
     <!-- use the same version as your Camel core version -->

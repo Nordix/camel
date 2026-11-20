@@ -35,7 +35,7 @@
     <dependencies>
       <!-- Camel BOM -->
       <dependency>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-bom</artifactId>
         <version>${camel-version}</version>
         <scope>import</scope>
@@ -48,7 +48,7 @@
 
     <!-- camel -->
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-support</artifactId>
     </dependency>
     
@@ -62,7 +62,7 @@
 
     <!-- testing -->
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-test</artifactId>
       <scope>test</scope>
     </dependency>
@@ -94,7 +94,7 @@
 
       <!-- generate camel meta-data -->
       <plugin>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-component-maven-plugin</artifactId>
         <version>${camel-version}</version>
         <executions>

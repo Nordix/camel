@@ -825,7 +825,7 @@ public interface CMISEndpointBuilderFactory {
          * 
          * Category: cms,database
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-cmis
+         * Maven coordinates: org.nordix.camel:camel-cmis
          * 
          * Syntax: <code>cmis:cmsUrl</code>
          * 
@@ -845,7 +845,7 @@ public interface CMISEndpointBuilderFactory {
          * 
          * Category: cms,database
          * Since: 2.11
-         * Maven coordinates: org.apache.camel:camel-cmis
+         * Maven coordinates: org.nordix.camel:camel-cmis
          * 
          * Syntax: <code>cmis:cmsUrl</code>
          * 

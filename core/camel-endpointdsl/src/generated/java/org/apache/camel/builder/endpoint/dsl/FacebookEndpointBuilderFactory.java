@@ -6579,7 +6579,7 @@ public interface FacebookEndpointBuilderFactory {
          * 
          * Category: social
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-facebook
+         * Maven coordinates: org.nordix.camel:camel-facebook
          * 
          * Syntax: <code>facebook:methodName</code>
          * 
@@ -6598,7 +6598,7 @@ public interface FacebookEndpointBuilderFactory {
          * 
          * Category: social
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-facebook
+         * Maven coordinates: org.nordix.camel:camel-facebook
          * 
          * Syntax: <code>facebook:methodName</code>
          * 

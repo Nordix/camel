@@ -36,7 +36,7 @@ public interface GoogleFunctionsComponentBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-google-functions
+     * Maven coordinates: org.nordix.camel:camel-google-functions
      * 
      * @return the dsl builder
      */

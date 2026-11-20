@@ -667,7 +667,7 @@ public interface DataSetTestEndpointBuilderFactory {
          * 
          * Category: core,testing
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-dataset
+         * Maven coordinates: org.nordix.camel:camel-dataset
          * 
          * Syntax: <code>dataset-test:name</code>
          * 
@@ -688,7 +688,7 @@ public interface DataSetTestEndpointBuilderFactory {
          * 
          * Category: core,testing
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-dataset
+         * Maven coordinates: org.nordix.camel:camel-dataset
          * 
          * Syntax: <code>dataset-test:name</code>
          * 

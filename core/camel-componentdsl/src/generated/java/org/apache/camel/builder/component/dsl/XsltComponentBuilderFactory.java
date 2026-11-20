@@ -36,7 +36,7 @@ public interface XsltComponentBuilderFactory {
      * 
      * Category: core,transformation
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-xslt
+     * Maven coordinates: org.nordix.camel:camel-xslt
      * 
      * @return the dsl builder
      */

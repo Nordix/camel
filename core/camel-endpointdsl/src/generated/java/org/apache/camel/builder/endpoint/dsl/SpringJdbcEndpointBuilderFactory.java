@@ -577,7 +577,7 @@ public interface SpringJdbcEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.10
-         * Maven coordinates: org.apache.camel:camel-spring-jdbc
+         * Maven coordinates: org.nordix.camel:camel-spring-jdbc
          * 
          * Syntax: <code>spring-jdbc:dataSourceName</code>
          * 
@@ -600,7 +600,7 @@ public interface SpringJdbcEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.10
-         * Maven coordinates: org.apache.camel:camel-spring-jdbc
+         * Maven coordinates: org.nordix.camel:camel-spring-jdbc
          * 
          * Syntax: <code>spring-jdbc:dataSourceName</code>
          * 

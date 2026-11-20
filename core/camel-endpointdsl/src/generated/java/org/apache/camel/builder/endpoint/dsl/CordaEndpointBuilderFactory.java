@@ -640,7 +640,7 @@ public interface CordaEndpointBuilderFactory {
          * 
          * Category: blockchain,rpc
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-corda
+         * Maven coordinates: org.nordix.camel:camel-corda
          * 
          * Syntax: <code>corda:node</code>
          * 
@@ -660,7 +660,7 @@ public interface CordaEndpointBuilderFactory {
          * 
          * Category: blockchain,rpc
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-corda
+         * Maven coordinates: org.nordix.camel:camel-corda
          * 
          * Syntax: <code>corda:node</code>
          * 

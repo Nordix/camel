@@ -36,7 +36,7 @@ public interface DebeziumMongodbComponentBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-mongodb
+     * Maven coordinates: org.nordix.camel:camel-debezium-mongodb
      * 
      * @return the dsl builder
      */

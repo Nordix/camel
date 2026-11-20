@@ -729,7 +729,7 @@ public interface VertxHttpEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-vertx-http
+         * Maven coordinates: org.nordix.camel:camel-vertx-http
          * 
          * Syntax: <code>vertx-http:httpUri</code>
          * 
@@ -748,7 +748,7 @@ public interface VertxHttpEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-vertx-http
+         * Maven coordinates: org.nordix.camel:camel-vertx-http
          * 
          * Syntax: <code>vertx-http:httpUri</code>
          * 

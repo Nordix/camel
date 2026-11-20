@@ -524,7 +524,7 @@ the download page for the latest versions).
 [source,xml]
 --------------------------------------
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-xpath</artifactId>
   <version>x.x.x</version>
 </dependency>

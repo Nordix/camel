@@ -20,7 +20,7 @@ Find below some hints to help in migrating camel testcontainers spring tests fro
 Projects using `camel-testcontainers-spring` would need to use `camel-testcontainers-spring-junit5`. For instance, maven users would update their pom.xml file as below:
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-testcontainers-spring-junit5</artifactId>
   <scope>test</scope>
 </dependency>

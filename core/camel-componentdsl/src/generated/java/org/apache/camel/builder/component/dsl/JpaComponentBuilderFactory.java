@@ -38,7 +38,7 @@ public interface JpaComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-jpa
+     * Maven coordinates: org.nordix.camel:camel-jpa
      * 
      * @return the dsl builder
      */

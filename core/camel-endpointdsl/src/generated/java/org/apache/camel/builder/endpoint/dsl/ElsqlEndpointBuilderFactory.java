@@ -2621,7 +2621,7 @@ public interface ElsqlEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-elsql
+         * Maven coordinates: org.nordix.camel:camel-elsql
          * 
          * Syntax: <code>elsql:elsqlName:resourceUri</code>
          * 
@@ -2647,7 +2647,7 @@ public interface ElsqlEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-elsql
+         * Maven coordinates: org.nordix.camel:camel-elsql
          * 
          * Syntax: <code>elsql:elsqlName:resourceUri</code>
          * 

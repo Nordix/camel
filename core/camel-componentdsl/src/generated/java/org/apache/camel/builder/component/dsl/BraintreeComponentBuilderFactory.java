@@ -36,7 +36,7 @@ public interface BraintreeComponentBuilderFactory {
      * 
      * Category: cloud,payment
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-braintree
+     * Maven coordinates: org.nordix.camel:camel-braintree
      * 
      * @return the dsl builder
      */

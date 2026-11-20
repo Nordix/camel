@@ -1316,7 +1316,7 @@ public interface WebsocketEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-websocket
+         * Maven coordinates: org.nordix.camel:camel-websocket
          * 
          * Syntax: <code>websocket:host:port/resourceUri</code>
          * 
@@ -1345,7 +1345,7 @@ public interface WebsocketEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.10
-         * Maven coordinates: org.apache.camel:camel-websocket
+         * Maven coordinates: org.nordix.camel:camel-websocket
          * 
          * Syntax: <code>websocket:host:port/resourceUri</code>
          * 

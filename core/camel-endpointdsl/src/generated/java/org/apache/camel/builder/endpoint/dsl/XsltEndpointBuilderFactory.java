@@ -520,7 +520,7 @@ public interface XsltEndpointBuilderFactory {
          * 
          * Category: core,transformation
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-xslt
+         * Maven coordinates: org.nordix.camel:camel-xslt
          * 
          * Syntax: <code>xslt:resourceUri</code>
          * 
@@ -545,7 +545,7 @@ public interface XsltEndpointBuilderFactory {
          * 
          * Category: core,transformation
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-xslt
+         * Maven coordinates: org.nordix.camel:camel-xslt
          * 
          * Syntax: <code>xslt:resourceUri</code>
          * 

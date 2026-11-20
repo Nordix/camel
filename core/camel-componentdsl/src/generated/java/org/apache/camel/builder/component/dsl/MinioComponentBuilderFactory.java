@@ -36,7 +36,7 @@ public interface MinioComponentBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-minio
+     * Maven coordinates: org.nordix.camel:camel-minio
      * 
      * @return the dsl builder
      */

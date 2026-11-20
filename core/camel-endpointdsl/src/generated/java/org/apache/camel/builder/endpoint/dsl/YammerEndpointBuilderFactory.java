@@ -1294,7 +1294,7 @@ public interface YammerEndpointBuilderFactory {
          * 
          * Category: social,cloud,api
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-yammer
+         * Maven coordinates: org.nordix.camel:camel-yammer
          * 
          * Syntax: <code>yammer:function</code>
          * 
@@ -1315,7 +1315,7 @@ public interface YammerEndpointBuilderFactory {
          * 
          * Category: social,cloud,api
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-yammer
+         * Maven coordinates: org.nordix.camel:camel-yammer
          * 
          * Syntax: <code>yammer:function</code>
          * 

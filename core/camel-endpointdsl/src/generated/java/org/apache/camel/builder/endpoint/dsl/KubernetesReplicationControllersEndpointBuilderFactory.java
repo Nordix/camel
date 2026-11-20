@@ -1426,7 +1426,7 @@ public interface KubernetesReplicationControllersEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-replication-controllers:masterUrl</code>
          * 
@@ -1447,7 +1447,7 @@ public interface KubernetesReplicationControllersEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-replication-controllers:masterUrl</code>
          * 

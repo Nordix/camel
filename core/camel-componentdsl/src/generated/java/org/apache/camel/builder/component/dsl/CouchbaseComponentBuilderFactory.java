@@ -38,7 +38,7 @@ public interface CouchbaseComponentBuilderFactory {
      * 
      * Category: database,nosql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-couchbase
+     * Maven coordinates: org.nordix.camel:camel-couchbase
      * 
      * @return the dsl builder
      */

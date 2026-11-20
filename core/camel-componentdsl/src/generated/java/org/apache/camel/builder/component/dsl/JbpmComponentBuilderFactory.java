@@ -36,7 +36,7 @@ public interface JbpmComponentBuilderFactory {
      * 
      * Category: api,workflow
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-jbpm
+     * Maven coordinates: org.nordix.camel:camel-jbpm
      * 
      * @return the dsl builder
      */

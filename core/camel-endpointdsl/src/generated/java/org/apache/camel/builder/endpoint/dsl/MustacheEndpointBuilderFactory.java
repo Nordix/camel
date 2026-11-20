@@ -249,7 +249,7 @@ public interface MustacheEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-mustache
+         * Maven coordinates: org.nordix.camel:camel-mustache
          * 
          * Syntax: <code>mustache:resourceUri</code>
          * 
@@ -273,7 +273,7 @@ public interface MustacheEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-mustache
+         * Maven coordinates: org.nordix.camel:camel-mustache
          * 
          * Syntax: <code>mustache:resourceUri</code>
          * 

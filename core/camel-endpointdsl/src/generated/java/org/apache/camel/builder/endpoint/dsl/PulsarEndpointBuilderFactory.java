@@ -1438,7 +1438,7 @@ public interface PulsarEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.24
-         * Maven coordinates: org.apache.camel:camel-pulsar
+         * Maven coordinates: org.nordix.camel:camel-pulsar
          * 
          * Syntax: <code>pulsar:persistence://tenant/namespace/topic</code>
          * 
@@ -1468,7 +1468,7 @@ public interface PulsarEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.24
-         * Maven coordinates: org.apache.camel:camel-pulsar
+         * Maven coordinates: org.nordix.camel:camel-pulsar
          * 
          * Syntax: <code>pulsar:persistence://tenant/namespace/topic</code>
          * 

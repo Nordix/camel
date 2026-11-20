@@ -784,7 +784,7 @@ public interface StompEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-stomp
+         * Maven coordinates: org.nordix.camel:camel-stomp
          * 
          * Syntax: <code>stomp:destination</code>
          * 
@@ -804,7 +804,7 @@ public interface StompEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-stomp
+         * Maven coordinates: org.nordix.camel:camel-stomp
          * 
          * Syntax: <code>stomp:destination</code>
          * 

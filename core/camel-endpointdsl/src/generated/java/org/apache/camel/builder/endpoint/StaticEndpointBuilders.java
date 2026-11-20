@@ -32,7 +32,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-activemq
+     * Maven coordinates: org.nordix.camel:camel-activemq
      * 
      * Syntax: <code>activemq:destinationType:destinationName</code>
      * 
@@ -59,7 +59,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-activemq
+     * Maven coordinates: org.nordix.camel:camel-activemq
      * 
      * Syntax: <code>activemq:destinationType:destinationName</code>
      * 
@@ -88,7 +88,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 2.8
-     * Maven coordinates: org.apache.camel:camel-ahc
+     * Maven coordinates: org.nordix.camel:camel-ahc
      * 
      * Syntax: <code>ahc:httpUri</code>
      * 
@@ -108,7 +108,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 2.8
-     * Maven coordinates: org.apache.camel:camel-ahc
+     * Maven coordinates: org.nordix.camel:camel-ahc
      * 
      * Syntax: <code>ahc:httpUri</code>
      * 
@@ -131,7 +131,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-ahc-ws
+     * Maven coordinates: org.nordix.camel:camel-ahc-ws
      * 
      * Syntax: <code>ahc-ws:httpUri</code>
      * 
@@ -151,7 +151,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-ahc-ws
+     * Maven coordinates: org.nordix.camel:camel-ahc-ws
      * 
      * Syntax: <code>ahc-ws:httpUri</code>
      * 
@@ -174,7 +174,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-amqp
+     * Maven coordinates: org.nordix.camel:camel-amqp
      * 
      * Syntax: <code>amqp:destinationType:destinationName</code>
      * 
@@ -200,7 +200,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-amqp
+     * Maven coordinates: org.nordix.camel:camel-amqp
      * 
      * Syntax: <code>amqp:destinationType:destinationName</code>
      * 
@@ -230,7 +230,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-arangodb
+     * Maven coordinates: org.nordix.camel:camel-arangodb
      * 
      * Syntax: <code>arangodb:database</code>
      * 
@@ -251,7 +251,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-arangodb
+     * Maven coordinates: org.nordix.camel:camel-arangodb
      * 
      * Syntax: <code>arangodb:database</code>
      * 
@@ -274,7 +274,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-as2
+     * Maven coordinates: org.nordix.camel:camel-as2
      * 
      * Syntax: <code>as2:apiName/methodName</code>
      * 
@@ -298,7 +298,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-as2
+     * Maven coordinates: org.nordix.camel:camel-as2
      * 
      * Syntax: <code>as2:apiName/methodName</code>
      * 
@@ -325,7 +325,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: voip
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-asterisk
+     * Maven coordinates: org.nordix.camel:camel-asterisk
      * 
      * Syntax: <code>asterisk:name</code>
      * 
@@ -345,7 +345,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: voip
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-asterisk
+     * Maven coordinates: org.nordix.camel:camel-asterisk
      * 
      * Syntax: <code>asterisk:name</code>
      * 
@@ -368,7 +368,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-atlasmap
+     * Maven coordinates: org.nordix.camel:camel-atlasmap
      * 
      * Syntax: <code>atlasmap:resourceUri</code>
      * 
@@ -392,7 +392,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-atlasmap
+     * Maven coordinates: org.nordix.camel:camel-atlasmap
      * 
      * Syntax: <code>atlasmap:resourceUri</code>
      * 
@@ -419,7 +419,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-atmos
+     * Maven coordinates: org.nordix.camel:camel-atmos
      * 
      * Syntax: <code>atmos:name/operation</code>
      * 
@@ -444,7 +444,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-atmos
+     * Maven coordinates: org.nordix.camel:camel-atmos
      * 
      * Syntax: <code>atmos:name/operation</code>
      * 
@@ -472,7 +472,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-atmosphere-websocket
+     * Maven coordinates: org.nordix.camel:camel-atmosphere-websocket
      * 
      * Syntax: <code>atmosphere-websocket:servicePath</code>
      * 
@@ -492,7 +492,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-atmosphere-websocket
+     * Maven coordinates: org.nordix.camel:camel-atmosphere-websocket
      * 
      * Syntax: <code>atmosphere-websocket:servicePath</code>
      * 
@@ -515,7 +515,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rss
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-atom
+     * Maven coordinates: org.nordix.camel:camel-atom
      * 
      * Syntax: <code>atom:feedUri</code>
      * 
@@ -535,7 +535,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rss
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-atom
+     * Maven coordinates: org.nordix.camel:camel-atom
      * 
      * Syntax: <code>atom:feedUri</code>
      * 
@@ -558,7 +558,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-map:resourceName</code>
      * 
@@ -578,7 +578,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-map:resourceName</code>
      * 
@@ -601,7 +601,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-messaging:resourceName</code>
      * 
@@ -621,7 +621,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-messaging:resourceName</code>
      * 
@@ -644,7 +644,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-multimap:resourceName</code>
      * 
@@ -664,7 +664,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-multimap:resourceName</code>
      * 
@@ -687,7 +687,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-queue:resourceName</code>
      * 
@@ -707,7 +707,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-queue:resourceName</code>
      * 
@@ -730,7 +730,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-set:resourceName</code>
      * 
@@ -750,7 +750,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-set:resourceName</code>
      * 
@@ -773,7 +773,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-value:resourceName</code>
      * 
@@ -793,7 +793,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-atomix
+     * Maven coordinates: org.nordix.camel:camel-atomix
      * 
      * Syntax: <code>atomix-value:resourceName</code>
      * 
@@ -816,7 +816,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rpc
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-avro-rpc
+     * Maven coordinates: org.nordix.camel:camel-avro-rpc
      * 
      * Syntax: <code>avro:transport:host:port/messageName</code>
      * 
@@ -846,7 +846,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rpc
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-avro-rpc
+     * Maven coordinates: org.nordix.camel:camel-avro-rpc
      * 
      * Syntax: <code>avro:transport:host:port/messageName</code>
      * 
@@ -879,7 +879,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,database
      * Since: 3.4
-     * Maven coordinates: org.apache.camel:camel-aws2-athena
+     * Maven coordinates: org.nordix.camel:camel-aws2-athena
      * 
      * Syntax: <code>aws2-athena:label</code>
      * 
@@ -899,7 +899,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,database
      * Since: 3.4
-     * Maven coordinates: org.apache.camel:camel-aws2-athena
+     * Maven coordinates: org.nordix.camel:camel-aws2-athena
      * 
      * Syntax: <code>aws2-athena:label</code>
      * 
@@ -922,7 +922,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,monitoring
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-cw
+     * Maven coordinates: org.nordix.camel:camel-aws2-cw
      * 
      * Syntax: <code>aws2-cw:namespace</code>
      * 
@@ -942,7 +942,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,monitoring
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-cw
+     * Maven coordinates: org.nordix.camel:camel-aws2-cw
      * 
      * Syntax: <code>aws2-cw:namespace</code>
      * 
@@ -966,7 +966,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,database,nosql
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ddb
+     * Maven coordinates: org.nordix.camel:camel-aws2-ddb
      * 
      * Syntax: <code>aws2-ddb:tableName</code>
      * 
@@ -987,7 +987,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,database,nosql
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ddb
+     * Maven coordinates: org.nordix.camel:camel-aws2-ddb
      * 
      * Syntax: <code>aws2-ddb:tableName</code>
      * 
@@ -1011,7 +1011,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging,streams
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ddb
+     * Maven coordinates: org.nordix.camel:camel-aws2-ddb
      * 
      * Syntax: <code>aws2-ddbstream:tableName</code>
      * 
@@ -1032,7 +1032,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging,streams
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ddb
+     * Maven coordinates: org.nordix.camel:camel-aws2-ddb
      * 
      * Syntax: <code>aws2-ddbstream:tableName</code>
      * 
@@ -1055,7 +1055,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ec2
+     * Maven coordinates: org.nordix.camel:camel-aws2-ec2
      * 
      * Syntax: <code>aws2-ec2:label</code>
      * 
@@ -1075,7 +1075,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ec2
+     * Maven coordinates: org.nordix.camel:camel-aws2-ec2
      * 
      * Syntax: <code>aws2-ec2:label</code>
      * 
@@ -1098,7 +1098,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ecs
+     * Maven coordinates: org.nordix.camel:camel-aws2-ecs
      * 
      * Syntax: <code>aws2-ecs:label</code>
      * 
@@ -1118,7 +1118,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ecs
+     * Maven coordinates: org.nordix.camel:camel-aws2-ecs
      * 
      * Syntax: <code>aws2-ecs:label</code>
      * 
@@ -1141,7 +1141,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-eks
+     * Maven coordinates: org.nordix.camel:camel-aws2-eks
      * 
      * Syntax: <code>aws2-eks:label</code>
      * 
@@ -1161,7 +1161,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-eks
+     * Maven coordinates: org.nordix.camel:camel-aws2-eks
      * 
      * Syntax: <code>aws2-eks:label</code>
      * 
@@ -1184,7 +1184,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.6
-     * Maven coordinates: org.apache.camel:camel-aws2-eventbridge
+     * Maven coordinates: org.nordix.camel:camel-aws2-eventbridge
      * 
      * Syntax: <code>aws2-eventbridge://eventbusNameOrArn</code>
      * 
@@ -1204,7 +1204,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.6
-     * Maven coordinates: org.apache.camel:camel-aws2-eventbridge
+     * Maven coordinates: org.nordix.camel:camel-aws2-eventbridge
      * 
      * Syntax: <code>aws2-eventbridge://eventbusNameOrArn</code>
      * 
@@ -1227,7 +1227,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-iam
+     * Maven coordinates: org.nordix.camel:camel-aws2-iam
      * 
      * Syntax: <code>aws2-iam:label</code>
      * 
@@ -1247,7 +1247,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-iam
+     * Maven coordinates: org.nordix.camel:camel-aws2-iam
      * 
      * Syntax: <code>aws2-iam:label</code>
      * 
@@ -1271,7 +1271,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-kinesis
+     * Maven coordinates: org.nordix.camel:camel-aws2-kinesis
      * 
      * Syntax: <code>aws2-kinesis:streamName</code>
      * 
@@ -1292,7 +1292,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-kinesis
+     * Maven coordinates: org.nordix.camel:camel-aws2-kinesis
      * 
      * Syntax: <code>aws2-kinesis:streamName</code>
      * 
@@ -1315,7 +1315,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-kinesis
+     * Maven coordinates: org.nordix.camel:camel-aws2-kinesis
      * 
      * Syntax: <code>aws2-kinesis-firehose:streamName</code>
      * 
@@ -1335,7 +1335,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-kinesis
+     * Maven coordinates: org.nordix.camel:camel-aws2-kinesis
      * 
      * Syntax: <code>aws2-kinesis-firehose:streamName</code>
      * 
@@ -1358,7 +1358,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-kms
+     * Maven coordinates: org.nordix.camel:camel-aws2-kms
      * 
      * Syntax: <code>aws2-kms:label</code>
      * 
@@ -1378,7 +1378,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-kms
+     * Maven coordinates: org.nordix.camel:camel-aws2-kms
      * 
      * Syntax: <code>aws2-kms:label</code>
      * 
@@ -1401,7 +1401,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,computing,serverless
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-lambda
+     * Maven coordinates: org.nordix.camel:camel-aws2-lambda
      * 
      * Syntax: <code>aws2-lambda:function</code>
      * 
@@ -1421,7 +1421,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,computing,serverless
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-lambda
+     * Maven coordinates: org.nordix.camel:camel-aws2-lambda
      * 
      * Syntax: <code>aws2-lambda:function</code>
      * 
@@ -1444,7 +1444,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-mq
+     * Maven coordinates: org.nordix.camel:camel-aws2-mq
      * 
      * Syntax: <code>aws2-mq:label</code>
      * 
@@ -1464,7 +1464,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-mq
+     * Maven coordinates: org.nordix.camel:camel-aws2-mq
      * 
      * Syntax: <code>aws2-mq:label</code>
      * 
@@ -1487,7 +1487,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-msk
+     * Maven coordinates: org.nordix.camel:camel-aws2-msk
      * 
      * Syntax: <code>aws2-msk:label</code>
      * 
@@ -1507,7 +1507,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-msk
+     * Maven coordinates: org.nordix.camel:camel-aws2-msk
      * 
      * Syntax: <code>aws2-msk:label</code>
      * 
@@ -1531,7 +1531,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-s3
+     * Maven coordinates: org.nordix.camel:camel-aws2-s3
      * 
      * Syntax: <code>aws2-s3://bucketNameOrArn</code>
      * 
@@ -1552,7 +1552,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 3.2
-     * Maven coordinates: org.apache.camel:camel-aws2-s3
+     * Maven coordinates: org.nordix.camel:camel-aws2-s3
      * 
      * Syntax: <code>aws2-s3://bucketNameOrArn</code>
      * 
@@ -1575,7 +1575,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,mail
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ses
+     * Maven coordinates: org.nordix.camel:camel-aws2-ses
      * 
      * Syntax: <code>aws2-ses:from</code>
      * 
@@ -1595,7 +1595,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,mail
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ses
+     * Maven coordinates: org.nordix.camel:camel-aws2-ses
      * 
      * Syntax: <code>aws2-ses:from</code>
      * 
@@ -1619,7 +1619,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging,mobile
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-sns
+     * Maven coordinates: org.nordix.camel:camel-aws2-sns
      * 
      * Syntax: <code>aws2-sns:topicNameOrArn</code>
      * 
@@ -1640,7 +1640,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging,mobile
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-sns
+     * Maven coordinates: org.nordix.camel:camel-aws2-sns
      * 
      * Syntax: <code>aws2-sns:topicNameOrArn</code>
      * 
@@ -1664,7 +1664,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-sqs
+     * Maven coordinates: org.nordix.camel:camel-aws2-sqs
      * 
      * Syntax: <code>aws2-sqs:queueNameOrArn</code>
      * 
@@ -1685,7 +1685,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-sqs
+     * Maven coordinates: org.nordix.camel:camel-aws2-sqs
      * 
      * Syntax: <code>aws2-sqs:queueNameOrArn</code>
      * 
@@ -1708,7 +1708,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-aws2-sts
+     * Maven coordinates: org.nordix.camel:camel-aws2-sts
      * 
      * Syntax: <code>aws2-sts:label</code>
      * 
@@ -1728,7 +1728,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-aws2-sts
+     * Maven coordinates: org.nordix.camel:camel-aws2-sts
      * 
      * Syntax: <code>aws2-sts:label</code>
      * 
@@ -1751,7 +1751,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-translate
+     * Maven coordinates: org.nordix.camel:camel-aws2-translate
      * 
      * Syntax: <code>aws2-translate:label</code>
      * 
@@ -1771,7 +1771,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-translate
+     * Maven coordinates: org.nordix.camel:camel-aws2-translate
      * 
      * Syntax: <code>aws2-translate:label</code>
      * 
@@ -1794,7 +1794,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-aws-secrets-manager
+     * Maven coordinates: org.nordix.camel:camel-aws-secrets-manager
      * 
      * Syntax: <code>aws-secrets-manager:label</code>
      * 
@@ -1814,7 +1814,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-aws-secrets-manager
+     * Maven coordinates: org.nordix.camel:camel-aws-secrets-manager
      * 
      * Syntax: <code>aws-secrets-manager:label</code>
      * 
@@ -1838,7 +1838,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,database
      * Since: 3.10
-     * Maven coordinates: org.apache.camel:camel-azure-cosmosdb
+     * Maven coordinates: org.nordix.camel:camel-azure-cosmosdb
      * 
      * Syntax: <code>azure-cosmosdb:databaseName/containerName</code>
      * 
@@ -1866,7 +1866,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,database
      * Since: 3.10
-     * Maven coordinates: org.apache.camel:camel-azure-cosmosdb
+     * Maven coordinates: org.nordix.camel:camel-azure-cosmosdb
      * 
      * Syntax: <code>azure-cosmosdb:databaseName/containerName</code>
      * 
@@ -1899,7 +1899,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-azure-eventhubs
+     * Maven coordinates: org.nordix.camel:camel-azure-eventhubs
      * 
      * Syntax: <code>azure-eventhubs:namespace/eventHubName</code>
      * 
@@ -1925,7 +1925,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-azure-eventhubs
+     * Maven coordinates: org.nordix.camel:camel-azure-eventhubs
      * 
      * Syntax: <code>azure-eventhubs:namespace/eventHubName</code>
      * 
@@ -1956,7 +1956,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-azure-servicebus
+     * Maven coordinates: org.nordix.camel:camel-azure-servicebus
      * 
      * Syntax: <code>azure-servicebus:topicOrQueueName</code>
      * 
@@ -1984,7 +1984,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-azure-servicebus
+     * Maven coordinates: org.nordix.camel:camel-azure-servicebus
      * 
      * Syntax: <code>azure-servicebus:topicOrQueueName</code>
      * 
@@ -2010,7 +2010,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-azure-storage-blob
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-blob
      * 
      * Syntax: <code>azure-storage-blob:accountName/containerName</code>
      * 
@@ -2033,7 +2033,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-azure-storage-blob
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-blob
      * 
      * Syntax: <code>azure-storage-blob:accountName/containerName</code>
      * 
@@ -2059,7 +2059,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-azure-storage-datalake
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-datalake
      * 
      * Syntax: <code>azure-storage-datalake:accountName/fileSystemName</code>
      * 
@@ -2082,7 +2082,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-azure-storage-datalake
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-datalake
      * 
      * Syntax: <code>azure-storage-datalake:accountName/fileSystemName</code>
      * 
@@ -2109,7 +2109,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-azure-storage-queue
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-queue
      * 
      * Syntax: <code>azure-storage-queue:accountName/queueName</code>
      * 
@@ -2134,7 +2134,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-azure-storage-queue
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-queue
      * 
      * Syntax: <code>azure-storage-queue:accountName/queueName</code>
      * 
@@ -2161,7 +2161,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,java
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-bean
+     * Maven coordinates: org.nordix.camel:camel-bean
      * 
      * Syntax: <code>bean:beanName</code>
      * 
@@ -2181,7 +2181,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,java
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-bean
+     * Maven coordinates: org.nordix.camel:camel-bean
      * 
      * Syntax: <code>bean:beanName</code>
      * 
@@ -2204,7 +2204,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-beanstalk
+     * Maven coordinates: org.nordix.camel:camel-beanstalk
      * 
      * Syntax: <code>beanstalk:connectionSettings</code>
      * 
@@ -2224,7 +2224,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-beanstalk
+     * Maven coordinates: org.nordix.camel:camel-beanstalk
      * 
      * Syntax: <code>beanstalk:connectionSettings</code>
      * 
@@ -2247,7 +2247,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-bean-validator
+     * Maven coordinates: org.nordix.camel:camel-bean-validator
      * 
      * Syntax: <code>bean-validator:label</code>
      * 
@@ -2267,7 +2267,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-bean-validator
+     * Maven coordinates: org.nordix.camel:camel-bean-validator
      * 
      * Syntax: <code>bean-validator:label</code>
      * 
@@ -2290,7 +2290,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: process
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-bonita
+     * Maven coordinates: org.nordix.camel:camel-bonita
      * 
      * Syntax: <code>bonita:operation</code>
      * 
@@ -2311,7 +2311,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: process
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-bonita
+     * Maven coordinates: org.nordix.camel:camel-bonita
      * 
      * Syntax: <code>bonita:operation</code>
      * 
@@ -2336,7 +2336,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-box
+     * Maven coordinates: org.nordix.camel:camel-box
      * 
      * Syntax: <code>box:apiName/methodName</code>
      * 
@@ -2362,7 +2362,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-box
+     * Maven coordinates: org.nordix.camel:camel-box
      * 
      * Syntax: <code>box:apiName/methodName</code>
      * 
@@ -2390,7 +2390,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,payment
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-braintree
+     * Maven coordinates: org.nordix.camel:camel-braintree
      * 
      * Syntax: <code>braintree:apiName/methodName</code>
      * 
@@ -2425,7 +2425,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,payment
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-braintree
+     * Maven coordinates: org.nordix.camel:camel-braintree
      * 
      * Syntax: <code>braintree:apiName/methodName</code>
      * 
@@ -2463,7 +2463,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,monitoring
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-browse
+     * Maven coordinates: org.nordix.camel:camel-browse
      * 
      * Syntax: <code>browse:name</code>
      * 
@@ -2483,7 +2483,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,monitoring
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-browse
+     * Maven coordinates: org.nordix.camel:camel-browse
      * 
      * Syntax: <code>browse:name</code>
      * 
@@ -2506,7 +2506,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-caffeine
+     * Maven coordinates: org.nordix.camel:camel-caffeine
      * 
      * Syntax: <code>caffeine-cache:cacheName</code>
      * 
@@ -2526,7 +2526,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-caffeine
+     * Maven coordinates: org.nordix.camel:camel-caffeine
      * 
      * Syntax: <code>caffeine-cache:cacheName</code>
      * 
@@ -2550,7 +2550,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-caffeine
+     * Maven coordinates: org.nordix.camel:camel-caffeine
      * 
      * Syntax: <code>caffeine-loadcache:cacheName</code>
      * 
@@ -2571,7 +2571,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-caffeine
+     * Maven coordinates: org.nordix.camel:camel-caffeine
      * 
      * Syntax: <code>caffeine-loadcache:cacheName</code>
      * 
@@ -2594,7 +2594,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: ai,chat
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-chatscript
+     * Maven coordinates: org.nordix.camel:camel-chatscript
      * 
      * Syntax: <code>chatscript:host:port/botName</code>
      * 
@@ -2621,7 +2621,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: ai,chat
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-chatscript
+     * Maven coordinates: org.nordix.camel:camel-chatscript
      * 
      * Syntax: <code>chatscript:host:port/botName</code>
      * 
@@ -2651,7 +2651,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-chunk
+     * Maven coordinates: org.nordix.camel:camel-chunk
      * 
      * Syntax: <code>chunk:resourceUri</code>
      * 
@@ -2675,7 +2675,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-chunk
+     * Maven coordinates: org.nordix.camel:camel-chunk
      * 
      * Syntax: <code>chunk:resourceUri</code>
      * 
@@ -2702,7 +2702,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,java
      * Since: 2.4
-     * Maven coordinates: org.apache.camel:camel-bean
+     * Maven coordinates: org.nordix.camel:camel-bean
      * 
      * Syntax: <code>class:beanName</code>
      * 
@@ -2722,7 +2722,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,java
      * Since: 2.4
-     * Maven coordinates: org.apache.camel:camel-bean
+     * Maven coordinates: org.nordix.camel:camel-bean
      * 
      * Syntax: <code>class:beanName</code>
      * 
@@ -2745,7 +2745,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cms,database
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-cmis
+     * Maven coordinates: org.nordix.camel:camel-cmis
      * 
      * Syntax: <code>cmis:cmsUrl</code>
      * 
@@ -2765,7 +2765,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cms,database
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-cmis
+     * Maven coordinates: org.nordix.camel:camel-cmis
      * 
      * Syntax: <code>cmis:cmsUrl</code>
      * 
@@ -2788,7 +2788,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: mobile
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-cm-sms
+     * Maven coordinates: org.nordix.camel:camel-cm-sms
      * 
      * Syntax: <code>cm-sms:host</code>
      * 
@@ -2808,7 +2808,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: mobile
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-cm-sms
+     * Maven coordinates: org.nordix.camel:camel-cm-sms
      * 
      * Syntax: <code>cm-sms:host</code>
      * 
@@ -2831,7 +2831,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-coap
+     * Maven coordinates: org.nordix.camel:camel-coap
      * 
      * Syntax: <code>coap:uri</code>
      * 
@@ -2851,7 +2851,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-coap
+     * Maven coordinates: org.nordix.camel:camel-coap
      * 
      * Syntax: <code>coap:uri</code>
      * 
@@ -2875,7 +2875,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-cometd
+     * Maven coordinates: org.nordix.camel:camel-cometd
      * 
      * Syntax: <code>cometd:host:port/channelName</code>
      * 
@@ -2903,7 +2903,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-cometd
+     * Maven coordinates: org.nordix.camel:camel-cometd
      * 
      * Syntax: <code>cometd:host:port/channelName</code>
      * 
@@ -2933,7 +2933,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-consul
+     * Maven coordinates: org.nordix.camel:camel-consul
      * 
      * Syntax: <code>consul:apiEndpoint</code>
      * 
@@ -2953,7 +2953,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-consul
+     * Maven coordinates: org.nordix.camel:camel-consul
      * 
      * Syntax: <code>consul:apiEndpoint</code>
      * 
@@ -2976,7 +2976,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,monitoring
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-controlbus
+     * Maven coordinates: org.nordix.camel:camel-controlbus
      * 
      * Syntax: <code>controlbus:command:language</code>
      * 
@@ -3005,7 +3005,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,monitoring
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-controlbus
+     * Maven coordinates: org.nordix.camel:camel-controlbus
      * 
      * Syntax: <code>controlbus:command:language</code>
      * 
@@ -3038,7 +3038,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: blockchain,rpc
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-corda
+     * Maven coordinates: org.nordix.camel:camel-corda
      * 
      * Syntax: <code>corda:node</code>
      * 
@@ -3059,7 +3059,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: blockchain,rpc
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-corda
+     * Maven coordinates: org.nordix.camel:camel-corda
      * 
      * Syntax: <code>corda:node</code>
      * 
@@ -3083,7 +3083,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-couchbase
+     * Maven coordinates: org.nordix.camel:camel-couchbase
      * 
      * Syntax: <code>couchbase:protocol://hostname:port</code>
      * 
@@ -3111,7 +3111,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-couchbase
+     * Maven coordinates: org.nordix.camel:camel-couchbase
      * 
      * Syntax: <code>couchbase:protocol://hostname:port</code>
      * 
@@ -3143,7 +3143,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-couchdb
+     * Maven coordinates: org.nordix.camel:camel-couchdb
      * 
      * Syntax: <code>couchdb:protocol:hostname:port/database</code>
      * 
@@ -3176,7 +3176,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-couchdb
+     * Maven coordinates: org.nordix.camel:camel-couchdb
      * 
      * Syntax: <code>couchdb:protocol:hostname:port/database</code>
      * 
@@ -3211,7 +3211,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-cassandraql
+     * Maven coordinates: org.nordix.camel:camel-cassandraql
      * 
      * Syntax: <code>cql:beanRef:hosts:port/keyspace</code>
      * 
@@ -3242,7 +3242,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-cassandraql
+     * Maven coordinates: org.nordix.camel:camel-cassandraql
      * 
      * Syntax: <code>cql:beanRef:hosts:port/keyspace</code>
      * 
@@ -3276,7 +3276,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: scheduling
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-cron
+     * Maven coordinates: org.nordix.camel:camel-cron
      * 
      * Syntax: <code>cron:name</code>
      * 
@@ -3297,7 +3297,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: scheduling
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-cron
+     * Maven coordinates: org.nordix.camel:camel-cron
      * 
      * Syntax: <code>cron:name</code>
      * 
@@ -3321,7 +3321,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: security,transformation
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-crypto
+     * Maven coordinates: org.nordix.camel:camel-crypto
      * 
      * Syntax: <code>crypto:cryptoOperation:name</code>
      * 
@@ -3347,7 +3347,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: security,transformation
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-crypto
+     * Maven coordinates: org.nordix.camel:camel-crypto
      * 
      * Syntax: <code>crypto:cryptoOperation:name</code>
      * 
@@ -3376,7 +3376,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: soap,webservice
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-cxf
+     * Maven coordinates: org.nordix.camel:camel-cxf
      * 
      * Syntax: <code>cxf:beanId:address</code>
      * 
@@ -3400,7 +3400,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: soap,webservice
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-cxf
+     * Maven coordinates: org.nordix.camel:camel-cxf
      * 
      * Syntax: <code>cxf:beanId:address</code>
      * 
@@ -3427,7 +3427,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rest
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-cxf
+     * Maven coordinates: org.nordix.camel:camel-cxf
      * 
      * Syntax: <code>cxfrs:beanId:address</code>
      * 
@@ -3452,7 +3452,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rest
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-cxf
+     * Maven coordinates: org.nordix.camel:camel-cxf
      * 
      * Syntax: <code>cxfrs:beanId:address</code>
      * 
@@ -3479,7 +3479,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-dataformat
+     * Maven coordinates: org.nordix.camel:camel-dataformat
      * 
      * Syntax: <code>dataformat:name:operation</code>
      * 
@@ -3503,7 +3503,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-dataformat
+     * Maven coordinates: org.nordix.camel:camel-dataformat
      * 
      * Syntax: <code>dataformat:name:operation</code>
      * 
@@ -3530,7 +3530,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,testing
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-dataset
+     * Maven coordinates: org.nordix.camel:camel-dataset
      * 
      * Syntax: <code>dataset:name</code>
      * 
@@ -3550,7 +3550,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,testing
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-dataset
+     * Maven coordinates: org.nordix.camel:camel-dataset
      * 
      * Syntax: <code>dataset:name</code>
      * 
@@ -3574,7 +3574,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,testing
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-dataset
+     * Maven coordinates: org.nordix.camel:camel-dataset
      * 
      * Syntax: <code>dataset-test:name</code>
      * 
@@ -3596,7 +3596,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,testing
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-dataset
+     * Maven coordinates: org.nordix.camel:camel-dataset
      * 
      * Syntax: <code>dataset-test:name</code>
      * 
@@ -3620,7 +3620,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-mongodb
+     * Maven coordinates: org.nordix.camel:camel-debezium-mongodb
      * 
      * Syntax: <code>debezium-mongodb:name</code>
      * 
@@ -3641,7 +3641,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-mongodb
+     * Maven coordinates: org.nordix.camel:camel-debezium-mongodb
      * 
      * Syntax: <code>debezium-mongodb:name</code>
      * 
@@ -3665,7 +3665,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-mysql
+     * Maven coordinates: org.nordix.camel:camel-debezium-mysql
      * 
      * Syntax: <code>debezium-mysql:name</code>
      * 
@@ -3686,7 +3686,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-mysql
+     * Maven coordinates: org.nordix.camel:camel-debezium-mysql
      * 
      * Syntax: <code>debezium-mysql:name</code>
      * 
@@ -3710,7 +3710,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-postgres
+     * Maven coordinates: org.nordix.camel:camel-debezium-postgres
      * 
      * Syntax: <code>debezium-postgres:name</code>
      * 
@@ -3731,7 +3731,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-postgres
+     * Maven coordinates: org.nordix.camel:camel-debezium-postgres
      * 
      * Syntax: <code>debezium-postgres:name</code>
      * 
@@ -3755,7 +3755,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-sqlserver
+     * Maven coordinates: org.nordix.camel:camel-debezium-sqlserver
      * 
      * Syntax: <code>debezium-sqlserver:name</code>
      * 
@@ -3776,7 +3776,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-debezium-sqlserver
+     * Maven coordinates: org.nordix.camel:camel-debezium-sqlserver
      * 
      * Syntax: <code>debezium-sqlserver:name</code>
      * 
@@ -3800,7 +3800,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-digitalocean
+     * Maven coordinates: org.nordix.camel:camel-digitalocean
      * 
      * Syntax: <code>digitalocean:operation</code>
      * 
@@ -3827,7 +3827,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,management
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-digitalocean
+     * Maven coordinates: org.nordix.camel:camel-digitalocean
      * 
      * Syntax: <code>digitalocean:operation</code>
      * 
@@ -3857,7 +3857,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-direct
+     * Maven coordinates: org.nordix.camel:camel-direct
      * 
      * Syntax: <code>direct:name</code>
      * 
@@ -3877,7 +3877,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-direct
+     * Maven coordinates: org.nordix.camel:camel-direct
      * 
      * Syntax: <code>direct:name</code>
      * 
@@ -3901,7 +3901,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-directvm
+     * Maven coordinates: org.nordix.camel:camel-directvm
      * 
      * Syntax: <code>direct-vm:name</code>
      * 
@@ -3922,7 +3922,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-directvm
+     * Maven coordinates: org.nordix.camel:camel-directvm
      * 
      * Syntax: <code>direct-vm:name</code>
      * 
@@ -3945,7 +3945,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: endpoint
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-disruptor
+     * Maven coordinates: org.nordix.camel:camel-disruptor
      * 
      * Syntax: <code>disruptor:name</code>
      * 
@@ -3965,7 +3965,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: endpoint
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-disruptor
+     * Maven coordinates: org.nordix.camel:camel-disruptor
      * 
      * Syntax: <code>disruptor:name</code>
      * 
@@ -3988,7 +3988,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: endpoint
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-disruptor
+     * Maven coordinates: org.nordix.camel:camel-disruptor
      * 
      * Syntax: <code>disruptor-vm:name</code>
      * 
@@ -4008,7 +4008,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: endpoint
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-disruptor
+     * Maven coordinates: org.nordix.camel:camel-disruptor
      * 
      * Syntax: <code>disruptor-vm:name</code>
      * 
@@ -4032,7 +4032,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: ai,deeplearning
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-djl
+     * Maven coordinates: org.nordix.camel:camel-djl
      * 
      * Syntax: <code>djl:application</code>
      * 
@@ -4053,7 +4053,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: ai,deeplearning
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-djl
+     * Maven coordinates: org.nordix.camel:camel-djl
      * 
      * Syntax: <code>djl:application</code>
      * 
@@ -4076,7 +4076,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-dns
+     * Maven coordinates: org.nordix.camel:camel-dns
      * 
      * Syntax: <code>dns:dnsType</code>
      * 
@@ -4097,7 +4097,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-dns
+     * Maven coordinates: org.nordix.camel:camel-dns
      * 
      * Syntax: <code>dns:dnsType</code>
      * 
@@ -4121,7 +4121,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,container,paas
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-docker
+     * Maven coordinates: org.nordix.camel:camel-docker
      * 
      * Syntax: <code>docker:operation</code>
      * 
@@ -4150,7 +4150,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,container,paas
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-docker
+     * Maven coordinates: org.nordix.camel:camel-docker
      * 
      * Syntax: <code>docker:operation</code>
      * 
@@ -4182,7 +4182,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-dozer
+     * Maven coordinates: org.nordix.camel:camel-dozer
      * 
      * Syntax: <code>dozer:name</code>
      * 
@@ -4202,7 +4202,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-dozer
+     * Maven coordinates: org.nordix.camel:camel-dozer
      * 
      * Syntax: <code>dozer:name</code>
      * 
@@ -4225,7 +4225,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-drill
+     * Maven coordinates: org.nordix.camel:camel-drill
      * 
      * Syntax: <code>drill:host</code>
      * 
@@ -4245,7 +4245,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-drill
+     * Maven coordinates: org.nordix.camel:camel-drill
      * 
      * Syntax: <code>drill:host</code>
      * 
@@ -4269,7 +4269,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-dropbox
+     * Maven coordinates: org.nordix.camel:camel-dropbox
      * 
      * Syntax: <code>dropbox:operation</code>
      * 
@@ -4293,7 +4293,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-dropbox
+     * Maven coordinates: org.nordix.camel:camel-dropbox
      * 
      * Syntax: <code>dropbox:operation</code>
      * 
@@ -4319,7 +4319,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-ehcache
+     * Maven coordinates: org.nordix.camel:camel-ehcache
      * 
      * Syntax: <code>ehcache:cacheName</code>
      * 
@@ -4339,7 +4339,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-ehcache
+     * Maven coordinates: org.nordix.camel:camel-ehcache
      * 
      * Syntax: <code>ehcache:cacheName</code>
      * 
@@ -4362,7 +4362,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: search,monitoring
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-elasticsearch-rest
+     * Maven coordinates: org.nordix.camel:camel-elasticsearch-rest
      * 
      * Syntax: <code>elasticsearch-rest:clusterName</code>
      * 
@@ -4382,7 +4382,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: search,monitoring
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-elasticsearch-rest
+     * Maven coordinates: org.nordix.camel:camel-elasticsearch-rest
      * 
      * Syntax: <code>elasticsearch-rest:clusterName</code>
      * 
@@ -4405,7 +4405,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-elsql
+     * Maven coordinates: org.nordix.camel:camel-elsql
      * 
      * Syntax: <code>elsql:elsqlName:resourceUri</code>
      * 
@@ -4432,7 +4432,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-elsql
+     * Maven coordinates: org.nordix.camel:camel-elsql
      * 
      * Syntax: <code>elsql:elsqlName:resourceUri</code>
      * 
@@ -4462,7 +4462,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-etcd
+     * Maven coordinates: org.nordix.camel:camel-etcd
      * 
      * Syntax: <code>etcd-keys:path</code>
      * 
@@ -4482,7 +4482,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-etcd
+     * Maven coordinates: org.nordix.camel:camel-etcd
      * 
      * Syntax: <code>etcd-keys:path</code>
      * 
@@ -4505,7 +4505,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-etcd
+     * Maven coordinates: org.nordix.camel:camel-etcd
      * 
      * Syntax: <code>etcd-stats:path</code>
      * 
@@ -4525,7 +4525,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-etcd
+     * Maven coordinates: org.nordix.camel:camel-etcd
      * 
      * Syntax: <code>etcd-stats:path</code>
      * 
@@ -4548,7 +4548,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-etcd
+     * Maven coordinates: org.nordix.camel:camel-etcd
      * 
      * Syntax: <code>etcd-watch:path</code>
      * 
@@ -4568,7 +4568,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-etcd
+     * Maven coordinates: org.nordix.camel:camel-etcd
      * 
      * Syntax: <code>etcd-watch:path</code>
      * 
@@ -4591,7 +4591,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: system
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-exec
+     * Maven coordinates: org.nordix.camel:camel-exec
      * 
      * Syntax: <code>exec:executable</code>
      * 
@@ -4612,7 +4612,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: system
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-exec
+     * Maven coordinates: org.nordix.camel:camel-exec
      * 
      * Syntax: <code>exec:executable</code>
      * 
@@ -4636,7 +4636,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: social
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-facebook
+     * Maven coordinates: org.nordix.camel:camel-facebook
      * 
      * Syntax: <code>facebook:methodName</code>
      * 
@@ -4656,7 +4656,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: social
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-facebook
+     * Maven coordinates: org.nordix.camel:camel-facebook
      * 
      * Syntax: <code>facebook:methodName</code>
      * 
@@ -4680,7 +4680,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-fhir
+     * Maven coordinates: org.nordix.camel:camel-fhir
      * 
      * Syntax: <code>fhir:apiName/methodName</code>
      * 
@@ -4707,7 +4707,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-fhir
+     * Maven coordinates: org.nordix.camel:camel-fhir
      * 
      * Syntax: <code>fhir:apiName/methodName</code>
      * 
@@ -4736,7 +4736,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,core
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-file
+     * Maven coordinates: org.nordix.camel:camel-file
      * 
      * Syntax: <code>file:directoryName</code>
      * 
@@ -4756,7 +4756,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,core
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-file
+     * Maven coordinates: org.nordix.camel:camel-file
      * 
      * Syntax: <code>file:directoryName</code>
      * 
@@ -4780,7 +4780,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-file-watch
+     * Maven coordinates: org.nordix.camel:camel-file-watch
      * 
      * Syntax: <code>file-watch:path</code>
      * 
@@ -4801,7 +4801,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-file-watch
+     * Maven coordinates: org.nordix.camel:camel-file-watch
      * 
      * Syntax: <code>file-watch:path</code>
      * 
@@ -4824,7 +4824,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-flatpack
+     * Maven coordinates: org.nordix.camel:camel-flatpack
      * 
      * Syntax: <code>flatpack:type:resourceUri</code>
      * 
@@ -4849,7 +4849,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-flatpack
+     * Maven coordinates: org.nordix.camel:camel-flatpack
      * 
      * Syntax: <code>flatpack:type:resourceUri</code>
      * 
@@ -4877,7 +4877,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation,bigdata,streams
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-flink
+     * Maven coordinates: org.nordix.camel:camel-flink
      * 
      * Syntax: <code>flink:endpointType</code>
      * 
@@ -4898,7 +4898,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation,bigdata,streams
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-flink
+     * Maven coordinates: org.nordix.camel:camel-flink
      * 
      * Syntax: <code>flink:endpointType</code>
      * 
@@ -4923,7 +4923,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,transformation
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-fop
+     * Maven coordinates: org.nordix.camel:camel-fop
      * 
      * Syntax: <code>fop:outputType</code>
      * 
@@ -4947,7 +4947,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,transformation
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-fop
+     * Maven coordinates: org.nordix.camel:camel-fop
      * 
      * Syntax: <code>fop:outputType</code>
      * 
@@ -4973,7 +4973,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-freemarker
+     * Maven coordinates: org.nordix.camel:camel-freemarker
      * 
      * Syntax: <code>freemarker:resourceUri</code>
      * 
@@ -4997,7 +4997,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-freemarker
+     * Maven coordinates: org.nordix.camel:camel-freemarker
      * 
      * Syntax: <code>freemarker:resourceUri</code>
      * 
@@ -5024,7 +5024,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * Syntax: <code>ftp:host:port/directoryName</code>
      * 
@@ -5050,7 +5050,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * Syntax: <code>ftp:host:port/directoryName</code>
      * 
@@ -5080,7 +5080,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * Syntax: <code>ftps:host:port/directoryName</code>
      * 
@@ -5107,7 +5107,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * Syntax: <code>ftps:host:port/directoryName</code>
      * 
@@ -5136,7 +5136,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-ganglia
+     * Maven coordinates: org.nordix.camel:camel-ganglia
      * 
      * Syntax: <code>ganglia:host:port</code>
      * 
@@ -5161,7 +5161,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-ganglia
+     * Maven coordinates: org.nordix.camel:camel-ganglia
      * 
      * Syntax: <code>ganglia:host:port</code>
      * 
@@ -5190,7 +5190,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,location
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-geocoder
+     * Maven coordinates: org.nordix.camel:camel-geocoder
      * 
      * Syntax: <code>geocoder:address:latlng</code>
      * 
@@ -5214,7 +5214,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,location
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-geocoder
+     * Maven coordinates: org.nordix.camel:camel-geocoder
      * 
      * Syntax: <code>geocoder:address:latlng</code>
      * 
@@ -5240,7 +5240,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-git
+     * Maven coordinates: org.nordix.camel:camel-git
      * 
      * Syntax: <code>git:localPath</code>
      * 
@@ -5260,7 +5260,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-git
+     * Maven coordinates: org.nordix.camel:camel-git
      * 
      * Syntax: <code>git:localPath</code>
      * 
@@ -5283,7 +5283,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,cloud,api
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-github
+     * Maven coordinates: org.nordix.camel:camel-github
      * 
      * Syntax: <code>github:type/branchName</code>
      * 
@@ -5309,7 +5309,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,cloud,api
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-github
+     * Maven coordinates: org.nordix.camel:camel-github
      * 
      * Syntax: <code>github:type/branchName</code>
      * 
@@ -5338,7 +5338,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,bigdata
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-google-bigquery
+     * Maven coordinates: org.nordix.camel:camel-google-bigquery
      * 
      * Syntax: <code>google-bigquery:projectId:datasetId:tableId</code>
      * 
@@ -5364,7 +5364,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,bigdata
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-google-bigquery
+     * Maven coordinates: org.nordix.camel:camel-google-bigquery
      * 
      * Syntax: <code>google-bigquery:projectId:datasetId:tableId</code>
      * 
@@ -5393,7 +5393,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-bigquery
+     * Maven coordinates: org.nordix.camel:camel-google-bigquery
      * 
      * Syntax: <code>google-bigquery-sql:projectId:queryString</code>
      * 
@@ -5416,7 +5416,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-bigquery
+     * Maven coordinates: org.nordix.camel:camel-google-bigquery
      * 
      * Syntax: <code>google-bigquery-sql:projectId:queryString</code>
      * 
@@ -5442,7 +5442,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-google-calendar
+     * Maven coordinates: org.nordix.camel:camel-google-calendar
      * 
      * Syntax: <code>google-calendar:apiName/methodName</code>
      * 
@@ -5470,7 +5470,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-google-calendar
+     * Maven coordinates: org.nordix.camel:camel-google-calendar
      * 
      * Syntax: <code>google-calendar:apiName/methodName</code>
      * 
@@ -5501,7 +5501,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-calendar
+     * Maven coordinates: org.nordix.camel:camel-google-calendar
      * 
      * Syntax: <code>google-calendar-stream:index</code>
      * 
@@ -5521,7 +5521,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-calendar
+     * Maven coordinates: org.nordix.camel:camel-google-calendar
      * 
      * Syntax: <code>google-calendar-stream:index</code>
      * 
@@ -5544,7 +5544,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,cloud,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-google-drive
+     * Maven coordinates: org.nordix.camel:camel-google-drive
      * 
      * Syntax: <code>google-drive:apiName/methodName</code>
      * 
@@ -5574,7 +5574,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,cloud,api
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-google-drive
+     * Maven coordinates: org.nordix.camel:camel-google-drive
      * 
      * Syntax: <code>google-drive:apiName/methodName</code>
      * 
@@ -5607,7 +5607,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-google-functions
+     * Maven coordinates: org.nordix.camel:camel-google-functions
      * 
      * Syntax: <code>google-functions:functionName</code>
      * 
@@ -5627,7 +5627,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-google-functions
+     * Maven coordinates: org.nordix.camel:camel-google-functions
      * 
      * Syntax: <code>google-functions:functionName</code>
      * 
@@ -5650,7 +5650,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,mail
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-google-mail
+     * Maven coordinates: org.nordix.camel:camel-google-mail
      * 
      * Syntax: <code>google-mail:apiName/methodName</code>
      * 
@@ -5678,7 +5678,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,mail
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-google-mail
+     * Maven coordinates: org.nordix.camel:camel-google-mail
      * 
      * Syntax: <code>google-mail:apiName/methodName</code>
      * 
@@ -5709,7 +5709,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,mail
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-google-mail
+     * Maven coordinates: org.nordix.camel:camel-google-mail
      * 
      * Syntax: <code>google-mail-stream:index</code>
      * 
@@ -5729,7 +5729,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,mail
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-google-mail
+     * Maven coordinates: org.nordix.camel:camel-google-mail
      * 
      * Syntax: <code>google-mail-stream:index</code>
      * 
@@ -5752,7 +5752,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-google-pubsub
+     * Maven coordinates: org.nordix.camel:camel-google-pubsub
      * 
      * Syntax: <code>google-pubsub:projectId:destinationName</code>
      * 
@@ -5776,7 +5776,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-google-pubsub
+     * Maven coordinates: org.nordix.camel:camel-google-pubsub
      * 
      * Syntax: <code>google-pubsub:projectId:destinationName</code>
      * 
@@ -5803,7 +5803,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud,sheets
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-sheets
+     * Maven coordinates: org.nordix.camel:camel-google-sheets
      * 
      * Syntax: <code>google-sheets:apiName/methodName</code>
      * 
@@ -5829,7 +5829,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud,sheets
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-sheets
+     * Maven coordinates: org.nordix.camel:camel-google-sheets
      * 
      * Syntax: <code>google-sheets:apiName/methodName</code>
      * 
@@ -5858,7 +5858,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,sheets
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-sheets
+     * Maven coordinates: org.nordix.camel:camel-google-sheets
      * 
      * Syntax: <code>google-sheets-stream:spreadsheetId</code>
      * 
@@ -5879,7 +5879,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,sheets
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-sheets
+     * Maven coordinates: org.nordix.camel:camel-google-sheets
      * 
      * Syntax: <code>google-sheets-stream:spreadsheetId</code>
      * 
@@ -5904,7 +5904,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-google-storage
+     * Maven coordinates: org.nordix.camel:camel-google-storage
      * 
      * Syntax: <code>google-storage:bucketName</code>
      * 
@@ -5925,7 +5925,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.9
-     * Maven coordinates: org.apache.camel:camel-google-storage
+     * Maven coordinates: org.nordix.camel:camel-google-storage
      * 
      * Syntax: <code>google-storage:bucketName</code>
      * 
@@ -5948,7 +5948,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql,bigdata
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-gora
+     * Maven coordinates: org.nordix.camel:camel-gora
      * 
      * Syntax: <code>gora:name</code>
      * 
@@ -5968,7 +5968,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql,bigdata
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-gora
+     * Maven coordinates: org.nordix.camel:camel-gora
      * 
      * Syntax: <code>gora:name</code>
      * 
@@ -5992,7 +5992,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: management,deployment
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-grape
+     * Maven coordinates: org.nordix.camel:camel-grape
      * 
      * Syntax: <code>grape:defaultCoordinates</code>
      * 
@@ -6013,7 +6013,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: management,deployment
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-grape
+     * Maven coordinates: org.nordix.camel:camel-grape
      * 
      * Syntax: <code>grape:defaultCoordinates</code>
      * 
@@ -6036,7 +6036,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-graphql
+     * Maven coordinates: org.nordix.camel:camel-graphql
      * 
      * Syntax: <code>graphql:httpUri</code>
      * 
@@ -6056,7 +6056,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-graphql
+     * Maven coordinates: org.nordix.camel:camel-graphql
      * 
      * Syntax: <code>graphql:httpUri</code>
      * 
@@ -6079,7 +6079,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rpc
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-grpc
+     * Maven coordinates: org.nordix.camel:camel-grpc
      * 
      * Syntax: <code>grpc:host:port/service</code>
      * 
@@ -6107,7 +6107,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rpc
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-grpc
+     * Maven coordinates: org.nordix.camel:camel-grpc
      * 
      * Syntax: <code>grpc:host:port/service</code>
      * 
@@ -6138,7 +6138,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: eventbus
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-guava-eventbus
+     * Maven coordinates: org.nordix.camel:camel-guava-eventbus
      * 
      * Syntax: <code>guava-eventbus:eventBusRef</code>
      * 
@@ -6158,7 +6158,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: eventbus
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-guava-eventbus
+     * Maven coordinates: org.nordix.camel:camel-guava-eventbus
      * 
      * Syntax: <code>guava-eventbus:eventBusRef</code>
      * 
@@ -6182,7 +6182,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-atomicvalue:cacheName</code>
      * 
@@ -6203,7 +6203,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-atomicvalue:cacheName</code>
      * 
@@ -6226,7 +6226,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-instance:cacheName</code>
      * 
@@ -6246,7 +6246,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-instance:cacheName</code>
      * 
@@ -6269,7 +6269,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-list:cacheName</code>
      * 
@@ -6289,7 +6289,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-list:cacheName</code>
      * 
@@ -6312,7 +6312,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-map:cacheName</code>
      * 
@@ -6332,7 +6332,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-map:cacheName</code>
      * 
@@ -6355,7 +6355,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-multimap:cacheName</code>
      * 
@@ -6375,7 +6375,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-multimap:cacheName</code>
      * 
@@ -6398,7 +6398,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,messaging
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-queue:cacheName</code>
      * 
@@ -6418,7 +6418,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,messaging
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-queue:cacheName</code>
      * 
@@ -6441,7 +6441,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-replicatedmap:cacheName</code>
      * 
@@ -6461,7 +6461,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-replicatedmap:cacheName</code>
      * 
@@ -6484,7 +6484,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-ringbuffer:cacheName</code>
      * 
@@ -6504,7 +6504,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-ringbuffer:cacheName</code>
      * 
@@ -6528,7 +6528,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-seda:cacheName</code>
      * 
@@ -6549,7 +6549,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-seda:cacheName</code>
      * 
@@ -6572,7 +6572,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-set:cacheName</code>
      * 
@@ -6592,7 +6592,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-set:cacheName</code>
      * 
@@ -6615,7 +6615,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-topic:cacheName</code>
      * 
@@ -6635,7 +6635,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-hazelcast
+     * Maven coordinates: org.nordix.camel:camel-hazelcast
      * 
      * Syntax: <code>hazelcast-topic:cacheName</code>
      * 
@@ -6658,7 +6658,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bigdata,database,hadoop
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-hbase
+     * Maven coordinates: org.nordix.camel:camel-hbase
      * 
      * Syntax: <code>hbase:tableName</code>
      * 
@@ -6678,7 +6678,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bigdata,database,hadoop
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-hbase
+     * Maven coordinates: org.nordix.camel:camel-hbase
      * 
      * Syntax: <code>hbase:tableName</code>
      * 
@@ -6701,7 +6701,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bigdata,hadoop,file
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-hdfs
+     * Maven coordinates: org.nordix.camel:camel-hdfs
      * 
      * Syntax: <code>hdfs:hostName:port/path</code>
      * 
@@ -6728,7 +6728,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bigdata,hadoop,file
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-hdfs
+     * Maven coordinates: org.nordix.camel:camel-hdfs
      * 
      * Syntax: <code>hdfs:hostName:port/path</code>
      * 
@@ -6758,7 +6758,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-http
+     * Maven coordinates: org.nordix.camel:camel-http
      * 
      * Syntax: <code>http://httpUri</code>
      * 
@@ -6778,7 +6778,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-http
+     * Maven coordinates: org.nordix.camel:camel-http
      * 
      * Syntax: <code>http://httpUri</code>
      * 
@@ -6802,7 +6802,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-dms
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-dms
      * 
      * Syntax: <code>hwcloud-dms:operation</code>
      * 
@@ -6823,7 +6823,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-dms
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-dms
      * 
      * Syntax: <code>hwcloud-dms:operation</code>
      * 
@@ -6846,7 +6846,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,serverless
      * Since: 3.11
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-functiongraph
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-functiongraph
      * 
      * Syntax: <code>hwcloud-functiongraph:operation</code>
      * 
@@ -6866,7 +6866,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,serverless
      * Since: 3.11
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-functiongraph
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-functiongraph
      * 
      * Syntax: <code>hwcloud-functiongraph:operation</code>
      * 
@@ -6889,7 +6889,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.11
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-iam
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-iam
      * 
      * Syntax: <code>hwcloud-iam:operation</code>
      * 
@@ -6909,7 +6909,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.11
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-iam
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-iam
      * 
      * Syntax: <code>hwcloud-iam:operation</code>
      * 
@@ -6977,7 +6977,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-imagerecognition
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-imagerecognition
      * 
      * Syntax: <code>hwcloud-imagerecognition:operation</code>
      * 
@@ -6998,7 +6998,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-imagerecognition
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-imagerecognition
      * 
      * Syntax: <code>hwcloud-imagerecognition:operation</code>
      * 
@@ -7023,7 +7023,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-obs
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-obs
      * 
      * Syntax: <code>hwcloud-obs:operation</code>
      * 
@@ -7044,7 +7044,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-obs
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-obs
      * 
      * Syntax: <code>hwcloud-obs:operation</code>
      * 
@@ -7068,7 +7068,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-smn
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-smn
      * 
      * Syntax: <code>hwcloud-smn:smnService</code>
      * 
@@ -7089,7 +7089,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-huaweicloud-smn
+     * Maven coordinates: org.nordix.camel:camel-huaweicloud-smn
      * 
      * Syntax: <code>hwcloud-smn:smnService</code>
      * 
@@ -7113,7 +7113,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-iec60870
+     * Maven coordinates: org.nordix.camel:camel-iec60870
      * 
      * Syntax: <code>iec60870-client:uriPath</code>
      * 
@@ -7134,7 +7134,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-iec60870
+     * Maven coordinates: org.nordix.camel:camel-iec60870
      * 
      * Syntax: <code>iec60870-client:uriPath</code>
      * 
@@ -7158,7 +7158,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-iec60870
+     * Maven coordinates: org.nordix.camel:camel-iec60870
      * 
      * Syntax: <code>iec60870-server:uriPath</code>
      * 
@@ -7179,7 +7179,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-iec60870
+     * Maven coordinates: org.nordix.camel:camel-iec60870
      * 
      * Syntax: <code>iec60870-server:uriPath</code>
      * 
@@ -7203,7 +7203,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-cache:cacheName</code>
      * 
@@ -7224,7 +7224,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-cache:cacheName</code>
      * 
@@ -7247,7 +7247,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: compute
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-compute:endpointId</code>
      * 
@@ -7267,7 +7267,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: compute
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-compute:endpointId</code>
      * 
@@ -7290,7 +7290,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging,eventbus
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-events:endpointId</code>
      * 
@@ -7310,7 +7310,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging,eventbus
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-events:endpointId</code>
      * 
@@ -7333,7 +7333,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: compute
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-idgen:name</code>
      * 
@@ -7353,7 +7353,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: compute
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-idgen:name</code>
      * 
@@ -7376,7 +7376,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-messaging:topic</code>
      * 
@@ -7396,7 +7396,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-messaging:topic</code>
      * 
@@ -7419,7 +7419,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging,queue
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-queue:name</code>
      * 
@@ -7439,7 +7439,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging,queue
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-queue:name</code>
      * 
@@ -7462,7 +7462,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,compute
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-set:name</code>
      * 
@@ -7482,7 +7482,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,compute
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ignite
+     * Maven coordinates: org.nordix.camel:camel-ignite
      * 
      * Syntax: <code>ignite-set:name</code>
      * 
@@ -7505,7 +7505,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: mail
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mail
+     * Maven coordinates: org.nordix.camel:camel-mail
      * 
      * Syntax: <code>imap:host:port</code>
      * 
@@ -7528,7 +7528,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: mail
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mail
+     * Maven coordinates: org.nordix.camel:camel-mail
      * 
      * Syntax: <code>imap:host:port</code>
      * 
@@ -7555,7 +7555,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-infinispan
+     * Maven coordinates: org.nordix.camel:camel-infinispan
      * 
      * Syntax: <code>infinispan:cacheName</code>
      * 
@@ -7578,7 +7578,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-infinispan
+     * Maven coordinates: org.nordix.camel:camel-infinispan
      * 
      * Syntax: <code>infinispan:cacheName</code>
      * 
@@ -7604,7 +7604,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-infinispan-embedded
+     * Maven coordinates: org.nordix.camel:camel-infinispan-embedded
      * 
      * Syntax: <code>infinispan-embedded:cacheName</code>
      * 
@@ -7627,7 +7627,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-infinispan-embedded
+     * Maven coordinates: org.nordix.camel:camel-infinispan-embedded
      * 
      * Syntax: <code>infinispan-embedded:cacheName</code>
      * 
@@ -7652,7 +7652,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-influxdb
+     * Maven coordinates: org.nordix.camel:camel-influxdb
      * 
      * Syntax: <code>influxdb:connectionBean</code>
      * 
@@ -7672,7 +7672,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-influxdb
+     * Maven coordinates: org.nordix.camel:camel-influxdb
      * 
      * Syntax: <code>influxdb:connectionBean</code>
      * 
@@ -7695,7 +7695,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: ledger,api
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-iota
+     * Maven coordinates: org.nordix.camel:camel-iota
      * 
      * Syntax: <code>iota:name</code>
      * 
@@ -7715,7 +7715,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: ledger,api
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-iota
+     * Maven coordinates: org.nordix.camel:camel-iota
      * 
      * Syntax: <code>iota:name</code>
      * 
@@ -7738,7 +7738,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,ipfs
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-ipfs
+     * Maven coordinates: org.nordix.camel:camel-ipfs
      * 
      * Syntax: <code>ipfs:ipfsCmd</code>
      * 
@@ -7759,7 +7759,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,ipfs
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-ipfs
+     * Maven coordinates: org.nordix.camel:camel-ipfs
      * 
      * Syntax: <code>ipfs:ipfsCmd</code>
      * 
@@ -7783,7 +7783,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: chat
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-irc
+     * Maven coordinates: org.nordix.camel:camel-irc
      * 
      * Syntax: <code>irc:hostname:port</code>
      * 
@@ -7807,7 +7807,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: chat
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-irc
+     * Maven coordinates: org.nordix.camel:camel-irc
      * 
      * Syntax: <code>irc:hostname:port</code>
      * 
@@ -7835,7 +7835,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ironmq
+     * Maven coordinates: org.nordix.camel:camel-ironmq
      * 
      * Syntax: <code>ironmq:queueName</code>
      * 
@@ -7856,7 +7856,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ironmq
+     * Maven coordinates: org.nordix.camel:camel-ironmq
      * 
      * Syntax: <code>ironmq:queueName</code>
      * 
@@ -7879,7 +7879,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,workflow
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-jbpm
+     * Maven coordinates: org.nordix.camel:camel-jbpm
      * 
      * Syntax: <code>jbpm:connectionURL</code>
      * 
@@ -7902,7 +7902,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,workflow
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-jbpm
+     * Maven coordinates: org.nordix.camel:camel-jbpm
      * 
      * Syntax: <code>jbpm:connectionURL</code>
      * 
@@ -7928,7 +7928,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-jcache
+     * Maven coordinates: org.nordix.camel:camel-jcache
      * 
      * Syntax: <code>jcache:cacheName</code>
      * 
@@ -7948,7 +7948,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-jcache
+     * Maven coordinates: org.nordix.camel:camel-jcache
      * 
      * Syntax: <code>jcache:cacheName</code>
      * 
@@ -7971,7 +7971,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud,compute
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-jclouds
+     * Maven coordinates: org.nordix.camel:camel-jclouds
      * 
      * Syntax: <code>jclouds:command:providerId</code>
      * 
@@ -7996,7 +7996,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud,compute
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-jclouds
+     * Maven coordinates: org.nordix.camel:camel-jclouds
      * 
      * Syntax: <code>jclouds:command:providerId</code>
      * 
@@ -8024,7 +8024,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,cms
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-jcr
+     * Maven coordinates: org.nordix.camel:camel-jcr
      * 
      * Syntax: <code>jcr:host/base</code>
      * 
@@ -8048,7 +8048,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,cms
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-jcr
+     * Maven coordinates: org.nordix.camel:camel-jcr
      * 
      * Syntax: <code>jcr:host/base</code>
      * 
@@ -8075,7 +8075,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-jdbc
+     * Maven coordinates: org.nordix.camel:camel-jdbc
      * 
      * Syntax: <code>jdbc:dataSourceName</code>
      * 
@@ -8098,7 +8098,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-jdbc
+     * Maven coordinates: org.nordix.camel:camel-jdbc
      * 
      * Syntax: <code>jdbc:dataSourceName</code>
      * 
@@ -8124,7 +8124,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-jetty
+     * Maven coordinates: org.nordix.camel:camel-jetty
      * 
      * Syntax: <code>jetty:httpUri</code>
      * 
@@ -8144,7 +8144,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-jetty
+     * Maven coordinates: org.nordix.camel:camel-jetty
      * 
      * Syntax: <code>jetty:httpUri</code>
      * 
@@ -8167,7 +8167,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,messaging
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-jgroups
+     * Maven coordinates: org.nordix.camel:camel-jgroups
      * 
      * Syntax: <code>jgroups:clusterName</code>
      * 
@@ -8187,7 +8187,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,messaging
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-jgroups
+     * Maven coordinates: org.nordix.camel:camel-jgroups
      * 
      * Syntax: <code>jgroups:clusterName</code>
      * 
@@ -8210,7 +8210,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,messaging
      * Since: 2.24
-     * Maven coordinates: org.apache.camel:camel-jgroups-raft
+     * Maven coordinates: org.nordix.camel:camel-jgroups-raft
      * 
      * Syntax: <code>jgroups-raft:clusterName</code>
      * 
@@ -8230,7 +8230,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,messaging
      * Since: 2.24
-     * Maven coordinates: org.apache.camel:camel-jgroups-raft
+     * Maven coordinates: org.nordix.camel:camel-jgroups-raft
      * 
      * Syntax: <code>jgroups-raft:clusterName</code>
      * 
@@ -8254,7 +8254,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-jing
+     * Maven coordinates: org.nordix.camel:camel-jing
      * 
      * Syntax: <code>jing:resourceUri</code>
      * 
@@ -8277,7 +8277,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-jing
+     * Maven coordinates: org.nordix.camel:camel-jing
      * 
      * Syntax: <code>jing:resourceUri</code>
      * 
@@ -8302,7 +8302,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,reporting
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-jira
+     * Maven coordinates: org.nordix.camel:camel-jira
      * 
      * Syntax: <code>jira:type</code>
      * 
@@ -8328,7 +8328,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,reporting
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-jira
+     * Maven coordinates: org.nordix.camel:camel-jira
      * 
      * Syntax: <code>jira:type</code>
      * 
@@ -8357,7 +8357,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-jms
+     * Maven coordinates: org.nordix.camel:camel-jms
      * 
      * Syntax: <code>jms:destinationType:destinationName</code>
      * 
@@ -8383,7 +8383,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-jms
+     * Maven coordinates: org.nordix.camel:camel-jms
      * 
      * Syntax: <code>jms:destinationType:destinationName</code>
      * 
@@ -8412,7 +8412,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-jmx
+     * Maven coordinates: org.nordix.camel:camel-jmx
      * 
      * Syntax: <code>jmx:serverURL</code>
      * 
@@ -8433,7 +8433,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-jmx
+     * Maven coordinates: org.nordix.camel:camel-jmx
      * 
      * Syntax: <code>jmx:serverURL</code>
      * 
@@ -8457,7 +8457,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-jolt
+     * Maven coordinates: org.nordix.camel:camel-jolt
      * 
      * Syntax: <code>jolt:resourceUri</code>
      * 
@@ -8481,7 +8481,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-jolt
+     * Maven coordinates: org.nordix.camel:camel-jolt
      * 
      * Syntax: <code>jolt:resourceUri</code>
      * 
@@ -8508,7 +8508,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-jooq
+     * Maven coordinates: org.nordix.camel:camel-jooq
      * 
      * Syntax: <code>jooq:entityType</code>
      * 
@@ -8528,7 +8528,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-jooq
+     * Maven coordinates: org.nordix.camel:camel-jooq
      * 
      * Syntax: <code>jooq:entityType</code>
      * 
@@ -8552,7 +8552,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-jpa
+     * Maven coordinates: org.nordix.camel:camel-jpa
      * 
      * Syntax: <code>jpa:entityType</code>
      * 
@@ -8573,7 +8573,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-jpa
+     * Maven coordinates: org.nordix.camel:camel-jpa
      * 
      * Syntax: <code>jpa:entityType</code>
      * 
@@ -8596,7 +8596,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-jslt
+     * Maven coordinates: org.nordix.camel:camel-jslt
      * 
      * Syntax: <code>jslt:resourceUri</code>
      * 
@@ -8620,7 +8620,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-jslt
+     * Maven coordinates: org.nordix.camel:camel-jslt
      * 
      * Syntax: <code>jslt:resourceUri</code>
      * 
@@ -8647,7 +8647,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-jsonata
+     * Maven coordinates: org.nordix.camel:camel-jsonata
      * 
      * Syntax: <code>jsonata:resourceUri</code>
      * 
@@ -8671,7 +8671,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-jsonata
+     * Maven coordinates: org.nordix.camel:camel-jsonata
      * 
      * Syntax: <code>jsonata:resourceUri</code>
      * 
@@ -8698,7 +8698,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-json-patch
+     * Maven coordinates: org.nordix.camel:camel-json-patch
      * 
      * Syntax: <code>json-patch:resourceUri</code>
      * 
@@ -8722,7 +8722,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-json-patch
+     * Maven coordinates: org.nordix.camel:camel-json-patch
      * 
      * Syntax: <code>json-patch:resourceUri</code>
      * 
@@ -8749,7 +8749,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-json-validator
+     * Maven coordinates: org.nordix.camel:camel-json-validator
      * 
      * Syntax: <code>json-validator:resourceUri</code>
      * 
@@ -8773,7 +8773,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-json-validator
+     * Maven coordinates: org.nordix.camel:camel-json-validator
      * 
      * Syntax: <code>json-validator:resourceUri</code>
      * 
@@ -8802,7 +8802,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 1.5
-     * Maven coordinates: org.apache.camel:camel-jt400
+     * Maven coordinates: org.nordix.camel:camel-jt400
      * 
      * Syntax: <code>jt400:userID:password/systemName/objectPath.type</code>
      * 
@@ -8838,7 +8838,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 1.5
-     * Maven coordinates: org.apache.camel:camel-jt400
+     * Maven coordinates: org.nordix.camel:camel-jt400
      * 
      * Syntax: <code>jt400:userID:password/systemName/objectPath.type</code>
      * 
@@ -8875,7 +8875,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-kafka
+     * Maven coordinates: org.nordix.camel:camel-kafka
      * 
      * Syntax: <code>kafka:topic</code>
      * 
@@ -8896,7 +8896,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-kafka
+     * Maven coordinates: org.nordix.camel:camel-kafka
      * 
      * Syntax: <code>kafka:topic</code>
      * 
@@ -8920,7 +8920,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-kamelet
+     * Maven coordinates: org.nordix.camel:camel-kamelet
      * 
      * Syntax: <code>kamelet:templateId/routeId</code>
      * 
@@ -8944,7 +8944,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-kamelet
+     * Maven coordinates: org.nordix.camel:camel-kamelet
      * 
      * Syntax: <code>kamelet:templateId/routeId</code>
      * 
@@ -8971,7 +8971,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core
      * Since: 3.6
-     * Maven coordinates: org.apache.camel:camel-kamelet-reify
+     * Maven coordinates: org.nordix.camel:camel-kamelet-reify
      * 
      * Syntax: <code>kamelet-reify:delegateUri</code>
      * 
@@ -8992,7 +8992,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core
      * Since: 3.6
-     * Maven coordinates: org.apache.camel:camel-kamelet-reify
+     * Maven coordinates: org.nordix.camel:camel-kamelet-reify
      * 
      * Syntax: <code>kamelet-reify:delegateUri</code>
      * 
@@ -9017,7 +9017,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-config-maps:masterUrl</code>
      * 
@@ -9038,7 +9038,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-config-maps:masterUrl</code>
      * 
@@ -9062,7 +9062,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-custom-resources:masterUrl</code>
      * 
@@ -9083,7 +9083,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-custom-resources:masterUrl</code>
      * 
@@ -9107,7 +9107,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-deployments:masterUrl</code>
      * 
@@ -9128,7 +9128,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-deployments:masterUrl</code>
      * 
@@ -9152,7 +9152,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-hpa:masterUrl</code>
      * 
@@ -9173,7 +9173,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-hpa:masterUrl</code>
      * 
@@ -9196,7 +9196,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-job:masterUrl</code>
      * 
@@ -9216,7 +9216,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-job:masterUrl</code>
      * 
@@ -9240,7 +9240,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-namespaces:masterUrl</code>
      * 
@@ -9261,7 +9261,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-namespaces:masterUrl</code>
      * 
@@ -9284,7 +9284,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-nodes:masterUrl</code>
      * 
@@ -9304,7 +9304,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-nodes:masterUrl</code>
      * 
@@ -9328,7 +9328,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-persistent-volumes:masterUrl</code>
      * 
@@ -9349,7 +9349,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-persistent-volumes:masterUrl</code>
      * 
@@ -9373,7 +9373,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-persistent-volumes-claims:masterUrl</code>
      * 
@@ -9394,7 +9394,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-persistent-volumes-claims:masterUrl</code>
      * 
@@ -9417,7 +9417,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-pods:masterUrl</code>
      * 
@@ -9437,7 +9437,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-pods:masterUrl</code>
      * 
@@ -9461,7 +9461,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-replication-controllers:masterUrl</code>
      * 
@@ -9482,7 +9482,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-replication-controllers:masterUrl</code>
      * 
@@ -9505,7 +9505,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-resources-quota:masterUrl</code>
      * 
@@ -9525,7 +9525,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-resources-quota:masterUrl</code>
      * 
@@ -9548,7 +9548,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-secrets:masterUrl</code>
      * 
@@ -9568,7 +9568,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-secrets:masterUrl</code>
      * 
@@ -9591,7 +9591,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-service-accounts:masterUrl</code>
      * 
@@ -9611,7 +9611,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-service-accounts:masterUrl</code>
      * 
@@ -9635,7 +9635,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-services:masterUrl</code>
      * 
@@ -9656,7 +9656,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>kubernetes-services:masterUrl</code>
      * 
@@ -9680,7 +9680,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,iot,cloud
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-kudu
+     * Maven coordinates: org.nordix.camel:camel-kudu
      * 
      * Syntax: <code>kudu:host:port/tableName</code>
      * 
@@ -9707,7 +9707,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,iot,cloud
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-kudu
+     * Maven coordinates: org.nordix.camel:camel-kudu
      * 
      * Syntax: <code>kudu:host:port/tableName</code>
      * 
@@ -9736,7 +9736,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,script
      * Since: 2.5
-     * Maven coordinates: org.apache.camel:camel-language
+     * Maven coordinates: org.nordix.camel:camel-language
      * 
      * Syntax: <code>language:languageName:resourceUri</code>
      * 
@@ -9763,7 +9763,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,script
      * Since: 2.5
-     * Maven coordinates: org.apache.camel:camel-language
+     * Maven coordinates: org.nordix.camel:camel-language
      * 
      * Syntax: <code>language:languageName:resourceUri</code>
      * 
@@ -9793,7 +9793,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: search,ldap
      * Since: 1.5
-     * Maven coordinates: org.apache.camel:camel-ldap
+     * Maven coordinates: org.nordix.camel:camel-ldap
      * 
      * Syntax: <code>ldap:dirContextName</code>
      * 
@@ -9820,7 +9820,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: search,ldap
      * Since: 1.5
-     * Maven coordinates: org.apache.camel:camel-ldap
+     * Maven coordinates: org.nordix.camel:camel-ldap
      * 
      * Syntax: <code>ldap:dirContextName</code>
      * 
@@ -9850,7 +9850,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: ldap
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-ldif
+     * Maven coordinates: org.nordix.camel:camel-ldif
      * 
      * Syntax: <code>ldif:ldapConnectionName</code>
      * 
@@ -9872,7 +9872,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: ldap
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-ldif
+     * Maven coordinates: org.nordix.camel:camel-ldif
      * 
      * Syntax: <code>ldif:ldapConnectionName</code>
      * 
@@ -9897,7 +9897,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,monitoring
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-log
+     * Maven coordinates: org.nordix.camel:camel-log
      * 
      * Syntax: <code>log:loggerName</code>
      * 
@@ -9917,7 +9917,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,monitoring
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-log
+     * Maven coordinates: org.nordix.camel:camel-log
      * 
      * Syntax: <code>log:loggerName</code>
      * 
@@ -9940,7 +9940,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: printing
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-printer
+     * Maven coordinates: org.nordix.camel:camel-printer
      * 
      * Syntax: <code>lpr:hostname:port/printername</code>
      * 
@@ -9966,7 +9966,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: printing
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-printer
+     * Maven coordinates: org.nordix.camel:camel-printer
      * 
      * Syntax: <code>lpr:hostname:port/printername</code>
      * 
@@ -9995,7 +9995,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,search
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-lucene
+     * Maven coordinates: org.nordix.camel:camel-lucene
      * 
      * Syntax: <code>lucene:host:operation</code>
      * 
@@ -10019,7 +10019,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,search
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-lucene
+     * Maven coordinates: org.nordix.camel:camel-lucene
      * 
      * Syntax: <code>lucene:host:operation</code>
      * 
@@ -10046,7 +10046,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: log
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-lumberjack
+     * Maven coordinates: org.nordix.camel:camel-lumberjack
      * 
      * Syntax: <code>lumberjack:host:port</code>
      * 
@@ -10070,7 +10070,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: log
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-lumberjack
+     * Maven coordinates: org.nordix.camel:camel-lumberjack
      * 
      * Syntax: <code>lumberjack:host:port</code>
      * 
@@ -10098,7 +10098,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-master
+     * Maven coordinates: org.nordix.camel:camel-master
      * 
      * Syntax: <code>master:namespace:delegateUri</code>
      * 
@@ -10122,7 +10122,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-master
+     * Maven coordinates: org.nordix.camel:camel-master
      * 
      * Syntax: <code>master:namespace:delegateUri</code>
      * 
@@ -10149,7 +10149,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-metrics
+     * Maven coordinates: org.nordix.camel:camel-metrics
      * 
      * Syntax: <code>metrics:metricsType:metricsName</code>
      * 
@@ -10175,7 +10175,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-metrics
+     * Maven coordinates: org.nordix.camel:camel-metrics
      * 
      * Syntax: <code>metrics:metricsType:metricsName</code>
      * 
@@ -10204,7 +10204,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-micrometer
+     * Maven coordinates: org.nordix.camel:camel-micrometer
      * 
      * Syntax: <code>micrometer:metricsType:metricsName</code>
      * 
@@ -10233,7 +10233,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-micrometer
+     * Maven coordinates: org.nordix.camel:camel-micrometer
      * 
      * Syntax: <code>micrometer:metricsType:metricsName</code>
      * 
@@ -10264,7 +10264,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-microprofile-metrics
+     * Maven coordinates: org.nordix.camel:camel-microprofile-metrics
      * 
      * Syntax: <code>microprofile-metrics:metricType:metricName</code>
      * 
@@ -10289,7 +10289,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-microprofile-metrics
+     * Maven coordinates: org.nordix.camel:camel-microprofile-metrics
      * 
      * Syntax: <code>microprofile-metrics:metricType:metricName</code>
      * 
@@ -10318,7 +10318,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-milo
+     * Maven coordinates: org.nordix.camel:camel-milo
      * 
      * Syntax: <code>milo-client:endpointUri</code>
      * 
@@ -10339,7 +10339,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-milo
+     * Maven coordinates: org.nordix.camel:camel-milo
      * 
      * Syntax: <code>milo-client:endpointUri</code>
      * 
@@ -10362,7 +10362,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-milo
+     * Maven coordinates: org.nordix.camel:camel-milo
      * 
      * Syntax: <code>milo-server:itemId</code>
      * 
@@ -10382,7 +10382,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-milo
+     * Maven coordinates: org.nordix.camel:camel-milo
      * 
      * Syntax: <code>milo-server:itemId</code>
      * 
@@ -10405,7 +10405,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking,tcp,udp
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-mina
+     * Maven coordinates: org.nordix.camel:camel-mina
      * 
      * Syntax: <code>mina:protocol:host:port</code>
      * 
@@ -10432,7 +10432,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking,tcp,udp
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-mina
+     * Maven coordinates: org.nordix.camel:camel-mina
      * 
      * Syntax: <code>mina:protocol:host:port</code>
      * 
@@ -10462,7 +10462,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-minio
+     * Maven coordinates: org.nordix.camel:camel-minio
      * 
      * Syntax: <code>minio:bucketName</code>
      * 
@@ -10482,7 +10482,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,file
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-minio
+     * Maven coordinates: org.nordix.camel:camel-minio
      * 
      * Syntax: <code>minio:bucketName</code>
      * 
@@ -10505,7 +10505,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking,rpc,mllp
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-mllp
+     * Maven coordinates: org.nordix.camel:camel-mllp
      * 
      * Syntax: <code>mllp:hostname:port</code>
      * 
@@ -10529,7 +10529,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking,rpc,mllp
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-mllp
+     * Maven coordinates: org.nordix.camel:camel-mllp
      * 
      * Syntax: <code>mllp:hostname:port</code>
      * 
@@ -10556,7 +10556,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,testing
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mock
+     * Maven coordinates: org.nordix.camel:camel-mock
      * 
      * Syntax: <code>mock:name</code>
      * 
@@ -10576,7 +10576,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,testing
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mock
+     * Maven coordinates: org.nordix.camel:camel-mock
      * 
      * Syntax: <code>mock:name</code>
      * 
@@ -10599,7 +10599,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-mongodb
+     * Maven coordinates: org.nordix.camel:camel-mongodb
      * 
      * Syntax: <code>mongodb:connectionBean</code>
      * 
@@ -10620,7 +10620,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-mongodb
+     * Maven coordinates: org.nordix.camel:camel-mongodb
      * 
      * Syntax: <code>mongodb:connectionBean</code>
      * 
@@ -10644,7 +10644,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-mongodb-gridfs
+     * Maven coordinates: org.nordix.camel:camel-mongodb-gridfs
      * 
      * Syntax: <code>mongodb-gridfs:connectionBean</code>
      * 
@@ -10664,7 +10664,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-mongodb-gridfs
+     * Maven coordinates: org.nordix.camel:camel-mongodb-gridfs
      * 
      * Syntax: <code>mongodb-gridfs:connectionBean</code>
      * 
@@ -10687,7 +10687,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-msv
+     * Maven coordinates: org.nordix.camel:camel-msv
      * 
      * Syntax: <code>msv:resourceUri</code>
      * 
@@ -10709,7 +10709,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-msv
+     * Maven coordinates: org.nordix.camel:camel-msv
      * 
      * Syntax: <code>msv:resourceUri</code>
      * 
@@ -10734,7 +10734,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-mustache
+     * Maven coordinates: org.nordix.camel:camel-mustache
      * 
      * Syntax: <code>mustache:resourceUri</code>
      * 
@@ -10758,7 +10758,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-mustache
+     * Maven coordinates: org.nordix.camel:camel-mustache
      * 
      * Syntax: <code>mustache:resourceUri</code>
      * 
@@ -10785,7 +10785,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation,script
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-mvel
+     * Maven coordinates: org.nordix.camel:camel-mvel
      * 
      * Syntax: <code>mvel:resourceUri</code>
      * 
@@ -10809,7 +10809,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation,script
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-mvel
+     * Maven coordinates: org.nordix.camel:camel-mvel
      * 
      * Syntax: <code>mvel:resourceUri</code>
      * 
@@ -10837,7 +10837,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-mybatis
+     * Maven coordinates: org.nordix.camel:camel-mybatis
      * 
      * Syntax: <code>mybatis:statement</code>
      * 
@@ -10859,7 +10859,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.7
-     * Maven coordinates: org.apache.camel:camel-mybatis
+     * Maven coordinates: org.nordix.camel:camel-mybatis
      * 
      * Syntax: <code>mybatis:statement</code>
      * 
@@ -10884,7 +10884,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-mybatis
+     * Maven coordinates: org.nordix.camel:camel-mybatis
      * 
      * Syntax: <code>mybatis-bean:beanName:methodName</code>
      * 
@@ -10909,7 +10909,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-mybatis
+     * Maven coordinates: org.nordix.camel:camel-mybatis
      * 
      * Syntax: <code>mybatis-bean:beanName:methodName</code>
      * 
@@ -10936,7 +10936,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-nagios
+     * Maven coordinates: org.nordix.camel:camel-nagios
      * 
      * Syntax: <code>nagios:host:port</code>
      * 
@@ -10959,7 +10959,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-nagios
+     * Maven coordinates: org.nordix.camel:camel-nagios
      * 
      * Syntax: <code>nagios:host:port</code>
      * 
@@ -10985,7 +10985,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-nats
+     * Maven coordinates: org.nordix.camel:camel-nats
      * 
      * Syntax: <code>nats:topic</code>
      * 
@@ -11005,7 +11005,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-nats
+     * Maven coordinates: org.nordix.camel:camel-nats
      * 
      * Syntax: <code>nats:topic</code>
      * 
@@ -11028,7 +11028,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking,tcp,udp
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-netty
+     * Maven coordinates: org.nordix.camel:camel-netty
      * 
      * Syntax: <code>netty:protocol://host:port</code>
      * 
@@ -11056,7 +11056,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking,tcp,udp
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-netty
+     * Maven coordinates: org.nordix.camel:camel-netty
      * 
      * Syntax: <code>netty:protocol://host:port</code>
      * 
@@ -11087,7 +11087,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking,http
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-netty-http
+     * Maven coordinates: org.nordix.camel:camel-netty-http
      * 
      * Syntax: <code>netty-http:protocol://host:port/path</code>
      * 
@@ -11119,7 +11119,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: networking,http
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-netty-http
+     * Maven coordinates: org.nordix.camel:camel-netty-http
      * 
      * Syntax: <code>netty-http:protocol://host:port/path</code>
      * 
@@ -11154,7 +11154,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-nitrite
+     * Maven coordinates: org.nordix.camel:camel-nitrite
      * 
      * Syntax: <code>nitrite:database</code>
      * 
@@ -11174,7 +11174,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,nosql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-nitrite
+     * Maven coordinates: org.nordix.camel:camel-nitrite
      * 
      * Syntax: <code>nitrite:database</code>
      * 
@@ -11198,7 +11198,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-nsq
+     * Maven coordinates: org.nordix.camel:camel-nsq
      * 
      * Syntax: <code>nsq:topic</code>
      * 
@@ -11219,7 +11219,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-nsq
+     * Maven coordinates: org.nordix.camel:camel-nsq
      * 
      * Syntax: <code>nsq:topic</code>
      * 
@@ -11242,7 +11242,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: endpoint,webservice,batch
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-oaipmh
+     * Maven coordinates: org.nordix.camel:camel-oaipmh
      * 
      * Syntax: <code>oaipmh:baseUrl</code>
      * 
@@ -11263,7 +11263,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: endpoint,webservice,batch
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-oaipmh
+     * Maven coordinates: org.nordix.camel:camel-oaipmh
      * 
      * Syntax: <code>oaipmh:baseUrl</code>
      * 
@@ -11287,7 +11287,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-olingo2
+     * Maven coordinates: org.nordix.camel:camel-olingo2
      * 
      * Syntax: <code>olingo2:apiName/methodName</code>
      * 
@@ -11311,7 +11311,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-olingo2
+     * Maven coordinates: org.nordix.camel:camel-olingo2
      * 
      * Syntax: <code>olingo2:apiName/methodName</code>
      * 
@@ -11338,7 +11338,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-olingo4
+     * Maven coordinates: org.nordix.camel:camel-olingo4
      * 
      * Syntax: <code>olingo4:apiName/methodName</code>
      * 
@@ -11362,7 +11362,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-olingo4
+     * Maven coordinates: org.nordix.camel:camel-olingo4
      * 
      * Syntax: <code>olingo4:apiName/methodName</code>
      * 
@@ -11389,7 +11389,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>openshift-build-configs:masterUrl</code>
      * 
@@ -11409,7 +11409,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>openshift-build-configs:masterUrl</code>
      * 
@@ -11432,7 +11432,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>openshift-builds:masterUrl</code>
      * 
@@ -11452,7 +11452,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: container,cloud,paas
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-kubernetes
+     * Maven coordinates: org.nordix.camel:camel-kubernetes
      * 
      * Syntax: <code>openshift-builds:masterUrl</code>
      * 
@@ -11475,7 +11475,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-cinder:host</code>
      * 
@@ -11495,7 +11495,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-cinder:host</code>
      * 
@@ -11518,7 +11518,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-glance:host</code>
      * 
@@ -11538,7 +11538,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-glance:host</code>
      * 
@@ -11562,7 +11562,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-keystone:host</code>
      * 
@@ -11583,7 +11583,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-keystone:host</code>
      * 
@@ -11606,7 +11606,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-neutron:host</code>
      * 
@@ -11626,7 +11626,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-neutron:host</code>
      * 
@@ -11649,7 +11649,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-nova:host</code>
      * 
@@ -11669,7 +11669,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-nova:host</code>
      * 
@@ -11692,7 +11692,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-swift:host</code>
      * 
@@ -11712,7 +11712,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,paas
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-openstack
+     * Maven coordinates: org.nordix.camel:camel-openstack
      * 
      * Syntax: <code>openstack-swift:host</code>
      * 
@@ -11735,7 +11735,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: engine,planning
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-optaplanner
+     * Maven coordinates: org.nordix.camel:camel-optaplanner
      * 
      * Syntax: <code>optaplanner:configFile</code>
      * 
@@ -11759,7 +11759,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: engine,planning
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-optaplanner
+     * Maven coordinates: org.nordix.camel:camel-optaplanner
      * 
      * Syntax: <code>optaplanner:configFile</code>
      * 
@@ -11786,7 +11786,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging,iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-paho
+     * Maven coordinates: org.nordix.camel:camel-paho
      * 
      * Syntax: <code>paho:topic</code>
      * 
@@ -11806,7 +11806,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging,iot
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-paho
+     * Maven coordinates: org.nordix.camel:camel-paho
      * 
      * Syntax: <code>paho:topic</code>
      * 
@@ -11829,7 +11829,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging,iot
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-paho-mqtt5
+     * Maven coordinates: org.nordix.camel:camel-paho-mqtt5
      * 
      * Syntax: <code>paho-mqtt5:topic</code>
      * 
@@ -11849,7 +11849,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging,iot
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-paho-mqtt5
+     * Maven coordinates: org.nordix.camel:camel-paho-mqtt5
      * 
      * Syntax: <code>paho-mqtt5:topic</code>
      * 
@@ -11872,7 +11872,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: document,transformation,printing
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-pdf
+     * Maven coordinates: org.nordix.camel:camel-pdf
      * 
      * Syntax: <code>pdf:operation</code>
      * 
@@ -11894,7 +11894,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: document,transformation,printing
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-pdf
+     * Maven coordinates: org.nordix.camel:camel-pdf
      * 
      * Syntax: <code>pdf:operation</code>
      * 
@@ -11919,7 +11919,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-pgevent
+     * Maven coordinates: org.nordix.camel:camel-pgevent
      * 
      * Syntax: <code>pgevent:host:port/database/channel</code>
      * 
@@ -11952,7 +11952,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-pgevent
+     * Maven coordinates: org.nordix.camel:camel-pgevent
      * 
      * Syntax: <code>pgevent:host:port/database/channel</code>
      * 
@@ -11989,7 +11989,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-pg-replication-slot
+     * Maven coordinates: org.nordix.camel:camel-pg-replication-slot
      * 
      * Syntax:
      * <code>pg-replication-slot:host:port/database/slot:outputPlugin</code>
@@ -12025,7 +12025,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-pg-replication-slot
+     * Maven coordinates: org.nordix.camel:camel-pg-replication-slot
      * 
      * Syntax:
      * <code>pg-replication-slot:host:port/database/slot:outputPlugin</code>
@@ -12064,7 +12064,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-platform-http
+     * Maven coordinates: org.nordix.camel:camel-platform-http
      * 
      * Syntax: <code>platform-http:path</code>
      * 
@@ -12085,7 +12085,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-platform-http
+     * Maven coordinates: org.nordix.camel:camel-platform-http
      * 
      * Syntax: <code>platform-http:path</code>
      * 
@@ -12109,7 +12109,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,iot,messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-pubnub
+     * Maven coordinates: org.nordix.camel:camel-pubnub
      * 
      * Syntax: <code>pubnub:channel</code>
      * 
@@ -12130,7 +12130,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,iot,messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-pubnub
+     * Maven coordinates: org.nordix.camel:camel-pubnub
      * 
      * Syntax: <code>pubnub:channel</code>
      * 
@@ -12153,7 +12153,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.24
-     * Maven coordinates: org.apache.camel:camel-pulsar
+     * Maven coordinates: org.nordix.camel:camel-pulsar
      * 
      * Syntax: <code>pulsar:persistence://tenant/namespace/topic</code>
      * 
@@ -12183,7 +12183,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.24
-     * Maven coordinates: org.apache.camel:camel-pulsar
+     * Maven coordinates: org.nordix.camel:camel-pulsar
      * 
      * Syntax: <code>pulsar:persistence://tenant/namespace/topic</code>
      * 
@@ -12216,7 +12216,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: scheduling
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-quartz
+     * Maven coordinates: org.nordix.camel:camel-quartz
      * 
      * Syntax: <code>quartz:groupName/triggerName</code>
      * 
@@ -12242,7 +12242,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: scheduling
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-quartz
+     * Maven coordinates: org.nordix.camel:camel-quartz
      * 
      * Syntax: <code>quartz:groupName/triggerName</code>
      * 
@@ -12272,7 +12272,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-quickfix
+     * Maven coordinates: org.nordix.camel:camel-quickfix
      * 
      * Syntax: <code>quickfix:configurationName</code>
      * 
@@ -12298,7 +12298,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-quickfix
+     * Maven coordinates: org.nordix.camel:camel-quickfix
      * 
      * Syntax: <code>quickfix:configurationName</code>
      * 
@@ -12326,7 +12326,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-rabbitmq
+     * Maven coordinates: org.nordix.camel:camel-rabbitmq
      * 
      * Syntax: <code>rabbitmq:exchangeName</code>
      * 
@@ -12348,7 +12348,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-rabbitmq
+     * Maven coordinates: org.nordix.camel:camel-rabbitmq
      * 
      * Syntax: <code>rabbitmq:exchangeName</code>
      * 
@@ -12374,7 +12374,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: reactive,streams
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-reactive-streams
+     * Maven coordinates: org.nordix.camel:camel-reactive-streams
      * 
      * Syntax: <code>reactive-streams:stream</code>
      * 
@@ -12395,7 +12395,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: reactive,streams
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-reactive-streams
+     * Maven coordinates: org.nordix.camel:camel-reactive-streams
      * 
      * Syntax: <code>reactive-streams:stream</code>
      * 
@@ -12419,7 +12419,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-ref
+     * Maven coordinates: org.nordix.camel:camel-ref
      * 
      * Syntax: <code>ref:name</code>
      * 
@@ -12440,7 +12440,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-ref
+     * Maven coordinates: org.nordix.camel:camel-ref
      * 
      * Syntax: <code>ref:name</code>
      * 
@@ -12464,7 +12464,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,rest
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-rest
+     * Maven coordinates: org.nordix.camel:camel-rest
      * 
      * Syntax: <code>rest-api:path</code>
      * 
@@ -12485,7 +12485,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,rest
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-rest
+     * Maven coordinates: org.nordix.camel:camel-rest
      * 
      * Syntax: <code>rest-api:path</code>
      * 
@@ -12508,7 +12508,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rest
      * Since: 3.4
-     * Maven coordinates: org.apache.camel:camel-resteasy
+     * Maven coordinates: org.nordix.camel:camel-resteasy
      * 
      * Syntax: <code>resteasy:httpUri</code>
      * 
@@ -12528,7 +12528,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rest
      * Since: 3.4
-     * Maven coordinates: org.apache.camel:camel-resteasy
+     * Maven coordinates: org.nordix.camel:camel-resteasy
      * 
      * Syntax: <code>resteasy:httpUri</code>
      * 
@@ -12551,7 +12551,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,rest
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-rest
+     * Maven coordinates: org.nordix.camel:camel-rest
      * 
      * Syntax: <code>rest:method:path:uriTemplate</code>
      * 
@@ -12579,7 +12579,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,rest
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-rest
+     * Maven coordinates: org.nordix.camel:camel-rest
      * 
      * Syntax: <code>rest:method:path:uriTemplate</code>
      * 
@@ -12611,7 +12611,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: openapi,rest,api
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-rest-openapi
+     * Maven coordinates: org.nordix.camel:camel-rest-openapi
      * 
      * Syntax: <code>rest-openapi:specificationUri#operationId</code>
      * 
@@ -12649,7 +12649,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: openapi,rest,api
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-rest-openapi
+     * Maven coordinates: org.nordix.camel:camel-rest-openapi
      * 
      * Syntax: <code>rest-openapi:specificationUri#operationId</code>
      * 
@@ -12691,7 +12691,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rest,swagger,http
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-rest-swagger
+     * Maven coordinates: org.nordix.camel:camel-rest-swagger
      * 
      * Syntax: <code>rest-swagger:specificationUri#operationId</code>
      * 
@@ -12730,7 +12730,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rest,swagger,http
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-rest-swagger
+     * Maven coordinates: org.nordix.camel:camel-rest-swagger
      * 
      * Syntax: <code>rest-swagger:specificationUri#operationId</code>
      * 
@@ -12770,7 +12770,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: testing
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-robotframework
+     * Maven coordinates: org.nordix.camel:camel-robotframework
      * 
      * Syntax: <code>robotframework:resourceUri</code>
      * 
@@ -12794,7 +12794,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: testing
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-robotframework
+     * Maven coordinates: org.nordix.camel:camel-robotframework
      * 
      * Syntax: <code>robotframework:resourceUri</code>
      * 
@@ -12821,7 +12821,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rss
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-rss
+     * Maven coordinates: org.nordix.camel:camel-rss
      * 
      * Syntax: <code>rss:feedUri</code>
      * 
@@ -12841,7 +12841,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rss
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-rss
+     * Maven coordinates: org.nordix.camel:camel-rss
      * 
      * Syntax: <code>rss:feedUri</code>
      * 
@@ -12864,7 +12864,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-saga
+     * Maven coordinates: org.nordix.camel:camel-saga
      * 
      * Syntax: <code>saga:action</code>
      * 
@@ -12885,7 +12885,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-saga
+     * Maven coordinates: org.nordix.camel:camel-saga
      * 
      * Syntax: <code>saga:action</code>
      * 
@@ -12909,7 +12909,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,crm
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-salesforce
+     * Maven coordinates: org.nordix.camel:camel-salesforce
      * 
      * Syntax: <code>salesforce:operationName:topicName</code>
      * 
@@ -12950,7 +12950,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,crm
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-salesforce
+     * Maven coordinates: org.nordix.camel:camel-salesforce
      * 
      * Syntax: <code>salesforce:operationName:topicName</code>
      * 
@@ -12994,7 +12994,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: sap,cloud,api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-sap-netweaver
+     * Maven coordinates: org.nordix.camel:camel-sap-netweaver
      * 
      * Syntax: <code>sap-netweaver:url</code>
      * 
@@ -13014,7 +13014,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: sap,cloud,api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-sap-netweaver
+     * Maven coordinates: org.nordix.camel:camel-sap-netweaver
      * 
      * Syntax: <code>sap-netweaver:url</code>
      * 
@@ -13038,7 +13038,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,scheduling
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-scheduler
+     * Maven coordinates: org.nordix.camel:camel-scheduler
      * 
      * Syntax: <code>scheduler:name</code>
      * 
@@ -13059,7 +13059,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,scheduling
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-scheduler
+     * Maven coordinates: org.nordix.camel:camel-scheduler
      * 
      * Syntax: <code>scheduler:name</code>
      * 
@@ -13082,7 +13082,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-schematron
+     * Maven coordinates: org.nordix.camel:camel-schematron
      * 
      * Syntax: <code>schematron:path</code>
      * 
@@ -13103,7 +13103,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: validation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-schematron
+     * Maven coordinates: org.nordix.camel:camel-schematron
      * 
      * Syntax: <code>schematron:path</code>
      * 
@@ -13127,7 +13127,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-jsch
+     * Maven coordinates: org.nordix.camel:camel-jsch
      * 
      * Syntax: <code>scp:host:port/directoryName</code>
      * 
@@ -13153,7 +13153,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-jsch
+     * Maven coordinates: org.nordix.camel:camel-jsch
      * 
      * Syntax: <code>scp:host:port/directoryName</code>
      * 
@@ -13183,7 +13183,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-seda
+     * Maven coordinates: org.nordix.camel:camel-seda
      * 
      * Syntax: <code>seda:name</code>
      * 
@@ -13204,7 +13204,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-seda
+     * Maven coordinates: org.nordix.camel:camel-seda
      * 
      * Syntax: <code>seda:name</code>
      * 
@@ -13228,7 +13228,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-service
+     * Maven coordinates: org.nordix.camel:camel-service
      * 
      * Syntax: <code>service:delegateUri</code>
      * 
@@ -13249,7 +13249,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-service
+     * Maven coordinates: org.nordix.camel:camel-service
      * 
      * Syntax: <code>service:delegateUri</code>
      * 
@@ -13272,7 +13272,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud,management
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-servicenow
+     * Maven coordinates: org.nordix.camel:camel-servicenow
      * 
      * Syntax: <code>servicenow:instanceName</code>
      * 
@@ -13292,7 +13292,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud,management
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-servicenow
+     * Maven coordinates: org.nordix.camel:camel-servicenow
      * 
      * Syntax: <code>servicenow:instanceName</code>
      * 
@@ -13315,7 +13315,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-servlet
+     * Maven coordinates: org.nordix.camel:camel-servlet
      * 
      * Syntax: <code>servlet:contextPath</code>
      * 
@@ -13335,7 +13335,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 2.0
-     * Maven coordinates: org.apache.camel:camel-servlet
+     * Maven coordinates: org.nordix.camel:camel-servlet
      * 
      * Syntax: <code>servlet:contextPath</code>
      * 
@@ -13358,7 +13358,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * Syntax: <code>sftp:host:port/directoryName</code>
      * 
@@ -13384,7 +13384,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * Syntax: <code>sftp:host:port/directoryName</code>
      * 
@@ -13414,7 +13414,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: mobile
      * Since: 2.5
-     * Maven coordinates: org.apache.camel:camel-sip
+     * Maven coordinates: org.nordix.camel:camel-sip
      * 
      * Syntax: <code>sip:uri</code>
      * 
@@ -13436,7 +13436,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: mobile
      * Since: 2.5
-     * Maven coordinates: org.apache.camel:camel-sip
+     * Maven coordinates: org.nordix.camel:camel-sip
      * 
      * Syntax: <code>sip:uri</code>
      * 
@@ -13461,7 +13461,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-sjms
+     * Maven coordinates: org.nordix.camel:camel-sjms
      * 
      * Syntax: <code>sjms:destinationType:destinationName</code>
      * 
@@ -13488,7 +13488,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-sjms
+     * Maven coordinates: org.nordix.camel:camel-sjms
      * 
      * Syntax: <code>sjms:destinationType:destinationName</code>
      * 
@@ -13518,7 +13518,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-sjms2
+     * Maven coordinates: org.nordix.camel:camel-sjms2
      * 
      * Syntax: <code>sjms2:destinationType:destinationName</code>
      * 
@@ -13545,7 +13545,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-sjms2
+     * Maven coordinates: org.nordix.camel:camel-sjms2
      * 
      * Syntax: <code>sjms2:destinationType:destinationName</code>
      * 
@@ -13574,7 +13574,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: social
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-slack
+     * Maven coordinates: org.nordix.camel:camel-slack
      * 
      * Syntax: <code>slack:channel</code>
      * 
@@ -13595,7 +13595,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: social
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-slack
+     * Maven coordinates: org.nordix.camel:camel-slack
      * 
      * Syntax: <code>slack:channel</code>
      * 
@@ -13620,7 +13620,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: mobile
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-smpp
+     * Maven coordinates: org.nordix.camel:camel-smpp
      * 
      * Syntax: <code>smpp:host:port</code>
      * 
@@ -13646,7 +13646,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: mobile
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-smpp
+     * Maven coordinates: org.nordix.camel:camel-smpp
      * 
      * Syntax: <code>smpp:host:port</code>
      * 
@@ -13675,7 +13675,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-snmp
+     * Maven coordinates: org.nordix.camel:camel-snmp
      * 
      * Syntax: <code>snmp:host:port</code>
      * 
@@ -13699,7 +13699,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-snmp
+     * Maven coordinates: org.nordix.camel:camel-snmp
      * 
      * Syntax: <code>snmp:host:port</code>
      * 
@@ -13725,7 +13725,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring,search
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-solr
+     * Maven coordinates: org.nordix.camel:camel-solr
      * 
      * Syntax: <code>solr:url</code>
      * 
@@ -13747,7 +13747,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: monitoring,search
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-solr
+     * Maven coordinates: org.nordix.camel:camel-solr
      * 
      * Syntax: <code>solr:url</code>
      * 
@@ -13772,7 +13772,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: chat
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-soroush
+     * Maven coordinates: org.nordix.camel:camel-soroush
      * 
      * Syntax: <code>soroush:action</code>
      * 
@@ -13794,7 +13794,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: chat
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-soroush
+     * Maven coordinates: org.nordix.camel:camel-soroush
      * 
      * Syntax: <code>soroush:action</code>
      * 
@@ -13819,7 +13819,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bigdata,iot
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-spark
+     * Maven coordinates: org.nordix.camel:camel-spark
      * 
      * Syntax: <code>spark:endpointType</code>
      * 
@@ -13840,7 +13840,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bigdata,iot
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-spark
+     * Maven coordinates: org.nordix.camel:camel-spark
      * 
      * Syntax: <code>spark:endpointType</code>
      * 
@@ -13864,7 +13864,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot,monitoring
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-splunk
+     * Maven coordinates: org.nordix.camel:camel-splunk
      * 
      * Syntax: <code>splunk:name</code>
      * 
@@ -13884,7 +13884,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: iot,monitoring
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-splunk
+     * Maven coordinates: org.nordix.camel:camel-splunk
      * 
      * Syntax: <code>splunk:name</code>
      * 
@@ -13908,7 +13908,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: log,monitoring
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-splunk-hec
+     * Maven coordinates: org.nordix.camel:camel-splunk-hec
      * 
      * Syntax: <code>splunk-hec:splunkURL/token</code>
      * 
@@ -13932,7 +13932,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: log,monitoring
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-splunk-hec
+     * Maven coordinates: org.nordix.camel:camel-splunk-hec
      * 
      * Syntax: <code>splunk-hec:splunkURL/token</code>
      * 
@@ -13958,7 +13958,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,batch,scheduling
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-spring-batch
+     * Maven coordinates: org.nordix.camel:camel-spring-batch
      * 
      * Syntax: <code>spring-batch:jobName</code>
      * 
@@ -13978,7 +13978,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,batch,scheduling
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-spring-batch
+     * Maven coordinates: org.nordix.camel:camel-spring-batch
      * 
      * Syntax: <code>spring-batch:jobName</code>
      * 
@@ -14001,7 +14001,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,eventbus
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-spring
+     * Maven coordinates: org.nordix.camel:camel-spring
      * 
      * Syntax: <code>spring-event:name</code>
      * 
@@ -14021,7 +14021,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,eventbus
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-spring
+     * Maven coordinates: org.nordix.camel:camel-spring
      * 
      * Syntax: <code>spring-event:name</code>
      * 
@@ -14044,7 +14044,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,eventbus
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-spring-integration
+     * Maven coordinates: org.nordix.camel:camel-spring-integration
      * 
      * Syntax: <code>spring-integration:defaultChannel</code>
      * 
@@ -14067,7 +14067,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,eventbus
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-spring-integration
+     * Maven coordinates: org.nordix.camel:camel-spring-integration
      * 
      * Syntax: <code>spring-integration:defaultChannel</code>
      * 
@@ -14093,7 +14093,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.10
-     * Maven coordinates: org.apache.camel:camel-spring-jdbc
+     * Maven coordinates: org.nordix.camel:camel-spring-jdbc
      * 
      * Syntax: <code>spring-jdbc:dataSourceName</code>
      * 
@@ -14116,7 +14116,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 3.10
-     * Maven coordinates: org.apache.camel:camel-spring-jdbc
+     * Maven coordinates: org.nordix.camel:camel-spring-jdbc
      * 
      * Syntax: <code>spring-jdbc:dataSourceName</code>
      * 
@@ -14142,7 +14142,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,ldap
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-spring-ldap
+     * Maven coordinates: org.nordix.camel:camel-spring-ldap
      * 
      * Syntax: <code>spring-ldap:templateName</code>
      * 
@@ -14162,7 +14162,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,ldap
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-spring-ldap
+     * Maven coordinates: org.nordix.camel:camel-spring-ldap
      * 
      * Syntax: <code>spring-ldap:templateName</code>
      * 
@@ -14185,7 +14185,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-spring-rabbitmq
+     * Maven coordinates: org.nordix.camel:camel-spring-rabbitmq
      * 
      * Syntax: <code>spring-rabbitmq:exchangeName</code>
      * 
@@ -14208,7 +14208,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-spring-rabbitmq
+     * Maven coordinates: org.nordix.camel:camel-spring-rabbitmq
      * 
      * Syntax: <code>spring-rabbitmq:exchangeName</code>
      * 
@@ -14234,7 +14234,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,nosql
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-spring-redis
+     * Maven coordinates: org.nordix.camel:camel-spring-redis
      * 
      * Syntax: <code>spring-redis:host:port</code>
      * 
@@ -14257,7 +14257,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,nosql
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-spring-redis
+     * Maven coordinates: org.nordix.camel:camel-spring-redis
      * 
      * Syntax: <code>spring-redis:host:port</code>
      * 
@@ -14283,7 +14283,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,soap,webservice
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-spring-ws
+     * Maven coordinates: org.nordix.camel:camel-spring-ws
      * 
      * Syntax: <code>spring-ws:type:lookupKey:webServiceEndpointUri</code>
      * 
@@ -14326,7 +14326,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: spring,soap,webservice
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-spring-ws
+     * Maven coordinates: org.nordix.camel:camel-spring-ws
      * 
      * Syntax: <code>spring-ws:type:lookupKey:webServiceEndpointUri</code>
      * 
@@ -14372,7 +14372,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-sql
+     * Maven coordinates: org.nordix.camel:camel-sql
      * 
      * Syntax: <code>sql:query</code>
      * 
@@ -14393,7 +14393,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-sql
+     * Maven coordinates: org.nordix.camel:camel-sql
      * 
      * Syntax: <code>sql:query</code>
      * 
@@ -14417,7 +14417,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-sql
+     * Maven coordinates: org.nordix.camel:camel-sql
      * 
      * Syntax: <code>sql-stored:template</code>
      * 
@@ -14437,7 +14437,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: database,sql
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-sql
+     * Maven coordinates: org.nordix.camel:camel-sql
      * 
      * Syntax: <code>sql-stored:template</code>
      * 
@@ -14460,7 +14460,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-ssh
+     * Maven coordinates: org.nordix.camel:camel-ssh
      * 
      * Syntax: <code>ssh:host:port</code>
      * 
@@ -14484,7 +14484,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-ssh
+     * Maven coordinates: org.nordix.camel:camel-ssh
      * 
      * Syntax: <code>ssh:host:port</code>
      * 
@@ -14511,7 +14511,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-stax
+     * Maven coordinates: org.nordix.camel:camel-stax
      * 
      * Syntax: <code>stax:contentHandlerClass</code>
      * 
@@ -14531,7 +14531,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-stax
+     * Maven coordinates: org.nordix.camel:camel-stax
      * 
      * Syntax: <code>stax:contentHandlerClass</code>
      * 
@@ -14555,7 +14555,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,compute,bigdata
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-stitch
+     * Maven coordinates: org.nordix.camel:camel-stitch
      * 
      * Syntax: <code>stitch:tableName</code>
      * 
@@ -14579,7 +14579,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,compute,bigdata
      * Since: 3.8
-     * Maven coordinates: org.apache.camel:camel-stitch
+     * Maven coordinates: org.nordix.camel:camel-stitch
      * 
      * Syntax: <code>stitch:tableName</code>
      * 
@@ -14606,7 +14606,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-stomp
+     * Maven coordinates: org.nordix.camel:camel-stomp
      * 
      * Syntax: <code>stomp:destination</code>
      * 
@@ -14627,7 +14627,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-stomp
+     * Maven coordinates: org.nordix.camel:camel-stomp
      * 
      * Syntax: <code>stomp:destination</code>
      * 
@@ -14650,7 +14650,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,system
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-stream
+     * Maven coordinates: org.nordix.camel:camel-stream
      * 
      * Syntax: <code>stream:kind</code>
      * 
@@ -14671,7 +14671,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: file,system
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-stream
+     * Maven coordinates: org.nordix.camel:camel-stream
      * 
      * Syntax: <code>stream:kind</code>
      * 
@@ -14695,7 +14695,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation,script
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-stringtemplate
+     * Maven coordinates: org.nordix.camel:camel-stringtemplate
      * 
      * Syntax: <code>string-template:resourceUri</code>
      * 
@@ -14719,7 +14719,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation,script
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-stringtemplate
+     * Maven coordinates: org.nordix.camel:camel-stringtemplate
      * 
      * Syntax: <code>string-template:resourceUri</code>
      * 
@@ -14746,7 +14746,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,testing
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-stub
+     * Maven coordinates: org.nordix.camel:camel-stub
      * 
      * Syntax: <code>stub:name</code>
      * 
@@ -14766,7 +14766,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,testing
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-stub
+     * Maven coordinates: org.nordix.camel:camel-stub
      * 
      * Syntax: <code>stub:name</code>
      * 
@@ -14789,7 +14789,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,chat
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-telegram
+     * Maven coordinates: org.nordix.camel:camel-telegram
      * 
      * Syntax: <code>telegram:type</code>
      * 
@@ -14810,7 +14810,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,chat
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-telegram
+     * Maven coordinates: org.nordix.camel:camel-telegram
      * 
      * Syntax: <code>telegram:type</code>
      * 
@@ -14835,7 +14835,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rpc,transformation
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-thrift
+     * Maven coordinates: org.nordix.camel:camel-thrift
      * 
      * Syntax: <code>thrift:host:port/service</code>
      * 
@@ -14865,7 +14865,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: rpc,transformation
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-thrift
+     * Maven coordinates: org.nordix.camel:camel-thrift
      * 
      * Syntax: <code>thrift:host:port/service</code>
      * 
@@ -14897,7 +14897,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: document,transformation
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-tika
+     * Maven coordinates: org.nordix.camel:camel-tika
      * 
      * Syntax: <code>tika:operation</code>
      * 
@@ -14918,7 +14918,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: document,transformation
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-tika
+     * Maven coordinates: org.nordix.camel:camel-tika
      * 
      * Syntax: <code>tika:operation</code>
      * 
@@ -14942,7 +14942,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,scheduling
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-timer
+     * Maven coordinates: org.nordix.camel:camel-timer
      * 
      * Syntax: <code>timer:timerName</code>
      * 
@@ -14962,7 +14962,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,scheduling
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-timer
+     * Maven coordinates: org.nordix.camel:camel-timer
      * 
      * Syntax: <code>timer:timerName</code>
      * 
@@ -14985,7 +14985,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,messaging,cloud
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-twilio
+     * Maven coordinates: org.nordix.camel:camel-twilio
      * 
      * Syntax: <code>twilio:apiName/methodName</code>
      * 
@@ -15030,7 +15030,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,messaging,cloud
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-twilio
+     * Maven coordinates: org.nordix.camel:camel-twilio
      * 
      * Syntax: <code>twilio:apiName/methodName</code>
      * 
@@ -15078,7 +15078,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,social,chat
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * Syntax: <code>twitter-directmessage:user</code>
      * 
@@ -15099,7 +15099,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,social,chat
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * Syntax: <code>twitter-directmessage:user</code>
      * 
@@ -15123,7 +15123,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,search,social
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * Syntax: <code>twitter-search:keywords</code>
      * 
@@ -15144,7 +15144,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,search,social
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * Syntax: <code>twitter-search:keywords</code>
      * 
@@ -15168,7 +15168,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud,social
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * Syntax: <code>twitter-timeline:timelineType</code>
      * 
@@ -15190,7 +15190,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api,cloud,social
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-twitter
+     * Maven coordinates: org.nordix.camel:camel-twitter
      * 
      * Syntax: <code>twitter-timeline:timelineType</code>
      * 
@@ -15216,7 +15216,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http,websocket
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-undertow
+     * Maven coordinates: org.nordix.camel:camel-undertow
      * 
      * Syntax: <code>undertow:httpURI</code>
      * 
@@ -15237,7 +15237,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http,websocket
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-undertow
+     * Maven coordinates: org.nordix.camel:camel-undertow
      * 
      * Syntax: <code>undertow:httpURI</code>
      * 
@@ -15260,7 +15260,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-validator
+     * Maven coordinates: org.nordix.camel:camel-validator
      * 
      * Syntax: <code>validator:resourceUri</code>
      * 
@@ -15282,7 +15282,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-validator
+     * Maven coordinates: org.nordix.camel:camel-validator
      * 
      * Syntax: <code>validator:resourceUri</code>
      * 
@@ -15307,7 +15307,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-velocity
+     * Maven coordinates: org.nordix.camel:camel-velocity
      * 
      * Syntax: <code>velocity:resourceUri</code>
      * 
@@ -15331,7 +15331,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-velocity
+     * Maven coordinates: org.nordix.camel:camel-velocity
      * 
      * Syntax: <code>velocity:resourceUri</code>
      * 
@@ -15358,7 +15358,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: eventbus,reactive
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-vertx
+     * Maven coordinates: org.nordix.camel:camel-vertx
      * 
      * Syntax: <code>vertx:address</code>
      * 
@@ -15378,7 +15378,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: eventbus,reactive
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-vertx
+     * Maven coordinates: org.nordix.camel:camel-vertx
      * 
      * Syntax: <code>vertx:address</code>
      * 
@@ -15401,7 +15401,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-vertx-http
+     * Maven coordinates: org.nordix.camel:camel-vertx-http
      * 
      * Syntax: <code>vertx-http:httpUri</code>
      * 
@@ -15421,7 +15421,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-vertx-http
+     * Maven coordinates: org.nordix.camel:camel-vertx-http
      * 
      * Syntax: <code>vertx-http:httpUri</code>
      * 
@@ -15445,7 +15445,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-vertx-kafka
+     * Maven coordinates: org.nordix.camel:camel-vertx-kafka
      * 
      * Syntax: <code>vertx-kafka:topic</code>
      * 
@@ -15468,7 +15468,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: messaging
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-vertx-kafka
+     * Maven coordinates: org.nordix.camel:camel-vertx-kafka
      * 
      * Syntax: <code>vertx-kafka:topic</code>
      * 
@@ -15494,7 +15494,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-vertx-websocket
+     * Maven coordinates: org.nordix.camel:camel-vertx-websocket
      * 
      * Syntax: <code>vertx-websocket:host:port/path</code>
      * 
@@ -15527,7 +15527,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-vertx-websocket
+     * Maven coordinates: org.nordix.camel:camel-vertx-websocket
      * 
      * Syntax: <code>vertx-websocket:host:port/path</code>
      * 
@@ -15562,7 +15562,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-vm
+     * Maven coordinates: org.nordix.camel:camel-vm
      * 
      * Syntax: <code>vm:name</code>
      * 
@@ -15582,7 +15582,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,endpoint
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-vm
+     * Maven coordinates: org.nordix.camel:camel-vm
      * 
      * Syntax: <code>vm:name</code>
      * 
@@ -15605,7 +15605,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-weather
+     * Maven coordinates: org.nordix.camel:camel-weather
      * 
      * Syntax: <code>weather:name</code>
      * 
@@ -15625,7 +15625,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-weather
+     * Maven coordinates: org.nordix.camel:camel-weather
      * 
      * Syntax: <code>weather:name</code>
      * 
@@ -15648,7 +15648,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bitcoin,blockchain,api
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-web3j
+     * Maven coordinates: org.nordix.camel:camel-web3j
      * 
      * Syntax: <code>web3j:nodeAddress</code>
      * 
@@ -15668,7 +15668,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bitcoin,blockchain,api
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-web3j
+     * Maven coordinates: org.nordix.camel:camel-web3j
      * 
      * Syntax: <code>web3j:nodeAddress</code>
      * 
@@ -15692,7 +15692,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-webhook
+     * Maven coordinates: org.nordix.camel:camel-webhook
      * 
      * Syntax: <code>webhook:endpointUri</code>
      * 
@@ -15713,7 +15713,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-webhook
+     * Maven coordinates: org.nordix.camel:camel-webhook
      * 
      * Syntax: <code>webhook:endpointUri</code>
      * 
@@ -15736,7 +15736,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-websocket
+     * Maven coordinates: org.nordix.camel:camel-websocket
      * 
      * Syntax: <code>websocket:host:port/resourceUri</code>
      * 
@@ -15766,7 +15766,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: websocket
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-websocket
+     * Maven coordinates: org.nordix.camel:camel-websocket
      * 
      * Syntax: <code>websocket:host:port/resourceUri</code>
      * 
@@ -15799,7 +15799,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-websocket-jsr356
+     * Maven coordinates: org.nordix.camel:camel-websocket-jsr356
      * 
      * Syntax: <code>websocket-jsr356:uri</code>
      * 
@@ -15821,7 +15821,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: http
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-websocket-jsr356
+     * Maven coordinates: org.nordix.camel:camel-websocket-jsr356
      * 
      * Syntax: <code>websocket-jsr356:uri</code>
      * 
@@ -15846,7 +15846,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: datamining
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-weka
+     * Maven coordinates: org.nordix.camel:camel-weka
      * 
      * Syntax: <code>weka:command</code>
      * 
@@ -15868,7 +15868,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: datamining
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-weka
+     * Maven coordinates: org.nordix.camel:camel-weka
      * 
      * Syntax: <code>weka:command</code>
      * 
@@ -15893,7 +15893,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,cms
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-wordpress
+     * Maven coordinates: org.nordix.camel:camel-wordpress
      * 
      * Syntax: <code>wordpress:operation</code>
      * 
@@ -15919,7 +15919,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,cms
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-wordpress
+     * Maven coordinates: org.nordix.camel:camel-wordpress
      * 
      * Syntax: <code>wordpress:operation</code>
      * 
@@ -15948,7 +15948,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,hcm
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-workday
+     * Maven coordinates: org.nordix.camel:camel-workday
      * 
      * Syntax: <code>workday:entity:path</code>
      * 
@@ -15972,7 +15972,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,hcm
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-workday
+     * Maven coordinates: org.nordix.camel:camel-workday
      * 
      * Syntax: <code>workday:entity:path</code>
      * 
@@ -15999,7 +15999,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bitcoin,blockchain
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-xchange
+     * Maven coordinates: org.nordix.camel:camel-xchange
      * 
      * Syntax: <code>xchange:name</code>
      * 
@@ -16019,7 +16019,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: bitcoin,blockchain
      * Since: 2.21
-     * Maven coordinates: org.apache.camel:camel-xchange
+     * Maven coordinates: org.nordix.camel:camel-xchange
      * 
      * Syntax: <code>xchange:name</code>
      * 
@@ -16042,7 +16042,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-xj
+     * Maven coordinates: org.nordix.camel:camel-xj
      * 
      * Syntax: <code>xj:resourceUri</code>
      * 
@@ -16067,7 +16067,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-xj
+     * Maven coordinates: org.nordix.camel:camel-xj
      * 
      * Syntax: <code>xj:resourceUri</code>
      * 
@@ -16095,7 +16095,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: security,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-xmlsecurity
+     * Maven coordinates: org.nordix.camel:camel-xmlsecurity
      * 
      * Syntax: <code>xmlsecurity-sign:name</code>
      * 
@@ -16116,7 +16116,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: security,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-xmlsecurity
+     * Maven coordinates: org.nordix.camel:camel-xmlsecurity
      * 
      * Syntax: <code>xmlsecurity-sign:name</code>
      * 
@@ -16140,7 +16140,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: security,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-xmlsecurity
+     * Maven coordinates: org.nordix.camel:camel-xmlsecurity
      * 
      * Syntax: <code>xmlsecurity-verify:name</code>
      * 
@@ -16161,7 +16161,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: security,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-xmlsecurity
+     * Maven coordinates: org.nordix.camel:camel-xmlsecurity
      * 
      * Syntax: <code>xmlsecurity-verify:name</code>
      * 
@@ -16185,7 +16185,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: chat,messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-xmpp
+     * Maven coordinates: org.nordix.camel:camel-xmpp
      * 
      * Syntax: <code>xmpp:host:port/participant</code>
      * 
@@ -16212,7 +16212,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: chat,messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-xmpp
+     * Maven coordinates: org.nordix.camel:camel-xmpp
      * 
      * Syntax: <code>xmpp:host:port/participant</code>
      * 
@@ -16242,7 +16242,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-saxon
+     * Maven coordinates: org.nordix.camel:camel-saxon
      * 
      * Syntax: <code>xquery:resourceUri</code>
      * 
@@ -16262,7 +16262,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: transformation
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-saxon
+     * Maven coordinates: org.nordix.camel:camel-saxon
      * 
      * Syntax: <code>xquery:resourceUri</code>
      * 
@@ -16285,7 +16285,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,transformation
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-xslt
+     * Maven coordinates: org.nordix.camel:camel-xslt
      * 
      * Syntax: <code>xslt:resourceUri</code>
      * 
@@ -16310,7 +16310,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,transformation
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-xslt
+     * Maven coordinates: org.nordix.camel:camel-xslt
      * 
      * Syntax: <code>xslt:resourceUri</code>
      * 
@@ -16338,7 +16338,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,transformation
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-xslt-saxon
+     * Maven coordinates: org.nordix.camel:camel-xslt-saxon
      * 
      * Syntax: <code>xslt-saxon:resourceUri</code>
      * 
@@ -16363,7 +16363,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: core,transformation
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-xslt-saxon
+     * Maven coordinates: org.nordix.camel:camel-xslt-saxon
      * 
      * Syntax: <code>xslt-saxon:resourceUri</code>
      * 
@@ -16391,7 +16391,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: social,cloud,api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-yammer
+     * Maven coordinates: org.nordix.camel:camel-yammer
      * 
      * Syntax: <code>yammer:function</code>
      * 
@@ -16413,7 +16413,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: social,cloud,api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-yammer
+     * Maven coordinates: org.nordix.camel:camel-yammer
      * 
      * Syntax: <code>yammer:function</code>
      * 
@@ -16438,7 +16438,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,support
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-zendesk
+     * Maven coordinates: org.nordix.camel:camel-zendesk
      * 
      * Syntax: <code>zendesk:methodName</code>
      * 
@@ -16582,7 +16582,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: cloud,api,support
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-zendesk
+     * Maven coordinates: org.nordix.camel:camel-zendesk
      * 
      * Syntax: <code>zendesk:methodName</code>
      * 
@@ -16729,7 +16729,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,management,bigdata
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-zookeeper
+     * Maven coordinates: org.nordix.camel:camel-zookeeper
      * 
      * Syntax: <code>zookeeper:serverUrls/path</code>
      * 
@@ -16752,7 +16752,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,management,bigdata
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-zookeeper
+     * Maven coordinates: org.nordix.camel:camel-zookeeper
      * 
      * Syntax: <code>zookeeper:serverUrls/path</code>
      * 
@@ -16779,7 +16779,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,management,bigdata
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-zookeeper-master
+     * Maven coordinates: org.nordix.camel:camel-zookeeper-master
      * 
      * Syntax: <code>zookeeper-master:groupName:consumerEndpointUri</code>
      * 
@@ -16803,7 +16803,7 @@ public class StaticEndpointBuilders {
      * 
      * Category: clustering,management,bigdata
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-zookeeper-master
+     * Maven coordinates: org.nordix.camel:camel-zookeeper-master
      * 
      * Syntax: <code>zookeeper-master:groupName:consumerEndpointUri</code>
      * 

@@ -219,7 +219,7 @@ public interface NetWeaverEndpointBuilderFactory {
          * 
          * Category: sap,cloud,api
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-sap-netweaver
+         * Maven coordinates: org.nordix.camel:camel-sap-netweaver
          * 
          * Syntax: <code>sap-netweaver:url</code>
          * 
@@ -238,7 +238,7 @@ public interface NetWeaverEndpointBuilderFactory {
          * 
          * Category: sap,cloud,api
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-sap-netweaver
+         * Maven coordinates: org.nordix.camel:camel-sap-netweaver
          * 
          * Syntax: <code>sap-netweaver:url</code>
          * 

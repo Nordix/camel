@@ -36,7 +36,7 @@ public interface AtlasmapComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 3.7
-     * Maven coordinates: org.apache.camel:camel-atlasmap
+     * Maven coordinates: org.nordix.camel:camel-atlasmap
      * 
      * @return the dsl builder
      */

@@ -38,7 +38,7 @@ public interface MiloClientComponentBuilderFactory {
      * 
      * Category: iot
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-milo
+     * Maven coordinates: org.nordix.camel:camel-milo
      * 
      * @return the dsl builder
      */

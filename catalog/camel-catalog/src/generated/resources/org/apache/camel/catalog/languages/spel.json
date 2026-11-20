@@ -9,9 +9,9 @@
     "label": "language,spring",
     "javaType": "org.apache.camel.language.spel.SpelLanguage",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-spring",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "spel",
     "modelJavaType": "org.apache.camel.model.language.SpELExpression"
   },

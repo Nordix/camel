@@ -505,7 +505,7 @@ public interface ReactiveStreamsEndpointBuilderFactory {
          * 
          * Category: reactive,streams
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-reactive-streams
+         * Maven coordinates: org.nordix.camel:camel-reactive-streams
          * 
          * Syntax: <code>reactive-streams:stream</code>
          * 
@@ -525,7 +525,7 @@ public interface ReactiveStreamsEndpointBuilderFactory {
          * 
          * Category: reactive,streams
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-reactive-streams
+         * Maven coordinates: org.nordix.camel:camel-reactive-streams
          * 
          * Syntax: <code>reactive-streams:stream</code>
          * 

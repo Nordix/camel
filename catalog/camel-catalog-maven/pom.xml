@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>catalog</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -39,7 +39,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-catalog</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -78,13 +78,13 @@
 
         <!-- disable all components -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-allcomponents</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
             <exclusions>
                 <exclusion>
-                    <groupId>org.apache.camel</groupId>
+                    <groupId>org.nordix.camel</groupId>
                     <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>

@@ -76,7 +76,7 @@ the download page for the latest versions).
 [source,java]
 ----------------------------------------
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-any23</artifactId>
   <version>x.x.x</version>
 </dependency>

@@ -38,7 +38,7 @@ public interface IronmqComponentBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-ironmq
+     * Maven coordinates: org.nordix.camel:camel-ironmq
      * 
      * @return the dsl builder
      */

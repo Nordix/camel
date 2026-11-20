@@ -15,7 +15,7 @@ In order to define leverage testcontainers, add the following dependency to your
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-testcontainers-junit5</artifactId>
     <version>x.x.x</version>
     <!-- use the same version as your Camel core version -->
@@ -128,7 +128,7 @@ Find below some hints to help in migrating camel testcontainers tests from JUnit
 Projects using `camel-testcontainers` would need to use `camel-testcontainers-junit5`. For instance, maven users would update their pom.xml file as below:
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-testcontainers-junit5</artifactId>
   <scope>test</scope>
 </dependency>

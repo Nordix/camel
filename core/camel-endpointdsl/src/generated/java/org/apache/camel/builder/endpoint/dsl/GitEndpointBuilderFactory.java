@@ -468,7 +468,7 @@ public interface GitEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-git
+         * Maven coordinates: org.nordix.camel:camel-git
          * 
          * Syntax: <code>git:localPath</code>
          * 
@@ -487,7 +487,7 @@ public interface GitEndpointBuilderFactory {
          * 
          * Category: file
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-git
+         * Maven coordinates: org.nordix.camel:camel-git
          * 
          * Syntax: <code>git:localPath</code>
          * 

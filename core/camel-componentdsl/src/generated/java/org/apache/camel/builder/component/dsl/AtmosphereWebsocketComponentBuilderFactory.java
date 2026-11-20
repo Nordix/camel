@@ -36,7 +36,7 @@ public interface AtmosphereWebsocketComponentBuilderFactory {
      * 
      * Category: websocket
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-atmosphere-websocket
+     * Maven coordinates: org.nordix.camel:camel-atmosphere-websocket
      * 
      * @return the dsl builder
      */

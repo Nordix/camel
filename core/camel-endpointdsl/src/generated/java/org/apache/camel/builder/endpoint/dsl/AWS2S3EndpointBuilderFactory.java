@@ -3046,7 +3046,7 @@ public interface AWS2S3EndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 3.2
-         * Maven coordinates: org.apache.camel:camel-aws2-s3
+         * Maven coordinates: org.nordix.camel:camel-aws2-s3
          * 
          * Syntax: <code>aws2-s3://bucketNameOrArn</code>
          * 
@@ -3066,7 +3066,7 @@ public interface AWS2S3EndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 3.2
-         * Maven coordinates: org.apache.camel:camel-aws2-s3
+         * Maven coordinates: org.nordix.camel:camel-aws2-s3
          * 
          * Syntax: <code>aws2-s3://bucketNameOrArn</code>
          * 

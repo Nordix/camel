@@ -458,7 +458,7 @@ public interface AWS2EC2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-ec2
+         * Maven coordinates: org.nordix.camel:camel-aws2-ec2
          * 
          * Syntax: <code>aws2-ec2:label</code>
          * 
@@ -477,7 +477,7 @@ public interface AWS2EC2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-ec2
+         * Maven coordinates: org.nordix.camel:camel-aws2-ec2
          * 
          * Syntax: <code>aws2-ec2:label</code>
          * 

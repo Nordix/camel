@@ -36,7 +36,7 @@ public interface JdbcComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-jdbc
+     * Maven coordinates: org.nordix.camel:camel-jdbc
      * 
      * @return the dsl builder
      */

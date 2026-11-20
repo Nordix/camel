@@ -42,7 +42,7 @@ For example the `camel-blueprint` would be changed from
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-blueprint</artifactId>
   <version>3.1.0</version>
 </dependency>
@@ -73,7 +73,7 @@ feature:install camel
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-test-blueprint</artifactId>
   <version>3.1.0</version>
 </dependency>
@@ -95,7 +95,7 @@ To:
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-test-karaf</artifactId>
   <version>3.1.0</version>
 </dependency>
@@ -117,7 +117,7 @@ To:
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-eventadmin</artifactId>
   <version>3.1.0</version>
 </dependency>
@@ -139,7 +139,7 @@ To:
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-kura</artifactId>
   <version>3.1.0</version>
 </dependency>
@@ -161,7 +161,7 @@ To:
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-osgi-activator</artifactId>
   <version>3.1.0</version>
 </dependency>
@@ -183,7 +183,7 @@ To:
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-paxlogging</artifactId>
   <version>3.1.0</version>
 </dependency>
@@ -210,7 +210,7 @@ We introduce a camel-karaf-bom too, so the end-users should be able to have all 
         <dependencies>
             <!-- Add Camel BOM -->
             <dependency>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

@@ -36,7 +36,7 @@ public interface KafkaComponentBuilderFactory {
      * 
      * Category: messaging
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-kafka
+     * Maven coordinates: org.nordix.camel:camel-kafka
      * 
      * @return the dsl builder
      */

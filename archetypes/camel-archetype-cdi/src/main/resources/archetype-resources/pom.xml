@@ -40,7 +40,7 @@
     <dependencies>
       <!-- Camel BOM -->
       <dependency>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-bom</artifactId>
         <version>${camel-version}</version>
         <scope>import</scope>
@@ -61,11 +61,11 @@
 
     <!-- Camel CDI -->
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-cdi</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-core</artifactId>
     </dependency>
 
@@ -79,7 +79,7 @@
 
     <!-- testing -->
     <dependency>
-      <groupId>org.apache.camel</groupId>
+      <groupId>org.nordix.camel</groupId>
       <artifactId>camel-test</artifactId>
       <scope>test</scope>
     </dependency>
@@ -130,7 +130,7 @@
 
       <!-- allows the routes to be run via 'mvn camel:run' -->
       <plugin>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-maven-plugin</artifactId>
         <version>${camel-version}</version>
         <dependencies>

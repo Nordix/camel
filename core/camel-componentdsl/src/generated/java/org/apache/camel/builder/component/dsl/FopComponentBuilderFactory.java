@@ -37,7 +37,7 @@ public interface FopComponentBuilderFactory {
      * 
      * Category: file,transformation
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-fop
+     * Maven coordinates: org.nordix.camel:camel-fop
      * 
      * @return the dsl builder
      */

@@ -284,7 +284,7 @@ need to add the following dependency to your pom.
 [source,xml]
 ----------------------------------------------------------
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-crypto</artifactId>
   <version>x.x.x</version>
   <!-- use the same version as your Camel core version -->

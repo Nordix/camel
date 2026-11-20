@@ -36,7 +36,7 @@ public interface LdifComponentBuilderFactory {
      * 
      * Category: ldap
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-ldif
+     * Maven coordinates: org.nordix.camel:camel-ldif
      * 
      * @return the dsl builder
      */

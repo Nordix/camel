@@ -38,7 +38,7 @@ public interface DjlComponentBuilderFactory {
      * 
      * Category: ai,deeplearning
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-djl
+     * Maven coordinates: org.nordix.camel:camel-djl
      * 
      * @return the dsl builder
      */
