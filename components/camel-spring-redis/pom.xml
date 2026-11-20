@@ -53,6 +53,15 @@
             <groupId>org.nordix</groupId>
             <artifactId>spring-tx</artifactId>
         </dependency>
+        <!-- needed by spring-data-redis (excluded below as org.springframework) -->
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-oxm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-redis</artifactId>
