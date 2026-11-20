@@ -127,7 +127,14 @@ jobs:
       # rerunFailingTestsCount=2 from parent/pom.xml covers flaky tests.
       # The excludes file lists tests that fail on every runner JDK
       # (see .github/test-excludes.txt).
+      # api.version pins the Docker API version for Testcontainers 1.16.2,
+      # whose docker-java 3.2.12 speaks API 1.32 by default. The Docker
+      # installed by setup-docker-action rejects anything below 1.40
+      # ("client version 1.32 is too old"), which Testcontainers reports as
+      # "Could not find a valid Docker environment".
       - name: Test shard ${{ matrix.shard }}
+        env:
+          JAVA_TOOL_OPTIONS: -Dapi.version=1.40
         run: |
           cd camel
           mvn -B verify -fae -pl "${{ matrix.modules }}" \
