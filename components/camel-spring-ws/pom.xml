@@ -385,6 +385,12 @@
                     <groupId>xmlunit</groupId>
                     <artifactId>xmlunit</artifactId>
                 </exclusion>
+                <!-- Brings spring-test 2.5.6, which would shadow org.nordix:spring-test: the
+                     repackaged Spring keeps the org.springframework package names. -->
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
             </exclusions>
             <scope>test</scope>
         </dependency>
