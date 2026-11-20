@@ -131,11 +131,13 @@ jobs:
       # whose docker-java 3.2.12 speaks API 1.32 by default. The Docker
       # installed by setup-docker-action rejects anything below 1.40
       # ("client version 1.32 is too old"), which Testcontainers reports as
-      # "Could not find a valid Docker environment".
+      # "Could not find a valid Docker environment". It goes in
+      # ~/.docker-java.properties rather than JAVA_TOOL_OPTIONS, because the
+      # JVM prints "Picked up JAVA_TOOL_OPTIONS" to stderr and that breaks
+      # camel-exec tests asserting on child process stderr.
       - name: Test shard ${{ matrix.shard }}
-        env:
-          JAVA_TOOL_OPTIONS: -Dapi.version=1.40
         run: |
+          echo "api.version=1.40" > ~/.docker-java.properties
           cd camel
           mvn -B verify -fae -pl "${{ matrix.modules }}" \
             -Dsurefire.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt"
