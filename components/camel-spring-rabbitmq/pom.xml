@@ -59,6 +59,11 @@
             <groupId>org.nordix</groupId>
             <artifactId>spring-tx</artifactId>
         </dependency>
+        <!-- needed by spring-rabbit (excluded below as org.springframework) -->
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-messaging</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.amqp</groupId>
