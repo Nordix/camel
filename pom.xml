@@ -411,6 +411,7 @@
                                     <build>keep</build>
                                     <dependencyManagement>keep</dependencyManagement>
                                     <description>keep</description>
+                                    <developers>resolve</developers>
                                     <name>keep</name>
                                     <parent>expand</parent>
                                     <pluginManagement>keep</pluginManagement>
