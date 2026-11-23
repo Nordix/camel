@@ -52,7 +52,9 @@ runs:
         KEY_ID=$(gpg --list-secret-keys --with-colons | awk -F: '/^sec:/ {print $5; exit}')
         echo "Imported GPG key: ${KEY_ID}"
 
-    # Sign every primary artifact so Central gets the required .asc files.
+    # Sign every artifact so Central gets the required .asc files. Sign everything except
+    # checksums, existing signatures and maven-metadata (not an artifact), so attached
+    # files such as the camel-cxf/camel-spring-* .xsd schemas are signed too.
     - name: Sign Artifacts
       shell: bash
       env:
@@ -61,8 +63,8 @@ runs:
       run: |
         set -euo pipefail
         find "${DEPLOYMENT_REPOSITORY}" -type f \
-          \( -name '*.jar' -o -name '*.pom' -o -name '*.zip' -o -name '*.xml' \) \
-          ! -name 'maven-metadata*.xml' \
+          ! -name '*.md5' ! -name '*.sha1' ! -name '*.sha256' ! -name '*.sha512' \
+          ! -name '*.asc' ! -name 'maven-metadata*' \
           -print0 | while IFS= read -r -d '' file; do
             gpg --batch --yes --pinentry-mode loopback \
               --passphrase "${GPG_PASSPHRASE}" \

@@ -156,14 +156,15 @@ printf '%s' "$GPG_PASSPHRASE" > "$GNUPGHOME/passphrase"
 gpg --batch --quiet --import "$GPG_KEY_FILE"
 echo "Imported signing key: $(gpg --list-secret-keys --with-colons | awk -F: '/^fpr:/ {print $10; exit}')"
 
-# Sign every primary artifact (Central requires a detached .asc for each).
-to_sign=$(find "$STAGING_DIR" -type f \\( -name '*.jar' -o -name '*.pom' -o -name '*.zip' -o -name '*.xml' \\) ! -name 'maven-metadata*.xml' | wc -l)
+# Sign every artifact (Central requires a detached .asc for each), except checksums, existing
+# signatures and maven-metadata, so attached files such as the .xsd schemas are signed too.
+to_sign=$(find "$STAGING_DIR" -type f ! -name '*.md5' ! -name '*.sha1' ! -name '*.sha256' ! -name '*.sha512' ! -name '*.asc' ! -name 'maven-metadata*' | wc -l)
 if [ "$to_sign" -eq 0 ]; then
     echo "Nothing to sign under $STAGING_DIR" >&2
     exit 1
 fi
 echo "Signing $to_sign files"
-find "$STAGING_DIR" -type f \\( -name '*.jar' -o -name '*.pom' -o -name '*.zip' -o -name '*.xml' \\) ! -name 'maven-metadata*.xml' -print0 |
+find "$STAGING_DIR" -type f ! -name '*.md5' ! -name '*.sha1' ! -name '*.sha256' ! -name '*.sha512' ! -name '*.asc' ! -name 'maven-metadata*' -print0 |
     while IFS= read -r -d '' file; do
         gpg --batch --yes --quiet --pinentry-mode loopback --passphrase-file "$GNUPGHOME/passphrase" --detach-sign --armor "$file"
     done
