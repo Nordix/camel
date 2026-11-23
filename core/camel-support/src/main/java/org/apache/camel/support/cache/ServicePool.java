@@ -115,13 +115,9 @@ abstract class ServicePool<S extends Service> extends ServiceSupport implements 
         }
         S s = getOrCreatePool(endpoint).acquire();
         if (s != null && cache != null) {
-            if (isStoppingOrStopped()) {
-                // during stopping then access to the cache is synchronized
-                synchronized (cacheLock) {
-                    cache.putIfAbsent(s, s);
-                }
-            } else {
-                // optimize for normal operation
+            // the cache is an access-ordered LinkedHashMap, which is not thread-safe even for lookups, and doStop
+            // iterates it, so every access must hold the lock (not only after stopping has begun)
+            synchronized (cacheLock) {
                 cache.putIfAbsent(s, s);
             }
         }
