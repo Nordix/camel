@@ -7,12 +7,19 @@ Modules are weighted by their number of *Test.java classes and packed greedily
 (heaviest first, into the currently lightest shard). Weights are capped
 because class count is only a rough proxy for runtime (camel-core has ~2500
 classes but runs in a few minutes).
+
+Modules in PINNED each get a shard of their own, in addition to <shard-count>.
+With -fae, a failing or hanging module makes Maven skip every module in the
+same shard that depends on it, so camel-core would otherwise take dozens of
+modules down with it. Other shards resolve it from the restored local
+repository instead.
 """
 import json
 import os
 import sys
 
 WEIGHT_CAP = 400
+PINNED = ["core/camel-core"]
 SKIP_DIRS = {"archetypes", "docs", "target", ".git", "node_modules", "src"}
 
 
@@ -40,10 +47,15 @@ def main():
     shards = int(sys.argv[1])
     modules = sorted(find_modules("."), key=lambda m: (-m[0], m[1]))
     bins = [{"weight": 0, "modules": []} for _ in range(shards)]
+    pinned = []
     for weight, path in modules:
+        if path in PINNED:
+            pinned.append({"weight": weight, "modules": [path]})
+            continue
         target = min(bins, key=lambda b: b["weight"])
         target["weight"] += weight
         target["modules"].append(path)
+    bins.extend(pinned)
     include = [
         {"shard": i, "modules": ",".join(sorted(b["modules"]))}
         for i, b in enumerate(bins)
