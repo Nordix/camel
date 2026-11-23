@@ -3,3 +3,12 @@
 **/InvokeCloneTest.java
 **/SplitterParallelWithAggregationStrategyThrowingExceptionTest.java
 **/SSLContextParametersTest.java
+
+# Tests that hang the forked JVM until the fork timeout kills it, which fails the
+# whole module. The two camel-netty-http classes send a query with a space or an
+# encoded character (%20, +, %2B) and never get a response; the first also hangs
+# on the base branch and locally. HdfsAppendIT waits for the Hadoop containers to
+# start and stalled for the full 1800s in runs 45162355515 and 45211424085.
+**/NettyHttpBridgeEncodedPathTest.java
+**/NettyHttpGetWithParamAsExchangeHeaderTest.java
+**/HdfsAppendIT.java

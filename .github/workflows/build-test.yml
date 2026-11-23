@@ -141,6 +141,7 @@ jobs:
           cd camel
           mvn -B verify -fae -pl "${{ matrix.modules }}" \
             -Dsurefire.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
+            -Dfailsafe.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
             -Dcamel.failsafe.forkTimeout=1800
 
       - name: Upload surefire reports
