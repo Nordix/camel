@@ -36,7 +36,7 @@ public interface WekaComponentBuilderFactory {
      * 
      * Category: datamining
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-weka
+     * Maven coordinates: org.nordix.camel:camel-weka
      * 
      * @return the dsl builder
      */

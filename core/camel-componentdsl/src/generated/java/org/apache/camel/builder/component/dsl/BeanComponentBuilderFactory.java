@@ -36,7 +36,7 @@ public interface BeanComponentBuilderFactory {
      * 
      * Category: core,java
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-bean
+     * Maven coordinates: org.nordix.camel:camel-bean
      * 
      * @return the dsl builder
      */

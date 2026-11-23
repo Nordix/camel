@@ -36,7 +36,7 @@ public interface FtpComponentBuilderFactory {
      * 
      * Category: file
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-ftp
+     * Maven coordinates: org.nordix.camel:camel-ftp
      * 
      * @return the dsl builder
      */

@@ -1384,7 +1384,7 @@ public interface SoroushBotEndpointBuilderFactory {
          * 
          * Category: chat
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-soroush
+         * Maven coordinates: org.nordix.camel:camel-soroush
          * 
          * Syntax: <code>soroush:action</code>
          * 
@@ -1405,7 +1405,7 @@ public interface SoroushBotEndpointBuilderFactory {
          * 
          * Category: chat
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-soroush
+         * Maven coordinates: org.nordix.camel:camel-soroush
          * 
          * Syntax: <code>soroush:action</code>
          * 

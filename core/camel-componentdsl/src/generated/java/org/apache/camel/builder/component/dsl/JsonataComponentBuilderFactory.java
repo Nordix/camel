@@ -36,7 +36,7 @@ public interface JsonataComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-jsonata
+     * Maven coordinates: org.nordix.camel:camel-jsonata
      * 
      * @return the dsl builder
      */

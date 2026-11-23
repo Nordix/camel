@@ -36,7 +36,7 @@ public interface Web3jComponentBuilderFactory {
      * 
      * Category: bitcoin,blockchain,api
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-web3j
+     * Maven coordinates: org.nordix.camel:camel-web3j
      * 
      * @return the dsl builder
      */

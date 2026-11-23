@@ -22,13 +22,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-parent</artifactId>
         <version>3.14.10-est-2</version>
         <relativePath>../../parent</relativePath>
     </parent>
 
-    <groupId>org.apache.camel.tests.bundles</groupId>
+    <groupId>org.nordix.camel.tests.bundles</groupId>
     <artifactId>bundles-pom</artifactId>
     <packaging>pom</packaging>
     <name>Camel :: Integration Tests :: Test Bundles</name>
@@ -87,7 +87,7 @@
 
         <plugins>
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-bundle-plugin</artifactId>
                 <version>${project.version}</version>
                 <configuration>

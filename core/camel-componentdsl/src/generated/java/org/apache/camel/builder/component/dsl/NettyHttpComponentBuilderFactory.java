@@ -36,7 +36,7 @@ public interface NettyHttpComponentBuilderFactory {
      * 
      * Category: networking,http
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-netty-http
+     * Maven coordinates: org.nordix.camel:camel-netty-http
      * 
      * @return the dsl builder
      */

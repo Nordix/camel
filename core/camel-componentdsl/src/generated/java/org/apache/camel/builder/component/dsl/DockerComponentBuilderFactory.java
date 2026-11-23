@@ -36,7 +36,7 @@ public interface DockerComponentBuilderFactory {
      * 
      * Category: cloud,container,paas
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-docker
+     * Maven coordinates: org.nordix.camel:camel-docker
      * 
      * @return the dsl builder
      */

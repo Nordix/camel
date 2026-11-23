@@ -271,7 +271,7 @@ public interface KameletReifyEndpointBuilderFactory {
          * 
          * Category: core
          * Since: 3.6
-         * Maven coordinates: org.apache.camel:camel-kamelet-reify
+         * Maven coordinates: org.nordix.camel:camel-kamelet-reify
          * 
          * Syntax: <code>kamelet-reify:delegateUri</code>
          * 
@@ -291,7 +291,7 @@ public interface KameletReifyEndpointBuilderFactory {
          * 
          * Category: core
          * Since: 3.6
-         * Maven coordinates: org.apache.camel:camel-kamelet-reify
+         * Maven coordinates: org.nordix.camel:camel-kamelet-reify
          * 
          * Syntax: <code>kamelet-reify:delegateUri</code>
          * 

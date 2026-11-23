@@ -25,7 +25,7 @@ To use this component, add the following dependency to your pom.xml:
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-ignite</artifactId>
     <version>${camel.version}</version> <!-- use the same version as your Camel core version -->
 </dependency>

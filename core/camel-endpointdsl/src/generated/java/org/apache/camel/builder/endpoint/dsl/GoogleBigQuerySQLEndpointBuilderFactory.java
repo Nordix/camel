@@ -128,7 +128,7 @@ public interface GoogleBigQuerySQLEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-google-bigquery
+         * Maven coordinates: org.nordix.camel:camel-google-bigquery
          * 
          * Syntax: <code>google-bigquery-sql:projectId:queryString</code>
          * 
@@ -150,7 +150,7 @@ public interface GoogleBigQuerySQLEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-google-bigquery
+         * Maven coordinates: org.nordix.camel:camel-google-bigquery
          * 
          * Syntax: <code>google-bigquery-sql:projectId:queryString</code>
          * 

@@ -1033,7 +1033,7 @@ public interface EhcacheEndpointBuilderFactory {
          * 
          * Category: cache,datagrid,clustering
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-ehcache
+         * Maven coordinates: org.nordix.camel:camel-ehcache
          * 
          * Syntax: <code>ehcache:cacheName</code>
          * 
@@ -1052,7 +1052,7 @@ public interface EhcacheEndpointBuilderFactory {
          * 
          * Category: cache,datagrid,clustering
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-ehcache
+         * Maven coordinates: org.nordix.camel:camel-ehcache
          * 
          * Syntax: <code>ehcache:cacheName</code>
          * 

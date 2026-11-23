@@ -38,7 +38,7 @@ public interface ZookeeperMasterComponentBuilderFactory {
      * 
      * Category: clustering,management,bigdata
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-zookeeper-master
+     * Maven coordinates: org.nordix.camel:camel-zookeeper-master
      * 
      * @return the dsl builder
      */

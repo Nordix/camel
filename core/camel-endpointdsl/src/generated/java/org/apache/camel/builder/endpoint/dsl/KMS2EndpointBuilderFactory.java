@@ -445,7 +445,7 @@ public interface KMS2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-kms
+         * Maven coordinates: org.nordix.camel:camel-aws2-kms
          * 
          * Syntax: <code>aws2-kms:label</code>
          * 
@@ -464,7 +464,7 @@ public interface KMS2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-kms
+         * Maven coordinates: org.nordix.camel:camel-aws2-kms
          * 
          * Syntax: <code>aws2-kms:label</code>
          * 

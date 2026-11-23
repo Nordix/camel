@@ -314,7 +314,7 @@ public interface StitchEndpointBuilderFactory {
          * 
          * Category: cloud,api,compute,bigdata
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-stitch
+         * Maven coordinates: org.nordix.camel:camel-stitch
          * 
          * Syntax: <code>stitch:tableName</code>
          * 
@@ -337,7 +337,7 @@ public interface StitchEndpointBuilderFactory {
          * 
          * Category: cloud,api,compute,bigdata
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-stitch
+         * Maven coordinates: org.nordix.camel:camel-stitch
          * 
          * Syntax: <code>stitch:tableName</code>
          * 

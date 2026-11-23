@@ -36,7 +36,7 @@ public interface LuceneComponentBuilderFactory {
      * 
      * Category: database,search
      * Since: 2.2
-     * Maven coordinates: org.apache.camel:camel-lucene
+     * Maven coordinates: org.nordix.camel:camel-lucene
      * 
      * @return the dsl builder
      */

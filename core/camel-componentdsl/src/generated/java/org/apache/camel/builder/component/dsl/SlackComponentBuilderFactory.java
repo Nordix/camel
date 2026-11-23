@@ -36,7 +36,7 @@ public interface SlackComponentBuilderFactory {
      * 
      * Category: social
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-slack
+     * Maven coordinates: org.nordix.camel:camel-slack
      * 
      * @return the dsl builder
      */

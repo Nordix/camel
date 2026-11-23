@@ -90,7 +90,7 @@ public interface StAXEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.9
-         * Maven coordinates: org.apache.camel:camel-stax
+         * Maven coordinates: org.nordix.camel:camel-stax
          * 
          * Syntax: <code>stax:contentHandlerClass</code>
          * 
@@ -109,7 +109,7 @@ public interface StAXEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.9
-         * Maven coordinates: org.apache.camel:camel-stax
+         * Maven coordinates: org.nordix.camel:camel-stax
          * 
          * Syntax: <code>stax:contentHandlerClass</code>
          * 

@@ -444,7 +444,7 @@ public interface MSK2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-msk
+         * Maven coordinates: org.nordix.camel:camel-aws2-msk
          * 
          * Syntax: <code>aws2-msk:label</code>
          * 
@@ -463,7 +463,7 @@ public interface MSK2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-msk
+         * Maven coordinates: org.nordix.camel:camel-aws2-msk
          * 
          * Syntax: <code>aws2-msk:label</code>
          * 

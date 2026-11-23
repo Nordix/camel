@@ -22,7 +22,7 @@ for this component.
 [source,xml]
 ------------------------------------------------------------
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-jgroups-raft</artifactId>
     <!-- use the same version as your Camel core version -->
     <version>x.y.z</version>

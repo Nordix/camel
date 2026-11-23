@@ -92,7 +92,7 @@ Instead of:
 [source,xml]
 ----
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-component-starter</artifactId>
 </dependency>
 ----

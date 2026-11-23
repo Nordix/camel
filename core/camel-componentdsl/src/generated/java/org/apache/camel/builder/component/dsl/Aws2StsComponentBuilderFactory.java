@@ -36,7 +36,7 @@ public interface Aws2StsComponentBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-aws2-sts
+     * Maven coordinates: org.nordix.camel:camel-aws2-sts
      * 
      * @return the dsl builder
      */

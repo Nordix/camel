@@ -45,7 +45,7 @@ In order to use this feature, Maven users will need to add the following depende
 .pom.xml
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-componentdsl</artifactId>
     <version>x.x.x</version>
 </dependency>

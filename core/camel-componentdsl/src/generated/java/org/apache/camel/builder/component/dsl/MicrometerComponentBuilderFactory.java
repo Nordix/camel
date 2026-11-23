@@ -38,7 +38,7 @@ public interface MicrometerComponentBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-micrometer
+     * Maven coordinates: org.nordix.camel:camel-micrometer
      * 
      * @return the dsl builder
      */

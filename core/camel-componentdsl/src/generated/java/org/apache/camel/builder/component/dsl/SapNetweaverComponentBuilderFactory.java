@@ -36,7 +36,7 @@ public interface SapNetweaverComponentBuilderFactory {
      * 
      * Category: sap,cloud,api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-sap-netweaver
+     * Maven coordinates: org.nordix.camel:camel-sap-netweaver
      * 
      * @return the dsl builder
      */

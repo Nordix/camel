@@ -37,7 +37,7 @@ public interface InfinispanComponentBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-infinispan
+     * Maven coordinates: org.nordix.camel:camel-infinispan
      * 
      * @return the dsl builder
      */

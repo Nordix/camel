@@ -1006,7 +1006,7 @@ public interface JooqEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-jooq
+         * Maven coordinates: org.nordix.camel:camel-jooq
          * 
          * Syntax: <code>jooq:entityType</code>
          * 
@@ -1025,7 +1025,7 @@ public interface JooqEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-jooq
+         * Maven coordinates: org.nordix.camel:camel-jooq
          * 
          * Syntax: <code>jooq:entityType</code>
          * 

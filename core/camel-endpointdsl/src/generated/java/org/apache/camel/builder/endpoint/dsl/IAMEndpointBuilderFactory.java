@@ -297,7 +297,7 @@ public interface IAMEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 3.11
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-iam
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-iam
          * 
          * Syntax: <code>hwcloud-iam:operation</code>
          * 
@@ -316,7 +316,7 @@ public interface IAMEndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 3.11
-         * Maven coordinates: org.apache.camel:camel-huaweicloud-iam
+         * Maven coordinates: org.nordix.camel:camel-huaweicloud-iam
          * 
          * Syntax: <code>hwcloud-iam:operation</code>
          * 

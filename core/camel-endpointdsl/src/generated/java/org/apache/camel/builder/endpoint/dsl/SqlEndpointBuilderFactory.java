@@ -2408,7 +2408,7 @@ public interface SqlEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 1.4
-         * Maven coordinates: org.apache.camel:camel-sql
+         * Maven coordinates: org.nordix.camel:camel-sql
          * 
          * Syntax: <code>sql:query</code>
          * 
@@ -2428,7 +2428,7 @@ public interface SqlEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 1.4
-         * Maven coordinates: org.apache.camel:camel-sql
+         * Maven coordinates: org.nordix.camel:camel-sql
          * 
          * Syntax: <code>sql:query</code>
          * 

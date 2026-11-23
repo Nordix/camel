@@ -308,7 +308,7 @@ public interface JGroupsRaftEndpointBuilderFactory {
          * 
          * Category: clustering,messaging
          * Since: 2.24
-         * Maven coordinates: org.apache.camel:camel-jgroups-raft
+         * Maven coordinates: org.nordix.camel:camel-jgroups-raft
          * 
          * Syntax: <code>jgroups-raft:clusterName</code>
          * 
@@ -327,7 +327,7 @@ public interface JGroupsRaftEndpointBuilderFactory {
          * 
          * Category: clustering,messaging
          * Since: 2.24
-         * Maven coordinates: org.apache.camel:camel-jgroups-raft
+         * Maven coordinates: org.nordix.camel:camel-jgroups-raft
          * 
          * Syntax: <code>jgroups-raft:clusterName</code>
          * 

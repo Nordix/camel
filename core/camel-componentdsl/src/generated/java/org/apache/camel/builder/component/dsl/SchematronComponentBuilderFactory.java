@@ -36,7 +36,7 @@ public interface SchematronComponentBuilderFactory {
      * 
      * Category: validation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-schematron
+     * Maven coordinates: org.nordix.camel:camel-schematron
      * 
      * @return the dsl builder
      */

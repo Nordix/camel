@@ -1324,7 +1324,7 @@ public interface OAIPMHEndpointBuilderFactory {
          * 
          * Category: endpoint,webservice,batch
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-oaipmh
+         * Maven coordinates: org.nordix.camel:camel-oaipmh
          * 
          * Syntax: <code>oaipmh:baseUrl</code>
          * 
@@ -1344,7 +1344,7 @@ public interface OAIPMHEndpointBuilderFactory {
          * 
          * Category: endpoint,webservice,batch
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-oaipmh
+         * Maven coordinates: org.nordix.camel:camel-oaipmh
          * 
          * Syntax: <code>oaipmh:baseUrl</code>
          * 

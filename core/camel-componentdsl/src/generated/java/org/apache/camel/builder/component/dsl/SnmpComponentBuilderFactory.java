@@ -38,7 +38,7 @@ public interface SnmpComponentBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.1
-     * Maven coordinates: org.apache.camel:camel-snmp
+     * Maven coordinates: org.nordix.camel:camel-snmp
      * 
      * @return the dsl builder
      */

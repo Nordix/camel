@@ -348,7 +348,7 @@ public interface PlatformHttpEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-platform-http
+         * Maven coordinates: org.nordix.camel:camel-platform-http
          * 
          * Syntax: <code>platform-http:path</code>
          * 
@@ -368,7 +368,7 @@ public interface PlatformHttpEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-platform-http
+         * Maven coordinates: org.nordix.camel:camel-platform-http
          * 
          * Syntax: <code>platform-http:path</code>
          * 

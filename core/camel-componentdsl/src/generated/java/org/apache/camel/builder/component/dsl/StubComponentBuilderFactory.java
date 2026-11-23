@@ -36,7 +36,7 @@ public interface StubComponentBuilderFactory {
      * 
      * Category: core,testing
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-stub
+     * Maven coordinates: org.nordix.camel:camel-stub
      * 
      * @return the dsl builder
      */

@@ -36,7 +36,7 @@ public interface DisruptorVmComponentBuilderFactory {
      * 
      * Category: endpoint
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-disruptor
+     * Maven coordinates: org.nordix.camel:camel-disruptor
      * 
      * @return the dsl builder
      */

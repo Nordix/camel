@@ -36,7 +36,7 @@ public interface FacebookComponentBuilderFactory {
      * 
      * Category: social
      * Since: 2.14
-     * Maven coordinates: org.apache.camel:camel-facebook
+     * Maven coordinates: org.nordix.camel:camel-facebook
      * 
      * @return the dsl builder
      */

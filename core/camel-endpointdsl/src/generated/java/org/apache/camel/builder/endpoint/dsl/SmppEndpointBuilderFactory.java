@@ -2642,7 +2642,7 @@ public interface SmppEndpointBuilderFactory {
          * 
          * Category: mobile
          * Since: 2.2
-         * Maven coordinates: org.apache.camel:camel-smpp
+         * Maven coordinates: org.nordix.camel:camel-smpp
          * 
          * Syntax: <code>smpp:host:port</code>
          * 
@@ -2667,7 +2667,7 @@ public interface SmppEndpointBuilderFactory {
          * 
          * Category: mobile
          * Since: 2.2
-         * Maven coordinates: org.apache.camel:camel-smpp
+         * Maven coordinates: org.nordix.camel:camel-smpp
          * 
          * Syntax: <code>smpp:host:port</code>
          * 
@@ -2694,7 +2694,7 @@ public interface SmppEndpointBuilderFactory {
          * 
          * Category: mobile
          * Since: 2.2
-         * Maven coordinates: org.apache.camel:camel-smpp
+         * Maven coordinates: org.nordix.camel:camel-smpp
          * 
          * Syntax: <code>smpps:host:port</code>
          * 

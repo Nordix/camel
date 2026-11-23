@@ -38,7 +38,7 @@ public interface GrapeComponentBuilderFactory {
      * 
      * Category: management,deployment
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-grape
+     * Maven coordinates: org.nordix.camel:camel-grape
      * 
      * @return the dsl builder
      */

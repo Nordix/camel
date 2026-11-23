@@ -265,7 +265,7 @@ public interface GraphqlEndpointBuilderFactory {
          * 
          * Category: api
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-graphql
+         * Maven coordinates: org.nordix.camel:camel-graphql
          * 
          * Syntax: <code>graphql:httpUri</code>
          * 
@@ -284,7 +284,7 @@ public interface GraphqlEndpointBuilderFactory {
          * 
          * Category: api
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-graphql
+         * Maven coordinates: org.nordix.camel:camel-graphql
          * 
          * Syntax: <code>graphql:httpUri</code>
          * 

@@ -1559,7 +1559,7 @@ public interface HttpEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-http
+         * Maven coordinates: org.nordix.camel:camel-http
          * 
          * Syntax: <code>http://httpUri</code>
          * 
@@ -1578,7 +1578,7 @@ public interface HttpEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-http
+         * Maven coordinates: org.nordix.camel:camel-http
          * 
          * Syntax: <code>http://httpUri</code>
          * 
@@ -1599,7 +1599,7 @@ public interface HttpEndpointBuilderFactory {
          * 
          * Category: http
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-http
+         * Maven coordinates: org.nordix.camel:camel-http
          * 
          * Syntax: <code>https://httpUri</code>
          * 

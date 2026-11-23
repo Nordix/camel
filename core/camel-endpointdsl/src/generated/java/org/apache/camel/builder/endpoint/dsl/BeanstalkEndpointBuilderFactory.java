@@ -1341,7 +1341,7 @@ public interface BeanstalkEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-beanstalk
+         * Maven coordinates: org.nordix.camel:camel-beanstalk
          * 
          * Syntax: <code>beanstalk:connectionSettings</code>
          * 
@@ -1360,7 +1360,7 @@ public interface BeanstalkEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-beanstalk
+         * Maven coordinates: org.nordix.camel:camel-beanstalk
          * 
          * Syntax: <code>beanstalk:connectionSettings</code>
          * 

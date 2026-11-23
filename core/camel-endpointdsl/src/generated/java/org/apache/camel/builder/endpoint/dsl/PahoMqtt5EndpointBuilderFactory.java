@@ -3229,7 +3229,7 @@ public interface PahoMqtt5EndpointBuilderFactory {
          * 
          * Category: messaging,iot
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-paho-mqtt5
+         * Maven coordinates: org.nordix.camel:camel-paho-mqtt5
          * 
          * Syntax: <code>paho-mqtt5:topic</code>
          * 
@@ -3249,7 +3249,7 @@ public interface PahoMqtt5EndpointBuilderFactory {
          * 
          * Category: messaging,iot
          * Since: 3.8
-         * Maven coordinates: org.apache.camel:camel-paho-mqtt5
+         * Maven coordinates: org.nordix.camel:camel-paho-mqtt5
          * 
          * Syntax: <code>paho-mqtt5:topic</code>
          * 

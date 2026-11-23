@@ -36,7 +36,7 @@ public interface GoogleCalendarStreamComponentBuilderFactory {
      * 
      * Category: cloud
      * Since: 2.23
-     * Maven coordinates: org.apache.camel:camel-google-calendar
+     * Maven coordinates: org.nordix.camel:camel-google-calendar
      * 
      * @return the dsl builder
      */

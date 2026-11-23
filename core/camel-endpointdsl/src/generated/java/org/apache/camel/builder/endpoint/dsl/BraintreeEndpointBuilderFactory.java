@@ -334,7 +334,7 @@ public interface BraintreeEndpointBuilderFactory {
          * 
          * Category: cloud,payment
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-braintree
+         * Maven coordinates: org.nordix.camel:camel-braintree
          * 
          * Syntax: <code>braintree:apiName/methodName</code>
          * 
@@ -369,7 +369,7 @@ public interface BraintreeEndpointBuilderFactory {
          * 
          * Category: cloud,payment
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-braintree
+         * Maven coordinates: org.nordix.camel:camel-braintree
          * 
          * Syntax: <code>braintree:apiName/methodName</code>
          * 

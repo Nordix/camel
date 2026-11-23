@@ -4071,7 +4071,7 @@ public interface FileEndpointBuilderFactory {
          * 
          * Category: file,core
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-file
+         * Maven coordinates: org.nordix.camel:camel-file
          * 
          * Syntax: <code>file:directoryName</code>
          * 
@@ -4090,7 +4090,7 @@ public interface FileEndpointBuilderFactory {
          * 
          * Category: file,core
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-file
+         * Maven coordinates: org.nordix.camel:camel-file
          * 
          * Syntax: <code>file:directoryName</code>
          * 

@@ -1669,7 +1669,7 @@ public interface JCacheEndpointBuilderFactory {
          * 
          * Category: cache,datagrid,clustering
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-jcache
+         * Maven coordinates: org.nordix.camel:camel-jcache
          * 
          * Syntax: <code>jcache:cacheName</code>
          * 
@@ -1688,7 +1688,7 @@ public interface JCacheEndpointBuilderFactory {
          * 
          * Category: cache,datagrid,clustering
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-jcache
+         * Maven coordinates: org.nordix.camel:camel-jcache
          * 
          * Syntax: <code>jcache:cacheName</code>
          * 

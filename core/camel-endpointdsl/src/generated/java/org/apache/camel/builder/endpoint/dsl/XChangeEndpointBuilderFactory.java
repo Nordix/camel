@@ -225,7 +225,7 @@ public interface XChangeEndpointBuilderFactory {
          * 
          * Category: bitcoin,blockchain
          * Since: 2.21
-         * Maven coordinates: org.apache.camel:camel-xchange
+         * Maven coordinates: org.nordix.camel:camel-xchange
          * 
          * Syntax: <code>xchange:name</code>
          * 
@@ -244,7 +244,7 @@ public interface XChangeEndpointBuilderFactory {
          * 
          * Category: bitcoin,blockchain
          * Since: 2.21
-         * Maven coordinates: org.apache.camel:camel-xchange
+         * Maven coordinates: org.nordix.camel:camel-xchange
          * 
          * Syntax: <code>xchange:name</code>
          * 

@@ -574,7 +574,7 @@ public interface HazelcastReplicatedmapEndpointBuilderFactory {
          * 
          * Category: cache,datagrid
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-hazelcast
+         * Maven coordinates: org.nordix.camel:camel-hazelcast
          * 
          * Syntax: <code>hazelcast-replicatedmap:cacheName</code>
          * 
@@ -594,7 +594,7 @@ public interface HazelcastReplicatedmapEndpointBuilderFactory {
          * 
          * Category: cache,datagrid
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-hazelcast
+         * Maven coordinates: org.nordix.camel:camel-hazelcast
          * 
          * Syntax: <code>hazelcast-replicatedmap:cacheName</code>
          * 

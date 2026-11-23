@@ -36,7 +36,7 @@ public interface MockComponentBuilderFactory {
      * 
      * Category: core,testing
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-mock
+     * Maven coordinates: org.nordix.camel:camel-mock
      * 
      * @return the dsl builder
      */

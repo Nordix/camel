@@ -36,7 +36,7 @@ public interface AzureStorageBlobComponentBuilderFactory {
      * 
      * Category: cloud,file
      * Since: 3.3
-     * Maven coordinates: org.apache.camel:camel-azure-storage-blob
+     * Maven coordinates: org.nordix.camel:camel-azure-storage-blob
      * 
      * @return the dsl builder
      */

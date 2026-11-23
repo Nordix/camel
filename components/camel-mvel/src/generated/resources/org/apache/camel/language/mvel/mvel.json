@@ -9,9 +9,9 @@
     "label": "language,java",
     "javaType": "org.apache.camel.language.mvel.MvelLanguage",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-mvel",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "mvel",
     "modelJavaType": "org.apache.camel.model.language.MvelExpression"
   },

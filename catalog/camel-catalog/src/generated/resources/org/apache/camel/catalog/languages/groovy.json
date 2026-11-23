@@ -9,9 +9,9 @@
     "label": "language,script",
     "javaType": "org.apache.camel.language.groovy.GroovyLanguage",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-groovy",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "groovy",
     "modelJavaType": "org.apache.camel.model.language.GroovyExpression"
   },

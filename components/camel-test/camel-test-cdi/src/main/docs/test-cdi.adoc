@@ -86,7 +86,7 @@ their `pom.xml` for this component:
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-test-cdi</artifactId>
     <scope>test</scope>
     <version>x.x.x</version>

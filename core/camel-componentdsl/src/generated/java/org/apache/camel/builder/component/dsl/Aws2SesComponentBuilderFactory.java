@@ -36,7 +36,7 @@ public interface Aws2SesComponentBuilderFactory {
      * 
      * Category: cloud,mail
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-ses
+     * Maven coordinates: org.nordix.camel:camel-aws2-ses
      * 
      * @return the dsl builder
      */

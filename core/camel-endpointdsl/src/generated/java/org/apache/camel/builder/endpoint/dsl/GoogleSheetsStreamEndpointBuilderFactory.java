@@ -996,7 +996,7 @@ public interface GoogleSheetsStreamEndpointBuilderFactory {
          * 
          * Category: cloud,sheets
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-google-sheets
+         * Maven coordinates: org.nordix.camel:camel-google-sheets
          * 
          * Syntax: <code>google-sheets-stream:spreadsheetId</code>
          * 
@@ -1016,7 +1016,7 @@ public interface GoogleSheetsStreamEndpointBuilderFactory {
          * 
          * Category: cloud,sheets
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-google-sheets
+         * Maven coordinates: org.nordix.camel:camel-google-sheets
          * 
          * Syntax: <code>google-sheets-stream:spreadsheetId</code>
          * 

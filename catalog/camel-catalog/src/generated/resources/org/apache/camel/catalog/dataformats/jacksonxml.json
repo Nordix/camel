@@ -9,9 +9,9 @@
     "label": "dataformat,transformation,xml",
     "javaType": "org.apache.camel.component.jacksonxml.JacksonXMLDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-jacksonxml",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "jacksonxml",
     "modelJavaType": "org.apache.camel.model.dataformat.JacksonXMLDataFormat"
   },

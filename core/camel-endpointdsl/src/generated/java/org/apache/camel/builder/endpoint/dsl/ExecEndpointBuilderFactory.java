@@ -309,7 +309,7 @@ public interface ExecEndpointBuilderFactory {
          * 
          * Category: system
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-exec
+         * Maven coordinates: org.nordix.camel:camel-exec
          * 
          * Syntax: <code>exec:executable</code>
          * 
@@ -329,7 +329,7 @@ public interface ExecEndpointBuilderFactory {
          * 
          * Category: system
          * Since: 2.3
-         * Maven coordinates: org.apache.camel:camel-exec
+         * Maven coordinates: org.nordix.camel:camel-exec
          * 
          * Syntax: <code>exec:executable</code>
          * 

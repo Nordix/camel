@@ -1040,7 +1040,7 @@ public interface CoAPEndpointBuilderFactory {
          * 
          * Category: iot
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-coap
+         * Maven coordinates: org.nordix.camel:camel-coap
          * 
          * Syntax: <code>coap:uri</code>
          * 
@@ -1059,7 +1059,7 @@ public interface CoAPEndpointBuilderFactory {
          * 
          * Category: iot
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-coap
+         * Maven coordinates: org.nordix.camel:camel-coap
          * 
          * Syntax: <code>coap:uri</code>
          * 
@@ -1080,7 +1080,7 @@ public interface CoAPEndpointBuilderFactory {
          * 
          * Category: iot
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-coap
+         * Maven coordinates: org.nordix.camel:camel-coap
          * 
          * Syntax: <code>coap+tcp:uri</code>
          * 
@@ -1099,7 +1099,7 @@ public interface CoAPEndpointBuilderFactory {
          * 
          * Category: iot
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-coap
+         * Maven coordinates: org.nordix.camel:camel-coap
          * 
          * Syntax: <code>coaps:uri</code>
          * 
@@ -1118,7 +1118,7 @@ public interface CoAPEndpointBuilderFactory {
          * 
          * Category: iot
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-coap
+         * Maven coordinates: org.nordix.camel:camel-coap
          * 
          * Syntax: <code>coaps+tcp:uri</code>
          * 

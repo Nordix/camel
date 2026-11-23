@@ -90,7 +90,7 @@ public interface SagaEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 2.21
-         * Maven coordinates: org.apache.camel:camel-saga
+         * Maven coordinates: org.nordix.camel:camel-saga
          * 
          * Syntax: <code>saga:action</code>
          * 
@@ -110,7 +110,7 @@ public interface SagaEndpointBuilderFactory {
          * 
          * Category: core,endpoint
          * Since: 2.21
-         * Maven coordinates: org.apache.camel:camel-saga
+         * Maven coordinates: org.nordix.camel:camel-saga
          * 
          * Syntax: <code>saga:action</code>
          * 

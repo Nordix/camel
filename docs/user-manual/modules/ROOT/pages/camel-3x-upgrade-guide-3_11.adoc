@@ -64,7 +64,7 @@ This means if you use Camel on OSGi Blueprint then you need to migrate from:
 [source,xml]
 ----
 <plugin>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-maven-plugin</artifactId>
     <version>3.11.0</version>
 </plugin>

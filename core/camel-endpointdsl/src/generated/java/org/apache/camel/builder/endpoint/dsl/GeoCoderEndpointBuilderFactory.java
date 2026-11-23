@@ -352,7 +352,7 @@ public interface GeoCoderEndpointBuilderFactory {
          * 
          * Category: api,location
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-geocoder
+         * Maven coordinates: org.nordix.camel:camel-geocoder
          * 
          * Syntax: <code>geocoder:address:latlng</code>
          * 
@@ -375,7 +375,7 @@ public interface GeoCoderEndpointBuilderFactory {
          * 
          * Category: api,location
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-geocoder
+         * Maven coordinates: org.nordix.camel:camel-geocoder
          * 
          * Syntax: <code>geocoder:address:latlng</code>
          * 

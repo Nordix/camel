@@ -37,7 +37,7 @@ public interface CaffeineLoadcacheComponentBuilderFactory {
      * 
      * Category: cache,datagrid,clustering
      * Since: 2.20
-     * Maven coordinates: org.apache.camel:camel-caffeine
+     * Maven coordinates: org.nordix.camel:camel-caffeine
      * 
      * @return the dsl builder
      */

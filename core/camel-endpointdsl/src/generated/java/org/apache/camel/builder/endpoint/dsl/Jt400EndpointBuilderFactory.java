@@ -1587,7 +1587,7 @@ public interface Jt400EndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 1.5
-         * Maven coordinates: org.apache.camel:camel-jt400
+         * Maven coordinates: org.nordix.camel:camel-jt400
          * 
          * Syntax: <code>jt400:userID:password/systemName/objectPath.type</code>
          * 
@@ -1623,7 +1623,7 @@ public interface Jt400EndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 1.5
-         * Maven coordinates: org.apache.camel:camel-jt400
+         * Maven coordinates: org.nordix.camel:camel-jt400
          * 
          * Syntax: <code>jt400:userID:password/systemName/objectPath.type</code>
          * 

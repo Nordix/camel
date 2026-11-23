@@ -9,9 +9,9 @@
     "label": "dataformat,transformation,yaml",
     "javaType": "org.apache.camel.component.snakeyaml.SnakeYAMLDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-snakeyaml",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "yaml",
     "modelJavaType": "org.apache.camel.model.dataformat.YAMLDataFormat"
   },

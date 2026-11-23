@@ -36,7 +36,7 @@ public interface GoogleMailStreamComponentBuilderFactory {
      * 
      * Category: cloud,mail
      * Since: 2.22
-     * Maven coordinates: org.apache.camel:camel-google-mail
+     * Maven coordinates: org.nordix.camel:camel-google-mail
      * 
      * @return the dsl builder
      */

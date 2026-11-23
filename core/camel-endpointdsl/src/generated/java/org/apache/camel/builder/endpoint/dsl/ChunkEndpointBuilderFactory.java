@@ -273,7 +273,7 @@ public interface ChunkEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-chunk
+         * Maven coordinates: org.nordix.camel:camel-chunk
          * 
          * Syntax: <code>chunk:resourceUri</code>
          * 
@@ -297,7 +297,7 @@ public interface ChunkEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-chunk
+         * Maven coordinates: org.nordix.camel:camel-chunk
          * 
          * Syntax: <code>chunk:resourceUri</code>
          * 

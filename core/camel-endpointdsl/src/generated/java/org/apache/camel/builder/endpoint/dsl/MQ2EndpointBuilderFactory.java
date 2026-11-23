@@ -449,7 +449,7 @@ public interface MQ2EndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-mq
+         * Maven coordinates: org.nordix.camel:camel-aws2-mq
          * 
          * Syntax: <code>aws2-mq:label</code>
          * 
@@ -468,7 +468,7 @@ public interface MQ2EndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-mq
+         * Maven coordinates: org.nordix.camel:camel-aws2-mq
          * 
          * Syntax: <code>aws2-mq:label</code>
          * 

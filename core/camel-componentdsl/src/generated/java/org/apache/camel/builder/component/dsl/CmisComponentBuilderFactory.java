@@ -36,7 +36,7 @@ public interface CmisComponentBuilderFactory {
      * 
      * Category: cms,database
      * Since: 2.11
-     * Maven coordinates: org.apache.camel:camel-cmis
+     * Maven coordinates: org.nordix.camel:camel-cmis
      * 
      * @return the dsl builder
      */

@@ -36,7 +36,7 @@ public interface XmppComponentBuilderFactory {
      * 
      * Category: chat,messaging
      * Since: 1.0
-     * Maven coordinates: org.apache.camel:camel-xmpp
+     * Maven coordinates: org.nordix.camel:camel-xmpp
      * 
      * @return the dsl builder
      */

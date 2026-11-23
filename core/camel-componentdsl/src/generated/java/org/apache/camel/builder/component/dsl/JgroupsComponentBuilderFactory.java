@@ -36,7 +36,7 @@ public interface JgroupsComponentBuilderFactory {
      * 
      * Category: clustering,messaging
      * Since: 2.13
-     * Maven coordinates: org.apache.camel:camel-jgroups
+     * Maven coordinates: org.nordix.camel:camel-jgroups
      * 
      * @return the dsl builder
      */

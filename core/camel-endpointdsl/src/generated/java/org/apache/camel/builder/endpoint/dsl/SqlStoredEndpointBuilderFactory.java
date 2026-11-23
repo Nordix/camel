@@ -326,7 +326,7 @@ public interface SqlStoredEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-sql
+         * Maven coordinates: org.nordix.camel:camel-sql
          * 
          * Syntax: <code>sql-stored:template</code>
          * 
@@ -345,7 +345,7 @@ public interface SqlStoredEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-sql
+         * Maven coordinates: org.nordix.camel:camel-sql
          * 
          * Syntax: <code>sql-stored:template</code>
          * 

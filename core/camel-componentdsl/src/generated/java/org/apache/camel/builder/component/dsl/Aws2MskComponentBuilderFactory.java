@@ -36,7 +36,7 @@ public interface Aws2MskComponentBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-msk
+     * Maven coordinates: org.nordix.camel:camel-aws2-msk
      * 
      * @return the dsl builder
      */

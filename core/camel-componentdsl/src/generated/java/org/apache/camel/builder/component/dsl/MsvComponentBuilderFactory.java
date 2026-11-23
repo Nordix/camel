@@ -36,7 +36,7 @@ public interface MsvComponentBuilderFactory {
      * 
      * Category: validation
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-msv
+     * Maven coordinates: org.nordix.camel:camel-msv
      * 
      * @return the dsl builder
      */

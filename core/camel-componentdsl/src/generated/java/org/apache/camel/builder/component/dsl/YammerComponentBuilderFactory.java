@@ -36,7 +36,7 @@ public interface YammerComponentBuilderFactory {
      * 
      * Category: social,cloud,api
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-yammer
+     * Maven coordinates: org.nordix.camel:camel-yammer
      * 
      * @return the dsl builder
      */

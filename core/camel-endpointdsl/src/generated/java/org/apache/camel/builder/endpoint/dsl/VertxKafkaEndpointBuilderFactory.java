@@ -6106,7 +6106,7 @@ public interface VertxKafkaEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 3.7
-         * Maven coordinates: org.apache.camel:camel-vertx-kafka
+         * Maven coordinates: org.nordix.camel:camel-vertx-kafka
          * 
          * Syntax: <code>vertx-kafka:topic</code>
          * 
@@ -6129,7 +6129,7 @@ public interface VertxKafkaEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 3.7
-         * Maven coordinates: org.apache.camel:camel-vertx-kafka
+         * Maven coordinates: org.nordix.camel:camel-vertx-kafka
          * 
          * Syntax: <code>vertx-kafka:topic</code>
          * 

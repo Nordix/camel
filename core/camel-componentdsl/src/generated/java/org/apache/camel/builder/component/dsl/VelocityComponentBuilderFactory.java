@@ -36,7 +36,7 @@ public interface VelocityComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-velocity
+     * Maven coordinates: org.nordix.camel:camel-velocity
      * 
      * @return the dsl builder
      */

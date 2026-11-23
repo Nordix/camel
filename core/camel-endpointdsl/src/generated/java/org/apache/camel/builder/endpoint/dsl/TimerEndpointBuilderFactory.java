@@ -475,7 +475,7 @@ public interface TimerEndpointBuilderFactory {
          * 
          * Category: core,scheduling
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-timer
+         * Maven coordinates: org.nordix.camel:camel-timer
          * 
          * Syntax: <code>timer:timerName</code>
          * 
@@ -494,7 +494,7 @@ public interface TimerEndpointBuilderFactory {
          * 
          * Category: core,scheduling
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-timer
+         * Maven coordinates: org.nordix.camel:camel-timer
          * 
          * Syntax: <code>timer:timerName</code>
          * 

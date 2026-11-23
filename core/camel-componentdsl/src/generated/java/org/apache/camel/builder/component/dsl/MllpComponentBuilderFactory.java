@@ -36,7 +36,7 @@ public interface MllpComponentBuilderFactory {
      * 
      * Category: networking,rpc,mllp
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-mllp
+     * Maven coordinates: org.nordix.camel:camel-mllp
      * 
      * @return the dsl builder
      */

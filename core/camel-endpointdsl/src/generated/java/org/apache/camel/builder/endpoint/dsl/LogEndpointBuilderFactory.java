@@ -923,7 +923,7 @@ public interface LogEndpointBuilderFactory {
          * 
          * Category: core,monitoring
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-log
+         * Maven coordinates: org.nordix.camel:camel-log
          * 
          * Syntax: <code>log:loggerName</code>
          * 
@@ -942,7 +942,7 @@ public interface LogEndpointBuilderFactory {
          * 
          * Category: core,monitoring
          * Since: 1.1
-         * Maven coordinates: org.apache.camel:camel-log
+         * Maven coordinates: org.nordix.camel:camel-log
          * 
          * Syntax: <code>log:loggerName</code>
          * 

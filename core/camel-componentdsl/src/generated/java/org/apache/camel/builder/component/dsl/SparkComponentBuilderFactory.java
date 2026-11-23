@@ -36,7 +36,7 @@ public interface SparkComponentBuilderFactory {
      * 
      * Category: bigdata,iot
      * Since: 2.17
-     * Maven coordinates: org.apache.camel:camel-spark
+     * Maven coordinates: org.nordix.camel:camel-spark
      * 
      * @return the dsl builder
      */

@@ -237,7 +237,7 @@ public interface IOTAEndpointBuilderFactory {
          * 
          * Category: ledger,api
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-iota
+         * Maven coordinates: org.nordix.camel:camel-iota
          * 
          * Syntax: <code>iota:name</code>
          * 
@@ -256,7 +256,7 @@ public interface IOTAEndpointBuilderFactory {
          * 
          * Category: ledger,api
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-iota
+         * Maven coordinates: org.nordix.camel:camel-iota
          * 
          * Syntax: <code>iota:name</code>
          * 

@@ -542,7 +542,7 @@ public interface MockEndpointBuilderFactory {
          * 
          * Category: core,testing
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-mock
+         * Maven coordinates: org.nordix.camel:camel-mock
          * 
          * Syntax: <code>mock:name</code>
          * 
@@ -561,7 +561,7 @@ public interface MockEndpointBuilderFactory {
          * 
          * Category: core,testing
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-mock
+         * Maven coordinates: org.nordix.camel:camel-mock
          * 
          * Syntax: <code>mock:name</code>
          * 

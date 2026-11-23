@@ -1945,7 +1945,7 @@ public interface XQueryEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-saxon
+         * Maven coordinates: org.nordix.camel:camel-saxon
          * 
          * Syntax: <code>xquery:resourceUri</code>
          * 
@@ -1964,7 +1964,7 @@ public interface XQueryEndpointBuilderFactory {
          * 
          * Category: transformation
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-saxon
+         * Maven coordinates: org.nordix.camel:camel-saxon
          * 
          * Syntax: <code>xquery:resourceUri</code>
          * 

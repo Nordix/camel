@@ -942,7 +942,7 @@ public interface AtomEndpointBuilderFactory {
          * 
          * Category: rss
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-atom
+         * Maven coordinates: org.nordix.camel:camel-atom
          * 
          * Syntax: <code>atom:feedUri</code>
          * 
@@ -961,7 +961,7 @@ public interface AtomEndpointBuilderFactory {
          * 
          * Category: rss
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-atom
+         * Maven coordinates: org.nordix.camel:camel-atom
          * 
          * Syntax: <code>atom:feedUri</code>
          * 

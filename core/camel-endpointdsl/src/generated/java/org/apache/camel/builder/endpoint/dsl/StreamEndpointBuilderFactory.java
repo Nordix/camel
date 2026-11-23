@@ -856,7 +856,7 @@ public interface StreamEndpointBuilderFactory {
          * 
          * Category: file,system
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-stream
+         * Maven coordinates: org.nordix.camel:camel-stream
          * 
          * Syntax: <code>stream:kind</code>
          * 
@@ -877,7 +877,7 @@ public interface StreamEndpointBuilderFactory {
          * 
          * Category: file,system
          * Since: 1.3
-         * Maven coordinates: org.apache.camel:camel-stream
+         * Maven coordinates: org.nordix.camel:camel-stream
          * 
          * Syntax: <code>stream:kind</code>
          * 

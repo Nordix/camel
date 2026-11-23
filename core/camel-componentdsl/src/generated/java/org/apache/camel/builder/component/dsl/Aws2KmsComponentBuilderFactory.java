@@ -36,7 +36,7 @@ public interface Aws2KmsComponentBuilderFactory {
      * 
      * Category: cloud,management
      * Since: 3.1
-     * Maven coordinates: org.apache.camel:camel-aws2-kms
+     * Maven coordinates: org.nordix.camel:camel-aws2-kms
      * 
      * @return the dsl builder
      */

@@ -46,7 +46,7 @@ or explicitly using the Component DSL which allows you to configure the componen
 [source,xml]
 ------------------------------------------------------------
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-componentdsl</artifactId>
     <version>x.x.x</version>
     <!-- use the same version as your Camel core version -->

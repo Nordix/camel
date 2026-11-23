@@ -3125,7 +3125,7 @@ public interface Sqs2EndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-sqs
+         * Maven coordinates: org.nordix.camel:camel-aws2-sqs
          * 
          * Syntax: <code>aws2-sqs:queueNameOrArn</code>
          * 
@@ -3145,7 +3145,7 @@ public interface Sqs2EndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-sqs
+         * Maven coordinates: org.nordix.camel:camel-aws2-sqs
          * 
          * Syntax: <code>aws2-sqs:queueNameOrArn</code>
          * 

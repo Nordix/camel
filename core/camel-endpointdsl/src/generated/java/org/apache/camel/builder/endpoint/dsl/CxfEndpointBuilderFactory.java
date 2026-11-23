@@ -2581,7 +2581,7 @@ public interface CxfEndpointBuilderFactory {
          * 
          * Category: soap,webservice
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-cxf
+         * Maven coordinates: org.nordix.camel:camel-cxf
          * 
          * Syntax: <code>cxf:beanId:address</code>
          * 
@@ -2605,7 +2605,7 @@ public interface CxfEndpointBuilderFactory {
          * 
          * Category: soap,webservice
          * Since: 1.0
-         * Maven coordinates: org.apache.camel:camel-cxf
+         * Maven coordinates: org.nordix.camel:camel-cxf
          * 
          * Syntax: <code>cxf:beanId:address</code>
          * 

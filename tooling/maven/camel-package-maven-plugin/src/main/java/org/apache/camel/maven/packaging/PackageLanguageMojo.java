@@ -136,7 +136,8 @@ public class PackageLanguageMojo extends AbstractGeneratorMojo {
 
         // is this from Apache Camel then the data format is out of the box and
         // we should enrich the json schema with more details
-        boolean apacheCamel = "org.apache.camel".equals(project.getGroupId());
+        boolean apacheCamel = "org.apache.camel".equals(project.getGroupId())
+                        || "org.nordix.camel".equals(project.getGroupId());
 
         // find camel-core and grab the language model from there, and enrich
         // this model with information from this artifact

@@ -445,7 +445,7 @@ public interface STS2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-aws2-sts
+         * Maven coordinates: org.nordix.camel:camel-aws2-sts
          * 
          * Syntax: <code>aws2-sts:label</code>
          * 
@@ -464,7 +464,7 @@ public interface STS2EndpointBuilderFactory {
          * 
          * Category: cloud,management
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-aws2-sts
+         * Maven coordinates: org.nordix.camel:camel-aws2-sts
          * 
          * Syntax: <code>aws2-sts:label</code>
          * 

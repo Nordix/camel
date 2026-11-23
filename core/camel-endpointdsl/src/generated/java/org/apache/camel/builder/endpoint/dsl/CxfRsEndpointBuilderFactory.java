@@ -2260,7 +2260,7 @@ public interface CxfRsEndpointBuilderFactory {
          * 
          * Category: rest
          * Since: 2.0
-         * Maven coordinates: org.apache.camel:camel-cxf
+         * Maven coordinates: org.nordix.camel:camel-cxf
          * 
          * Syntax: <code>cxfrs:beanId:address</code>
          * 
@@ -2284,7 +2284,7 @@ public interface CxfRsEndpointBuilderFactory {
          * 
          * Category: rest
          * Since: 2.0
-         * Maven coordinates: org.apache.camel:camel-cxf
+         * Maven coordinates: org.nordix.camel:camel-cxf
          * 
          * Syntax: <code>cxfrs:beanId:address</code>
          * 

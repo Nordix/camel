@@ -36,7 +36,7 @@ public interface JsonPatchComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-json-patch
+     * Maven coordinates: org.nordix.camel:camel-json-patch
      * 
      * @return the dsl builder
      */

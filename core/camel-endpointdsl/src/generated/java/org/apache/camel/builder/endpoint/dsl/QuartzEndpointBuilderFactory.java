@@ -691,7 +691,7 @@ public interface QuartzEndpointBuilderFactory {
          * 
          * Category: scheduling
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-quartz
+         * Maven coordinates: org.nordix.camel:camel-quartz
          * 
          * Syntax: <code>quartz:groupName/triggerName</code>
          * 
@@ -716,7 +716,7 @@ public interface QuartzEndpointBuilderFactory {
          * 
          * Category: scheduling
          * Since: 2.12
-         * Maven coordinates: org.apache.camel:camel-quartz
+         * Maven coordinates: org.nordix.camel:camel-quartz
          * 
          * Syntax: <code>quartz:groupName/triggerName</code>
          * 

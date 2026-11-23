@@ -36,7 +36,7 @@ public interface JettyComponentBuilderFactory {
      * 
      * Category: http
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-jetty
+     * Maven coordinates: org.nordix.camel:camel-jetty
      * 
      * @return the dsl builder
      */

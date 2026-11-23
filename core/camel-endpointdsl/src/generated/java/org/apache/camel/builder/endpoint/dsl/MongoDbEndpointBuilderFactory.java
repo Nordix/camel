@@ -1607,7 +1607,7 @@ public interface MongoDbEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-mongodb
+         * Maven coordinates: org.nordix.camel:camel-mongodb
          * 
          * Syntax: <code>mongodb:connectionBean</code>
          * 
@@ -1627,7 +1627,7 @@ public interface MongoDbEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-mongodb
+         * Maven coordinates: org.nordix.camel:camel-mongodb
          * 
          * Syntax: <code>mongodb:connectionBean</code>
          * 

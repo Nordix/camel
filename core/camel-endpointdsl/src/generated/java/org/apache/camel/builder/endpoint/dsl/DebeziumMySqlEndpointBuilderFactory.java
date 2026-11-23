@@ -2521,7 +2521,7 @@ public interface DebeziumMySqlEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-debezium-mysql
+         * Maven coordinates: org.nordix.camel:camel-debezium-mysql
          * 
          * Syntax: <code>debezium-mysql:name</code>
          * 
@@ -2541,7 +2541,7 @@ public interface DebeziumMySqlEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-debezium-mysql
+         * Maven coordinates: org.nordix.camel:camel-debezium-mysql
          * 
          * Syntax: <code>debezium-mysql:name</code>
          * 

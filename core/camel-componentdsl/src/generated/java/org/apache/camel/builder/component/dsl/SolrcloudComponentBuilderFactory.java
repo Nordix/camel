@@ -36,7 +36,7 @@ public interface SolrcloudComponentBuilderFactory {
      * 
      * Category: monitoring,search
      * Since: 2.9
-     * Maven coordinates: org.apache.camel:camel-solr
+     * Maven coordinates: org.nordix.camel:camel-solr
      * 
      * @return the dsl builder
      */

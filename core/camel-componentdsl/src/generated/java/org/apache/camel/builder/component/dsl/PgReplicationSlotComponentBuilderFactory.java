@@ -38,7 +38,7 @@ public interface PgReplicationSlotComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-pg-replication-slot
+     * Maven coordinates: org.nordix.camel:camel-pg-replication-slot
      * 
      * @return the dsl builder
      */

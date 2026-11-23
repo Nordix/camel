@@ -38,7 +38,7 @@ public interface CryptoComponentBuilderFactory {
      * 
      * Category: security,transformation
      * Since: 2.3
-     * Maven coordinates: org.apache.camel:camel-crypto
+     * Maven coordinates: org.nordix.camel:camel-crypto
      * 
      * @return the dsl builder
      */

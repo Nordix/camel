@@ -332,7 +332,7 @@ public interface JsonValidatorEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-json-validator
+         * Maven coordinates: org.nordix.camel:camel-json-validator
          * 
          * Syntax: <code>json-validator:resourceUri</code>
          * 
@@ -356,7 +356,7 @@ public interface JsonValidatorEndpointBuilderFactory {
          * 
          * Category: validation
          * Since: 2.20
-         * Maven coordinates: org.apache.camel:camel-json-validator
+         * Maven coordinates: org.nordix.camel:camel-json-validator
          * 
          * Syntax: <code>json-validator:resourceUri</code>
          * 

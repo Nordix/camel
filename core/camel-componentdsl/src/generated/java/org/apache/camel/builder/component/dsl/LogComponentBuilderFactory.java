@@ -36,7 +36,7 @@ public interface LogComponentBuilderFactory {
      * 
      * Category: core,monitoring
      * Since: 1.1
-     * Maven coordinates: org.apache.camel:camel-log
+     * Maven coordinates: org.nordix.camel:camel-log
      * 
      * @return the dsl builder
      */

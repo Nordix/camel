@@ -22,7 +22,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-google-parent</artifactId>
         <version>3.14.10-est-2</version>
     </parent>
@@ -42,11 +42,11 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-support</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-file</artifactId>
         </dependency>
         <dependency>
@@ -91,7 +91,7 @@
 
         <!-- testing -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test-junit5</artifactId>
             <scope>test</scope>
         </dependency>
@@ -104,7 +104,7 @@
 
             <!-- generate Component source and test source -->
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-api-component-maven-plugin</artifactId>
                 <executions>
                     <execution>
@@ -207,7 +207,7 @@
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <groupId>org.apache.camel</groupId>
+                    <groupId>org.nordix.camel</groupId>
                     <artifactId>camel-api-component-maven-plugin</artifactId>
                     <version>${project.version}</version>
                     <configuration>

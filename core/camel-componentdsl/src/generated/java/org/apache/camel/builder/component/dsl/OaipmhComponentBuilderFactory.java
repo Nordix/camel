@@ -36,7 +36,7 @@ public interface OaipmhComponentBuilderFactory {
      * 
      * Category: endpoint,webservice,batch
      * Since: 3.5
-     * Maven coordinates: org.apache.camel:camel-oaipmh
+     * Maven coordinates: org.nordix.camel:camel-oaipmh
      * 
      * @return the dsl builder
      */

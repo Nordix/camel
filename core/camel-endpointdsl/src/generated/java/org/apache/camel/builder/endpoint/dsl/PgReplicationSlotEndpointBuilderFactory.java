@@ -871,7 +871,7 @@ public interface PgReplicationSlotEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-pg-replication-slot
+         * Maven coordinates: org.nordix.camel:camel-pg-replication-slot
          * 
          * Syntax:
          * <code>pg-replication-slot:host:port/database/slot:outputPlugin</code>
@@ -906,7 +906,7 @@ public interface PgReplicationSlotEndpointBuilderFactory {
          * 
          * Category: database,sql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-pg-replication-slot
+         * Maven coordinates: org.nordix.camel:camel-pg-replication-slot
          * 
          * Syntax:
          * <code>pg-replication-slot:host:port/database/slot:outputPlugin</code>

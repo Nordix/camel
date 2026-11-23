@@ -36,7 +36,7 @@ public interface ChunkComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.15
-     * Maven coordinates: org.apache.camel:camel-chunk
+     * Maven coordinates: org.nordix.camel:camel-chunk
      * 
      * @return the dsl builder
      */

@@ -36,7 +36,7 @@ public interface TikaComponentBuilderFactory {
      * 
      * Category: document,transformation
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-tika
+     * Maven coordinates: org.nordix.camel:camel-tika
      * 
      * @return the dsl builder
      */

@@ -28,7 +28,7 @@ is add the following to your pom.xml
 [source,xml]
 --------------------------------------------------
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-spring-javaconfig</artifactId>
   <version>${camel-version}</version>
 </dependency>

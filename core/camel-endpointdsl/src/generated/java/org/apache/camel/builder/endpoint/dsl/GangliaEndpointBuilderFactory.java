@@ -432,7 +432,7 @@ public interface GangliaEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-ganglia
+         * Maven coordinates: org.nordix.camel:camel-ganglia
          * 
          * Syntax: <code>ganglia:host:port</code>
          * 
@@ -456,7 +456,7 @@ public interface GangliaEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-ganglia
+         * Maven coordinates: org.nordix.camel:camel-ganglia
          * 
          * Syntax: <code>ganglia:host:port</code>
          * 

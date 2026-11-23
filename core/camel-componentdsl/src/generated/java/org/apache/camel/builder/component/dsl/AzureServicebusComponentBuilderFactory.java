@@ -45,7 +45,7 @@ public interface AzureServicebusComponentBuilderFactory {
      * 
      * Category: cloud,messaging
      * Since: 3.12
-     * Maven coordinates: org.apache.camel:camel-azure-servicebus
+     * Maven coordinates: org.nordix.camel:camel-azure-servicebus
      * 
      * @return the dsl builder
      */

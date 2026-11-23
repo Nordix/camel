@@ -1542,7 +1542,7 @@ public interface DockerEndpointBuilderFactory {
          * 
          * Category: cloud,container,paas
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-docker
+         * Maven coordinates: org.nordix.camel:camel-docker
          * 
          * Syntax: <code>docker:operation</code>
          * 
@@ -1570,7 +1570,7 @@ public interface DockerEndpointBuilderFactory {
          * 
          * Category: cloud,container,paas
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-docker
+         * Maven coordinates: org.nordix.camel:camel-docker
          * 
          * Syntax: <code>docker:operation</code>
          * 

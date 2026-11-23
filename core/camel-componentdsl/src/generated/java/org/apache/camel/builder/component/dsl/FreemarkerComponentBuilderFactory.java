@@ -36,7 +36,7 @@ public interface FreemarkerComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-freemarker
+     * Maven coordinates: org.nordix.camel:camel-freemarker
      * 
      * @return the dsl builder
      */

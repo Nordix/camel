@@ -36,7 +36,7 @@ public interface JmxComponentBuilderFactory {
      * 
      * Category: monitoring
      * Since: 2.6
-     * Maven coordinates: org.apache.camel:camel-jmx
+     * Maven coordinates: org.nordix.camel:camel-jmx
      * 
      * @return the dsl builder
      */

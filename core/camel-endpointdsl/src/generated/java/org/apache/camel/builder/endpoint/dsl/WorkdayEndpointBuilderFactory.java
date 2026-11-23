@@ -228,7 +228,7 @@ public interface WorkdayEndpointBuilderFactory {
          * 
          * Category: cloud,api,hcm
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-workday
+         * Maven coordinates: org.nordix.camel:camel-workday
          * 
          * Syntax: <code>workday:entity:path</code>
          * 
@@ -251,7 +251,7 @@ public interface WorkdayEndpointBuilderFactory {
          * 
          * Category: cloud,api,hcm
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-workday
+         * Maven coordinates: org.nordix.camel:camel-workday
          * 
          * Syntax: <code>workday:entity:path</code>
          * 

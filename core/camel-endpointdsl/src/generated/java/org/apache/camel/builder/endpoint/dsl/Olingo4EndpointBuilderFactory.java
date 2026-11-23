@@ -1813,7 +1813,7 @@ public interface Olingo4EndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-olingo4
+         * Maven coordinates: org.nordix.camel:camel-olingo4
          * 
          * Syntax: <code>olingo4:apiName/methodName</code>
          * 
@@ -1836,7 +1836,7 @@ public interface Olingo4EndpointBuilderFactory {
          * 
          * Category: cloud
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-olingo4
+         * Maven coordinates: org.nordix.camel:camel-olingo4
          * 
          * Syntax: <code>olingo4:apiName/methodName</code>
          * 

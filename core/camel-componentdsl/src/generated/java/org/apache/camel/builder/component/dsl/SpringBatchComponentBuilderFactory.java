@@ -36,7 +36,7 @@ public interface SpringBatchComponentBuilderFactory {
      * 
      * Category: spring,batch,scheduling
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-spring-batch
+     * Maven coordinates: org.nordix.camel:camel-spring-batch
      * 
      * @return the dsl builder
      */

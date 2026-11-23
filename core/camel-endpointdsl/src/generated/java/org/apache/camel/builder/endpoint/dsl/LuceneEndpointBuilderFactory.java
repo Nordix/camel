@@ -220,7 +220,7 @@ public interface LuceneEndpointBuilderFactory {
          * 
          * Category: database,search
          * Since: 2.2
-         * Maven coordinates: org.apache.camel:camel-lucene
+         * Maven coordinates: org.nordix.camel:camel-lucene
          * 
          * Syntax: <code>lucene:host:operation</code>
          * 
@@ -243,7 +243,7 @@ public interface LuceneEndpointBuilderFactory {
          * 
          * Category: database,search
          * Since: 2.2
-         * Maven coordinates: org.apache.camel:camel-lucene
+         * Maven coordinates: org.nordix.camel:camel-lucene
          * 
          * Syntax: <code>lucene:host:operation</code>
          * 

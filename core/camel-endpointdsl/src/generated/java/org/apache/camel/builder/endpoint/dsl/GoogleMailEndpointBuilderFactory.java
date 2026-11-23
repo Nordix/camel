@@ -1094,7 +1094,7 @@ public interface GoogleMailEndpointBuilderFactory {
          * 
          * Category: cloud,api,mail
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-google-mail
+         * Maven coordinates: org.nordix.camel:camel-google-mail
          * 
          * Syntax: <code>google-mail:apiName/methodName</code>
          * 
@@ -1121,7 +1121,7 @@ public interface GoogleMailEndpointBuilderFactory {
          * 
          * Category: cloud,api,mail
          * Since: 2.15
-         * Maven coordinates: org.apache.camel:camel-google-mail
+         * Maven coordinates: org.nordix.camel:camel-google-mail
          * 
          * Syntax: <code>google-mail:apiName/methodName</code>
          * 

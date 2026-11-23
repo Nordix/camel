@@ -38,7 +38,7 @@ public interface SipsComponentBuilderFactory {
      * 
      * Category: mobile
      * Since: 2.5
-     * Maven coordinates: org.apache.camel:camel-sip
+     * Maven coordinates: org.nordix.camel:camel-sip
      * 
      * @return the dsl builder
      */

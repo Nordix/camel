@@ -36,7 +36,7 @@ public interface TelegramComponentBuilderFactory {
      * 
      * Category: cloud,api,chat
      * Since: 2.18
-     * Maven coordinates: org.apache.camel:camel-telegram
+     * Maven coordinates: org.nordix.camel:camel-telegram
      * 
      * @return the dsl builder
      */

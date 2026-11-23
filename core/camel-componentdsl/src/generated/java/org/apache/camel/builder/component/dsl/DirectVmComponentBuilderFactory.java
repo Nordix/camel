@@ -37,7 +37,7 @@ public interface DirectVmComponentBuilderFactory {
      * 
      * Category: core,endpoint
      * Since: 2.10
-     * Maven coordinates: org.apache.camel:camel-directvm
+     * Maven coordinates: org.nordix.camel:camel-directvm
      * 
      * @return the dsl builder
      */

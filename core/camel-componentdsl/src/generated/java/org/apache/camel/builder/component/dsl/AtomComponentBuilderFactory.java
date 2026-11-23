@@ -36,7 +36,7 @@ public interface AtomComponentBuilderFactory {
      * 
      * Category: rss
      * Since: 1.2
-     * Maven coordinates: org.apache.camel:camel-atom
+     * Maven coordinates: org.nordix.camel:camel-atom
      * 
      * @return the dsl builder
      */

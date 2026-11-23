@@ -278,7 +278,7 @@ public interface MetricsEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-metrics
+         * Maven coordinates: org.nordix.camel:camel-metrics
          * 
          * Syntax: <code>metrics:metricsType:metricsName</code>
          * 
@@ -303,7 +303,7 @@ public interface MetricsEndpointBuilderFactory {
          * 
          * Category: monitoring
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-metrics
+         * Maven coordinates: org.nordix.camel:camel-metrics
          * 
          * Syntax: <code>metrics:metricsType:metricsName</code>
          * 

@@ -23,7 +23,7 @@ for this component:
 [source,xml]
 ----
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-zendesk</artifactId>
     <version>${camel-version}</version>
 </dependency>

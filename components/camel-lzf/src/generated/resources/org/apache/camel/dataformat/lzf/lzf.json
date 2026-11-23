@@ -9,9 +9,9 @@
     "label": "dataformat,transformation",
     "javaType": "org.apache.camel.dataformat.lzf.LZFDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-lzf",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "lzf",
     "modelJavaType": "org.apache.camel.model.dataformat.LZFDataFormat"
   },

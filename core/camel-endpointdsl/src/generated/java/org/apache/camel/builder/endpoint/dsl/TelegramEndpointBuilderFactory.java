@@ -1449,7 +1449,7 @@ public interface TelegramEndpointBuilderFactory {
          * 
          * Category: cloud,api,chat
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-telegram
+         * Maven coordinates: org.nordix.camel:camel-telegram
          * 
          * Syntax: <code>telegram:type</code>
          * 
@@ -1469,7 +1469,7 @@ public interface TelegramEndpointBuilderFactory {
          * 
          * Category: cloud,api,chat
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-telegram
+         * Maven coordinates: org.nordix.camel:camel-telegram
          * 
          * Syntax: <code>telegram:type</code>
          * 

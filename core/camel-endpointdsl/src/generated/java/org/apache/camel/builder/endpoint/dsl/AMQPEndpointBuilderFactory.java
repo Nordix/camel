@@ -6734,7 +6734,7 @@ public interface AMQPEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-amqp
+         * Maven coordinates: org.nordix.camel:camel-amqp
          * 
          * Syntax: <code>amqp:destinationType:destinationName</code>
          * 
@@ -6759,7 +6759,7 @@ public interface AMQPEndpointBuilderFactory {
          * 
          * Category: messaging
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-amqp
+         * Maven coordinates: org.nordix.camel:camel-amqp
          * 
          * Syntax: <code>amqp:destinationType:destinationName</code>
          * 

@@ -1642,7 +1642,7 @@ public interface DebeziumMongodbEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-debezium-mongodb
+         * Maven coordinates: org.nordix.camel:camel-debezium-mongodb
          * 
          * Syntax: <code>debezium-mongodb:name</code>
          * 
@@ -1662,7 +1662,7 @@ public interface DebeziumMongodbEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 3.0
-         * Maven coordinates: org.apache.camel:camel-debezium-mongodb
+         * Maven coordinates: org.nordix.camel:camel-debezium-mongodb
          * 
          * Syntax: <code>debezium-mongodb:name</code>
          * 

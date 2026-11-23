@@ -9,9 +9,9 @@
     "label": "dataformat,transformation",
     "javaType": "org.apache.camel.dataformat.barcode.BarcodeDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-barcode",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "barcode",
     "modelJavaType": "org.apache.camel.model.dataformat.BarcodeDataFormat"
   },

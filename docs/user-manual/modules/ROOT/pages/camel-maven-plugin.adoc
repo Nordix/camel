@@ -63,7 +63,7 @@ You can enable this in the configuration using:
 [source,xml]
 ----
 <plugin>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-maven-plugin</artifactId>
   <configuration>
     <logClasspath>true</logClasspath>
@@ -78,7 +78,7 @@ If you want quickly to have logging to console, you can use the built-in logging
 [source,xml]
 ----
 <plugin>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-maven-plugin</artifactId>
   <configuration>
     <logLevel>INFO</logLevel>
@@ -117,7 +117,7 @@ To use this goal, you can add the following to your Camel application `pom.xml` 
   <build>
     <plugins>
       <plugin>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-maven-plugin</artifactId>
         <version>${camel.version}</version>
         <executions>
@@ -140,7 +140,7 @@ Remember to specify the class name of *your* main class where it says `com.foo.N
   <build>
     <plugins>
       <plugin>
-        <groupId>org.apache.camel</groupId>
+        <groupId>org.nordix.camel</groupId>
         <artifactId>camel-maven-plugin</artifactId>
         <version>${camel.version}</version>
         <executions>

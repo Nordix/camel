@@ -37,7 +37,7 @@ for this component:
 [source,xml]
 ------------------------------------------------------------
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-telegram</artifactId>
     <version>x.x.x</version>
     <!-- use the same version as your Camel core version -->
@@ -344,7 +344,7 @@ Maven users, for example, can add *netty-http* to their `pom.xml` file:
 [source,xml]
 ------------------------------------------------------------
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-netty-http</artifactId>
     <version>x.x.x</version>
     <!-- use the same version as your Camel core version -->

@@ -211,7 +211,7 @@ public interface RestApiEndpointBuilderFactory {
          * 
          * Category: core,rest
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-rest
+         * Maven coordinates: org.nordix.camel:camel-rest
          * 
          * Syntax: <code>rest-api:path</code>
          * 
@@ -231,7 +231,7 @@ public interface RestApiEndpointBuilderFactory {
          * 
          * Category: core,rest
          * Since: 2.16
-         * Maven coordinates: org.apache.camel:camel-rest
+         * Maven coordinates: org.nordix.camel:camel-rest
          * 
          * Syntax: <code>rest-api:path</code>
          * 

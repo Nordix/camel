@@ -213,7 +213,7 @@ public interface KeystoneEndpointBuilderFactory {
          * 
          * Category: cloud,paas
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-openstack
+         * Maven coordinates: org.nordix.camel:camel-openstack
          * 
          * Syntax: <code>openstack-keystone:host</code>
          * 
@@ -233,7 +233,7 @@ public interface KeystoneEndpointBuilderFactory {
          * 
          * Category: cloud,paas
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-openstack
+         * Maven coordinates: org.nordix.camel:camel-openstack
          * 
          * Syntax: <code>openstack-keystone:host</code>
          * 

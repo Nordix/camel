@@ -36,7 +36,7 @@ public interface DataformatComponentBuilderFactory {
      * 
      * Category: core,transformation
      * Since: 2.12
-     * Maven coordinates: org.apache.camel:camel-dataformat
+     * Maven coordinates: org.nordix.camel:camel-dataformat
      * 
      * @return the dsl builder
      */

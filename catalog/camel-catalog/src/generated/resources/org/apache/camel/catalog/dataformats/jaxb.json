@@ -9,9 +9,9 @@
     "label": "dataformat,transformation,xml",
     "javaType": "org.apache.camel.converter.jaxb.JaxbDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-jaxb",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "jaxb",
     "modelJavaType": "org.apache.camel.model.dataformat.JaxbDataFormat"
   },

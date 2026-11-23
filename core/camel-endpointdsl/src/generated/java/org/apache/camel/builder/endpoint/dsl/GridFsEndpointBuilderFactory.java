@@ -780,7 +780,7 @@ public interface GridFsEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-mongodb-gridfs
+         * Maven coordinates: org.nordix.camel:camel-mongodb-gridfs
          * 
          * Syntax: <code>mongodb-gridfs:connectionBean</code>
          * 
@@ -799,7 +799,7 @@ public interface GridFsEndpointBuilderFactory {
          * 
          * Category: database,nosql
          * Since: 2.18
-         * Maven coordinates: org.apache.camel:camel-mongodb-gridfs
+         * Maven coordinates: org.nordix.camel:camel-mongodb-gridfs
          * 
          * Syntax: <code>mongodb-gridfs:connectionBean</code>
          * 

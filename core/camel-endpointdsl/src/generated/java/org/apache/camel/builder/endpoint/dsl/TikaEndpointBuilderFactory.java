@@ -200,7 +200,7 @@ public interface TikaEndpointBuilderFactory {
          * 
          * Category: document,transformation
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-tika
+         * Maven coordinates: org.nordix.camel:camel-tika
          * 
          * Syntax: <code>tika:operation</code>
          * 
@@ -220,7 +220,7 @@ public interface TikaEndpointBuilderFactory {
          * 
          * Category: document,transformation
          * Since: 2.19
-         * Maven coordinates: org.apache.camel:camel-tika
+         * Maven coordinates: org.nordix.camel:camel-tika
          * 
          * Syntax: <code>tika:operation</code>
          * 

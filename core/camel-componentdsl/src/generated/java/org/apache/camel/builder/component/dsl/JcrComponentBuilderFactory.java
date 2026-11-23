@@ -36,7 +36,7 @@ public interface JcrComponentBuilderFactory {
      * 
      * Category: database,cms
      * Since: 1.3
-     * Maven coordinates: org.apache.camel:camel-jcr
+     * Maven coordinates: org.nordix.camel:camel-jcr
      * 
      * @return the dsl builder
      */

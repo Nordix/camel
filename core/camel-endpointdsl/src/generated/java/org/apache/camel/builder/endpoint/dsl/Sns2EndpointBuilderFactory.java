@@ -653,7 +653,7 @@ public interface Sns2EndpointBuilderFactory {
          * 
          * Category: cloud,messaging,mobile
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-sns
+         * Maven coordinates: org.nordix.camel:camel-aws2-sns
          * 
          * Syntax: <code>aws2-sns:topicNameOrArn</code>
          * 
@@ -673,7 +673,7 @@ public interface Sns2EndpointBuilderFactory {
          * 
          * Category: cloud,messaging,mobile
          * Since: 3.1
-         * Maven coordinates: org.apache.camel:camel-aws2-sns
+         * Maven coordinates: org.nordix.camel:camel-aws2-sns
          * 
          * Syntax: <code>aws2-sns:topicNameOrArn</code>
          * 

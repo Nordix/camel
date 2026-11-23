@@ -9,9 +9,9 @@
     "label": "dataformat,transformation",
     "javaType": "org.apache.camel.component.jackson.avro.JacksonAvroDataFormat",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-jackson-avro",
-    "version": "3.14.10-SNAPSHOT",
+    "version": "3.14.10-est-2",
     "modelName": "avro",
     "modelJavaType": "org.apache.camel.model.dataformat.AvroDataFormat"
   },

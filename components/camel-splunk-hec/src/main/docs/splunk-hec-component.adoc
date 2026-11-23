@@ -22,7 +22,7 @@ for this component:
 [source,xml]
 ---------------------------------------------
 <dependency>
-    <groupId>org.apache.camel</groupId>
+    <groupId>org.nordix.camel</groupId>
     <artifactId>camel-splunk-hec</artifactId>
     <version>${camel-version}</version>
 </dependency>

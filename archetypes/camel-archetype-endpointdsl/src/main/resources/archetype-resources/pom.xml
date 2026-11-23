@@ -37,7 +37,7 @@
         <dependencies>
             <!-- Camel BOM -->
             <dependency>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-bom</artifactId>
                 <version>${camel-version}</version>
                 <scope>import</scope>
@@ -50,19 +50,19 @@
 
         <!-- The Camel modules that we use in this example: Camel Core, Camel Main, Camel Endpoint DSL and Camel Timer -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-main</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-endpointdsl</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-timer</artifactId>
         </dependency>
 
@@ -76,7 +76,7 @@
 
         <!-- testing -->
         <dependency>
-            <groupId>org.apache.camel</groupId>
+            <groupId>org.nordix.camel</groupId>
             <artifactId>camel-test</artifactId>
             <scope>test</scope>
         </dependency>
@@ -127,7 +127,7 @@
 
             <!-- Allows the example to be run via 'mvn camel:run' -->
             <plugin>
-                <groupId>org.apache.camel</groupId>
+                <groupId>org.nordix.camel</groupId>
                 <artifactId>camel-maven-plugin</artifactId>
                 <version>${camel-version}</version>
                 <configuration>

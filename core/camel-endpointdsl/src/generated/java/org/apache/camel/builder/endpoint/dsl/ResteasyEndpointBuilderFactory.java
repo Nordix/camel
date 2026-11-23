@@ -2253,7 +2253,7 @@ public interface ResteasyEndpointBuilderFactory {
          * 
          * Category: rest
          * Since: 3.4
-         * Maven coordinates: org.apache.camel:camel-resteasy
+         * Maven coordinates: org.nordix.camel:camel-resteasy
          * 
          * Syntax: <code>resteasy:httpUri</code>
          * 
@@ -2272,7 +2272,7 @@ public interface ResteasyEndpointBuilderFactory {
          * 
          * Category: rest
          * Since: 3.4
-         * Maven coordinates: org.apache.camel:camel-resteasy
+         * Maven coordinates: org.nordix.camel:camel-resteasy
          * 
          * Syntax: <code>resteasy:httpUri</code>
          * 

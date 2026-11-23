@@ -268,7 +268,7 @@ public interface StringTemplateEndpointBuilderFactory {
          * 
          * Category: transformation,script
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-stringtemplate
+         * Maven coordinates: org.nordix.camel:camel-stringtemplate
          * 
          * Syntax: <code>string-template:resourceUri</code>
          * 
@@ -292,7 +292,7 @@ public interface StringTemplateEndpointBuilderFactory {
          * 
          * Category: transformation,script
          * Since: 1.2
-         * Maven coordinates: org.apache.camel:camel-stringtemplate
+         * Maven coordinates: org.nordix.camel:camel-stringtemplate
          * 
          * Syntax: <code>string-template:resourceUri</code>
          * 

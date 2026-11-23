@@ -38,7 +38,7 @@ public interface WebhookComponentBuilderFactory {
      * 
      * Category: cloud
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-webhook
+     * Maven coordinates: org.nordix.camel:camel-webhook
      * 
      * @return the dsl builder
      */

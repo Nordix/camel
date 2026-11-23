@@ -2628,7 +2628,7 @@ public interface MinioEndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-minio
+         * Maven coordinates: org.nordix.camel:camel-minio
          * 
          * Syntax: <code>minio:bucketName</code>
          * 
@@ -2648,7 +2648,7 @@ public interface MinioEndpointBuilderFactory {
          * 
          * Category: cloud,file
          * Since: 3.5
-         * Maven coordinates: org.apache.camel:camel-minio
+         * Maven coordinates: org.nordix.camel:camel-minio
          * 
          * Syntax: <code>minio:bucketName</code>
          * 

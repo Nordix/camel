@@ -1207,7 +1207,7 @@ public interface BoxEndpointBuilderFactory {
          * 
          * Category: cloud,file,api
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-box
+         * Maven coordinates: org.nordix.camel:camel-box
          * 
          * Syntax: <code>box:apiName/methodName</code>
          * 
@@ -1233,7 +1233,7 @@ public interface BoxEndpointBuilderFactory {
          * 
          * Category: cloud,file,api
          * Since: 2.14
-         * Maven coordinates: org.apache.camel:camel-box
+         * Maven coordinates: org.nordix.camel:camel-box
          * 
          * Syntax: <code>box:apiName/methodName</code>
          * 

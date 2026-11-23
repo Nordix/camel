@@ -36,7 +36,7 @@ public interface ResteasyComponentBuilderFactory {
      * 
      * Category: rest
      * Since: 3.4
-     * Maven coordinates: org.apache.camel:camel-resteasy
+     * Maven coordinates: org.nordix.camel:camel-resteasy
      * 
      * @return the dsl builder
      */

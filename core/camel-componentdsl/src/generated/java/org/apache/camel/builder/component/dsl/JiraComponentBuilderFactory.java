@@ -36,7 +36,7 @@ public interface JiraComponentBuilderFactory {
      * 
      * Category: api,reporting
      * Since: 3.0
-     * Maven coordinates: org.apache.camel:camel-jira
+     * Maven coordinates: org.nordix.camel:camel-jira
      * 
      * @return the dsl builder
      */

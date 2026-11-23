@@ -8,8 +8,8 @@
     "firstVersion": "3.5.0",
     "label": "monitoring,microservice",
     "supportLevel": "Stable",
-    "groupId": "org.apache.camel",
+    "groupId": "org.nordix.camel",
     "artifactId": "camel-opentelemetry",
-    "version": "3.14.10-SNAPSHOT"
+    "version": "3.14.10-est-2"
   }
 }

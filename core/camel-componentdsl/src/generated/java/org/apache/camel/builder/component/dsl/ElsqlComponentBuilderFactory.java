@@ -36,7 +36,7 @@ public interface ElsqlComponentBuilderFactory {
      * 
      * Category: database,sql
      * Since: 2.16
-     * Maven coordinates: org.apache.camel:camel-elsql
+     * Maven coordinates: org.nordix.camel:camel-elsql
      * 
      * @return the dsl builder
      */

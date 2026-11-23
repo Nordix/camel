@@ -36,7 +36,7 @@ public interface FlatpackComponentBuilderFactory {
      * 
      * Category: transformation
      * Since: 1.4
-     * Maven coordinates: org.apache.camel:camel-flatpack
+     * Maven coordinates: org.nordix.camel:camel-flatpack
      * 
      * @return the dsl builder
      */

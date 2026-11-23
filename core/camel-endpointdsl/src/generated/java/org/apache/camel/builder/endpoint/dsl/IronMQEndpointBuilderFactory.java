@@ -1357,7 +1357,7 @@ public interface IronMQEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ironmq
+         * Maven coordinates: org.nordix.camel:camel-ironmq
          * 
          * Syntax: <code>ironmq:queueName</code>
          * 
@@ -1377,7 +1377,7 @@ public interface IronMQEndpointBuilderFactory {
          * 
          * Category: cloud,messaging
          * Since: 2.17
-         * Maven coordinates: org.apache.camel:camel-ironmq
+         * Maven coordinates: org.nordix.camel:camel-ironmq
          * 
          * Syntax: <code>ironmq:queueName</code>
          * 

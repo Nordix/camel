@@ -1173,7 +1173,7 @@ public interface CometdEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.0
-         * Maven coordinates: org.apache.camel:camel-cometd
+         * Maven coordinates: org.nordix.camel:camel-cometd
          * 
          * Syntax: <code>cometd:host:port/channelName</code>
          * 
@@ -1200,7 +1200,7 @@ public interface CometdEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.0
-         * Maven coordinates: org.apache.camel:camel-cometd
+         * Maven coordinates: org.nordix.camel:camel-cometd
          * 
          * Syntax: <code>cometd:host:port/channelName</code>
          * 
@@ -1229,7 +1229,7 @@ public interface CometdEndpointBuilderFactory {
          * 
          * Category: websocket
          * Since: 2.0
-         * Maven coordinates: org.apache.camel:camel-cometd
+         * Maven coordinates: org.nordix.camel:camel-cometd
          * 
          * Syntax: <code>cometds:host:port/channelName</code>
          * 

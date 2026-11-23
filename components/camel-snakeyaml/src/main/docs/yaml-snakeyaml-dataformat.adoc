@@ -127,7 +127,7 @@ substituting the version number for the latest & greatest release
 [source,xml]
 ------------------------------------------
 <dependency>
-  <groupId>org.apache.camel</groupId>
+  <groupId>org.nordix.camel</groupId>
   <artifactId>camel-snakeyaml</artifactId>
   <version>${camel-version}</version>
 </dependency>

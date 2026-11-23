@@ -39,7 +39,7 @@ public interface RestSwaggerComponentBuilderFactory {
      * 
      * Category: rest,swagger,http
      * Since: 2.19
-     * Maven coordinates: org.apache.camel:camel-rest-swagger
+     * Maven coordinates: org.nordix.camel:camel-rest-swagger
      * 
      * @return the dsl builder
      */

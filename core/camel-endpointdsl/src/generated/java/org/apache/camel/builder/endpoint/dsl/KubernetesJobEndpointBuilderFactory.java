@@ -1388,7 +1388,7 @@ public interface KubernetesJobEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-job:masterUrl</code>
          * 
@@ -1407,7 +1407,7 @@ public interface KubernetesJobEndpointBuilderFactory {
          * 
          * Category: container,cloud,paas
          * Since: 2.23
-         * Maven coordinates: org.apache.camel:camel-kubernetes
+         * Maven coordinates: org.nordix.camel:camel-kubernetes
          * 
          * Syntax: <code>kubernetes-job:masterUrl</code>
          * 
