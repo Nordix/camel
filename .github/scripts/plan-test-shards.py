@@ -31,6 +31,13 @@ SKIPPED = {
     # from the runners and the tests fail with an NPE in Double.parseDouble on the empty reply.
     # They fail the same way locally, so it is not a runner problem.
     "components/camel-geocoder": "tests call the live Nominatim service",
+    # camel-catalog rebuilds its json from the target/classes of every component, so in a
+    # shard that built only a few of them it fails 51 tests. build-test.yml runs these four
+    # modules in the Java 8 build job instead, where the whole reactor is built.
+    "catalog/camel-catalog": "run in the build job",
+    "catalog/camel-catalog-lucene": "run in the build job",
+    "catalog/camel-catalog-maven": "run in the build job",
+    "catalog/camel-route-parser": "run in the build job",
 }
 SKIP_DIRS = {"archetypes", "docs", "target", ".git", "node_modules", "src"}
 

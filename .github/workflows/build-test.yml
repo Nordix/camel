@@ -72,6 +72,21 @@ jobs:
           retention-days: 1
           compression-level: 0
 
+      # camel-catalog regenerates its json from the target/classes of every component,
+      # so in a test shard that only built 20 of the 356 components it fails 51 tests.
+      # Run the catalog modules here instead, where the whole reactor is built.
+      - name: Test catalog modules
+        if: matrix.java == '8'
+        run: |
+          cd camel
+          mvn -B verify -fae -pl catalog/camel-catalog,catalog/camel-catalog-lucene,catalog/camel-catalog-maven,catalog/camel-route-parser \
+            -Dsurefire.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
+            -Dfailsafe.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
+            -Daether.transport.http.retryHandler.count=5 \
+            -Daether.transport.http.retryHandler.interval=10000 \
+            -Daether.transport.http.retryHandler.intervalMax=60000 \
+            -Dmaven.wagon.http.retryHandler.count=5
+
   plan:
     runs-on: ubuntu-latest
     outputs:
