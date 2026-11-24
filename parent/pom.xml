@@ -37,6 +37,7 @@
         <cxf.codegenplugin.forkmode>once</cxf.codegenplugin.forkmode>
         <cxf.codegen.jvmArgs />
         <camel.surefire.fork.vmargs>-XX:+ExitOnOutOfMemoryError</camel.surefire.fork.vmargs>
+        <camel.surefire.rerunFailingTestsCount>2</camel.surefire.rerunFailingTestsCount>
         <camel.surefire.forkCount>1</camel.surefire.forkCount>
         <camel.surefire.forkTimeout>600</camel.surefire.forkTimeout>
         <camel.surefire.reuseForks>true</camel.surefire.reuseForks>
@@ -4675,7 +4676,7 @@
                     <failIfNoTests>false</failIfNoTests>
                     <runOrder>alphabetical</runOrder>
                     <!-- lets re-run the failed test one more time, just to be sure -->
-                    <rerunFailingTestsCount>2</rerunFailingTestsCount>
+                    <rerunFailingTestsCount>${camel.surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
                     <systemPropertyVariables>
                         <javax.xml.accessExternalSchema>file,http,https</javax.xml.accessExternalSchema>
                         <javax.xml.accessExternalDTD>file,http</javax.xml.accessExternalDTD>
