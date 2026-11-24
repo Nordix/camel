@@ -36,10 +36,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
+import static org.mockito.Mockito.timeout;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 public class HazelcastQueueConsumerTest extends HazelcastCamelTestSupport {
+
+    // the consumer registers its listener from an executor thread, so wait for it instead of racing it
+    private static final int VERIFY_TIMEOUT_MS = 5000;
 
     @Mock
     private IQueue<String> queue;
@@ -56,8 +60,8 @@ public class HazelcastQueueConsumerTest extends HazelcastCamelTestSupport {
     @Override
     @SuppressWarnings("unchecked")
     protected void verifyHazelcastInstance(HazelcastInstance hazelcastInstance) {
-        verify(hazelcastInstance).getQueue("foo");
-        verify(queue).addItemListener(any(ItemListener.class), eq(true));
+        verify(hazelcastInstance, timeout(VERIFY_TIMEOUT_MS)).getQueue("foo");
+        verify(queue, timeout(VERIFY_TIMEOUT_MS)).addItemListener(any(ItemListener.class), eq(true));
     }
 
     @Test
@@ -65,7 +69,7 @@ public class HazelcastQueueConsumerTest extends HazelcastCamelTestSupport {
         MockEndpoint out = getMockEndpoint("mock:added");
         out.expectedMessageCount(1);
 
-        verify(queue).addItemListener(argument.capture(), eq(true));
+        verify(queue, timeout(VERIFY_TIMEOUT_MS)).addItemListener(argument.capture(), eq(true));
         final ItemEvent<String> event = new ItemEvent<>("foo", ItemEventType.ADDED, "foo", null);
         argument.getValue().itemAdded(event);
 
@@ -79,7 +83,7 @@ public class HazelcastQueueConsumerTest extends HazelcastCamelTestSupport {
         MockEndpoint out = getMockEndpoint("mock:removed");
         out.expectedMessageCount(1);
 
-        verify(queue).addItemListener(argument.capture(), eq(true));
+        verify(queue, timeout(VERIFY_TIMEOUT_MS)).addItemListener(argument.capture(), eq(true));
         final ItemEvent<String> event = new ItemEvent<>("foo", ItemEventType.REMOVED, "foo", null);
         argument.getValue().itemRemoved(event);
 

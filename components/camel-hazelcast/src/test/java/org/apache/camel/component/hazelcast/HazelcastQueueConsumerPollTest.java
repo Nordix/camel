@@ -30,7 +30,7 @@ import org.slf4j.LoggerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.mockito.Mockito.atLeast;
+import static org.mockito.Mockito.timeout;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -47,9 +47,9 @@ public class HazelcastQueueConsumerPollTest extends HazelcastCamelTestSupport {
 
     @Override
     protected void verifyHazelcastInstance(HazelcastInstance hazelcastInstance) {
-        verify(hazelcastInstance).getQueue("foo");
+        verify(hazelcastInstance, timeout(5000)).getQueue("foo");
         try {
-            verify(queue, atLeast(1)).poll(10000, TimeUnit.MILLISECONDS);
+            verify(queue, timeout(5000).atLeast(1)).poll(10000, TimeUnit.MILLISECONDS);
         } catch (InterruptedException e) {
             LOG.debug("Interrupted during test execution", e);
         }
