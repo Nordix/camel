@@ -3,7 +3,7 @@
 
 Usage: plan-test-shards.py <shard-count>
 Prints the shard list as a GitHub Actions matrix: {"include":[{"shard":0,"modules":"a,b"},...]}
-Modules are weighted by their number of *Test.java classes and packed greedily
+Modules are weighted by their number of *Test.java and *Test.groovy classes and packed greedily
 (heaviest first, into the currently lightest shard). Weights are capped
 because class count is only a rough proxy for runtime (camel-core has ~2500
 classes but runs in a few minutes).
@@ -27,6 +27,11 @@ SKIPPED = {
     # KameletEipAggregateJoorTest compiles with the jOOR compiler, which needs Java 11+.
     # The test job runs on Java 8, so the module's tests fail there on every run.
     "components/camel-kamelet": "jOOR compiler needs Java 11+",
+    # The Groovy tests use String.stripLeading() and RouteTemplateTest rejects Java 8
+    # ("Java 8 is not supported. Use Java 11 or higher"), so they fail on the Java 8 test job.
+    "dsl/camel-yaml-dsl/camel-yaml-dsl": "Groovy tests need Java 11+",
+    "dsl/camel-yaml-dsl/camel-yaml-dsl-common": "Groovy tests need Java 11+",
+    "dsl/camel-yaml-dsl/camel-yaml-dsl-deserializers": "Groovy tests need Java 11+",
     # The tests call the live Nominatim geocoding service. It is unreachable or rate-limited
     # from the runners and the tests fail with an NPE in Double.parseDouble on the empty reply.
     # They fail the same way locally, so it is not a runner problem.
@@ -55,7 +60,7 @@ def find_modules(root):
             1
             for _, _, files in os.walk(test_dir)
             for f in files
-            if f.endswith("Test.java")
+            if f.endswith(("Test.java", "Test.groovy"))
         )
         if count:
             modules.append((min(count, WEIGHT_CAP), os.path.relpath(dirpath, root)))
