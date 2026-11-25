@@ -75,7 +75,6 @@ import org.apache.camel.impl.DefaultCamelContext;
 import org.apache.camel.spi.Registry;
 import org.apache.camel.support.SimpleRegistry;
 import org.apache.camel.test.junit5.CamelTestSupport;
-import org.apache.camel.test.junit5.TestSupport;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -89,10 +88,7 @@ public class SignatureAlgorithmTest extends CamelTestSupport {
 
     static {
         boolean includeNewLine = true;
-        if (TestSupport.getJavaMajorVersion() >= 9
-                || TestSupport.isJava18_261_later() && !TestSupport.isJavaVendor("Azul")) {
-            includeNewLine = false;
-        }
+        includeNewLine = XmlDeclarationSupport.newLineAfterXmlDeclaration();
         payload = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
                   + (includeNewLine ? "\n" : "")
                   + "<root xmlns=\"http://test/test\"><test>Test Message</test></root>";
