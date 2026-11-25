@@ -3,7 +3,7 @@
 
 Usage: plan-test-shards.py <shard-count>
 Prints the shard list as a GitHub Actions matrix: {"include":[{"shard":0,"modules":"a,b"},...]}
-Modules are weighted by their number of *Test.java and *Test.groovy classes and packed greedily
+Modules are weighted by their number of *Test.java, *Test.groovy, *IT.java and *ITCase.java classes and packed greedily
 (heaviest first, into the currently lightest shard). Weights are capped
 because class count is only a rough proxy for runtime (camel-core has ~2500
 classes but runs in a few minutes).
@@ -60,7 +60,7 @@ def find_modules(root):
             1
             for _, _, files in os.walk(test_dir)
             for f in files
-            if f.endswith(("Test.java", "Test.groovy"))
+            if f.endswith(("Test.java", "Test.groovy", "IT.java", "ITCase.java"))
         )
         if count:
             modules.append((min(count, WEIGHT_CAP), os.path.relpath(dirpath, root)))
