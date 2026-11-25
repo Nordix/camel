@@ -363,6 +363,10 @@
         <!-- Failsafe kills the forked test JVM after this many seconds. Integration tests that
              start containers can need longer, so it can be raised with -Dcamel.failsafe.forkTimeout -->
         <camel.failsafe.forkTimeout>300</camel.failsafe.forkTimeout>
+
+        <!-- Failsafe re-runs a failing integration test this many times. 0 keeps the previous behaviour;
+             it can be raised with -Dcamel.failsafe.rerunFailingTestsCount -->
+        <camel.failsafe.rerunFailingTestsCount>0</camel.failsafe.rerunFailingTestsCount>
     </properties>
 
     <build>
@@ -385,6 +389,7 @@
                     <configuration>
                         <reuseForks>true</reuseForks>
                         <forkedProcessTimeoutInSeconds>${camel.failsafe.forkTimeout}</forkedProcessTimeoutInSeconds>
+                        <rerunFailingTestsCount>${camel.failsafe.rerunFailingTestsCount}</rerunFailingTestsCount>
                         <redirectTestOutputToFile>false</redirectTestOutputToFile>
                         <systemPropertyVariables>
                             <visibleassertions.silence>true</visibleassertions.silence>

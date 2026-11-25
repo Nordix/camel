@@ -163,6 +163,7 @@ jobs:
             -Dfailsafe.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
             -Dcamel.failsafe.forkTimeout=1800 \
             -Dcamel.surefire.rerunFailingTestsCount=4 \
+            -Dcamel.failsafe.rerunFailingTestsCount=2 \
             -Daether.transport.http.retryHandler.count=5 \
             -Daether.transport.http.retryHandler.interval=10000 \
             -Daether.transport.http.retryHandler.intervalMax=60000 \
