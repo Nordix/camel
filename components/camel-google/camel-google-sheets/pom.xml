@@ -161,6 +161,13 @@
                         <groupId>com.google.code.findbugs</groupId>
                         <artifactId>jsr305</artifactId>
                     </exclusion>
+                    <!-- Citrus 2.8.0 pulls Spring Framework 5.0.8. Spring is repackaged here as
+                         org.nordix:spring-* with the original package names, so the old jars are
+                         excluded and the patched ones are declared below instead. -->
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>*</artifactId>
+                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
@@ -168,12 +175,24 @@
                 <artifactId>citrus-java-dsl</artifactId>
                 <version>${citrus-version}</version>
                 <scope>test</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>*</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.consol.citrus</groupId>
                 <artifactId>citrus-http</artifactId>
                 <version>${citrus-version}</version>
                 <scope>test</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>*</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -365,6 +384,69 @@
         <dependency>
             <groupId>com.consol.citrus</groupId>
             <artifactId>citrus-http</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!-- Spring Framework for Citrus, which would otherwise bring the unpatched
+             org.springframework build. These are the repackaged org.nordix artifacts. -->
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-aop</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-beans</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-context</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-core</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-expression</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-messaging</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-oxm</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-tx</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-web</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.nordix</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring-version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

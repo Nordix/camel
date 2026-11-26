@@ -32,6 +32,9 @@
 
     <properties>
         <java.awt.headless>true</java.awt.headless>
+        <!-- Solr 8.11.1 is built against Jetty 9.4.44. The shared jetty-version (9.4.51) removed
+             PathMappings.getMatched, so the embedded Solr test server fails with NoSuchMethodError -->
+        <solr-jetty-version>9.4.44.v20210927</solr-jetty-version>
         <camel.osgi.import.before.defaults>
             javax.activation.*;version="${javax-activation-version-range}"
         </camel.osgi.import.before.defaults>
@@ -127,13 +130,13 @@
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
-            <version>${jetty-version}</version>
+            <version>${solr-jetty-version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-servlet</artifactId>
-            <version>${jetty-version}</version>
+            <version>${solr-jetty-version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>

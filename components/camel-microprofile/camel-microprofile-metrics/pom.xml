@@ -71,6 +71,15 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- smallrye-config needs javax.annotation.Priority, which the JDK does not provide.
+             Without it ConfigProvider.getConfig() fails and JsonExporter is left with null global tags -->
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>${javax-annotation-api-version}</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- JSON support for smallrye-metrics -->
         <dependency>
             <groupId>org.apache.geronimo.specs</groupId>

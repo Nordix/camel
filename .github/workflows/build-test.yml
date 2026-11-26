@@ -1,0 +1,181 @@
+name: build-test.yml
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 3.14.10-workflows
+  pull_request:
+    branches:
+      - 3.14.10-workflows
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    defaults:
+      run:
+        shell: bash
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        java: [ '8', '11', '17' ]
+        architecture: [ 'x64' ]
+        distribution: [ 'corretto' ]
+    steps:
+      # Clone camel
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #7.0.1
+        with:
+          path: camel
+
+      # SET UP JDK
+      - name: Setup JDK
+        uses: actions/setup-java@77dd5b2ce225ea11469928ac317850245a74ae78 #6.2.0
+        with:
+          java-version: ${{ matrix.java }}
+          architecture: ${{ matrix.architecture }}
+          distribution: ${{ matrix.distribution }}
+          cache: maven
+
+      - run: java -version
+
+      - name: Build camel
+        run: |
+          cd camel
+          mvn clean install -Dfastinstall \
+            -Daether.transport.http.retryHandler.count=5 \
+            -Daether.transport.http.retryHandler.interval=10000 \
+            -Daether.transport.http.retryHandler.intervalMax=60000 \
+            -Dmaven.wagon.http.retryHandler.count=5
+
+      # The test shards resolve all Camel modules from this local repository
+      # instead of rebuilding them. camel-package-maven-plugin's generate goal
+      # also reads the model json files from core/camel-core-model/target/classes
+      # in the source tree, so ship that directory too.
+      - name: Package local Maven repository
+        if: matrix.java == '8'
+        run: |
+          tar -C ~/.m2/repository -czf "$RUNNER_TEMP/camel-m2.tgz" org/nordix
+          tar -C camel -czf "$RUNNER_TEMP/camel-core-model.tgz" core/camel-core-model/target/classes
+
+      - name: Upload local Maven repository
+        if: matrix.java == '8'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 #7.0.2
+        with:
+          name: camel-m2-repository
+          path: |
+            ${{ runner.temp }}/camel-m2.tgz
+            ${{ runner.temp }}/camel-core-model.tgz
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0
+
+      # camel-catalog regenerates its json from the target/classes of every component,
+      # so in a test shard that only built 20 of the 356 components it fails 51 tests.
+      # Run the catalog modules here instead, where the whole reactor is built.
+      - name: Test catalog modules
+        if: matrix.java == '8'
+        run: |
+          cd camel
+          mvn -B verify -fae -pl catalog/camel-catalog,catalog/camel-catalog-lucene,catalog/camel-catalog-maven,catalog/camel-route-parser \
+            -Dsurefire.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
+            -Dfailsafe.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
+            -Daether.transport.http.retryHandler.count=5 \
+            -Daether.transport.http.retryHandler.interval=10000 \
+            -Daether.transport.http.retryHandler.intervalMax=60000 \
+            -Dmaven.wagon.http.retryHandler.count=5
+
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #7.0.1
+        with:
+          path: camel
+
+      - name: Split modules into shards
+        id: plan
+        run: |
+          cd camel
+          echo "matrix=$(python3 .github/scripts/plan-test-shards.py 10)" >> "$GITHUB_OUTPUT"
+
+  test:
+    needs: [ build, plan ]
+    defaults:
+      run:
+        shell: bash
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - name: Setup Docker
+        uses: docker/setup-docker-action@3f1ab1ab0e29231562e4db4ca600c1a49653bac6 #5.7.0
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #7.0.1
+        with:
+          path: camel
+
+      - name: Setup JDK
+        uses: actions/setup-java@77dd5b2ce225ea11469928ac317850245a74ae78 #6.2.0
+        with:
+          java-version: '8'
+          architecture: x64
+          distribution: corretto
+          cache: maven
+
+      - name: Download local Maven repository
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c #8.0.1
+        with:
+          name: camel-m2-repository
+          path: ${{ runner.temp }}
+
+      - name: Restore local Maven repository
+        run: |
+          mkdir -p ~/.m2/repository
+          tar -C ~/.m2/repository -xzf "$RUNNER_TEMP/camel-m2.tgz"
+          tar -C camel -xzf "$RUNNER_TEMP/camel-core-model.tgz"
+
+      # Test tests only the modules in this shard, resolving the other Camel
+      # modules from the restored local repository. -fae so one module's
+      # failure does not hide the others. Surefire's
+      # rerunFailingTestsCount=2 from parent/pom.xml covers flaky tests.
+      # The excludes file lists tests that fail on every runner JDK
+      # (see .github/test-excludes.txt).
+      # api.version pins the Docker API version for Testcontainers 1.16.2,
+      # whose docker-java 3.2.12 speaks API 1.32 by default. The Docker
+      # installed by setup-docker-action rejects anything below 1.40
+      # ("client version 1.32 is too old"), which Testcontainers reports as
+      # "Could not find a valid Docker environment". It goes in
+      # ~/.docker-java.properties rather than JAVA_TOOL_OPTIONS, because the
+      # JVM prints "Picked up JAVA_TOOL_OPTIONS" to stderr and that breaks
+      # camel-exec tests asserting on child process stderr.
+      - name: Test shard ${{ matrix.shard }}
+        run: |
+          echo "api.version=1.40" > ~/.docker-java.properties
+          cd camel
+          mvn -B verify -fae -pl "${{ matrix.modules }}" \
+            -Dsurefire.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
+            -Dfailsafe.excludesFile="$GITHUB_WORKSPACE/camel/.github/test-excludes.txt" \
+            -Dcamel.failsafe.forkTimeout=1800 \
+            -Dcamel.surefire.rerunFailingTestsCount=4 \
+            -Dcamel.failsafe.rerunFailingTestsCount=2 \
+            -Daether.transport.http.retryHandler.count=5 \
+            -Daether.transport.http.retryHandler.interval=10000 \
+            -Daether.transport.http.retryHandler.intervalMax=60000 \
+            -Dmaven.wagon.http.retryHandler.count=5
+
+      - name: Upload surefire and failsafe reports
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 #7.0.2
+        if: always()
+        with:
+          name: surefire-reports-shard${{ matrix.shard }}
+          path: |
+            camel/**/target/surefire-reports/
+            camel/**/target/failsafe-reports/
+          if-no-files-found: ignore
+          retention-days: 7

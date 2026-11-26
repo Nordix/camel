@@ -32,7 +32,9 @@
     <description>Camel SQL support</description>
 
     <properties>
-        <camel.surefire.parallel>true</camel.surefire.parallel>
+        <!-- Run test classes sequentially. With parallel workers the forked JVM hung twice in CI
+             (killed at the fork timeout) while several workers were starting embedded Derby at once. -->
+        <camel.surefire.parallel>false</camel.surefire.parallel>
     </properties>
 
     <dependencies>
